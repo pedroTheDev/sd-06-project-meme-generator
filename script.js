@@ -11,6 +11,6 @@ function showImage() {
 }
 document.getElementById('meme-insert').addEventListener('change', showImage);
 paragrafo.style.textShadow = '5px 5px 5px black';
-paragrafo.style.fontSize = "30px";
+paragrafo.style.fontSize = '30px';
 paragrafo.style.color = 'white';
 

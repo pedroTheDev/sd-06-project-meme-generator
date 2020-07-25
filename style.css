@@ -17,7 +17,7 @@ input {
 .digitado {
   position: absolute;
   width: 100%;
-  word-wrap: break-word;    
+  word-wrap: break-word;
 }
 
 .meme-image {
