@@ -16,12 +16,18 @@ paragrafo.style.fontSize = '30px';
 paragrafo.style.color = 'white';
 
 const container = document.querySelector('#meme-image-container');
+const btn1 = document.querySelector('.fire');
+const btn2 = document.querySelector('.water')
+const btn3 = document.querySelector('.earth')
 function fire() {
   container.style.border = '3px dashed red';
+  btn1.style.border = '3px dashed red';
 }
 function water() {
   container.style.border = '5px double blue';
+  btn2.style.border = '5px double blue';
 }
 function earth() {
   container.style.border = '6px groove green';
+  btn3.style.border = '6px groove green';
 }

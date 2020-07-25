@@ -3,25 +3,25 @@ input {
 }
 
 button {
+  color: white;
   display: inline-block;
+  font-weight: bold;
+  left: -340px;
+  margin-right: 20px;
+  padding: 10px;
   position: relative;
   top: 410px;
-  left: -340px;
-  padding: 10px;
-  margin-right: 20px;
-  color: white;
-  font-weight: bold;
 }
 
-.red {
+.fire {
   background-color: red;
 }
 
-.blue {
+.water {
   background-color: blue;
 }
 
-.orange {
+.earth {
   background-color: green;
 }
 
