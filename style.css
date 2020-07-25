@@ -50,7 +50,7 @@ body {
 
 .water {
   border-radius: 50%;
-  background-color: rgb(20 , 2 , 185);
+  background-color: blue;
   color: white;
   font-size: 12px;
   padding: 3px 20px;
@@ -58,7 +58,7 @@ body {
 
 .earth {
   border-radius: 50%;
-  background-color: rgb(7 , 112 , 7);
+  background-color: green;
   color: white;
   font-size: 12px;
   padding: 3px 20px;
