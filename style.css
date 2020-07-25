@@ -12,6 +12,9 @@ p , section:nth-child(3) , img {
 
 p {
   position: absolute;
-  width: 80%;
-  height: 600px;
+}
+
+section p {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
 }
