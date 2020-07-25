@@ -1,14 +1,20 @@
+input {
+    margin-bottom: 10px;
+}
+.arquivo {
+    margin-left: 7px;
+}
 .container {
   background-color: white;
   border: 1px solid black;
-  display: absolute;
   height: 450px;
+  position: absolute;
   width: 450px;
 }
 .digitado {
   position: absolute;
-  white-space: pre-line;
-    
+  width: 100%;
+  word-wrap: break-word;    
 }
 .meme-image {
   position: absolute;
