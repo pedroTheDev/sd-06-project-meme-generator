@@ -1,0 +1,15 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+input{
+    margin: .4em 0;
+}
+
+#moldura{
+    width: 50%;
+    border: 1px black groove solid;
+    background-color:white;
+}
