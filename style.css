@@ -39,11 +39,9 @@ button {
 
 .digitado {
   position: absolute;
-  
+  top: 220px;
   width: 100%;
   word-wrap: break-word;
-  top: 220px;
-  
 }
 
 .meme-image {
