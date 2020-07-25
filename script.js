@@ -3,9 +3,9 @@ const memeText = document.getElementById('meme-text')
 textInput.addEventListener('input', function(){
     memeText.innerText = textInput.value
 })
-const photoInput = document.getElementById('photo-input');
+const photoInsert = document.getElementById('meme-insert');
 const memeImage =  document.getElementById('meme-image');
-photoInput.addEventListener('change', function() {
+photoInsert.addEventListener('change', function() {
     memeImage.src = URL.createObjectURL(event.target.files[0]);
     memeImage.style.maxWidth = '100%';
 })

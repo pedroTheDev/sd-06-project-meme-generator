@@ -14,11 +14,14 @@ article{
     margin: 5px;
 }
 #meme-image-container{
-    position: relative;
     border:1px solid black;
-    width: 50%;
+    height: 500px;
+    width: 500px;
     border: 3px ridge;
     display: inline-block;
+}
+#meme-image{
+    height: 500px;
 }
 #meme-text{
     position: absolute;
@@ -27,5 +30,4 @@ article{
     font-size: 30px;
     text-shadow: black 5px 5px 5px;
     float: left;
-    max-width: 10%;
 }
