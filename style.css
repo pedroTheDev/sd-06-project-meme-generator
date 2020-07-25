@@ -1,0 +1,25 @@
+#meme-image-container {
+  border: 1px solid rgb(0, 0, 0);
+  width: 600px;
+  height: 480px;
+}
+
+#meme-text {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 200px;
+  top: 380px;
+  font-size: 30px;
+  text-align: right;
+  text-shadow: rgb(0, 0, 0) 5px 5px 5px;
+  width: 280px;
+  word-wrap: break-word;
+}
+
+#img-preview {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
