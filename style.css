@@ -3,7 +3,7 @@
   height: 600px;
 }
 
-section:nth-child(2) {
+div:nth-child(2) {
   margin-bottom: 20px;
 }
 
@@ -12,9 +12,11 @@ section:nth-child(2) {
   border: 1px solid black;
 }
 
-div {
+div div {
   font-size: 30px;
   position: absolute;
+  bottom: 70px;
+  left: 30px;
   color: rgb(255, 255, 255);
   text-shadow: black 5px 5px 5px;
 }
