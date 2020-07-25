@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>MEME GENERATOR</h1>
+        <h1 id="meme-generator">MEME GENERATOR</h1>
     </header>
-    <nav>
+    <nav class="wrapper">
     Texto: <input id="texto" maxlength="60"></input><br>
     Foto: <input type="file" id="fotos" name="fotos" accept="img/bambam.jpeg, img/narutinho.jpeg, img/quedemais.jpeg, vegeta8mil.jpeg">
-    <section id="moldura">
+    <section id="container">
+
+    </section>
+    <section class="estilos-customizados">
+        <p>Estilos para customizar:</p>
+        <button class="botao" id="botao-1"></button>
+        <button class="botao" id="botao-2"></button>
+        <button class="botao" id="botao-3"></button>
+    </section>
+    <section>
+        <p>Memes pŕe prontos</p>
+        <img src="img/bambam.jpeg" style="width: 180px;height: 180px;" id="bambam" alt="foto-bambam">
+        <img src="img/narutinho.jpeg" style="width: 180px;height: 180px;" id="naruto" alt="imagem-naruto">
+        <img src="img/quedemais.jpeg" style="width: 180px;height: 180px;" id="quedemais" alt="que demais">
+        <img src="img/vegeta8mil.jpeg" style="width: 180px;height: 180px;" id="vegeta" alt="imagem-vegeta">   
 
     </section>
     </nav>
