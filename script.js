@@ -5,8 +5,8 @@ function showText() {
 }
 input.addEventListener('keyup', showText);
 function showImage() {
-  let upload = document.getElementById('meme-image');
-  let inserido = document.getElementById('meme-insert').value;
+  const upload = document.getElementById('meme-image');
+  const inserido = document.getElementById('meme-insert').value;
   upload.src = inserido;
 }
 document.getElementById('meme-insert').addEventListener('change', showImage);
