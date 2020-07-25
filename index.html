@@ -11,14 +11,15 @@
     
     <article>
         <div id='div-text-input'>
-            Texto: <input id ='text-input' placeholder='Texto que aparecerá na imagem' type="text"> <br>
+            Texto: <input id ='text-input' placeholder='Texto que aparecerá na imagem' type="text" maxlength="60"> <br>
         </div>
         <div id='div-meme-insert'>
             <label for="label-meme-insert">Foto:</label>
             <input type="file" id="meme-insert" name="myfile">
         </div>
-        <div id='meme-image-container'>
+        <div id='meme-image-container' class = "container">
             <img id='meme-image' src="" alt="Imagem Escolhida">
+        <div></div>
             <p id='meme-text'></p>
         </div>
     </article>
