@@ -12,6 +12,11 @@ p , section:nth-child(3) , img {
 
 p {
   position: absolute;
+  z-index: 2;
+}
+
+img {
+  z-index: 1;
 }
 
 section:nth-child(3) {
