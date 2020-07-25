@@ -7,4 +7,9 @@ caixaInput.addEventListener("keyup", function (){
   document.querySelector("#meme-text").innerHTML = caixaInput.value
 })
 
+let image = document.querySelector("#meme-insert")
+
+image.addEventListener("input", function () {
+  document.getElementById("meme-image").src = image.value
+})
 }
