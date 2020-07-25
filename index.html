@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel=¨stylesheet¨ type=¨text/css¨ href=¨style.css¨>
+	<script src="script.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1 id="titulo">MEME GENERATOR!</h1>
+  <div id="inputs-container">
+    <label>Insira o texto aqui:</label>
+    <input id="text-input" type="text" maxlength="60" placeholder="máximo 60 caracteres">
+    <button id="meme-button">Inserir no meme</button>
+    <br>
+    <label>Faça o upload da imagem:</label>
+    <input id="meme-insert" type="file" accept=".jpg, .png, .bmp" onchange="imgInput(event)">
+  </div>
+
+  <div id="meme-image-container" class="meme-container">
+    <div id="meme-text"></div>
+    <img id="meme-image">
+  </div>
+</body>
+</html>
