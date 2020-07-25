@@ -21,14 +21,14 @@ body {
   z-index: 1;
 }
 
-  .meme-image {
-    background-image: url('./imgs/teste.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    z-index: 0;
-  }
+.meme-image {
+  background-image: url('./imgs/teste.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
 
 .custom-buttom-container {
   float: right;
@@ -37,29 +37,29 @@ body {
   padding-top: 100px;
   padding-right: 370px;
   text-align: center;
-  width: 10%
+  width: 10%;
 }
 
 .fire {
   border-radius: 50%;
-  background-color: rgb(255, 46, 9);
+  background-color: rgb(255 , 46 , 9);
   color: white;
   font-size: 12px;
-  padding: 3px 20px; 
+  padding: 3px 20px;
 }
 
 .water {
   border-radius: 50%;
-  background-color: rgb(20, 2, 185);
+  background-color: rgb(20 , 2 , 185);
   color: white;
   font-size: 12px;
-  padding: 3px 20px; 
+  padding: 3px 20px;
 }
 
 .earth {
   border-radius: 50%;
-  background-color: rgb(7, 112, 7);
+  background-color: rgb(7 , 112 , 7);
   color: white;
   font-size: 12px;
-  padding: 3px 20px; 
+  padding: 3px 20px;
 }

@@ -2,27 +2,27 @@ window.onload = function () {
   let memeText = document.querySelector('#meme-text');
   let textInput = document.querySelector('#text-input');
 
-  textInput.addEventListener('input', function(event) {
+  textInput.addEventListener('input', function() {
 
     memeText.innerText = textInput.value;
   });
 
-  let fireButton = document.querySelector('#fire');
-  let imgContainer = document.querySelector("#meme-image-container");
+  const fireButton = document.querySelector('#fire');
+  const imgContainer = document.querySelector('#meme-image-container');
 
-  fireButton.addEventListener('click', function (event) {
-    imgContainer.style.border = "3px solid red"
+  fireButton.addEventListener('click', function () {
+    imgContainer.style.border = "3px solid red";
   });
 
-  let waterButton = document.querySelector('#water');
+  let const = document.querySelector('#water');
 
-  waterButton.addEventListener('click', function (event) {
-    imgContainer.style.border = "3px solid blue"
+  waterButton.addEventListener('click', function () {
+    imgContainer.style.border = "3px solid blue";
   });
 
-  let earthButton = document.querySelector('#earth');
+  const earthButton = document.querySelector('#earth');
 
-  earthButton.addEventListener('click', function (event) {
-    imgContainer.style.border = "3px solid green"
+  earthButton.addEventListener('click', function () {
+    imgContainer.style.border = "3px solid green";
   });
 };
