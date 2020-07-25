@@ -5,14 +5,11 @@
   height: 450px;
   width: 450px;
 }
-.textIn {
-    display: absolute;
-}
 .digitado {
-    position: absolute;
-    white-space: pre-line;
+  position: absolute;
+  white-space: pre-line;
     
 }
-#meme-image {
-    position: absolute;
+.meme-image {
+  position: absolute;
 }

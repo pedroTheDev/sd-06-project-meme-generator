@@ -5,11 +5,12 @@ function showText() {
 }
 input.addEventListener('keyup', showText);
 function showImage() {
-    let upload = document.getElementById('meme-image');
-    let inserido = document.getElementById('meme-insert').value;
-     upload.src = inserido;
+  let upload = document.getElementById('meme-image');
+  let inserido = document.getElementById('meme-insert').value;
+  upload.src = inserido;
 }
-paragrafo.style.textShadow = "5px 5px 5px black";
-paragrafo.style.fontSize = "30px"
-paragrafo.style.color = "white";
+document.getElementById('meme-insert').addEventListener('change', showImage);
+paragrafo.style.textShadow = '5px 5px 5px black';
+paragrafo.style.fontSize = "30px";
+paragrafo.style.color = 'white';
 
