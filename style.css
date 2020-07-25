@@ -2,14 +2,16 @@
      position: absolute;
      font-size: 30px;
      width: 400px;
+     color: white;
+     text-shadow: 5px 5px 5px black
     }
  #meme-image-container{
     border: 1px black solid;
     background-color: white;
-    height: 400px;
-    width: 400px;
+    height: 800px;
+    width: 800px;
  }
 #meme-image {
-    height: 400px;
-    width: 400px;
+    height: 800px;
+    width: 800px;
 }
