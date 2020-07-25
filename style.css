@@ -14,6 +14,11 @@ p {
   position: absolute;
 }
 
+section:nth-child(3) {
+  background-color: white;
+  border: 1px solid black;
+}
+
 section p {
   font-size: 30px;
   color: rgb(255, 255, 255);
