@@ -5,13 +5,13 @@
   vertical-align: baseline;
 }
 
-p {
-  position: absolute;
+p , section:nth-child(3) , img {
   width: 80%;
   height: 600px;
 }
 
-section:nth-child(3) {
+p {
+  position: absolute;
   width: 80%;
   height: 600px;
 }
