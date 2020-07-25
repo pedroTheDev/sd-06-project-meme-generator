@@ -23,11 +23,17 @@ article{
 #meme-image{
     height: 500px;
 }
+#meme-text-container{
+    position: relative;
+    top: 60%;
+    max-width: 500px;
+    max-height: 150px;
+
+}
 #meme-text{
-    position: absolute;
+    max-width: 500px;
+    max-height: 150px;
     color: white;
-    bottom: 80px;
     font-size: 30px;
     text-shadow: black 5px 5px 5px;
-    float: left;
 }
