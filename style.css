@@ -1,15 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 input {
-  margin: 30px;
+  margin: 10px 0;
   padding-right: 105px;
 }
+
 .container {
-  padding: 100px;
   border: 1px solid black;
+  height: 300px;
   margin-left: 30px;
-  margin-right: 1000px;
+  position: relative;
+  width: 400px;
+}
+
+.header {
+  margin-left: 30px;
+}
+
+.text {
+  bottom: 10px;
+  font-size: 20px;
+  position: absolute;
 }
