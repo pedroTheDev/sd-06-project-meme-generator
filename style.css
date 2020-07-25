@@ -6,15 +6,12 @@
 }
 
 p {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
+  position: absolute;
+  width: 80%;
+  height: 600px;
 }
 
-section {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
+section:nth-child(3) {
+  width: 80%;
+  height: 600px;
 }
