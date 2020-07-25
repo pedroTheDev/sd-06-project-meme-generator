@@ -1,0 +1,10 @@
+#meme-image-container {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+
+#meme-text {
+    color: white;
+    font-size: 15px;
+}
