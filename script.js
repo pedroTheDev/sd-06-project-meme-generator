@@ -1,6 +1,6 @@
-const input = document.getElementById("text-input");
-const paragrafo = document.getElementById("meme-text");
+const input = document.getElementById('text-input');
+const paragrafo = document.getElementById('meme-text');
 function showText() {
-    paragrafo.innerText = input.value;
+  paragrafo.innerText = input.value;
 }
 input.addEventListener('keyup', showText);
