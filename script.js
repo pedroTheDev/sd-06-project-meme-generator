@@ -15,7 +15,7 @@ paragrafo.style.textShadow = '5px 5px 5px black';
 paragrafo.style.fontSize = '30px';
 paragrafo.style.color = 'white';
 
-const container = document.querySelector('.container');
+const container = document.querySelector('#meme-image-container');
 function fire() {
   container.style.border = '3px dashed red';
 }
