@@ -5,3 +5,11 @@ let returnText = textInput.addEventListener('input', function(e) {
     inserText.innerText = e.target.value
 });
 
+//
+
+let imageInput = document.querySelector('#image-input');
+let image = document.querySelector('#meme-image');
+
+imageInput.addEventListener('change', function(e) {
+    image.src = URL.createObjectURL(e.target.files[0]);
+});

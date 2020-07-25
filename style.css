@@ -1,10 +1,17 @@
-#meme-image-container {
+#meme-image-container img{
+    position:absolute;
     background-color: red;
-    width: 150px;
+    width: 450px;
     height: 150px;
 }
 
 #meme-text {
+    position:absolute;
     color: white;
     font-size: 15px;
 }
+
+#meme-image {
+    position: absolute;
+}
+
