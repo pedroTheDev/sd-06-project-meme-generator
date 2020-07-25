@@ -14,11 +14,18 @@ article{
     margin: 5px;
 }
 #meme-image-container{
-    background-color: teal;
+    position: relative;
+    border:1px solid black;
     width: 50%;
     border: 3px ridge;
     display: inline-block;
 }
 #meme-text{
-    text-shadow: white 1px 0 10px;
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    font-size: 30px;
+    text-shadow: black 5px 5px 5px;
+    float: left;
+    max-width: 10%;
 }

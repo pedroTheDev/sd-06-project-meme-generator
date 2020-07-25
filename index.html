@@ -18,19 +18,10 @@
             <input type="file" id="photo-input" name="myfile">
         </div>
         <div id='meme-image-container'>
-            
-            <p id='meme-text'>texdfsfsdfdsdsfdsfto</p>
+            <img id='meme-image' src="" alt="Imagem Escolhida">
+            <p id='meme-text'></p>
         </div>
     </article>
-    <script>
-        var photoInput = document.getElementById('photo-input');
-        var img = new Image();
-        var divImg = document.getElementById('meme-image-container');
-        img.onload = function() {
-            divImg.innerHTML = '<img src= '+img.src+' />';
-        };
-        img.src = photoInput.src;
-        console.log(photoInput.src)
-    </script>
+    <script src="./script.js"></script>
 </body>
 </html>
