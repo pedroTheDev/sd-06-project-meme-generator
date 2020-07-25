@@ -5,7 +5,7 @@ input {
 button {
   color: white;
   display: inline-block;
-  font-weight: bold;
+  font-weight: 800;
   left: -340px;
   margin-right: 20px;
   padding: 10px;
@@ -46,4 +46,6 @@ button {
 
 .meme-image {
   position: absolute;
+  background-color: white;
+  border: 1px solid black;
 }
