@@ -1,25 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-}
-
-p , section:nth-child(3) , img {
+p , .container , img {
   width: 800px;
   height: 600px;
 }
 
-p {
-  position: absolute;
-  z-index: 2;
-}
-
-img {
-  z-index: 1;
-}
-
-section:nth-child(3) {
+.container {
   background-color: white;
   border: 1px solid black;
 }
