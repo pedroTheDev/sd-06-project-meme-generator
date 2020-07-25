@@ -7,12 +7,12 @@ input.addEventListener('keyup', showText);
 paragrafo.style.textShadow = '5px 5px 5px black';
 paragrafo.style.fontSize = '30px';
 paragrafo.style.color = 'white';
-const container = document.querySelector('#meme-image-container');
 function upload() {
   document.getElementById('meme-image').src = window.URL.createObjectURL(this.files[0]);
 }
-let insert = document.getElementById('meme-insert');
+const insert = document.getElementById('meme-insert');
 insert.addEventListener('change', upload);
+const container = document.querySelector('#meme-image-container');
 const btn1 = document.querySelector('.fire');
 const btn2 = document.querySelector('.water');
 const btn3 = document.querySelector('.earth');

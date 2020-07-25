@@ -1,28 +1,33 @@
 input {
   margin-bottom: 10px;
 }
+
 button {
   color: white;
-  display: inline-block;
   font-weight: 800;
   left: -340px;
   margin-right: 20px;
   padding: 10px;
   position: relative;
-  top: 410px;
+  top: 415px;
 }
+
 .fire {
   background-color: red;
 }
+
 .water {
   background-color: blue;
 }
+
 .earth {
   background-color: green;
 }
+
 .arquivo {
   margin-left: 7px;
 }
+
 .container {
   background-color: white;
   border: 1px solid black;
@@ -30,12 +35,14 @@ button {
   position: absolute;
   width: 350px;
 }
+
 .digitado {
   position: absolute;
-  top: 220px;
+  top: 150px;
   width: 100%;
   word-wrap: break-word;
 }
+
 .meme-image {
   position: absolute;
 }
