@@ -1,3 +1,7 @@
  #meme-text {
      position: absolute;
+     z-index: 2;
+ }
+ #meme-image {
+    z-index: 1;
  }
