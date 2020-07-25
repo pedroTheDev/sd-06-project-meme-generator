@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
+    <header><h1 id='title'>MEME GENERATOR</h1></header>
     
+    <article>
+        <div id='div-text-input'>
+            Texto: <input id ='text-input' placeholder='Texto que aparecerá na imagem' type="text"> <br>
+        </div>
+        <div id='div-photo-input'>
+            <label for="label-photo-input">Foto:</label>
+            <input type="file" id="photo-input" name="myfile">
+        </div>
+        <div id='meme-image-container'>
+            
+            <p id='meme-text'>texdfsfsdfdsdsfdsfto</p>
+        </div>
+    </article>
+    <script>
+        var photoInput = document.getElementById('photo-input');
+        var img = new Image();
+        var divImg = document.getElementById('meme-image-container');
+        img.onload = function() {
+            divImg.innerHTML = '<img src= '+img.src+' />';
+        };
+        img.src = photoInput.src;
+        console.log(photoInput.src)
+    </script>
 </body>
 </html>
