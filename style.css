@@ -1,9 +1,15 @@
 input {
   margin: 10px 0;
-  padding-right: 105px;
+  padding-right: 20px;
+}
+
+img {
+  height: 300px;
+  width: 400px;
 }
 
 .container {
+  background-color: white;
   border: 1px solid black;
   height: 300px;
   margin-left: 30px;
@@ -17,6 +23,8 @@ input {
 
 .text {
   bottom: 10px;
-  font-size: 20px;
+  color: white;
+  font-size: 30px;
   position: absolute;
+  text-shadow: 5px 5px 5px black;
 }
