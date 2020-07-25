@@ -22,15 +22,18 @@ article{
 }
 #meme-image{
     height: 500px;
+    width: 500px;
 }
 #meme-text-container{
-    position: relative;
+    background-color: white;
+    position: absolute;
     top: 60%;
     max-width: 500px;
     max-height: 150px;
 
 }
 #meme-text{
+    position: absolute;
     max-width: 500px;
     max-height: 150px;
     color: white;
