@@ -1,9 +1,7 @@
+let textInput = document.getElementById('text-input');
+let inserText = document.getElementById('meme-text');
 
-function capturar (){
-    let inserText = "";
+let returnText = textInput.addEventListener('input', function(e) {
+    inserText.innerText = e.target.value
+});
 
-    insertText = document.getElementById('text-input').value;
-    document.getElementById('meme-text').innerHTML = inserText;
-}
-
-capturar();
