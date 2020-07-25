@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  margin: 30px;
+  padding-right: 105px;
+}
+.container {
+  padding: 100px;
+  border: 1px solid black;
+  margin-left: 30px;
+  margin-right: 1000px;
+}
