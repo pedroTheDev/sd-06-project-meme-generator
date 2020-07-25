@@ -9,3 +9,7 @@ function showImage() {
     let inserido = document.getElementById('meme-insert').value;
      upload.src = inserido;
 }
+paragrafo.style.textShadow = "5px 5px 5px black";
+paragrafo.style.fontSize = "30px"
+paragrafo.style.color = "white";
+

@@ -10,6 +10,8 @@
 }
 .digitado {
     position: absolute;
+    white-space: pre-line;
+    
 }
 #meme-image {
     position: absolute;

@@ -8,11 +8,11 @@
 </head>
 <body>
     <h1>MEME GENERATOR</h1>
-    Texto: <input class="textIn" id="text-input" type="text"><br>
+    Texto: <input class="textIn" id="text-input" type="text" maxlength="60"><br>
     Foto: <input id="meme-insert" type="file" accept="image/*" onchange="showImage()">
     <div class="container" id="meme-image-container">
         <img id="meme-image" src=https://uploaddeimagens.com.br/images/002/761/896/original/image.jpeg?1594409016" width="450">
-        <div class="digitado" id="meme-text"></div>
+        <p class="digitado" id="meme-text"></p>
     </div>
     <script src="script.js"></script>
 </body>
