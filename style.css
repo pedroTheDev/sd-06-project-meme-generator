@@ -1,5 +1,17 @@
 .container {
+    display: absolute;
   border: 1px solid black;
   height: 450px;
   width: 450px;
+}
+.textIn {
+    display: absolute;
+}
+.digitado {
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 2%;
+}
+#meme-image {
+    position: absolute;
 }
