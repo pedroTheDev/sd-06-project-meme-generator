@@ -13,7 +13,7 @@
     </header>
     <nav>
       <label> Text Input:
-        <input id="text-input" type="text">
+        <input id="text-input" type="text" maxlength="60">
       </label>
 
       <label> Select Image:
@@ -23,12 +23,14 @@
 
     </nav>
 
-    <section id="meme-image-container">
+    <section id="meme-image-container" class="meme-image-container">
 
-      <div id="meme-image">
-        <span id="meme-text"></span>
+      <div id="meme-image" class="meme-image">
+
+        <span id="meme-text" class="meme-text"></span>
+
       </div>
-
+      
     </section>
 
     <script src="script.js"></script>
