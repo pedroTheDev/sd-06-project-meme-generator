@@ -8,11 +8,11 @@
 .meme-text {
   color: white;
   left: 200px;
-  position: absolute;
-  top: 380px;
   font-size: 30px;
+  position: absolute;
   text-align: right;
   text-shadow: black 5px 5px 5px;
+  top: 380px;
   width: 280px;
   word-wrap: break-word;
 }
