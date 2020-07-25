@@ -11,15 +11,16 @@
 
 <body>
   <h1>Meme generator</h1>
-  <div class="header">
-    <label for="">Texto: </label><input type="text" id="text-input" maxlength="60"/>
-    <br>
-    <label for="">Foto: </label><input type="file" id="meme-insert">
-  </div>
-  <div id="meme-image-container" class="container">
-    <div id="meme-text" class="text"></div>
-    <img src="" id="meme-image"> 
-  </div>
+  <section>
+    <label for="text-input">Texto</label>
+    <input type="text" name="text-input" id="text-input" maxlength="60">
+    <label for="meme-insert">Foto</label>
+    <input type="file" name="meme-insert" id="meme-insert">
+  </section>
+  <section id="meme-image-container" class="container">
+    <p id="meme-text"></p>
+    <img id="meme-image" src="" alt="">
+  </section>
 </body>
 
 </html>
