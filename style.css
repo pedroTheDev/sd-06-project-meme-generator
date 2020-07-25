@@ -1,5 +1,5 @@
 body {
-  background-color: bisque;
+  background-color: rgb(216, 216, 216);
 }
 
 .meme-image-container {
@@ -62,4 +62,52 @@ body {
   color: white;
   font-size: 12px;
   padding: 3px 20px;
+}
+
+.mini-images {
+  clear: both;
+  height: 50px;
+  padding-top: 20px;
+  width: 60%;
+}
+
+.mini-images div {
+  border: 1px black solid;
+  clear: both;
+  display: inline-block;
+  height: 45px;
+  margin-left: 60px;
+  width: 45px;
+}
+
+.meme-1 {
+  background-image: url('./imgs/meme1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.meme-2 {
+  background-image: url('./imgs/meme2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.meme-3 {
+  background-image: url('./imgs/meme3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.meme-4 {
+  background-image: url('./imgs/meme4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
