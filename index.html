@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Meme Generator</h1>
+    </header>
+    <section>
+        <div>
+            <p>Digite o texto do Meme:
+                <input type="string" name="txtmeme" id="text-input"> 
+            </p>
+        </div>
+        
+        <div>
+            <input type="button" value="Upload Imagem" onclick="uploadImagem()">
+        </div>
+        <div id="meme-image-container">
+            <div id="meme-text">
+
+            </div>
+        </div>  
+        <div>
+            <input type="button" value="Gerar Meme" onclick="gerarmeme()">
+        </div>
+    </section>
+
+
+    <footer>
+       <p>&copy; vbergadev</p> 
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
