@@ -14,7 +14,7 @@ window.onload = function () {
     imgContainer.style.border = "3px solid red";
   });
 
-  let const = document.querySelector('#water');
+  const waterButton = document.querySelector('#water');
 
   waterButton.addEventListener('click', function () {
     imgContainer.style.border = "3px solid blue";
