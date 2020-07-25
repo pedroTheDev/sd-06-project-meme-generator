@@ -1,11 +1,11 @@
-#meme-image-container {
+.meme-image-container {
   background-color: white;
   border: 1px solid black;
   width: 600px;
   height: 480px;
 }
 
-#meme-text {
+.meme-text {
   color: white;
   position: absolute;
   left: 200px;
@@ -17,7 +17,7 @@
   word-wrap: break-word;
 }
 
-#meme-image {
+.meme-image {
   display: block;
   background-size: cover;
   height: 100%;

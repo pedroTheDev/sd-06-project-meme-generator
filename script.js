@@ -1,7 +1,7 @@
 
   const textBox = document.querySelector('#text-input');
   const memeContainer = document.querySelector('#meme-text');
-  const fileChooser = document.getElementById('img-chooser'); // Imagem escolhida
+  const fileChooser = document.getElementById('meme-insert'); // Imagem escolhida
   const imagePreview = document.getElementById('meme-image'); // preview da imagem
 
   function trocaTexto() {
