@@ -2,6 +2,29 @@ input {
   margin-bottom: 10px;
 }
 
+button {
+  display: inline-block;
+  position: relative;
+  top: 410px;
+  left: -340px;
+  padding: 10px;
+  margin-right: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
 .arquivo {
   margin-left: 7px;
 }
@@ -9,9 +32,9 @@ input {
 .container {
   background-color: white;
   border: 1px solid black;
-  height: 450px;
+  height: 350px;
   position: absolute;
-  width: 450px;
+  width: 350px;
 }
 
 .digitado {
