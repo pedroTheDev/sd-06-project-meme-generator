@@ -37,7 +37,5 @@ button {
   word-wrap: break-word;
 }
 .meme-image {
-  background-color: white;
-  border: 1px solid black;
   position: absolute;
 }

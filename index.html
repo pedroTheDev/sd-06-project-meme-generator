@@ -9,9 +9,9 @@
 <body>
     <h1>MEME GENERATOR</h1>
     Texto: <input class="textIn" id="text-input" type="text" maxlength="60"><br>
-    Foto: <input class="arquivo" id="meme-insert" type="file" accept="image/*" onchange="document.getElementById('meme-image').src = window.URL.createObjectURL(this.files[0])">
+    Foto: <input class="arquivo" id="meme-insert" type="file" accept="image/*">
     <div class="container" id="meme-image-container">
-        <img id="meme-image" class="meme-image" src="" width="350">
+        <img id="meme-image" class="meme-image" src="" width="350" height="350">
         <p class="digitado" id="meme-text"></p>
     </div>
     <button id="fire" class="fire">Fire</button>
