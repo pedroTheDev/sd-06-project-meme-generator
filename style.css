@@ -1,11 +1,18 @@
 #meme-image-container {
-  max-width: 250px;
+  width: 350px;
+  background-color: white;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
 }
 
 #meme-image {
-  max-width: 250px;
+  width: 350px;
 }
 
 #meme-text {
   position: absolute;
+  color: white;
+  text-shadow: 5px 5px 5PX black;
+  font-size: 30px;
 }
