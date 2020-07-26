@@ -6,7 +6,7 @@ window.onload = function() {
   })
 
   const localImagem = document.querySelector("#meme-insert")
-  localImagem.addEventListener("input", function(){
+  localImagem.addEventListener("change", function(event){
   document.getElementById("meme-image").src = URL.createObjectURL(event.target.files[0]);
   })
   
