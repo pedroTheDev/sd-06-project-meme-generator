@@ -5,34 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <header>
         <h1 id="meme-generator">MEME GENERATOR</h1>
     </header>
     <nav class="wrapper">
-    <p>Texto:</p><input id="text-input" maxlength="60"></input><br>
-    <p>Foto:</p><input type="file" id="meme-insert" name="fotos" accept="bambam.jpeg, narutinho.jpeg, quedemais.jpeg, vegeta8mil.jpeg">
-    <section id="meme-image-container">
-        <p id="meme-text"></p>
-        <img id="meme-image">
+        <label> Texto:
+            <input id="text-input" type="text" maxlength="60"></input>
+        </label>
+        <label> Foto:
+            <input type="file" id="meme-insert" accept="bambam.jpeg, narutinho.jpeg, quedemais.jpeg, vegeta8mil.jpeg">
+            <input type="submit">
+        </label>
 
+    <section class="meme-container" id="meme-image-container">
+        <div class="meme-image" id="meme-image">
+        <p id="meme-text" class="meme-text">
+        </div>
     </section>
+
     <section class="moldura-estilo">
         <p>Estilos para customizar:</p>
-        <button class="botao" id="fire"></button>
-        <button class="botao" id="water"></button>
-        <button class="botao" id="earth"></button>
+        <button class="botao" id="fire">FIRE</button>
+        <button class="botao" id="water">WATER</button>
+        <button class="botao" id="earth">EARTH</button>
     </section>
     <section class="imagens">
         <p>Memes pŕe prontos</p>
-        <img src="bambam.jpeg" style="width: 180px;height: 180px;" id="bambam" alt="foto-bambam">
-        <img src="narutinho.jpeg" style="width: 180px;height: 180px;" id="naruto" alt="imagem-naruto">
-        <img src="quedemais.jpeg" style="width: 180px;height: 180px;" id="quedemais" alt="que demais">
-        <img src="vegeta8mil.jpeg" style="width: 180px;height: 180px;" id="vegeta" alt="imagem-vegeta">   
+        <img src="imgs/meme1.png" style="width: 180px;height: 180px;" id="meme-1" alt="foto-bambam">
+        <img src="imgs/meme2.png" style="width: 180px;height: 180px;" id="meme-2" alt="imagem-naruto">
+        <img src="imgs/meme3.png" style="width: 180px;height: 180px;" id="meme-3" alt="que demais">
+        <img src="imgs/meme4.png" style="width: 180px;height: 180px;" id="meme-4" alt="imagem-vegeta">   
 
     </section>
+    <script src="script.js"></script>
     </nav>
 </body>
 </html>

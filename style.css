@@ -14,12 +14,23 @@ html, body{
     margin-top: 10px;
     border: 1px black solid;
     background-color:white;
+    z-index: 0;
+}
+
+#meme-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
 }
 
 #meme-text{
     font-size: 30px;
     color: white;
-    text-shadow: 5px 5px;
+    overflow-wrap: break-word;
+    text-shadow: 5px 5px 5px black;
+    z-index: 1;
 }
 
 .botao{
