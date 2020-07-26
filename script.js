@@ -1,4 +1,5 @@
-let textoDoMeme = document.querySelector('#meme-text');
+let textoDoMeme = document.querySelector('#text-input');
 textoDoMeme.addEventListener('input', function() {
-  imgText.innerText = textoDoMeme.value;
+  let texto = document.querySelector('#meme-text');
+  texto.innerHTML = textoDoMeme.value;
 })
