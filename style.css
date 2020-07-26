@@ -2,17 +2,24 @@ html, body{
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    margin-left: 20px;
     font-size: 15px;
     font-family: sans-serif;
 }
 
 
-#container{
+#meme-image-container{
     width: 50%;
     height: 400px;
     margin-top: 10px;
     border: 1px black solid;
     background-color:white;
+}
+
+#meme-text{
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px;
 }
 
 .botao{
@@ -21,14 +28,24 @@ html, body{
     height: 60px;
 }
 
-#botao-1{
+#fire{
     background-color: red;
+    border-style: dashed;
+    border: 3px;
 }
 
-#botao-2{
+#water{
     background-color: blue;
+    border-style: double;
+    border: 5px;
 }
 
-#botao-3{
+#earth{
     background-color: green;
+    border-style: groove;
+    border: 6px;
+}
+
+.imagens{
+    margin-left: 20px;
 }

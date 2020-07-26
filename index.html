@@ -12,23 +12,25 @@
         <h1 id="meme-generator">MEME GENERATOR</h1>
     </header>
     <nav class="wrapper">
-    Texto: <input id="texto" maxlength="60"></input><br>
-    Foto: <input type="file" id="fotos" name="fotos" accept="img/bambam.jpeg, img/narutinho.jpeg, img/quedemais.jpeg, vegeta8mil.jpeg">
-    <section id="container">
+    <p>Texto:</p><input id="text-input" maxlength="60"></input><br>
+    <p>Foto:</p><input type="file" id="meme-insert" name="fotos" accept="bambam.jpeg, narutinho.jpeg, quedemais.jpeg, vegeta8mil.jpeg">
+    <section id="meme-image-container">
+        <p id="meme-text"></p>
+        <img id="meme-image">
 
     </section>
-    <section class="estilos-customizados">
+    <section class="moldura-estilo">
         <p>Estilos para customizar:</p>
-        <button class="botao" id="botao-1"></button>
-        <button class="botao" id="botao-2"></button>
-        <button class="botao" id="botao-3"></button>
+        <button class="botao" id="fire"></button>
+        <button class="botao" id="water"></button>
+        <button class="botao" id="earth"></button>
     </section>
-    <section>
+    <section class="imagens">
         <p>Memes pŕe prontos</p>
-        <img src="img/bambam.jpeg" style="width: 180px;height: 180px;" id="bambam" alt="foto-bambam">
-        <img src="img/narutinho.jpeg" style="width: 180px;height: 180px;" id="naruto" alt="imagem-naruto">
-        <img src="img/quedemais.jpeg" style="width: 180px;height: 180px;" id="quedemais" alt="que demais">
-        <img src="img/vegeta8mil.jpeg" style="width: 180px;height: 180px;" id="vegeta" alt="imagem-vegeta">   
+        <img src="bambam.jpeg" style="width: 180px;height: 180px;" id="bambam" alt="foto-bambam">
+        <img src="narutinho.jpeg" style="width: 180px;height: 180px;" id="naruto" alt="imagem-naruto">
+        <img src="quedemais.jpeg" style="width: 180px;height: 180px;" id="quedemais" alt="que demais">
+        <img src="vegeta8mil.jpeg" style="width: 180px;height: 180px;" id="vegeta" alt="imagem-vegeta">   
 
     </section>
     </nav>

@@ -1,15 +1,3 @@
 
 //variaveis
-let carregaTexto = document.getElementById("texto");
-const carregaImgbambam = document.getElementById("bambam");
-const carregaImgnaruto = document.getElementById("naruto");
-const carregaImgquedemais = document.getElementById("quedemais");
-const carregaImgvegeta = document.getElementById("vegeta");
-const capturaSection = document.getElementById("container");
-
-//evento clique na imagem carrega na section container
-/*
-carregaTexto.style.fontFamily = ("monospace");
-carregaTexto.style.color = ("red");
-carregaTexto.style.fontSize = ("3em");
-*/
+/*- Dentro do elemento de container, você deve criar um outro elemento para mostrar o texto digitado. O elemento de texto deve estar totalmente contido dentro do container e ter o `id` denominado `meme-text`;*/
