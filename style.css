@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.image {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+body {
+  background-color: rgb(25 , 25 , 25);
+}
