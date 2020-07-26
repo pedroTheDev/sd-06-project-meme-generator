@@ -1,4 +1,4 @@
-.container , div, img {
+.container , img {
   width: 800px;
   height: 600px;
 }
@@ -16,7 +16,7 @@ section:nth-child(2) {
 div {
   font-size: 30px;
   position: absolute;
-  bottom: 30px;
+  bottom: 10px;
   color: rgb(255, 255, 255);
   text-shadow: black 5px 5px 5px;
 }

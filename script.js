@@ -7,7 +7,7 @@ textInput.addEventListener('input', function (event) {
   memeText.innerText = event.target.value;
 })
 
-fileInput.addEventListener('mouseout', function (event) {
+fileInput.addEventListener('change', function (event) {
   image.src = URL.createObjectURL(event.target.files[0]);
 })
 
