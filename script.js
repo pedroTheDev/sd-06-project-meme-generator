@@ -1,13 +1,12 @@
-window.onload = function () {
-  const text = document.getElementById('text-input');
-  const divText = document.getElementById('meme-text');
-  text.addEventListener('input', function () {
-    divText.innerText = text.value;
-  });
+let textInput = document.getElementById('text-input');
+let memeText = document.getElementById('meme-text');
+let fileInput = document.getElementById('meme-insert');
+let image = document.getElementById('meme-image');
 
-  const inputImg = document.getElementById('meme-insert');
-  const img = document.getElementById('meme-image');
-  inputImg.addEventListener('change', function (event) {
-    img.src = URL.createObjectURL(event.target.files[0]);
-  });
-};
+textInput.addEventListener('input', function (event) {
+  memeText.innerText = event.target.value;
+})
+
+fileInput.addEventListener('change', function (event) {
+  image.src = URL.createObjectURL(event.target.files[0]);
+})
