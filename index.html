@@ -7,10 +7,16 @@
   <link rel = "stylesheet" type = "text/css" href = "style.css">
 </head>
 <body>
-  Inserir texto: <input type = "text" id = "text-input" maxlength="60">
+  Inserir texto:
+  <input type = "text" id = "text-input" maxlength="60"><br>
+  Inserir imagem:
+  <input type='file' accept='image/*' id='file-input' />
+
   <div id = "meme-image-container">
-    <div id = "meme-text">
+    <div id = "meme-image">
+      <canva id = "meme-insert"></canva>
     </div>
+    <div id = "meme-text"></div>
   </div>
   <script src = "script.js"></script>
 </body>
