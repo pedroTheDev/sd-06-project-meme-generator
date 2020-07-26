@@ -1,22 +1,30 @@
-.container , img {
-  width: 800px;
-  height: 600px;
+input {
+  margin: 10px 0;
+  padding-right: 20px;
 }
 
-section:nth-child(2) {
-  margin-bottom: 20px;
+img {
+  height: 300px;
+  width: 400px;
 }
 
 .container {
   background-color: white;
   border: 1px solid black;
+  height: 300px;
+  margin-left: 30px;
   position: relative;
+  width: 400px;
 }
 
-section div {
+.header {
+  margin-left: 30px;
+}
+
+.text {
+  bottom: 10px;
+  color: white;
   font-size: 30px;
   position: absolute;
-  color: rgb(255, 255, 255);
-  text-shadow: black 5px 5px 5px;
-  bottom: 10px;
+  text-shadow: 5px 5px 5px black;
 }
