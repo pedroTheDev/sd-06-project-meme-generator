@@ -1,5 +1,9 @@
+main {
+    height: 100%;
+    display: block;
+}
+
 #meme-image-container img{
-    background-color: red;
     width: 450px;
     height: 450px;
 }
@@ -7,7 +11,7 @@
     padding: 15px;
     width: 450px;
     height: 450px;
-    position: absolute;
+
     background-color: white;
     border: 1px solid #000;
     overflow: hidden;
@@ -20,10 +24,33 @@
 
 p {
     position: absolute;
-    color: red;
+    color: #fff;
     font-size: 30px;
     text-shadow: #000 5px 5px 5px;    
 
 }
 
+.customization {
+    position: absolute;
+    color: red;
+    font-size: 25px;
+}
+
+#fire {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+
+#water {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+}
+
+#earth {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+}
 
