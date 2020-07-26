@@ -2,29 +2,29 @@ main {
     height: 100%;
     display: block;
 }
-#meme-image-container {
-    margin: 10px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    width: 512px;
-    height: 512px;
-    background-color: white;
-    padding: 15px;
-    height: 512px;
 
+#meme-image-container img{
+    width: 450px;
+    height: 450px;
 }
+#meme-image-container {
+    padding: 15px;
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
 #meme-text {
-    position: absolute;
-    bottom: 10px;
-    left: 50px;
-    text-shadow: 5px 5px 5px black;
-    font-size: 30px;
-    color: white;
-    z-index: 2;
+    position:absolute;
 }
-#meme-image{
+
+
+p {
     position: absolute;
-    width: 512px;
-    height: 512px;
+    color: #fff;
+    font-size: 30px;
+    text-shadow: #000 5px 5px 5px;    
+
 }
