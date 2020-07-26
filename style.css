@@ -59,3 +59,15 @@ img {
     cursor: pointer;
     color: rgb(255,255,255);
 }
+
+.fireBorder {
+    border: 3px dashed red;
+}
+
+.waterBorder {
+    border: 5px double blue;
+}
+
+.earthBorder {
+    border: 6px groove green
+}
