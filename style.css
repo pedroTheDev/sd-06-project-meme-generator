@@ -2,61 +2,32 @@ main {
     height: 100%;
     display: block;
 }
-
-#meme-image-container img{
-    width: 450px;
-    height: 450px;
-}
 #meme-image-container {
-    padding: 15px;
-    width: 450px;
-    height: 450px;
+    margin: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 512px;
+    height: 512px;
     background-color: white;
-    border: 1px solid #000;
-    overflow: hidden;
-}
+    padding: 15px;
+    height: 512px;
 
+}
 #meme-text {
-    position:absolute;
-}
-
-
-p {
     position: absolute;
-    color: #fff;
+}
+p{
+    position: absolute;
+    text-shadow: 5px 5px 5px black;
     font-size: 30px;
-    text-shadow: #000 5px 5px 5px;    
+    color: white;
 
 }
 
-.customization {
-    color: red;
-    font-size: 25px;
 }
+#meme-image{
 
-#fire {
-    width: 100px;
-    height: 50px;
-    background-color: red;
-}
-
-#water {
-    width: 100px;
-    height: 50px;
-    background-color: blue;
-}
-
-#earth {
-    width: 100px;
-    height: 50px;
-    background-color: green;
-}
-
-
-.fire-button{
-    border: 3px dashed red;
-}
-
-.pre-images img {
-    width: 80px;
+    width: 512px;
+    height: 512px;
 }
