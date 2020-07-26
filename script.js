@@ -6,7 +6,7 @@ window.onload = function(){
     })
     const imageInput = document.querySelector("#meme-insert");
     imageInput.addEventListener("change", function(){
-        const image = document.querySelector("#imagem");
+        const image = document.querySelector("#meme-image");
         image.src = imageInput.files[0].name;
     })
     
