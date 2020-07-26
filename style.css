@@ -16,3 +16,9 @@ body {
     border-color: black;
     background-color: white;
 }
+
+.meme-text {
+    font-size: 30px;
+    color: white;
+    text-shadow: #000 5px 5px 5px;
+}
