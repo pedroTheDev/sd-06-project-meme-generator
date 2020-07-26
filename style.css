@@ -18,4 +18,9 @@
     margin : auto;
     position : relative;
     color: #fff;
+    border-style: solid;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
 }
