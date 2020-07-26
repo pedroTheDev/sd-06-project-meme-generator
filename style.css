@@ -1,9 +1,10 @@
 #meme-image-container img{
     background-color: red;
     width: 450px;
-    height: 150px;
+    height: 450px;
 }
 #meme-image-container {
+    padding: 15px;
     width: 450px;
     height: 450px;
     position: absolute;
