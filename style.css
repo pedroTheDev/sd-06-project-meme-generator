@@ -8,8 +8,10 @@
     bottom: 0;
     left: 0;
     text-align: center;
-    background-color: red;
     padding: 10px;
+    text-shadow: #000 5px 5px 5px;
+    font-size: 30px;
+    color: white;
 }
 
 #meme-image-container{
@@ -17,8 +19,9 @@
     height: 500px;
     margin : auto;
     position : relative;
-    color: #fff;
-    border-style: solid;
+  /*  color: #fff; */
+  border-color: black;
+  border-style: solid;
   border-bottom-width: 1px;
   border-top-width: 1px;
   border-right-width: 1px;
