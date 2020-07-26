@@ -1,0 +1,18 @@
+body {
+    font-family: Trebuchet MS, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(234, 226, 183);
+    color: rgb(0, 48, 73);
+}
+
+.text-input {
+    position: absolute;
+}
+
+.meme-image-container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
