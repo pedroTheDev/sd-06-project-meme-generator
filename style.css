@@ -10,6 +10,10 @@ body {
     position: absolute;
 }
 
+.meme-image {
+    position: relative;
+}
+
 .meme-image-container {
     border-width: 1px;
     border-style: solid;
