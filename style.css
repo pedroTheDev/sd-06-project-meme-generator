@@ -9,12 +9,14 @@ section:nth-child(2) {
 
 .container {
   background-color: white;
+  position: relative;
   border: 1px solid black;
 }
 
 section p {
   font-size: 30px;
   position: absolute;
+  bottom: 30px;
   color: rgb(255, 255, 255);
   text-shadow: black 5px 5px 5px;
 }
