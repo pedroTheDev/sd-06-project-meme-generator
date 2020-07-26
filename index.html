@@ -13,14 +13,18 @@
         <h1>Meme Generator</h1>
       </div>
 
-      <div id="input-content">
-        <p>Texto:</p>
-        <input id="text-input" type="text">
+      <div id="input-content" class="text-content">
+        <p class="text">Texto:</p>
+        <input oninput="showText()" maxlength="60"
+        id="text-input" type="text" class="input-text">
+      </div>
+
+      <div id="meme-image-container" class="image-container">
+        <div id="meme-text"></div>
       </div>
     </div>
 
+    <script src="script.js"></script>
   </body>
-
-  <script src="script.js"></script>
 
 </html>

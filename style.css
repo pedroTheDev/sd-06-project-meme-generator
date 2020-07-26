@@ -1,0 +1,19 @@
+body {
+  margin: 30px;
+  padding: 0;
+}
+
+.text-content {
+  display: inline-block;
+}
+
+.text {
+  margin: 0;
+}
+
+.image-container {
+  border: 1px solid black;
+  height: 400px;
+  margin-top: 30px;
+  width: 400px;
+}
