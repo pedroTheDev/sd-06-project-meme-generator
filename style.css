@@ -1,4 +1,4 @@
-.container , img {
+.container , div, img {
   width: 800px;
   height: 600px;
 }
@@ -13,7 +13,7 @@ section:nth-child(2) {
   border: 1px solid black;
 }
 
-section p {
+div {
   font-size: 30px;
   position: absolute;
   bottom: 30px;
