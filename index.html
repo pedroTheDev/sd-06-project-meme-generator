@@ -8,7 +8,20 @@
 </head>
 
 <body>
-  <input type="text" id="text-input" autofocus>
+  <h1 class="main-title">Meme Generator</h1>
+  <article class="page-description">This webpage accepts an image upload and a input text to generate a meme as follows:
+  </article>
+  <section class="input-section">
+    <div class="input-box">
+      <div>Type the text: </div>
+      <input type="text" id="text-input" autofocus>
+      <div> Upload your file: </div>
+      <input type="file" id="image-input" autofocus>
+    </div>
+  </section>
+  <section id="meme-image-container">
+    <div id="meme-text"></div>
+  </section>
   <script src="script.js"></script>
 </body>
 
