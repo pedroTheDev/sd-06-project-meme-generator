@@ -12,6 +12,7 @@ main {
     background-color: white;
     padding: 15px;
     height: 512px;
+    overflow: hidden;
 
 }
 #meme-text {
