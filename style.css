@@ -7,6 +7,10 @@ main {
     margin: 20px 20px;
 }
 
+img {
+    cursor: pointer;
+}
+
 #meme-image-container {
     width:  500px;
     height:  400px;
@@ -28,6 +32,30 @@ main {
     text-align: center;
     color: rgb(255,255,255);
     text-shadow: 5px 5px 5px rgb(0,0,0);
-    position: relative;
-    top: 70%;
+    position: absolute;
+    top: 60%;
+}
+
+#fire {
+    background-color: red;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255,255,255);
+}
+
+#water {
+    background-color: royalblue;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255,255,255);
+}
+
+#earth {
+    background-color: green;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255,255,255);
 }

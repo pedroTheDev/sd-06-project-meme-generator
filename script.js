@@ -20,3 +20,21 @@ function readURL(){
     }else{
     }
 }
+
+let memeImage = document.querySelector('#meme-image');
+
+document.getElementById('meme1').addEventListener('click', function() {
+    memeImage.src = 'images/meme1.jpg'
+});
+
+document.getElementById('meme2').addEventListener('click', function() {
+    memeImage.src = 'images/meme2.jpg'
+});
+
+document.getElementById('meme3').addEventListener('click', function() {
+    memeImage.src = 'images/meme3.jpg'
+});
+
+document.getElementById('meme4').addEventListener('click', function() {
+    memeImage.src = 'images/meme4.jpg'
+});
