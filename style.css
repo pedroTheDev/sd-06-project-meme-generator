@@ -3,7 +3,6 @@ main {
     display: block;
 }
 #meme-image-container {
-    margin: 10px;
     border-width: 1px;
     border-style: solid;
     border-color: black;
@@ -11,9 +10,8 @@ main {
     height: 512px;
     background-color: white;
     padding: 15px;
-    height: 512px;
     overflow: hidden;
-
+    position: absolute;
 }
 #meme-text {
     position: absolute;
@@ -23,12 +21,8 @@ p{
     text-shadow: 5px 5px 5px black;
     font-size: 30px;
     color: white;
-
-}
-
 }
 #meme-image{
-
     width: 512px;
     height: 512px;
 }
