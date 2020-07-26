@@ -8,6 +8,7 @@
 
 #meme-image {
   width: 350px;
+  
 }
 
 #meme-text {
@@ -15,4 +16,5 @@
   color: white;
   text-shadow: 5px 5px 5PX black;
   font-size: 30px;
+  width: 200px;
 }
