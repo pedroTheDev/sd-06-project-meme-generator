@@ -4,18 +4,25 @@
     height: 150px;
 }
 #meme-image-container {
+    width: 450px;
+    height: 450px;
     position: absolute;
     background-color: white;
     border: 1px solid #000;
-}
-#meme-text p{
-    position:absolute;
-    color: white;
-    font-size: 30px;
-    text-shadow: #000 5px 5px 5px;    
+    overflow: hidden;
 }
 
-#meme-image {
-    position: absolute;
+#meme-text {
+    position:absolute;
 }
+
+
+p {
+    position: absolute;
+    color: red;
+    font-size: 30px;
+    text-shadow: #000 5px 5px 5px;    
+
+}
+
 

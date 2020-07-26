@@ -7,7 +7,7 @@ let returnText = textInput.addEventListener('input', function(e) {
 
 //
 
-let imageInput = document.querySelector('#image-input');
+let imageInput = document.querySelector('#meme-insert');
 let image = document.querySelector('#meme-image');
 
 imageInput.addEventListener('change', function(e) {
