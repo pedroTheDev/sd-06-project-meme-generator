@@ -27,6 +27,12 @@ elementBlueButton.addEventListener('click', function() {
   memeBorder.style.border = '5px double blue';
 });
 
+const elementGreenButton = document.getElementById('earth');
+elementGreenButton.addEventListener('click', function() {
+  const memeBorder = getElementMemeContainer();
+  memeBorder.style.border = '6px groove green';
+});
+
 function getElementMemeText() {
   const memeText = document.getElementById('meme-text');
   return memeText;
