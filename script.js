@@ -3,6 +3,7 @@ const imgInput = document.querySelector('#meme-insert');
 const memeImg = document.querySelector('#meme-image');
 const memeText = document.querySelector('#meme-text');
 const imgContainer = document.querySelector('.img-container');
+const memesContainer = document.querySelector('.default-memes-container');
 const borderButtons = document.querySelectorAll('.border-button');
 
 const borders = {
@@ -29,4 +30,8 @@ borderButtons[1].onclick = () => {
 
 borderButtons[2].onclick = () => {
   imgContainer.style.border = borders.earth;
+};
+
+memesContainer.onclick = (event) => {
+  memeImg.src = event.target.src;
 };
