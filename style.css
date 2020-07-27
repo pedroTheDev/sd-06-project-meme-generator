@@ -1,0 +1,23 @@
+.meme-image-text-container {
+    width:300px;
+    height:300px;   
+}
+.meme-text-container {
+    font-size:30px;
+    text-shadow:5px 5px 5px  rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position:absolute;
+    z-index:2;
+}
+.meme-image-container {
+    width:300px;
+    height:300px;
+    z-index:1;
+    position:absolute;
+    border:solid 1px rgb(0, 0, 0);    
+    background-color: rgb(255, 255, 255);
+}
+li {
+   list-style-type:disc;   
+   line-height:2em;
+}

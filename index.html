@@ -1,1 +1,37 @@
-.
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Meme Generator Project</title>
+</head>
+
+<body>
+    <header>
+        <h1>Meme Generator Project</h1>
+    </header>
+    <section>
+        <section id="menu-inputs">
+            <ul>
+                <li>
+                    <label>Insira seu texto aqui: </label>
+                    <input type="text" id="text-input" placeholder="Digite seu texto aqui" maxlength="60"
+                        onchange="loadText()">
+                </li>
+                <li>
+                    <label>Procure a Imagem Aqui: </label>
+                    <input type="file" accept="image/*" id="meme-insert" onchange="loadImage()">
+                </li>
+            </ul>
+        </section>
+        <section id="meme-image-container" class="meme-image-text-container">
+            <img id="meme-image" class="meme-image-container">
+            <p id="meme-text" class="meme-text-container"></p>
+        </section>
+    </section>
+</body>
+
+</html>
