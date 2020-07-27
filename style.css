@@ -12,14 +12,8 @@ h1, h2{
     border-style: solid;
     border-width: 1px;
     border-color: rgb(0,0,0);
-}
-
-#meme-image-container{
     /* display: flex; */
     position: relative;
-}
-
-#meme-image-container{
     background-color: rgb(255,255,255);
 }
 
@@ -36,9 +30,7 @@ h1, h2{
     position: absolute;
     bottom: 15%;
     left: 10%;
-}
-
-#meme-text{
+    max-width: 50%;
     text-shadow: 5px 5px 5px rgb(0,0,0);
     color: rgb(255,255,255);
     font-size: 30px;
