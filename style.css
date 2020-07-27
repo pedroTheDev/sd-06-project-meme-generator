@@ -1,7 +1,15 @@
-.container {
+#meme-image-container {
   position: relative;
-  background-color: green;
+  background-color: white;
   width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+#meme-image {
+  position: relative;
+  width: 500px;
+  height: 500px;
 }
 
 #meme-text {
