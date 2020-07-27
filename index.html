@@ -11,6 +11,35 @@
 </head>
 <body>
 
+  <header>
+    <h1>Fábio's meme generator</h1>
+    <p>Upload an image, add text and send it to you friends!</p>
+  </header>
+
+  <main>
+    <div class="app-container">
+      <div class="file-insert">
+        <label for="meme">Choose your image:</label>
+        <input type="file" name="meme" id="meme-insert">
+      </div>
+      <div class="meme-image-container" id="meme-image-container">
+        <img src="images/placeholder.png" alt="placeholder" id="meme-image" class="meme-image">
+        <p id="meme-text" class="meme-text"></p>
+      </div>
+      <div class="text-container">
+        <label for="text-input">Meme's text:</label>
+        <input type="text" name="text-input" id="text-input">
+      </div>
+    </div>
+
+    <div class="button-container">
+      <h3>Add a border!</h3>
+      <button id="fire" class="fire">Fire</button>
+      <button id="water" class="water">Water</button>
+      <button id="earth" class="earth">Earth</button>
+    </div>
+
+  </main>
 
   <script src="script.js"></script>
 </body>
