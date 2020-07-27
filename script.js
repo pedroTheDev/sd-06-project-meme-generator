@@ -6,7 +6,7 @@ userTextInput.addEventListener('input', function () {
 });
 
 let loadFile = function(event) {
-  let uploadImg = document.getElementById('memeimg');
+  let uploadImg = document.getElementById('memesrc');
   uploadImg.src = URL.createObjectURL(event.target.files[0]);
   uploadImg.onload = function() {
     URL.revokeObjectURL(uploadImg.src);

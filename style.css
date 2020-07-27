@@ -4,6 +4,9 @@
   border-width: 1px;
   border-color: black;
   width: 450px;
+}
+
+#meme-image {
   background-color: white;
 }
 
