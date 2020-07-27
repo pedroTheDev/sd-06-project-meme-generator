@@ -6,21 +6,24 @@ body {
   padding: 0;
 }
 
-#text-input {
-  position: absolute;
+#meme-image {
+  height: 350px;
+  width: 350px;
 }
 
-
-
 #meme-text {
-  color: rgb( 255 , 255 , 255 );
+  color: white;
   font-size: 30px;
   text-shadow: black 5px 5px 5px;
+  position: absolute;
+  width: 300px;
 }
 
 #meme-image-container {
-  border-width: 1px;
+  border: 1px;
   border-style: solid;
   border-color: black;
   background-color: white;
+  height: 350px;
+  width: 350px;
 }
