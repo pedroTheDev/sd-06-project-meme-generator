@@ -1,7 +1,12 @@
 #meme-image-container {
-    position: relative;
-    margin-left: 50%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 40px;
+    outline: 1px solid black;
+    position: relative;
+    width: 40%;
+    height: 40%;
 }
 
 #meme-text {
