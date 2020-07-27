@@ -1,14 +1,21 @@
 window.onload = function() {
+  console.log('oi')
+  // const memeText = document.getElementById("meme-text");
+  // const memeTextInput = document.getElementById("text-input");
 
-  const memeText = document.getElementById("meme-text");
+  // memeTextInput.addEventListener("keyup", function() {
+  //   memeText.innerText = memeTextInput.value;
+  // })
 
-  const memeTextInput = document.getElementById("text-input");
+  // const memeImage = document.getElementById("meme-image");
+  // const memeInsert = document.getElementById("meme-insert");
 
-  memeTextInput.addEventListener("keyup", function() {
-    memeText.innerText = memeTextInput.value
-  })
+  // memeInsert.addEventListener("input", function() {
+  //   memeImage.src = URL.createObjectURL(memeInsert.files[0]);
+  // })
 
-
-
+  // memeInsert.oninput = function() {
+  //   console.log(memeInsert.files)
+  // }
 
 }
