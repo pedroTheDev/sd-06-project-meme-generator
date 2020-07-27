@@ -1,0 +1,29 @@
+body {
+  background-color: lightblue ;
+}
+
+.title {
+  font-size: 3em;
+  text-align: center;
+}
+
+.meme-container {
+  position: absolute;
+  background-color: gray;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-color: blue;
+  margin: 0px;
+  z-index: 1;
+}
+
+.meme-text {
+  position: absolute;
+  left: auto;
+  top: 30px;
+  width: fit-content;
+  max-width: 300px;
+  z-index: 2;
+}
