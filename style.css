@@ -1,0 +1,18 @@
+body {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.meme-image-container {
+  background-color: whitesmoke;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  height: 400px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.meme-insert {
+  width: 180px;
+}
