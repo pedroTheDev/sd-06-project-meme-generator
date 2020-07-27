@@ -12,19 +12,19 @@
 
 <body>
 
-    <h1>Meme Generator </h1> <br>
+    <h1>Meme Generator </h1>
     <label>Texto</label>
-    <input type="text" id="text-input" value="texto" maxlength="60"><br>
+    <input type="text" id="text-input" value="texto" maxlength="60">
 
     <label>Foto</label>
 
-    <input type="file" name="imagem" id="meme-insert"><br><br>
+    <input type="file" name="imagem" id="meme-insert" onchange="loadFile(event)" />
 
     <div id="meme-image-container">
 
         <p id="meme-text">jajajajajaj</p>
 
-        <img id="meme-image" src="gatos-sao-capazes-de-responder-aos-seus-proprios-nomes-1554503168561_v2_450x337.jpg" />
+        <img id="meme-image" />
 
 
 

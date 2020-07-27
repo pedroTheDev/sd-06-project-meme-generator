@@ -12,7 +12,7 @@ body {}
     font-size: 30px;
     color: white;
     position: absolute;
-    top: 24rem;
+    top: 20rem;
     left: 10rem;
     z-index: 99;
 }
@@ -20,5 +20,5 @@ body {}
 #meme-image {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100%;
 }

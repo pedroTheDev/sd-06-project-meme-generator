@@ -1,30 +1,23 @@
-// function previewImagem() {
-//     let imagem = document.querySelector('#').files[0];
-//     let preview = document.querySelector('img');
-//     let text = document.querySelector('#text-input')
-//     let memeText = document.querySelector("")
+function previewImagem() {
+    let imagem = document.querySelector('#').files[0];
+    let preview = document.querySelector('img');
+    let text = document.querySelector('#text-input')
+    let memeText = document.querySelector("")
 
-//     function Prhase() {
-
-//         text.
+    function Phrase() {
 
 
-//     }
 
 
-//     function handleFiles(files) {
-//         for (let i = 0; i < files.length; i++) {
-//             const file = files[i];
+    }
 
-//             if (!file.type.startsWith('image/')) { continue }
+}
 
-//             const img = document.createElement("img");
-//             img.classList.add("obj");
-//             img.file = file;
-//             preview.appendChild(img); // Assuming that "preview" is the div output where the content will be displayed.
 
-//             const reader = new FileReader();
-//             reader.onload = (function(aImg) { return function(e) { aImg.src = e.target.result; }; })(img);
-//             reader.readAsDataURL(file);
-//         }
-//     }
+var loadFile = function(event) {
+    var output = document.getElementById('meme-image');
+    output.src = URL.createObjectURL(event.target.files[0]);
+    output.onload = function() {
+        URL.revokeObjectURL(output.src) // free memory
+    }
+};
