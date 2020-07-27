@@ -1,3 +1,13 @@
+#meme-image-container {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    outline: 1px solid black;
+    position: relative;
+    width: 300px;
+    height: auto;
+}
 
 #meme-text {
     position: absolute;
@@ -12,13 +22,4 @@
     max-height: 100%;
 }
 
-#meme-image-container {
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    outline: 1px solid black;
-    position: relative;
-    width: 300px;
-    height: auto;
-}
+
