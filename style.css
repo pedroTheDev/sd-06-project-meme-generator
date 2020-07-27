@@ -38,23 +38,21 @@ p {
 .img-container {
   background-color: white;
   border: 1px solid black;
-  height: 500px;
+  height: 350px;
   margin: 25px auto;
   position: relative;
-  width: 500px;
+  width: 350px;
+}
+
+.img {
+  height: 350px;
+  width: 350px;
 }
 
 .text-container {
-
-  /* background-color: tomato; */
   color: white;
   font-size: 30px;
-  /* font-weight: 600; */
-  /* height: 100px; */
-  /* left: 10px; */
   position: absolute;
   text-shadow: 5px 5px 5px black;
-  /* top: 400px; */
-  /* width: 330px; */
   z-index: 1;
 }
