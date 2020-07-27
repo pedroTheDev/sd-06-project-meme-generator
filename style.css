@@ -10,6 +10,64 @@ h2 {
   text-shadow: grey 5px 5px 5px;
 }
 
+.btn {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
+  border: none;
+}
+
+.earth {
+  background: green;
+}
+
+.earth:active {
+  position: relative;
+  top: 5px;
+  border: none;
+  background: rgb(4 , 235 , 4);
+}
+
+.earth:hover {
+  background: rgb(4 , 235 , 4);
+}
+
+.fire {
+  background: red;
+}
+
+.fire:active {
+  position: relative;
+  top: 5px;
+  border: none;
+  background: salmon;
+}
+
+.fire:hover {
+  background: salmon;
+}
+
+.image-selected {
+  line-height: 50px;
+}
+
+.meme-box {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.meme-image {
+  width: 350px;
+  height: 400px;
+}
+
 .meme-image-container {
   background-color: white;
   position: relative;
@@ -31,46 +89,8 @@ h2 {
   text-shadow: black 5px 5px 5px;
 }
 
-.meme-image {
-  width: 350px;
-  height: 400px;
-}
-
-.image-selected {
-  line-height: 50px;
-}
-
-.btn {
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 500;
-  padding: 10px;
-  cursor: pointer;
-  margin: 10px;
-  border: none;
-}
-
-.fire {
-  background: red;
-}
-
-.fire:hover {
-  background: salmon;
-}
-
-.fire:active {
-  position: relative;
-  top: 5px;
-  border: none;
-  background: salmon;
-}
-
 .water {
   background: blue;
-}
-
-.water:hover {
-  background: lightblue;
 }
 
 .water:active {
@@ -80,26 +100,6 @@ h2 {
   background: lightblue;
 }
 
-.earth {
-  background: green;
-}
-
-.earth:hover {
-  background: rgb(4 , 235 , 4);
-}
-
-.earth:active {
-  position: relative;
-  top: 5px;
-  border: none;
-  background: rgb(4 , 235 , 4);
-}
-
-.meme-box {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  border: 1px solid black;
-  margin: 10px;
-  cursor: pointer;
+.water:hover {
+  background: lightblue;
 }

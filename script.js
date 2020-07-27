@@ -5,7 +5,7 @@ const memeInput = document.querySelector('#meme-insert');
 const btnFire = document.querySelector('#fire');
 const btnWater = document.querySelector('#water');
 const btnEarth = document.querySelector('#earth');
-const container = document.querySelector("#meme-image-container");
+const container = document.querySelector('#meme-image-container');
 
 const memeUm = document.getElementById('meme-1');
 const memeDois = document.getElementById('meme-2');
