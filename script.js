@@ -11,7 +11,7 @@ function onFileSelected(event) {
   var selectedFile = event.target.files[0];
   var reader = new FileReader();
 
-  var imgtag = document.getElementById("myimage");
+  var imgtag = document.getElementById("loadedimage");
   imgtag.title = selectedFile.name;
 
   reader.onload = function(event) {
@@ -20,9 +20,3 @@ function onFileSelected(event) {
 
   reader.readAsDataURL(selectedFile);
 }
-
-// document.getElementById('meme-insert').addEventListener('change', function(){
-//   let uploadedImage = document.getElementById('meme-insert').value;
-//   let reader = new FileReader();
-//   reader.onload = 
-// })
