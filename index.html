@@ -6,6 +6,7 @@
 
   <link rel="stylesheet" href="./normalize.css">
   <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
 
   <title>Meme generator</title>
 </head>
@@ -18,7 +19,7 @@
         <section id="meme-image-container" class="left-side">
           <img id="meme-image" src="https://i.kym-cdn.com/photos/images/original/000/279/219/947.jpg" alt="Meme's image" >
 
-          <div id="meme-text" class="meme-text">Texto do meme</div>
+          <div id="meme-text" class="meme-text"></div>
         </section>
 
         <section class="right-side">
@@ -31,8 +32,8 @@
             </div>
   
             <div class="essentials">
-              <div class="config display-flex">
-                Image: <input id="meme-insert" type="file" accept="image/*">
+              <div class="config">
+                <input id="meme-insert" type="file" accept="image/*">
               </div>
 
               <div class="config">
