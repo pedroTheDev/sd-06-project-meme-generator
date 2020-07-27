@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MEME GENERATOR</title>
+    <script src="script.js"></script>
+    <style src="style.css"></style>
 </head>
 <body>
-    
+    <header id="header">
+        <h1 id="title">MEME GENERATOR</h1>
+        <p>The Fastest Meme Generator on the Planet! Easily add text to images or memes.</p>
+    </header>
+
+    <article id="inputs-container">
+        <section>
+            <p>Text:</p>
+            <input id="text-input" type="text" maxlength="60" placeholder="maximum 60 characters">
+            <br>
+            <p>Photo:</p>
+            <input id="meme-insert" type="file" accept=".jpg, .png, ">
+        </section>
+
+        <section id="meme-image-container">
+            <div id="meme-text"></div>
+            <img id="meme-image">
+        </section>
+
+    </article>
+
+    <footer id="">
+        <p>Developed by Lais Gurgel - 2020</p>
+    </footer>
+
 </body>
 </html>
