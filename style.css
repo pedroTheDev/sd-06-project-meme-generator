@@ -2,7 +2,7 @@ input {
   display: block;
 }
 
-#meme-image-container {
+.meme-image-container {
   position: relative;
   background-color: white;
   border: 1px solid black;
@@ -15,7 +15,7 @@ input {
   float: left;
 }
 
-#meme-text {
+.meme-text {
   position: absolute;
   bottom: 10px;
   font-size: 30px;
@@ -24,7 +24,7 @@ input {
   font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
 }
 
-#presets-container {
+.presets-container {
   display: inline-block;
   width: 30%;
   margin-top: 20px;
@@ -33,29 +33,29 @@ input {
   border: 1px solid black;
 }
 
-#presets-text {
+.presets-text {
   text-align: center;
 }
 
-#presets-images {
+.presets-images {
   text-align: center;
 }
 
-#border-style-container {
+.border-style-container {
   clear: both;
 }
 
-#fire {
+.fire {
   background-color: red;
   color: white;
 }
 
-#water {
+.water {
   background-color: blue;
   color: white;
 }
 
-#earth {
+.earth {
   background-color: green;
   color: white;
 }
