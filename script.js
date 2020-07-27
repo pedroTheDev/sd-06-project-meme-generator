@@ -1,5 +1,5 @@
 window.onload = function() {
-
+    // função para inserir texto no meme
      let campotexto = document.querySelector('#text-input');
      console.log(campotexto);
    
@@ -9,13 +9,14 @@ window.onload = function() {
         tagP.innerHTML = conteudotexto
         document.querySelector('#meme-text').appendChild(tagP);
     });
-
-    let loadFile = function(event) {
-        let output = document.getElementById('imagem');
-        output.src = URL.createObjectURL(event.target.files[0]);
-        output.onload = function() {
+    //função para inserir imagem
+     inserirIMG = function(event) {
+        let imagem = document.getElementById('imagem');
+        imagem.src = URL.createObjectURL(event.target.files[0]);
+        imagem.onload = function() {
           URL.revokeObjectURL(output.src);
     }
+   
 }
 
 }
