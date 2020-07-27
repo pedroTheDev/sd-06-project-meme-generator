@@ -26,6 +26,25 @@ section{
     height: 500px;
     width: 500px;
 }
+#meme-image-container img {
+    position: relative;
+    z-index: 1;
+    height: 500px;
+    width: 500px;
+   
+
+}
+#meme-text{
+   position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    z-index: 2;
+    margin-top: -100px;
+    width: 200px;
+    
+
+}
 footer{
     color: rgb(255, 255, 255);
     font-style: italic;

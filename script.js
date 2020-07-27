@@ -1,6 +1,11 @@
 function gerarmeme() {
-    alert('Gerado')
-    let textoMeme = document.getElementById("text-input");
-    let imagemMeme = document.getElementById("meme-image-container");
-    alert(textoMeme)
+    let imagemMeme = document.getElementById("imagem-meme").files[0].fileName;
+    alert(imagemMeme);
+    let meme = document.getElementById("upload");
+    meme.src = imagemMeme;
+   
+}
+function texto() {
+    let textoMeme = document.getElementById("text-input").value;
+     document.getElementById("meme-text").innerHTML=textoMeme;
 }
