@@ -12,7 +12,7 @@
 #meme-text {
   position: absolute;
   font-family: Verdana;
-  size: 30px;
+  font-size: 30px;
   top: 70%;
   left: 10%;
   max-width: 50%;
