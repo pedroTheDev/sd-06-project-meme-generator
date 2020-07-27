@@ -1,6 +1,5 @@
 const textInput = document.querySelector('#text-input');
 const memeText = document.querySelector('#meme-text');
-const imgInput = document.querySelector('#meme-insert');
 const image = document.querySelector('#meme-image');
 
 textInput.addEventListener('keyup', function () {
