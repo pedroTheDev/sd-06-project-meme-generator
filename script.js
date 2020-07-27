@@ -5,7 +5,7 @@ let insertMeme = document.getElementById('meme-insert');
 //let divMemeText = document.getElementById('meme-text')
 
 
-//Receive user text, and attribute it to the container
+//Receive user text, and write it on the image;
 function WriteText() {
     containerText.innerHTML = userText.value;
 }
@@ -13,7 +13,7 @@ function WriteText() {
 //Upload user image
 insertMeme.addEventListener('input', function() {
     img.id = "meme-image";
-    img.src = URL.createObjectURL(this.files[0]);
+    img.src = URL.createObjectURL(event.target.files[0]);
 })
 
 
