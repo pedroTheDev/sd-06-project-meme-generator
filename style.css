@@ -56,20 +56,23 @@ p {
   z-index: 1;
 }
 
-.element-button {
+.element-button-fire {
+  background-color: red;
   height: 50px;
   margin-right: 10px;
   width: 75px;
 }
 
-.element-button#fire {
-  background-color: red;
-}
-
-.element-button#water {
+.element-button-water {
   background-color: blue;
+  height: 50px;
+  margin-right: 10px;
+  width: 75px;
 }
 
-.element-button#earth {
-  background-color: rgb( 0 , 128 , 0 );
+.element-button-earth {
+  background-color: green;
+  height: 50px;
+  margin-right: 10px;
+  width: 75px;
 }
