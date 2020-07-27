@@ -5,8 +5,15 @@
   box-sizing: border-box;
 }
 
+.container {
+  margin: auto;
+}
+
 #meme-text {
   position: absolute;
+  color: white;
+  text-shadow: black 5px 5px 5px;
+  font-size: 30px;
 }
 
 #meme-image-container {
@@ -17,3 +24,7 @@
   margin: 1%;
 }
 
+.img {
+  height: 400px;
+  width: 400px;
+}
