@@ -1,0 +1,111 @@
+body {
+    background-color: #ffffff;
+}
+
+.wrapper {
+    border: 1px solid #5c415d;
+    border-radius: 20px;
+    width: 400px;
+    margin: auto;
+    //background-color: #e94f37;
+    background-image: linear-gradient(#ed8978, #e94f37);
+
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #5c415d;
+}
+
+#meme-image-container {
+    border: 1px solid black;
+    width: 300px;
+    overflow: hidden;
+    background-color: white;
+    margin: auto;
+
+}
+
+.text-wrapper {
+    overflow: hidden;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+
+#meme-text {
+    position: absolute;
+    width: 270px;
+    text-align: center;
+    margin-left: 14px;
+    margin-top: 220px;
+
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+#bg-image {
+    width: 100%;
+}
+
+#meme-image {
+    /*background-color: white;
+    border: 1px solid black; */
+    width: 300px;
+    height: 300px;
+}
+
+.control-wrapper {
+    margin: auto;
+    margin: 20px 10px;
+
+}
+
+#text-input {
+    width: 160px;
+    margin-left: 10px;
+}
+
+#meme-insert {
+    width: 190px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.edit {
+    //border: 1px solid black;
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#fire {
+    background-color: red;
+}
+
+#water {
+    background-color: blue;
+}
+
+#earth {
+    background-color: green;
+}
+
+#edit2 {
+    width: 360px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#edit2 img {
+    border: 1px solid #5c415d;
+    border-radius: 50%;
+    width: 70px;
+    margin-left: 15px;
+    cursor: pointer;
+}

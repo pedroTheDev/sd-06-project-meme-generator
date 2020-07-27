@@ -3,118 +3,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 
-    <style>
-        body {
-            background-color: #ffffff;
-        }
-
-        .wrapper {
-            border: 1px solid #5c415d;
-            border-radius: 20px;
-            width: 400px;
-            margin: auto;
-            background-color: #e94f37;
-
-        }
-
-        p {
-            margin-top: 0px;
-            margin-bottom: 15px;
-            text-align: center;
-            font-family: 'Playfair Display', serif;
-            font-size: 30px;
-            color: #5c415d;
-        }
-
-        #meme-image-container {
-            border: 1px solid black;
-            width: 300px;
-            overflow: hidden;
-            background-color: white;
-            margin: auto;
-
-        }
-
-        .text-wrapper {
-            overflow: hidden;
-            position: absolute;
-            width: 300px;
-            height: 300px;
-        }
-
-        #meme-text {
-            position: absolute;
-            width: 270px;
-            text-align: center;
-            margin-left: 14px;
-            margin-top: 220px;
-
-            font-size: 30px;
-            color: white;
-            text-shadow: 5px 5px 5px black;
-        }
-
-        #bg-image {
-            width: 100%;
-        }
-
-        #meme-image {
-            /*background-color: white;
-            border: 1px solid black; */
-            width: 300px;
-            height: 300px;
-        }
-
-        .control-wrapper {
-            margin: auto;
-            margin: 20px 10px;
-
-        }
-
-        #text-input {
-            width: 160px;
-            margin-left: 10px;
-        }
-
-        #meme-insert {
-            width: 190px;
-            margin-left: 10px;
-            cursor: pointer;
-        }
-
-        .edit {
-            //border: 1px solid black;
-            width: 200px;
-            margin: auto;
-            margin-top: 50px;
-        }
-
-        #fire {
-            background-color: red;
-        }
-
-        #water {
-            background-color: blue;
-        }
-
-        #earth {
-            background-color: green;
-        }
-
-        #edit2 {
-            width: 360px;
-            margin: auto;
-            margin-top: 20px;
-        }
-
-        #edit2 img {
-            border: 1px solid #5c415d;
-            border-radius: 50%;
-            width: 70px;
-            margin-left: 15px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -127,8 +16,8 @@
                 <div id="meme-text">Insira seu Texto</div>
             </div>
 
-            <div id="meme-image">
-                <img src="imgs/meme0.png" id="bg-image" />
+            <div id="bg-image">
+                <img id="meme-image" src="imgs/meme0.png" />
             </div>
 
 
@@ -142,9 +31,9 @@
     </div>
 
     <section class="edit">
-        <button id="fire">borda 1</button>
-        <button id="water">borda 2</button>
-        <button id="earth">borda 3</button>
+        <button id="fire">FIRE</button>
+        <button id="water">WATER</button>
+        <button id="earth">EARTH</button>
     </section>
 
     <section id="edit2">
@@ -153,61 +42,7 @@
         <img id="meme-3" src="imgs/meme3.png" />
         <img id="meme-4" src="imgs/meme4.png" />
     </section>
-
-    <script>
-        // Texto
-        let textInput = document.getElementById("text-input");
-        let memeText = document.getElementById("meme-text");
-        textInput.addEventListener("keyup", function () {
-            memeText.innerText = textInput.value;
-        });
-
-        // Imagem
-        let memeInsert = document.getElementById("meme-insert");
-        let memeContainer = document.getElementById("meme-image-container");
-
-        let bgImage = document.getElementById("bg-image");
-
-        memeInsert.addEventListener("change", function () {
-            bgImage.src = URL.createObjectURL(event.target.files[0]);
-        });
-
-        // Customização - bordas
-        let buttons = document.querySelectorAll(".edit button")
-        let bt1 = buttons[0];
-        let bt2 = buttons[1];
-        let bt3 = buttons[2];
-
-        bt1.addEventListener("click", function () {
-            memeContainer.style.border = "3px dashed red";
-        });
-        bt2.addEventListener("click", function () {
-            memeContainer.style.border = "5px double blue";
-        });
-        bt3.addEventListener("click", function () {
-            memeContainer.style.border = "6px groove green";
-        });
-
-        //Customização - imagens pré-prontas
-        let images = document.querySelectorAll("#edit2 img");
-        let img1 = images[0];
-        let img2 = images[1];
-        let img3 = images[2];
-        let img4 = images[3];
-
-        img1.addEventListener("click", function () {
-            bgImage.src = "imgs/meme1.png";
-        });
-        img2.addEventListener("click", function () {
-            bgImage.src = "imgs/meme2.png";
-        });
-        img3.addEventListener("click", function () {
-            bgImage.src = "imgs/meme3.png";
-        });
-        img4.addEventListener("click", function () {
-            bgImage.src = "imgs/meme4.png";
-        });
-    </script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
