@@ -4,13 +4,19 @@
         <title>Meme Generator</title>
         <meta charset="utf-8">
         <link href="style.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-        Insira uma frase:
-        <input type="text" name="texto" autofocus maxlength="60"><br>
-        Insira uma imagem:<br>
-        <input type="file" name="img"><br>
-        <input type="submit" name="bt-meme" value="Gerar meme"><br>
-
+        <p>Insira uma frase:  <input type="text" id="text-input" autofocus maxlength="60"><br></p>
+        <section id="meme-image-container">
+            <div id="meme-text">
+            
+           
+            Insira uma imagem:<br>
+            <input type="file" name="img"><br>
+            <input type="submit" name="bt-meme" value="Gerar meme"><br>
+            
+            </div>
+        </section>    
     </body>
 </html>
