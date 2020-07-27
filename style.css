@@ -5,19 +5,17 @@
 	border: 1px solid black;
 }
 #meme-text{
-	margin: 10%;
-	padding: 10%;
-	width: 100px;
-	height: 100px;
+	top: 50%;
+	left: 100px;
+	width: 200px;
+	height: 200px;
 	position: absolute;
+	border: 1px solid red;
 }
 #meme-text{
 	text-shadow: 5px 5px 5px;
 	font-size: 30px;
 	color: white;
-}
-#imagem{
-	padding: 3px;
 }
 
 	
