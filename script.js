@@ -8,6 +8,5 @@ function getText() {
 }
 
 window.onload = () => {
-  console.log('carregou')
   getText();
 };
