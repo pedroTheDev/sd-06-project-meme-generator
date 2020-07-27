@@ -1,0 +1,17 @@
+body {
+    background: black;
+}
+
+#meme-text {
+    color: green;
+    position: absolute;
+    top: 300px;
+}
+
+#meme-image {
+    border: solid 4px white;
+}
+
+#input-image {
+    color: white;
+}

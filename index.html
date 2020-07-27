@@ -5,20 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 
 <body>
     <h1>Meme Generator </h1>
     <p>
-        Texto: <input id="meme-text" type="text" id=text_input>
-        <button>Inserir Texto</button>
+        <div id=meme-image-container>
+            Texto: <input type="text" id=text-input>
+            <button>Inserir Texto</button>
     </p>
     <p>
-        Foto: <input type="file" accept="image">
+        Foto: <input type="file" accept="image" id=input-image>
     </p>
     <p>
-        <img src="https://m.bonde.com.br/img/bondenews/2020/01/img_1_2_136.webp" alt="meme" width="50%">
+        <img id=meme-image src="https://m.bonde.com.br/img/bondenews/2020/01/img_1_2_136.webp" alt="meme" width="50%">
+        <h2 id=meme-text>teste</h2>
+        </div>
     </p>
     <p>Estilos Customizados <br>
         <p></p>
