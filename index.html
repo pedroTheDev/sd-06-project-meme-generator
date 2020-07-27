@@ -4,21 +4,27 @@
 <head>
 	<meta charset="UTF-8">
 	<link href="style.css" rel="stylesheet">
-	<script type="text/javascript" src="script.js"></script>
+	
 	<title>Document</title>
 </head>
 
 <body>
+  <h1>Meme Generator - Construa o seu!</h1>
+  <h2>Gustavo Oliva</h2>
 	<label id="texto">Texto do meme:</label>
 	<input id="text-input" type="text"  oninput="textWrite()" maxlength="60"><br>
 
-	<label>Imagem Selecionada:</label>
+	<label class="image-selected">Imagem Selecionada:</label>
 	<input type="file" id="meme-insert" onchange="selectedImage(event)" accept="image/*"><br>
 
 	<div id="meme-image-container">
 		<div id="meme-text"></div>
 		<img id="meme-image">
-	</div>
+  </div>
+  <button id="fire" class="btn">fire</button>
+  <button id="water" class="btn">water</button>
+  <button id="earth" class="btn">earth</button>
+  <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
