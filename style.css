@@ -36,15 +36,11 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.button-container {
-  margin: 30px 70px;
-}
-
 .border-btn {
   border-radius: 4px;
   font-size: 110%;
   height: 30px;
-  margin: 0 15px;
+  margin: 20px 10px;
   width: 80px;
 }
 
