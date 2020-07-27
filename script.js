@@ -1,5 +1,5 @@
 const SELECTEDFILE = document.getElementById('meme-insert');
-let TEXTINPUT = document.getElementById('text-input');
+const TEXTINPUT = document.getElementById('text-input');
 const MEMEIMAGE =  document.createElement('img');
 const MEMETEXTSECTION = document.querySelector('#meme-text');
 
