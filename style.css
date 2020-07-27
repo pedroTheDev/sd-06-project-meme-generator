@@ -13,22 +13,34 @@ body {
 }
 
 #text-input {
-    border: 1px solid rgba(206, 206, 206, 0.801);
     display: inline-block;
+    margin-bottom: 0px;
 }
 
-#text {
+#head-input {
+    float: right;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+#title-input {
     float: left;
     margin: 0px;
 }
 
-#insert-text {
-    margin-top: 4px;
-    margin-left: 10px;
+#title-foto {
+    float: left;
+    margin-top: 15px;    
+}
+
+#button {
     float: right;
+    margin-right: 605px;
+    margin-top: 20px;
 }
 
 #meme-image-container {
     border: 5px ridge rgba(206, 206, 206, 0.801);
     padding: 200px;
+    margin-top: 70px;
 }
