@@ -5,7 +5,7 @@
     background-color: white;
 }
 
-#img-size{
+#img{
     height: 300px;
     width: 300px; 
 }
@@ -20,6 +20,6 @@
     color:white;
     font-size: 30px;
     text-shadow: black 5px 5px 5px;
-
 }
+
 
