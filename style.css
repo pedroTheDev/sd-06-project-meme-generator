@@ -1,0 +1,11 @@
+#meme-image-container {
+    width: 60%;
+    height: 60%;
+}
+#meme-image {
+    width: 100%;
+}
+
+#meme-text {
+    position: absolute;
+}
