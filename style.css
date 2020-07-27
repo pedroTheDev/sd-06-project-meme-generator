@@ -7,11 +7,11 @@
   width: 500px;
 }
 
-#meme-image {
+img {
   background-color: white;
   height: 400px;
-  width: 500px;
   position: relative;
+  width: 500px;
 }
 
 .meme-text {
@@ -20,4 +20,9 @@
   position: absolute;
   text-shadow: 5px 5px 5px black;
   top: 5px;
+}
+
+button {
+  border-radius: 8px;
+  padding: 10px;
 }
