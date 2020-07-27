@@ -5,24 +5,23 @@ body {
   font-weight: 700;
 }
 
-.meme-image-container-style {
+.meme-image-container {
   background-color: white;
   border: black;
-  border-style:  solid;
-  border-width:  1px;
+  border-style: solid;
+  border-width: 1px;
   left: 0;
   position: relative;
   width: 800px;
 }
 
-.meme-image-style {
-  margin: 0;
-  width: 98%;
+.meme-image {
   margin: 1%;
   max-height: 98%;
+  width: 98%;
 }
 
-.meme-text-style {
+.meme-text {
   color: white;
   font-size: 30px;
   height: auto;
