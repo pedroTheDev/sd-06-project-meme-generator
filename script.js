@@ -31,3 +31,7 @@ function earth() {
   btn3.style.border = '6px groove green';
 }
 btn3.addEventListener('click', earth);
+let img1 = document.getElementById('meme-1');
+let img2 = document.getElementById('meme-2');
+let img3 = document.getElementById('meme-3');
+let img4 = document.getElementById('meme-4');
