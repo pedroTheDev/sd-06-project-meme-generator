@@ -1,14 +1,22 @@
-* {
+body {
+  border: 0;
+  color: white;
   margin: 0;
   padding: 0;
-  border: 0;
 }
 
 .image {
-  margin-top: 15px;
   margin-left: 15px;
+  margin-top: 15px;
 }
 
 body {
   background-color: rgb(25 , 25 , 25);
+}
+
+#meme-image-container {
+  background-color: white;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
 }
