@@ -1,0 +1,12 @@
+input {
+  display: block;
+}
+
+#meme-image-container {
+  position: relative;
+}
+
+#meme-text {
+  position: absolute;
+  bottom: 10px;
+}
