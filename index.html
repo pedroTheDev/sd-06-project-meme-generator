@@ -3,17 +3,22 @@
     <head>
         <meta charset='UTF-8'>
         <title>Meme Generator</title>
+        <link href='style.css' rel='stylesheet'>
     </head>
     <body>
         <head>
             <h1>Meme Generator</h1>
         </head>
     <section>
-        <label for='input-meme-text'></label>
-        <input name='input-meme-text' type="text" id='text-input'>
+        <label for='input-meme-text'>Insert your meme msg: </label>
+        <input type="text" id='text-input' name='input-meme-text'>
+        <input type='file' id='meme-insert' visibility='hidden'>
+        <button id='fake-upload-button'>Choose Meme Image xD</button>
         <div id='meme-image-container'>
-            <textarea id='meme-text' rows='5' cols= '100'></textarea>
+            <img id='meme-image'>
+            <textarea id='meme-text'></textarea>
         </div>
     </section>
+    <script src='script.js'></script>
     </body>
 </html>
