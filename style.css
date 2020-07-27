@@ -7,8 +7,8 @@ body {
 }
 
 #meme-image {
-  height: 350px;
-  width: 350px;
+  height: 500px;
+  width: 500px;
 }
 
 #meme-text {
@@ -24,6 +24,6 @@ body {
   border-style: solid;
   border-color: black;
   background-color: white;
-  height: 350px;
-  width: 350px;
+  height: 500px;
+  width: 500px;
 }
