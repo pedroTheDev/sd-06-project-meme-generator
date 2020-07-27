@@ -99,6 +99,20 @@
         #earth {
             background-color: green;
         }
+
+        #edit2 {
+            width: 360px;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        #edit2 img {
+            border: 1px solid #5c415d;
+            border-radius: 50%;
+            width: 70px;
+            margin-left: 15px;
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -132,6 +146,13 @@
         <button id="earth">borda 3</button>
     </section>
 
+    <section id="edit2">
+        <img id="meme-1" src="imgs/meme1.png" />
+        <img id="meme-2" src="imgs/meme2.png" />
+        <img id="meme-3" src="imgs/meme3.png" />
+        <img id="meme-4" src="imgs/meme4.png" />
+    </section>
+
     <script>
         // Texto
         let textInput = document.getElementById("text-input");
@@ -150,7 +171,7 @@
             bgImage.src = URL.createObjectURL(event.target.files[0]);
         });
 
-        // Customização
+        // Customização - bordas
         let buttons = document.querySelectorAll(".edit button")
         let bt1 = buttons[0];
         let bt2 = buttons[1];
@@ -164,6 +185,26 @@
         });
         bt3.addEventListener("click", function () {
             memeContainer.style.border = "6px groove green";
+        });
+
+        //Customização - imagens pré-prontas
+        let images = document.querySelectorAll("#edit2 img");
+        let img1 = images[0];
+        let img2 = images[1];
+        let img3 = images[2];
+        let img4 = images[3];
+
+        img1.addEventListener("click", function () {
+            bgImage.src = "imgs/meme1.png";
+        });
+        img2.addEventListener("click", function () {
+            bgImage.src = "imgs/meme2.png";
+        });
+        img3.addEventListener("click", function () {
+            bgImage.src = "imgs/meme3.png";
+        });
+        img4.addEventListener("click", function () {
+            bgImage.src = "imgs/meme4.png";
         });
     </script>
 </body>
