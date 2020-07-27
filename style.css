@@ -10,9 +10,10 @@ img {
   /* height: 150px; */
   border: 3px solid #73AD21;
 }
-/* #meme-text-on-image {
-  position: relative;
-} */
-.text-and-button-container {
-  margin-left: 70%;
+.input-container {
+  margin-left: 60%;
+  padding-top: 200px;
+}
+#title {
+  text-align: center;
 }

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
   <title>Meme Generator</title>
 </head>
 <body>
@@ -17,15 +17,15 @@
   Dentro do elemento de container, você deve criar um outro elemento para mostrar o texto digitado. O elemento de texto deve estar totalmente contido dentro do container e ter o id denominado meme-text;
 
   Se não houver imagem inserida, ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá. -->
+  <h1 id="title">This is a memem Generator!</h1>
   <div id="meme-image-container">
-    <div id="meme-text-on-image">
-      <img src="https://conteudo.imguol.com.br/blogs/186/files/2020/01/memefaustao.jpeg" alt='meme do Faustão'>
-      <span id="meme-text"> TEXTO EM CIMA DA FOTO</span>
-    </div>
-    <div class="text-and-button-container">
-      <input type="text" id="text-input">
-      <button type="button">Apply</button>
-    </div>
+    <img src="https://conteudo.imguol.com.br/blogs/186/files/2020/01/memefaustao.jpeg" alt='meme do Faustão'>
+    <div id="meme-text"></div>
   </div>
+  <div class="input-container">
+    <input type="text" id="text-input" maxlength="60" placeholder="Max. 60 characters">
+    <button type="button">Apply</button>
+  </div>
+  
 </body>
 </html>
