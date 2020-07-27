@@ -1,4 +1,4 @@
-window.onload = function () { 
+window.onload = function () {
   const text = document.querySelector('#text-input');
   const memeText = document.querySelector('#meme-text');
   const memeCont = document.querySelector('#meme-image-container');
@@ -7,7 +7,7 @@ window.onload = function () {
   const earth = document.querySelector('#earth');
   const memeImage = document.getElementById('meme-image');
   const imgP = document.querySelector('#imgP');
-  text.addEventListener('keyup', function() {
+  text.addEventListener('keyup', function () {
     memeText.innerText = text.value;
   });
   fire.addEventListener('click', function () {
@@ -21,8 +21,8 @@ window.onload = function () {
   });
   imgP.addEventListener('click', function (event) {
     memeImage.src = event.target.src;
-  }); 
-}
+  });
+};
 
 const loadFile = function (event) {
   const memeImage = document.getElementById('meme-image');
