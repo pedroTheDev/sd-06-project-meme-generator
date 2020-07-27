@@ -8,8 +8,7 @@ function addText() {
 }
 
 function insertImg() {
-  let temp = memeInsert.value;
-  img.src = temp;
+  img.src = memeInsert.value;
 }
 
 textInput.addEventListener('input', addText);
