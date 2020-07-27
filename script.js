@@ -1,7 +1,7 @@
 //Variables
 let userText = document.getElementById('text-input');
 let containerMemes = document.getElementById('meme-image-container');
-//let divMemeInsert = document.getElementById('meme-insert');
+let insertMeme = document.getElementById('meme-insert');
 //let divMemeText = document.getElementById('meme-text')
 
 
@@ -9,5 +9,11 @@ let containerMemes = document.getElementById('meme-image-container');
 function WriteText() {
     containerMemes.innerHTML = userText.value;
 }
+
+//Upload user image
+insertMeme.addEventListener('input', function() {
+    img.id = "meme-image";
+    img.src = URL.createObjectURL(this.files[0]);
+})
 
 
