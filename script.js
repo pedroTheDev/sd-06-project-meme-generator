@@ -11,6 +11,7 @@ window.onload = function() {
   let meme2 = document.querySelector("#meme-2");
   let meme3 = document.querySelector("#meme-3");
   let meme4 = document.querySelector("#meme-4");
+  let imgP = document.querySelector("#imgP");
 
 
   text.addEventListener("keyup", function() {
@@ -29,21 +30,9 @@ window.onload = function() {
     memeCont.style.border = "6px groove green";
   });
 
-  meme1.addEventListener("click", function(e) {
-    memeImage.src = meme1.src
-  });
-
-  meme2.addEventListener("click", function(e) {
-    memeImage.src = meme2.src
-  });
-
-  meme3.addEventListener("click", function(e) {
-    memeImage.src = meme3.src
-  });
-
-  meme4.addEventListener("click", function(e) {
-    memeImage.src = meme4.src
-  });
+  imgP.addEventListener("click", function(event) {
+    memeImage.src = event.target.src;
+  })  
 }
 
 let loadFile = function(event) {
