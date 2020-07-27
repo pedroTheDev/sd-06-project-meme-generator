@@ -10,6 +10,6 @@ window.onload = function() {
     }
   }
   
-  document.getElementById('text-input').addEventListener('change', createMemeText);
+  document.getElementById('text-input').addEventListener('input', createMemeText);
   document.getElementById('meme-insert').addEventListener('change', memeInsert);
 };

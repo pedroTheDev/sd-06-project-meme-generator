@@ -12,7 +12,7 @@
   width: 50vw;
 }
 
-.meme-text {
+.meme-text-container {
   align-self: flex-end;
   color: white;
   font-size: 30px;
