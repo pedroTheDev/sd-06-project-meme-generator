@@ -1,0 +1,21 @@
+#meme-image-container {
+    background-color: white;
+    border: 1px solid black;
+    height: 450px;
+    width: 450px;
+}
+
+#meme-text {
+    position: absolute;
+    text-shadow: 5px 5px 5px;
+    font-size: 30px;
+    color: white;
+    bottom: 20%;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+
+input {
+    margin-bottom: 30px;
+}
