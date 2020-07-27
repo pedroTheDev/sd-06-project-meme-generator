@@ -16,6 +16,7 @@
   align-self: flex-end;
   color: white;
   font-size: 30px;
+  height: min-content;
   position: absolute;
   text-shadow: 5px 5px 5px black;
   width: inherit;
