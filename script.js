@@ -5,11 +5,7 @@ window.onload = function () {
   const imgContainer = document.querySelector('#meme-image');
 
   function addText() {
-    if (textInput.value.length <= 60) {
-      textContainer.innerText = textInput.value;
-    } else {
-      alert('You exceeded the maximum of 60 characters ');
-    }
+    textContainer.innerText = textInput.value;
   }
 
   function addImage(event) {
