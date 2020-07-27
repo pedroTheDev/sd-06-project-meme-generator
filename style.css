@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: lightblue;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 12px;
+}
+
+h3 {
+  margin-bottom: 12px;
+}
+
+/* content */
+
+main {
+  display: flex;
+  padding: 12px;
+}
+
+/* left-side - preloaded memes */
+
+.preloaded-memes {
+  width: 20%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.preloaded-memes img {
+  height: 100px;
+  width: 150px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.app-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-insert {
+  display: flex;
+  justify-content: center;
+}
+
+[type="file"] {
+  width: 0;
+  overflow: hidden;
+}
+
+label.upload {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1rem 50px;
+  position: relative;
+  transition: all 0.3s;
+  background-color: #99c793;
+  border-radius: 50px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+label.upload::before {
+  color: #fff;
+  content: "\f382";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 100%;
+  height: 100%;
+  right: 130%;
+  line-height: 3.3;
+  position: absolute;
+  top: -2px;
+  transition: all 0.3s;
+}
+
+label.upload:hover::before {
+  background-color: darken(#99c793, 30%);
+  right: 83%;
+}
+
+/* input text */
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+  width: 60%;
+}
+
+.text-container input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 7px;
+  width: 60%;
+}
+
+/* meme */
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  overflow: hidden;
+  height: 60vh;
+  width: auto;
+  max-width: 70vw;
+  position: relative;
+}
+
+.meme-image {
+  height: 100%;
+}
+
+.meme-text {
+  font-size: 30px;
+  color: white;
+  text-shadow: 5px 5px 5px;
+  position: absolute;
+  bottom: 12px;
+  text-align: center;
+  width: 100%;
+  font-weight: 700;
+  font-family: 'Rowdies', cursive;
+  letter-spacing: 4px;
+}
+
+
+/* buttons (side bar) */
+
+.button-container {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container button {
+  width: 60%;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+}
+
+.button-container button:active {
+  transform: translateY(4px);
+}
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+.earth {
+  background-color: green;
+}
+
+.remove {
+  background-color: slategray;
+}
