@@ -1,6 +1,6 @@
 //Adicionando texto.
 let text = document.getElementById('text-input');
-let texto = document.createElement('p');
+let texto = document.createElement('h1');
 document.getElementById('meme-text').appendChild(texto);
 
 text.addEventListener('input',function(){
