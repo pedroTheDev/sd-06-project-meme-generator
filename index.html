@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
+    <header class="cabecalho">
         <h1> Meme Generator </h1>
         <h2> Crie seus proprios memes divertidos! </h2>
     </header>
-    <section id="meme-image-container">
+    <section id="input-container">
         <form>
             <div class="input">
                 <label for="text-input"> Texto: </label>
@@ -18,15 +19,14 @@
             </div>
             <div class="input">
                 <input type="file" id="meme-insert">
-                <input type="image" src="" height="400px" width="600px">
             </div>
         </form>
     </section>
-    <div id="meme-image-container">
+    <section id="meme-image-container">
         <p id="meme-text">
+            teste
         </p>
-        <div id="meme-image">
-        </div>
-    </div> 
+        <img id="meme-image" src="./images/meme.jpg" alt=""> 
+    </section> 
 </body>
 </html>

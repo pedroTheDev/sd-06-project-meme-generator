@@ -1,0 +1,21 @@
+.cabecalho {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#meme-image-container{
+    color: brown;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 400px;
+    width: 600px;
+    
+    
+}
+
+#meme-text{
+    position: absolute;
+    color: darkblue;
+}
