@@ -8,4 +8,9 @@
 
 #text-input {
   width: 294px;
+  margin: 10px 0;
+}
+
+form {
+  width: 300px;
 }
