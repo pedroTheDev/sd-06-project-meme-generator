@@ -1,14 +1,4 @@
-body {
-    background-color: aquamarine;
+#meme-text {
+  position: absolute;
+  font-size: 30px;
 }
-
-#meme-image-container {
-    background-color: rgb(235, 228, 224);
-}
-
-#meme-text{
-    position: absolute;
-    font-size: 30px;
-}
-    
-
