@@ -21,6 +21,12 @@ elementRedButton.addEventListener('click', function() {
   memeBorder.style.border = '3px dashed red';
 });
 
+const elementBlueButton = document.getElementById('water');
+elementBlueButton.addEventListener('click', function() {
+  const memeBorder = getElementMemeContainer();
+  memeBorder.style.border = '5px double blue';
+});
+
 function getElementMemeText() {
   const memeText = document.getElementById('meme-text');
   return memeText;
