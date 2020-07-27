@@ -1,1 +1,65 @@
-Test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Meme generator</title>
+</head>
+<body>
+  <!-- <header></header> -->
+  
+  <main>
+    <article>
+      <div class="container">
+        <section id="meme-image-container" class="left-side">
+          <img id="meme-image" src="https://i.kym-cdn.com/photos/images/original/000/279/219/947.jpg" alt="Meme's image" >
+
+          <div id="meme-text" class="meme-text">Texto do meme</div>
+        </section>
+
+        <section class="right-side">
+          <div class="right-container">
+            <div class="memes-gallery">
+              <img id="meme-1" src="https://i.imgur.com/JNtyozR_d.webp?maxwidth=728&fidelity=grand" alt="model 1">
+              <img id="meme-2" src="https://i.imgur.com/JNtyozR_d.webp?maxwidth=728&fidelity=grand" alt="model 2">
+              <img id="meme-3" src="https://i.imgur.com/JNtyozR_d.webp?maxwidth=728&fidelity=grand" alt="model 3">
+              <img id="meme-4" src="https://i.imgur.com/JNtyozR_d.webp?maxwidth=728&fidelity=grand" alt="model 4">
+            </div>
+  
+            <div class="essentials">
+              <div class="config display-flex">
+                Image: <input id="meme-insert" type="file" accept="image/*">
+              </div>
+
+              <div class="config">
+                Top text:  <input id="text-input" type="text" name="" maxlength="60">
+              </div>
+            </div>
+  
+            <div class="config optionals">
+              <div>
+                Border:
+              </div>
+              <div class="border-buttons">
+                <button id="fire">Fire</button>
+                <button id="water">Water</button>
+                <button id="earth">Earth</button>
+              </div>
+            </div>
+  
+            <div>
+              <button>Reset</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <!-- <footer></footer> -->
+</body>
+</html>
