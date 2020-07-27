@@ -1,3 +1,7 @@
+h1 {
+    text-align: center;
+}
+
 #meme-image-container {
     background-color: white;
     border: 1px solid black;
@@ -7,15 +11,22 @@
 
 #meme-text {
     position: absolute;
-    text-shadow: 5px 5px 5px;
+    text-shadow: 5px 5px 5px black;
     font-size: 30px;
     color: white;
-    bottom: 20%;
-    max-width: 100%;
+    bottom: 50px;
     word-wrap: break-word;
 }
 
 
 input {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
 }
