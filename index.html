@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+  <h1>Meme Generator</h1>
+
+  <form>
+    <a> Texto: </a>
+    <input type="text" id="text-input" class="text-input" onkeyup="">
+  </form>
+
+  <br>
+
+  <form>
+    <a> Foto: </a>
+    <input id="image-input" class="image-input" type="file" accept="image/*" onchange="loadFile(event)">
+    <img id="output" />
+  </form>
+
+  <br>
+
+  <div id="meme-image-container" class="meme-image-container">
+    <div id="meme-text" class="meme-text"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
