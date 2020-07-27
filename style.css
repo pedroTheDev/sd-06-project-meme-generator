@@ -1,7 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #meme-image-container{
     border: 1px solid black;
     background-color: white;
     position: relative;
+    max-width: 50%;
 }
 
 #meme-text{
@@ -9,11 +16,10 @@
     font-size: 30px;
     color: white;
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     left: 20px;
     z-index: 99;
 }
 #meme-image{
     width: 100%;
-
 }
