@@ -4,10 +4,10 @@ textoDoMeme.addEventListener('input', function () {
   texto.innerHTML = textoDoMeme.value;
 });
 function visualizarImg() {
-  let image = document.querySelector('input[name=imagem').files[0];
+  let image = document.querySelector('input[name=imagem]').files[0];
   let preview = document.querySelector('img')
   let reader = new FileReader();
-  reader.onloadend = function() {
+  reader.onloaded = function() {
     preview.src = reader.result;
   }
   if(imagem) {
