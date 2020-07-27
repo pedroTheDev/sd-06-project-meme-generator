@@ -15,21 +15,20 @@
         <section class="container">
             <div class="row">
                 <span>Texto:</span>
-                <input type="text" id="text-input" maxlength="60" onblur="onLoadText()" />
-            </div> 
-    
+                <input type="text" id="text-input" maxlength="60" onkeyup="onLoadText()" />
+            </div>     
             <div class="row">
                 <span>Foto:</span>
                 <input type="file" id="meme-insert" onchange="onLoadImg()" />
             </div>
-                
             <div id="meme-image-container">
                 <img id="meme-image" />
-                <div id="meme-text"></div>
+                <div id="meme-text-container">
+                    <label id="meme-text"></label>
+                </div>
             </div>
-
+            <label>Estilos customizados:</label>
         </section>
-        
     </section>
 </body>
 </html>
