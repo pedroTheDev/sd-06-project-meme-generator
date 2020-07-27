@@ -3,23 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Document</title>
 </head>
-<body>
-  <div class="container">
-    <div class="main-content">
-      <h1>MEME GENERATOR</h1>
+  <body>
+    <div class="container">
+      <div class="main-content">
+        <h1>MEME GENERATOR</h1>
+        <div class="input-text">
+          <label for="meme-text">Insira o seu texto:
+          <input type="text" id="text-input" maxlength="60"></label>
+        </div>
+        <div class="input-img">
+          <label for="meme-insert">Escolha a sua imagem:
+          <input type="file" id="meme-insert" accept="image/png, image/jpeg"></label>
+        </div>
+      </div>
       <div id="meme-image-container">
-        Texto: <input type="text" id="text-input">
-        <div id="meme-text">
-
-        </div>
-        <div id="meme-image">
-
-        </div>
-
+        <p id="meme-text"></p>
+        <img id="meme-image" class="img" src="" width="400px" height="400px"/>
       </div>
     </div>
-  </div>
-</body>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
