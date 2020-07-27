@@ -1,3 +1,4 @@
+
 function textWrite() {
   const texto = document.querySelector('#text-input').value;
   const memeText = document.querySelector('#meme-text');

@@ -10,7 +10,7 @@
 
 <body>
 	<label id="texto">Texto do meme:</label>
-	<input type="text" id="text-input" oninput="textWrite()" maxlength="60"><br>
+	<input id="text-input" type="text"  oninput="textWrite()" maxlength="60"><br>
 
 	<label>Imagem Selecionada:</label>
 	<input type="file" id="meme-insert" onchange="selectedImage(event)" accept="image/*"><br>
@@ -18,7 +18,6 @@
 	<div id="meme-image-container">
 		<div id="meme-text"></div>
 		<img id="meme-image">
-	</div>
 	</div>
 </body>
 
