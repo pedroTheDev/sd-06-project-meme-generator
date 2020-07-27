@@ -8,13 +8,22 @@
 </head>
 <body>
   <h1 class="title">Meme Generator - Luiz Mello</h1>
-  <input id="meme-insert" type="file" accept="image/*">
-  <input id="text-input" type="text">
+  <div class="inputs">
+    <div class="left-input">
+      <h3>Insira sua imagem aqui:</h3>
+      <input id="meme-insert" type="file" accept="image/*">
+    </div>
+    <div class="right-input">
+      <h3>Insira o texto para o seu meme abaixo:</h3>
+      <input id="text-input" type="text" maxlength="60">
+    </div>
+  </div>
+  <h3 class="separator">Abaixo você verá o resultado do seu meme!!!</h3>
+  <hr>
   <div id="meme-image-container" class="meme-container">
     <img id="meme-image" src="https://drm2ecjli5gr8.cloudfront.net/img/banda-ejemplo-br.png" alt="Imagem inserida pelo usuário." width="300" height="300">
     <h3 id="meme-text" class="meme-text">Seu texto aparecerá aqui!</h3>
   </div>
-
   <script href="script.js"></script>
 </body>
 </html>
