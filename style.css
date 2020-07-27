@@ -8,15 +8,15 @@
 
 #meme-image-container{
  border: 1px solid black;
- width: 800px;
- height: 800px;
+ width: 450px;
+ height: 450px;
  margin: 1%;
  background-color: white;
 }
  
 #meme-image{
- width: 800px;
- height: 800px;
+ width: 448px;
+ height: 448px;
 }
 
 
