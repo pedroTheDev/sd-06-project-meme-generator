@@ -19,17 +19,14 @@ window.onload = function() {
     let btn3 = document.querySelector("#earth");
 
     btn1.addEventListener("click", function() {
-        //btn1.style.backgroundColor = "rgb(255, 0, 0)";
         containerImagem.style.border = "3px dashed rgb(255, 0, 0)";
     })
 
     btn2.addEventListener("click", function() {
-        // btn2.style.backgroundColor = "rgb(0, 0, 255)"; 
         containerImagem.style.border = "5px double rgb(0, 0, 255)";
     })
 
     btn3.addEventListener("click", function() {
-        //btn3.style.backgroundColor = "rgb(0, 128, 0)";
         containerImagem.style.border = "6px groove rgb(0, 128, 0)";
     })
 
