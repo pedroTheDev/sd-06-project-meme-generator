@@ -3,9 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Meme Recipe</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  
+  <section id='topper'>
+    <h1 id='title'>Meme Generator <img id='titleImg' src="https://i.pinimg.com/originals/32/3f/d8/323fd8b794e9c1ab4f52de7e6b018852.jpg" width="150px"></h1>
+    <audio id="audio" src="http://www.audiosengracados.com.br/wp-content/uploads/2020/01/gemido_trollante-www.audiosengracados.com_.br_.mp3" type="mp3"></audio>
+    <div class="preference-input">
+      <h2 id='text-h2'>Custom Text Here:</h2>
+      <input type="text" id="text-input" maxlength='50' size='30' placeholder="Digite sua frase aqui">
+    </div>
+  </section>
+  <section>
+    <div id='meme-image-container'>
+      <div id='meme-text'></div>
+    </div>
+  </section>
+  <script src="script.js"></script>
 </body>
 </html>

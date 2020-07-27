@@ -1,0 +1,39 @@
+#topper {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+#title {
+  font-size: 100px;
+  text-align: center;
+  margin: 10px;
+}
+.preference-input {
+  text-align: center;
+  position: absolute;
+  margin-left: 2%;
+}
+#text-h2 {
+  margin-bottom: 10px;
+}
+#text-input {
+  height: 25px;
+}
+#meme-image-container {
+  position: relative;
+  background-color: white;
+  border: 1px solid black;
+  width: 800px;
+  height: 600px;
+  margin-top: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#meme-text {
+  background-color: transparent;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  margin-top: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
