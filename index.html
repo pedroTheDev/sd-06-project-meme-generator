@@ -1,11 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Gerador de Memes</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    
+    <header>
+        <h1> GERADOR DE MEMES</h1>
+    </header>
+    <nav>
+        <h3>Crie um meme como quiser!!!</h3>
+    </nav>
+    <article>
+        Frase: <input id="text-input" maxlength="60" type="text" ><br><br>
+        Imagem: <input id="meme-insert" type="file"><br><br>
+        <section id="meme-image-container">
+            <p id="meme-text"></p>         
+            <img id="meme-image">            
+        </section>
+    </article>
 </body>
 </html>
