@@ -43,9 +43,9 @@ h1 {
 #meme-text {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
-    text-shadow: 5px 5px 5px;
+    text-shadow: 5px 5px 5px black;
     box-sizing: border-box;
-    max-width: 200px;
+    max-width: 60%;
     color: white;
     position: absolute;
     z-index: 1;
