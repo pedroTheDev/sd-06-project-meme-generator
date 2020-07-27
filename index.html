@@ -14,12 +14,25 @@
     </header>
     <section id="meme-image-container">
         <h2>Texto:</h2><input type="text" id="text-input" maxlength="60" placeholder="Digite a legenda da foto">
-        Imagem: <input type="file" id="">
+
+        Inserir imagem:
+        <form method="POST" action="" enctype="multipart/form-data">
+          <input type='file' name="imagem" accept='image/*' id='meme-insert'>
+        </form>
         <br>
+
         <div id="meme-image-container">
-            <div id="meme-text"></div>
+            <div id = "meme-image">
+                <canvas id="canvas" width="1024">
+                  <img style="width: 150px; height: 150px">
+                </canvas>
+              </div>
+              <div id = "meme-text"></div>
         </div>
+
+
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
 
