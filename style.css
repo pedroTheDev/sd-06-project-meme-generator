@@ -5,17 +5,13 @@
  box-sizing: border-box;
 }
 
+
 #meme-image-container{
- width: 100%;
- margin: 2%;
- 
-}
-#meme-image{
  border: 1px solid black;
  width: 450px;
  height: 450px;
- margin-top: 1%;
- background-color: rgb(255, 255, 255);
+ margin: 1%;
+ background-color: white;
  }
  
  
