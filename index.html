@@ -8,11 +8,14 @@
     <script src="./script.js"></script>
 </head>
 <body>
-    <span>Texto:</span> <input type="text" name="texto" id="text-input"><br><br>
-    <span>Foto:</span> <button id="meme-insert">Choose File</button> <br><br>
+    <span>Texto:</span> <input type="text" name="texto" id="text-input" maxlength="60"><br><br>
+    <span>Foto:</span> <input type="hidden" name="MAX_FILE_SIZE" value="490000"> 
+    <input type="file" name="meme-img" id="meme-insert"> <br><br>
     <div id="meme-image-container">
-        <p id="meme-text"></p>
-        <img src="" alt="meme" id="meme-image">
+        <div id="meme-text">
+            <p class="meme-text">1234Texto do meme Texto do meme Texto do meme Texto do meme1</p>
+        </div>
+        <img src="" alt="meme" id="meme-image" width="500px" height="500px">
     </div>
 </body>
 </html>
