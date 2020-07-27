@@ -3,6 +3,7 @@ h1 {
 }
 
 #meme-image-container {
+    position: relative;
     background-color: white;
     border: 1px solid black;
     height: 450px;
@@ -15,7 +16,7 @@ h1 {
     font-size: 30px;
     color: white;
     bottom: 50px;
-    width: 50%;
+    width: 100%;
     overflow-wrap: break-word;
 }
 
