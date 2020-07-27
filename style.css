@@ -6,10 +6,12 @@
 
 #meme-image-container {
   border: 2px solid black;
+  display: flex;
   height: 70vh;
   width: 50vw;
+  
 }
 
 #meme-text {
-  
+  align-self: flex-end;
 }
