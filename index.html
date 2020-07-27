@@ -14,21 +14,18 @@
             <form>
                 <label>Insert your text: </label>
                     <input type="text" id="text-input" maxlength="60" placeholder="Type your text here.">
-                    
             </form>
         </div>
         <!--Image upload section-->
         <div class="user-entry">
             <form>
                 <label>Upload your image here: </label>
-                    <input type="file" id="meme-insert" placeholder="Choose your image" accept="image/*">
+                    <input type="file" id="meme-insert" placeholder="Choose your image" accept=".jpg, .png, .bmp" onchange="uploadedMeme(event)">
             </form>
         </div>
         <!--Meme result-->
         <div id="meme-image-container" class="meme-container">
-                <div>
-                    <p id="meme-text"></p>
-                </div>
+                <p id="meme-text"></p>
                 <img id="meme-image" alt="Uploaded image">
         </div>
         <!--User preferences-->

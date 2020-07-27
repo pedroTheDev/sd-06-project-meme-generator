@@ -1,6 +1,3 @@
-body {
-    padding-left: 15px;
-}
 h1 {
     position: fixed;
     width: 100%;
@@ -34,24 +31,22 @@ h1 {
     align-content: center;
 }
 
-.container {
-    margin: 10px;
-}
-
-.meme-container {
+#meme-image-container {
     background-color: white;
     border: 1px solid black;
     float: left;
     width: 500px;
     height: 500px;
-    z-index: 0;
     display: flex;
 }
 
 #meme-text {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
-    color: black;
+    text-shadow: 5px 5px 5px;
+    box-sizing: border-box;
+    max-width: 200px;
+    color: white;
     position: absolute;
     z-index: 1;
 }
