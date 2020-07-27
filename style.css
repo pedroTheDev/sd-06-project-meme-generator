@@ -38,7 +38,7 @@ body {
   
   .text-border {
     font-size: 110%;
-    font-weight: 700;
+    font-weight: 500;
   }
   
   .border-btn {
@@ -88,22 +88,15 @@ body {
     font-size: 12px;
     padding: 3px 20px;
   }
-  
-  .mini-images {
-    clear: both;
-    height: 50px;
-    padding-top: 20px;
-    width: 60%;
+
+  .fire{
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 12px;
+    padding: 3px 20px;  
   }
   
-  .mini-images div {
-    border: 1px black solid;
-    clear: both;
-    display: inline-block;
-    height: 45px;
-    margin-left: 60px;
-    width: 45px;
-  }
   
   .meme-1 {
     background-image: url('./imgs/meme1.png');
