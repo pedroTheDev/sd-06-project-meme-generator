@@ -4,7 +4,7 @@
   border-width: 1px;
   border-color: black;
   width: 450px;
-  color: rgb(255,255,255);
+  background-color: white;
 }
 
 #meme-text {
@@ -13,7 +13,7 @@
     bottom: 15%;
     left: 10%;
     max-width: 50%;
-    text-shadow: 5px 5px 5px rgb(0,0,0);
-    color: rgb(255,255,255);
+    text-shadow: 5px 5px 5px black;
+    color: white;
     font-size: 30px;
 } 
