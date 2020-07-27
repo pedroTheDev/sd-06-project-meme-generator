@@ -1,13 +1,17 @@
 //Adicionando texto.
 let text = document.getElementById('text-input');
+let texto = document.createElement('p');
+document.getElementById('meme-text').appendChild(texto);
 
 text.addEventListener('input',function(){
-    let parah = document.getElementById('meme-text');
-    parah.innerHTML = text.value;
-    parah.style.position = 'absolute';
-    parah.style.boxShadow = 'black 5px 5px 5px';
-    parah.style.fontSize = '30px';
-    parah.style.color = 'white';
+    
+    
+   
+    texto.innerHTML = text.value;
+    texto.style.position = 'absolute';
+    texto.style.boxShadow = 'black 5px 5px 5px';
+    texto.style.fontSize = '30px';
+    texto.style.color = 'white';
     
 });
 //Adicionando imagem.
