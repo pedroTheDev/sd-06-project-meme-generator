@@ -8,10 +8,10 @@ body {
 .meme-image-container-style {
   background-color: white;
   border: black solid 1px;
-  width: 800px;
   height: 600px;
-  z-index: 1;
   position: relative;
+  z-index: 1;
+  width: 800px;
 }
 
 .meme-image-style {
@@ -24,8 +24,8 @@ body {
   color: white;
   font-size: 30px;
   height: auto;
-  position: absolute;
   margin: -15% 10% 10%;
+  position: absolute;
   text-shadow: 5px 5px 5px black;
   width: 80%;
   z-index: 3;
