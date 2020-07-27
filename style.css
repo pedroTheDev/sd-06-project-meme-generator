@@ -38,10 +38,10 @@ p {
 .img-container {
   background-color: white;
   border: 1px solid black;
-  height: 350px;
+  height: 550px;
   margin: 25px auto;
   position: relative;
-  width: 350px;
+  width: 850px;
 }
 
 .text-container {
@@ -50,10 +50,11 @@ p {
   color: white;
   font-size: 30px;
   font-weight: 600;
-  max-height: 100px;
+  height: 100px;
   left: 10px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
-  top: 220px;
+  top: 400px;
   width: 330px;
+  z-index: 1;
 }
