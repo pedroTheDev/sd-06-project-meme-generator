@@ -4,17 +4,19 @@ div#meme-image-container {
   border: 1px solid black;
   width: 350px;
   height: 400px;
+  left: 0;
 }
 
 div#meme-text {
-  display: block;
+  display: table-cell;
   position: absolute;
-  top: 150px;
+  top: 200px;
   left: 0;
-  width: 350px;
-  height: 400px;
+  width: 340px;
+  height: 180px;
   color: white;
   font-size: 30px;
+  text-align: center;
   text-shadow: black 5px 5px 5px;
 }
 
