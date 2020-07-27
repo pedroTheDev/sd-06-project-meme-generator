@@ -7,10 +7,7 @@ window.onload = function() {
   let water = document.querySelector("#water");
   let earth = document.querySelector("#earth");
   let memeImage = document.getElementById('meme-image');
-  let meme1 = document.querySelector("#meme-1");
-  let meme2 = document.querySelector("#meme-2");
-  let meme3 = document.querySelector("#meme-3");
-  let meme4 = document.querySelector("#meme-4");
+
   let imgP = document.querySelector("#imgP");
 
 
