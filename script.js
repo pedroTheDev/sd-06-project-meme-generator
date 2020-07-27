@@ -11,5 +11,5 @@ let functionalities = {
 
 
 //Events
-inputTextElement.addEventListener('keypress', functionalities['addText']);
+inputTextElement.addEventListener('keyup', functionalities['addText']);
 }
