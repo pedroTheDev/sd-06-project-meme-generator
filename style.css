@@ -31,8 +31,14 @@ h1 {
     align-content: center;
 }
 
-#meme-image-container {
-    width: 80%;
-    border: 2px solid black;
+.meme-image-container {
+    border: 1px solid black
+
+}
+
+#meme-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    color: white;
 }
 
