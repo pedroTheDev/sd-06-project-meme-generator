@@ -17,10 +17,10 @@ body {
     margin-bottom: 0px;
 }
 
-#head-input {
+#body-input {
     float: right;
     margin-top: 4px;
-    margin-left: 15px;
+    margin-left: 43px;
 }
 
 #title-input {
@@ -35,8 +35,11 @@ body {
 
 #button {
     float: right;
-    margin-right: 605px;
+    margin-right: 508px;
     margin-top: 20px;
+    padding-right: 41px;
+    padding-left: 41px;
+    border-radius: 1px;
 }
 
 #meme-image-container {
