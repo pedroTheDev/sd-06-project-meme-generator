@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin: 5px;
 }
 
 #meme-text {
@@ -26,5 +27,6 @@ body {
 }
 
 #meme-image {
-  width: 100%;
+  width: 298px;
+  height: 298px;
 }
