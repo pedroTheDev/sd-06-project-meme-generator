@@ -12,6 +12,7 @@ body {
 }
 
 .meme_image_container {
+  background-color: white;
   border: 1px;
   border-color: black;
   border-style: solid;
