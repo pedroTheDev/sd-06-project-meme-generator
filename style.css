@@ -9,7 +9,7 @@ h1 {
   text-align: center;
 }
 
-p, .text-input {
+p , .text-input {
   display: inline-block;
   margin: 10px auto;
   margin-top: 25px;
@@ -27,16 +27,17 @@ p {
 }
 
 .btn {
-  border: 0px;
-  color: darkslategray;
   background-color: white;
+  border: 0;
+  color: darkslategray;
+  margin-left: 20px;
   font-family: ubuntu, sans-serif;
   font-size: 20px;
-  margin-left: 20px;
 }
 
 .img-container {
-  border: 1px solid white;
+  background-color: white;
+  border: 1px solid black;
   height: 350px;
   margin: 25px auto;
   position: relative;
@@ -44,9 +45,10 @@ p {
 }
 
 .text-container {
+
   /* background-color: tomato; */
   font-size: x-large;
-  font-weight: bold;
+  font-weight: 600;
   height: 100px;
   left: 10px;
   position: absolute;
