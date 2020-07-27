@@ -1,0 +1,1 @@
+document.write('Vamos começar o nosso projeto')
