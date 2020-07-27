@@ -6,10 +6,13 @@
         <link type='text/css' href='style.css' rel='stylesheet'>
     </head>
     <body>
-
-        <input id='text-input'>
+        <labr for='text-input'>Insert Meme Text: </label>
+        <input id='text-input' name='text-input'>
+        <labr for='meme-insert'>Insert Meme Image: </label>
+        <input type='file' id='meme-insert' name='meme-insert'>
         <div id='meme-image-container'>
             <h2 id='meme-text'></h2>
+            <img id='meme-image'>
         </div>
         <script src='script.js'></script>
     </body>
