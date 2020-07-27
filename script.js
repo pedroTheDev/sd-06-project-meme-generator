@@ -7,8 +7,11 @@ const imageInsert = document.getElementById('meme-insert');
 function getPhrase() {
   fraseNaImagem.innerHTML = frase.value;
 }
+
 frase.addEventListener('keyup', getPhrase);
+
 function getImage() {
-  image.src = URL.createObjectURL(imageInsert.files[0]); 
+  image.src = URL.createObjectURL(imageInsert.files[0]);
 }
+
 imageInsert.addEventListener("change", getImage);
