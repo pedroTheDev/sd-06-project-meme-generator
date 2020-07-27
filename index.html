@@ -11,13 +11,20 @@
   </header>
   <section class="inputText">
     <div>
-      <input id="text-input" placeholder="Digite seu texto" type="text"></input>
+      Texto: <input id="text-input" placeholder="Digite seu texto" type="text"></input>
+      
     </div>
   </section>
   <section class="container">
     <div id="meme-image-container">
       <div id="meme-text"></div>
+      <div id="meme-image">
+        Foto: <input type="file" accept="image/*" onchange="loadFile(event)">
+        <img id="output"/>
+      </div>
     </div>
   </section>
+
+  <script src="/script.js"></script>
 </body>
 </html>
