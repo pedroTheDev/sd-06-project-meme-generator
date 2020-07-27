@@ -4,10 +4,6 @@ body {
   padding: 0;
 }
 
-.text {
-  margin: 0;
-}
-
 .image-container {
   background-color: white;
   border: 1px solid black;
@@ -36,11 +32,21 @@ body {
   transform: translate(-50% , -50%);
 }
 
+.button-container {
+  margin-top: 20px;
+}
+
+.text-border {
+  font-size: 110%;
+  font-weight: bold;
+}
+
 .border-btn {
   border-radius: 4px;
+  color: white;
   font-size: 110%;
-  height: 30px;
-  margin: 20px 10px;
+  height: 35px;
+  margin-right: 10px;
   width: 80px;
 }
 
@@ -54,4 +60,15 @@ body {
 
 .green {
   background-color: green;
+}
+
+.memes-container {
+  margin-top: 25px;
+}
+
+.memes-img {
+  border: 2px solid black;
+  margin-right: 15px;
+  height: 100px;
+  width: 100px;
 }

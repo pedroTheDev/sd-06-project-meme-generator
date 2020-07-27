@@ -4,8 +4,9 @@ const INPUTIMG = DQSEL('#meme-insert');
 const MEMEIMG = DQSEL('.meme-img');
 const MEMETXT = DQSEL('#meme-text');
 const DIVIMG = DQSEL('.image-container');
+const DIVMEME = DQSEL('.memes-container');
 const BORDERBTN = document.querySelectorAll('.border-btn');
-const BORDERS = ['3px dashed red', '5px blue double', '6px green groove'];
+const BORDERS = ['3px dashed red', '5px double blue', '6px groove green'];
 
 INPUTXT.oninput = () => {
   MEMETXT.textContent = INPUTXT.value;
@@ -26,3 +27,7 @@ BORDERBTN[1].onclick = () => {
 BORDERBTN[2].onclick = () => {
   DIVIMG.style.border = BORDERS[2];
 };
+
+DIVMEME.addEventListener('click', (e) => {
+  MEMEIMG.src = e.target.src;
+});
