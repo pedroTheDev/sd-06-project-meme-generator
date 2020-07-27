@@ -1,4 +1,5 @@
 body {
+  background-color: rgb(25 , 25 , 25);
   border: 0;
   color: white;
   margin: 0;
@@ -10,26 +11,22 @@ body {
   margin-top: 15px;
 }
 
-body {
-  background-color: rgb(25 , 25 , 25);
-}
-
 .meme-image-container {
   background-color: white;
   border: 1px;
-  border-style: solid;
   border-color: black;
+  border-style: solid;
   width: 700px;
 }
 
 .meme-text {
   color: white;
+  font-size: 30px;
   left: 50%;
   position: absolute;
-  size: 30px;
   text-shadow: 5px 5px 5px black;
   top: 25%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50% , -50%);
   z-index: 2;
 }
 
