@@ -10,7 +10,7 @@
 
 .meme-image-container {
   border: 1px black solid;
-  color: white;
+  background-color: white;
   height: 300px;
   width: 300px;
 }
