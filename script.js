@@ -1,8 +1,7 @@
 // conteiner text
-let phrase = document.querySelector('#text-input');
-let inImage = document.querySelector('#meme-text');
-phrase.addEventListener('keyup', getPhrase);
+const phrase = document.querySelector('#text-input');
+const inImage = document.querySelector('#meme-text');
 function getPhrase() {
   inImage.innerHTML = phrase.value;
-
 }
+phrase.addEventListener('keyup', getPhrase);
