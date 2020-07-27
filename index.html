@@ -3,9 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Meme Generator</title>
 </head>
 <body>
-  
+    <!-- 1 - O site deve possuir uma caixa de texto com a qual quem usa pode interagir para inserir texto em cima da imagem escolhida.
+  As seguintes verificações serão feitas:
+  A caixa onde o texto é inserido deve ter um id denominado text-input;
+
+  Você deve criar um elemento para servir de "container" para a imagem e para o texto do meme. Este elemento deve ter um id denominado meme-image-container;
+
+  Dentro do elemento de container, você deve criar um outro elemento para mostrar o texto digitado. O elemento de texto deve estar totalmente contido dentro do container e ter o id denominado meme-text;
+
+  Se não houver imagem inserida, ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá. -->
+  <div id="meme-image-container">
+    <div id="meme-text-on-image">
+      <img src="https://conteudo.imguol.com.br/blogs/186/files/2020/01/memefaustao.jpeg" alt='meme do Faustão'>
+      <span id="meme-text"> TEXTO EM CIMA DA FOTO</span>
+    </div>
+    <div class="text-and-button-container">
+      <input type="text" id="text-input">
+      <button type="button">Apply</button>
+    </div>
+  </div>
 </body>
 </html>
