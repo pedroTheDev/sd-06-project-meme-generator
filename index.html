@@ -3,27 +3,36 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <title>Meme generator</title>
     </head>
     <body>
-        <header>
-          <h1 id="title">Meme Generator</h1>  
-        </header>
-        <div class="w3-container">
-            <div class="text-entry">Text: <input maxlength="100" type="text" id="text-input" placeholder="Type your text here">
-            </div>
-            <div class="image-entry">Image:<input type="file" id="meme-insert" maxlength="100" placeholder="Choose your image" accept="image/*">
-            </div>
+          <h1 id="title">Meme Generator</h1>
+          <!--Explanation of the page-->  
+        <!--Text insert section-->
+        <div class="user-entry">
+            <form>
+                <label for="text-input">Insert your text: </label>
+                    <input type="text" id="text-input" maxlength="60" placeholder="Type your text here (max. 60 characters)">
+            </form>
+        <!--Image upload section-->
+            <form>
+                <label>Upload your image here: </label>
+                    <input type="file" id="meme-insert" maxlength="100" placeholder="Choose your image" accept="image/*">
+            </form>
         </div>
-        <section class="container-meme-generator">
+        <!--Meme result-->
             <div id="meme-image-container">
                 <div id="meme-text"></div>
-                <div id="meme-image"></div>
+                <img id="meme-image" src="" alt="Uploaded image">
             </div>
-        </section>
+        <!--User preferences-->
         <div id="user-preferences">Customize your page!</div>
         <button type="button" id="fire">Style 1</button>
         <button type="button" id="water">Style 2</button>
         <button type="button" id="earth">Style 3</button>
 
+    <script src="script.js"></script>
     </body>
 </html>

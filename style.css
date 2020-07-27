@@ -1,0 +1,38 @@
+h1 {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 193, 69);
+    top: 0;
+    text-align: center;
+}
+#title {
+    color: 255, 255, 251;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.user-entry {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 120px;
+}
+
+#text-input {
+    width: 50%;
+    border: 2px dashed black;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+#meme-insert {
+    width: 50%;
+    border: 2px dashed black;
+    padding-top: 10px;
+    align-content: center;
+}
+
+#meme-image-container {
+    width: 80%;
+    border: 2px solid black;
+}
+
