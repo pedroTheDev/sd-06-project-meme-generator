@@ -11,4 +11,14 @@ body {}
     text-shadow: black 5px 5px 5px;
     font-size: 30px;
     color: white;
+    position: absolute;
+    top: 24rem;
+    left: 10rem;
+    z-index: 99;
+}
+
+#meme-image {
+    position: relative;
+    width: 100%;
+    height: auto;
 }
