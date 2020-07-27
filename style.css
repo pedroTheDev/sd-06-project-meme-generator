@@ -16,3 +16,16 @@ body {
 .meme-insert {
   width: 180px;
 }
+
+.meme-text {
+  color: white;
+  font-family: Arial, serif;
+  font-size: 30px;
+  margin: 20px;
+  overflow: hidden;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 500px;
+  width: 350px;
+  z-index: 2;
+}
