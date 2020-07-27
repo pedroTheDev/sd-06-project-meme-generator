@@ -58,20 +58,18 @@ main {
   justify-content: center;
 }
 
-[type="file"] {
+[ type = 'file' ] {
   width: 0;
   overflow: hidden;
 }
 
 label.upload {
   border: none;
-  border-radius: 5px;
   color: white;
   cursor: pointer;
-  font-family: 'Rubik', sans-serif;
+  font-family: Rubik, sans-serif;
   font-weight: 500;
   margin-bottom: 1rem;
-  outline: none;
   padding: 1rem 50px;
   position: relative;
   transition: all 0.3s;
@@ -82,8 +80,8 @@ label.upload {
 }
 
 label.upload::before {
-  color: #fff;
-  content: "\f382";
+  color: white;
+  content: '\f382';
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 100%;
@@ -96,7 +94,7 @@ label.upload::before {
 }
 
 label.upload:hover::before {
-  background-color: darken(#99c793, 30%);
+  background-color: darken(#99c793 , 30%);
   right: 83%;
 }
 
@@ -111,11 +109,14 @@ label.upload:hover::before {
 }
 
 .text-container input {
-  outline: none;
   border: none;
   border-bottom: 2px solid black;
   padding: 7px;
   width: 60%;
+}
+
+.text-container input:focus {
+  outline: none;
 }
 
 /* meme */
@@ -162,7 +163,7 @@ label.upload:hover::before {
   width: 60%;
   margin-bottom: 12px;
   border-radius: 8px;
-  font-weight: bold;
+  font-weight: 700;
   color: white;
   border: none;
   padding: 8px;

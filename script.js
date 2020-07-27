@@ -1,24 +1,15 @@
-window.onload = () => {
-  clickSuggestedMemes();
-  addBorders();
-  receiveImg();
-  addText();
-}
-
-
-
 // Styling borders button
 
 function addBorders() {
-  let btnFire = document.getElementById('fire');
-  let btnWater = document.getElementById('water');
-  let btnEarth = document.getElementById('earth');
-  let btnRemove = document.getElementById('remove');
-  let btnCollection = [btnFire, btnWater, btnEarth, btnRemove];
+  const btnFire = document.getElementById('fire');
+  const btnWater = document.getElementById('water');
+  const btnEarth = document.getElementById('earth');
+  const btnRemove = document.getElementById('remove');
+  const btnCollection = [btnFire, btnWater, btnEarth, btnRemove];
 
   let imgContainer = document.getElementById('meme-image-container');
 
-  for (let i of btnCollection) {
+  for (const i of btnCollection) {
     i.onclick = () => {
       switch (i) {
         case btnFire:
@@ -41,40 +32,45 @@ function addBorders() {
 // Suggested memes
 
 function clickSuggestedMemes() {
-  let meme1 = document.getElementById('meme-1');
-  let meme2 = document.getElementById('meme-2');
-  let meme3 = document.getElementById('meme-3');
-  let meme4 = document.getElementById('meme-4');
-  let mainMeme = document.getElementById('meme-image');
-  let memeCollection = [meme1, meme2, meme3, meme4];
+  const meme1 = document.getElementById('meme-1');
+  const meme2 = document.getElementById('meme-2');
+  const meme3 = document.getElementById('meme-3');
+  const meme4 = document.getElementById('meme-4');
+  const mainMeme = document.getElementById('meme-image');
+  const memeCollection = [meme1, meme2, meme3, meme4];
 
-  for (let j of memeCollection) {
-    j.addEventListener('click', event => {
+  for (const j of memeCollection) {
+    j.addEventListener('click', (event) => {
       mainMeme.src = event.target.src;
-    })
-  }
+    });
+  };
 }
 
 // Input file
 
 function receiveImg() {
-  let uploadFile = document.getElementById('meme-insert');
-  let mainMeme = document.getElementById('meme-image');
+  const uploadFile = document.getElementById('meme-insert');
+  const mainMeme = document.getElementById('meme-image');
 
-  uploadFile.addEventListener('change', event => {
-    mainMeme.src = URL.createObjectURL(event.target.files[0])
-  })
+  uploadFile.addEventListener('change', (event) => {
+    mainMeme.src = URL.createObjectURL(event.target.files[0]);
+  });
 }
-
 
 // Meme Text
 
 function addText() {
-  let inputText = document.getElementById('text-input');
+  const inputText = document.getElementById('text-input');
 
-  inputText.addEventListener('input', event => {
-    let memeText = document.getElementById('meme-text')
+  inputText.addEventListener('input', (event) => {
+    const memeText = document.getElementById('meme-text')
     memeText.innerHTML = event.target.value;
   })
 }
 
+window.onload = () => {
+  clickSuggestedMemes();
+  addBorders();
+  receiveImg();
+  addText();
+};
