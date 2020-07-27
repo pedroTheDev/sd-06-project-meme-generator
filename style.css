@@ -1,19 +1,19 @@
-#meme-image-container{
+#meme-image-container {
     border: solid 1px black;
     height: 300px;
     width: 300px;
     background-color: white;
 }
 
-#img{
+#img {
     height: 300px;
     width: 300px; 
 }
 
-#meme-text{
+#meme-text {
     position: absolute;
     top: 320px;
-    left: 15px;
+    left: 36%;
     width: 280px;
     height: 60px;
     border: 3px solid #73AD21;
@@ -22,4 +22,18 @@
     text-shadow: black 5px 5px 5px;
 }
 
+#container {
+    padding-left: 35%;
+}
 
+h3{
+    color: rgb(11, 12, 11);
+    text-shadow: rgb(137, 182, 143) 2px 2px 5px;  
+    font-family: monospace; 
+}
+
+body{
+    background-color: rgb(228, 209, 212);
+    background-image: url(/imagens/lemon.webp);
+    background-size: 100%;
+}
