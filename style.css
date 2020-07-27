@@ -1,0 +1,72 @@
+/*
+
+{font-family: 'Anton', sans-serif;
+}
+
+{font-family: 'Bungee Outline', cursive;
+}
+
+{font-family: 'Lato', sans-serif;
+}
+
+*/
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+#text-input{
+    display: block;
+    font-family: 'Lato', sans-serif;
+    margin: 1px;
+}
+
+#meme-insert{
+
+    display: block;
+    font-family: 'Lato', sans-serif;
+    margin: 1px;
+
+}
+
+
+
+#meme-text{
+    position: absolute;
+    bottom:10px;
+    font-family: 'Anton', sans-serif;
+    z-index: 3;
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    margin-left: 20px;
+    
+}
+
+#meme-image{
+    position: absolute;
+    z-index: 1;
+    margin: 0px;
+    height:100%;
+}
+
+#meme-image-container{
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 5px;
+    background-color: white;
+    z-index: 0;
+    width: 500px;
+    height: 360px;
+    padding: 0px;
+}

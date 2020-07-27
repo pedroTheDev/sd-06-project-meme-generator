@@ -3,13 +3,31 @@
 <head>
     <meta charset="utf-8">
     <title>Meme Generator</title>
-    <link href="xxxxxxxxxxxxx" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Outline&family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
 
 </head>
 
 <body>
+
+    <h1>Meme Generator</h1>
+
+    <h3>Texto:</h3>
+
+    <input type="text" id="text-input" maxlength="60" placeholder="Digite aqui"> 
+    <h3>Foto:</h3>
+
+    <input type="file" id="meme-insert" type=file accept="image/png, image/jpeg" onchange="readMemeImage()">
+
+    <h3>Seu meme:</h3>
+
+    <div id="meme-image-container">
+
+        <img id="meme-image" src="" width="500 px">
+        
+        <div id="meme-text"></div>
+
+    </div>
 
 </body>
 
