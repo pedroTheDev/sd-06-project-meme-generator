@@ -7,11 +7,20 @@
             border: 1px solid black;
             width: 300px;
             height: 300px;
+            overflow: hidden;
+            background-image: url(rsz_unnamed-1497719110.jpg);
         }
 
         #meme-text {
             border: 1px solid red;
+            position: absolute;
+            width: 250px;
             overflow: hidden;
+            text-align: center;
+        }
+
+        #bg-image {
+            width: 100%;
         }
     </style>
 </head>
@@ -19,19 +28,39 @@
 <body>
 
     <p> MEME GENERATOR</p>
-    <div id="meme-image-container">s
+    <div id="meme-image-container">
 
         <div id="meme-text">sssssssssssssssssssssssssssssssssssssssssssssssssss</div>
+
+        <div id="meme-image">
+            <img id="bg-image" />
+        </div>
+
+
     </div>
 
+    <!-- Controles -->
     <input id="text-input" type="text" placeholder="Insira o texto" />
+    <input id="meme-insert" type="file" accept="image/*" />
 
     <script>
+        // Texto
         let textInput = document.getElementById("text-input");
         let memeText = document.getElementById("meme-text");
         textInput.addEventListener("keyup", function () {
             memeText.innerText = textInput.value;
         });
+
+        // Imagem
+        let memeInsert = document.getElementById("meme-insert");
+        let memeContainer = document.getElementById("meme-image-container");
+
+        let bgImage = document.getElementById("bg-image");
+
+        memeInsert.addEventListener("change", function () {
+            bgImage.src = URL.createObjectURL(event.target.files[0]);
+        });
+
     </script>
 </body>
 
