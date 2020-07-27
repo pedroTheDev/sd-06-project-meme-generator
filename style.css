@@ -14,9 +14,26 @@ body {
   background-color: rgb(25 , 25 , 25);
 }
 
-#meme-image-container {
+.meme-image-container {
   background-color: white;
   border: 1px;
   border-style: solid;
   border-color: black;
+  width: 700px;
+}
+
+.meme-text {
+  color: white;
+  left: 50%;
+  position: absolute;
+  size: 30px;
+  text-shadow: 5px 5px 5px black;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.meme-image {
+  width: 695px;
+  z-index: 1;
 }
