@@ -5,7 +5,9 @@ text.addEventListener('input',function(){
     let parah = document.getElementById('meme-text');
     parah.innerHTML = text.value;
     parah.style.position = 'absolute';
-    parah.style.top = '40%';
+    parah.style.boxShadow = 'black 5px 5px 5px';
+    parah.style.fontSize = '30px';
+    parah.style.color = 'white';
     
 });
 //Adicionando imagem.
