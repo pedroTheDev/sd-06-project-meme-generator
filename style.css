@@ -1,14 +1,24 @@
-#meme-image-container {
-    width: 500px;
-    height: 500px;
-    border: solid 5px black;
+.meme-container {
+  background-color: white;
+  border: solid 5px black;
+  height: 500px;
+  width: 500px;
+  display: block;
+}
+
+.meme-container img {
+  height: 500px;
+  width: 500px;
+  
 }
 
 .meme-text {
-    position: relative;
-    top: 400px;
-    left: 5px;
-    font-family: monospace;
-    font-size: 20px;
-
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+  left: 15px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 400px;
+  
 }

@@ -5,17 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thales Rangel - Meme Generator Project</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
 </head>
-<body>
-    <span>Texto:</span> <input type="text" name="texto" id="text-input" maxlength="60"><br><br>
-    <span>Foto:</span> <input type="hidden" name="MAX_FILE_SIZE" value="490000"> 
-    <input type="file" name="meme-img" id="meme-insert"> <br><br>
-    <div id="meme-image-container">
-        <div id="meme-text">
-            <p class="meme-text">1234Texto do meme Texto do meme Texto do meme Texto do meme1</p>
-        </div>
-        <img src="" alt="meme" id="meme-image" width="500px" height="500px">
-    </div>
+<body><form id="form-meme">
+    Texto: <input type="text" name="texto" id="text-input" maxlength="60"><br><br>
+    Foto:  <input type="file" name="meme-img" id="meme-insert"> <br><br>
+</form>
+<div id="meme-image-container" class="meme-container">
+    <img src="" alt="meme" id="meme-image">
+    <p id="meme-text" class="meme-text"></p>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
