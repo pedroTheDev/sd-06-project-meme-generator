@@ -1,4 +1,5 @@
 let textoDoMeme = document.querySelector('#text-input');
+let inputImg = document.querySelector('#meme-insert');
 textoDoMeme.addEventListener('input', function () {
   let texto = document.querySelector('#meme-text');
   texto.innerHTML = textoDoMeme.value;
@@ -10,9 +11,10 @@ function visualizarImg() {
   reader.onloaded = function() {
     preview.src = reader.result;
   }
-  if(imagem) {
+  if(image) {
     reader.readAsDataURL(image);
   } else {
-    visualizar.src="";
+    preview.src="";
   }
 }
+inputImg.addEventListener('change', visualizarImg)
