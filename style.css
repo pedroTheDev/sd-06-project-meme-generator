@@ -16,7 +16,7 @@ body {
 
 .meme-image-style {
   height: 600px;
-  margin: 2px 2px 2px 2px;
+  margin: 2px;
   width: 800px;
   z-index: 2;
 }
