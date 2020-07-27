@@ -1,0 +1,11 @@
+.container {
+  background-color: green;
+  width: 500px;
+}
+
+#meme-text {
+  position: absolute;
+  z-index: 2;
+  background-color: greenyellow;
+}
+

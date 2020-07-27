@@ -12,8 +12,10 @@
     <h1>Meme Generator!</h1>
   </header>
   <main>
-    <input id="text-input" placeholder="Texto do meme">
-    <div id="meme-image-container">
+    <input id="text-input" placeholder="Texto do meme"><br>
+  <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+    <div id="meme-image-container" class="container">
+      <img id="meme-image" class="container">
       <div id="meme-text">
 
       </div>
