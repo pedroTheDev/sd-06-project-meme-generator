@@ -11,6 +11,6 @@ uploadImg.addEventListener('change', function() {
 });
 
 let text = document.querySelector('#text-input');
-text.addEventListener('change', function() {
+text.addEventListener('keyup', function() {
   document.getElementById('meme-text').innerHTML = document.querySelector('#text-input').value;
 });
