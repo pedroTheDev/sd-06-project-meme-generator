@@ -5,9 +5,9 @@ function textWrite() {
 }
 
 function selectedImage(event) {
-  let memeImage = document.getElementById("meme-image");
+  const memeImage = document.getElementById('meme-image');
   memeImage.src = URL.createObjectURL(event.target.files[0]);
   memeImage.onload = function () {
     URL.revokeObjectURL(memeImage.src);
-  }
+  };
 }
