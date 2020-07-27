@@ -14,7 +14,10 @@
   width: 200px;
   position: absolute;
 }
-
+#meme-image {
+  width: 499px;
+  height: 699px;
+}
 img {
   width: 499px;
   height: 699px;
