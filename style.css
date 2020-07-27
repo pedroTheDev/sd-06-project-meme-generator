@@ -2,19 +2,19 @@ body {
   background-color: whitesmoke;
 }
 
-#meme-image {
+.meme-image {
   width: 400px;
   height: 300px;
 }
 
-#meme-image-container {
+.meme-image-container {
   background-color: white;
   width: 400px;
   height: 300px;
   border: 1px solid black;
 }
 
-#meme-text {
+.meme-text {
   position: absolute;
   color: white;
   text-shadow: black 5px 5px 5px;
