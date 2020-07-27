@@ -15,6 +15,12 @@ elementImageInput.addEventListener('input', function(event) {
   }
 });
 
+const elementRedButton = document.getElementById('fire');
+elementRedButton.addEventListener('click', function() {
+  const memeBorder = getElementMemeContainer();
+  memeBorder.style.border = '3px dashed red';
+});
+
 function getElementMemeText() {
   const memeText = document.getElementById('meme-text');
   return memeText;
@@ -23,5 +29,9 @@ function getElementMemeText() {
 function getElementImage() {
   const elementImage = document.getElementById('meme-image');
   return elementImage;
+}
+
+function getElementMemeContainer () {
+  return document.getElementById('meme-image-container');
 }
 
