@@ -1,24 +1,23 @@
 #meme-image-container{
-    width: 300px;
-    border: 2px solid red;
-		height: 300px;
-	}
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	border: 1px solid black;
+}
 #meme-text{
 	margin: 10%;
 	padding: 10%;
 	width: 100px;
 	height: 100px;
-	border: 2px solid blue;
 	position: absolute;
-	overflow: auto;
-	text-overflow: initial;
+}
+#meme-text{
 	text-shadow: 5px 5px 5px;
 	font-size: 30px;
 	color: white;
-	}
-#meme-image{
-	background-color: white;
-	border: 1px solid black;
+}
+#imagem{
+	padding: 3px;
 }
 
 	
