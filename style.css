@@ -1,7 +1,10 @@
 #meme-image-container {
-    width: 60%;
-    height: 60%;
+    width: 650px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black;
 }
+
 #meme-image {
     width: 100%;
 }
