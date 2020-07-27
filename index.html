@@ -6,14 +6,19 @@
   <script type="text/javascript" src="script.js"></script>
   <title>Meme Generator - Renan h. Cunha</title>
 </head>
-<body>
-  <h1>Meme Generator</h1>
-  <form>
-    <label for="text-input">Insira seu texto aqui:</label>
-    <input type="text" name="text-input" id="text-input"><br><br>
-  </form>
-  <div id="meme-image-container">
-    <div id="meme-text">
+  <body>
+    <div class="container">
+    <h1>Meme Generator</h1>
+    <form>
+      <label for="text-input">Insira seu texto:</label>
+      <input type="text" name="text-input" id="text-input"><br><br>
+      <label for="">Insira sua imagem:</label>
+      <input type="file" name="meme-insert" id="meme-insert" accept="image/*"><br><br>
+    </form>
+    <div id="meme-image-container" class="meme-container">
+      <img id="meme-image" src="" alt="meme image">
+      <div id="meme-text">
+      </div>
     </div>
   </div>
 </body>
