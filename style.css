@@ -1,3 +1,17 @@
 body {
   background-color: rgb(154, 185, 211);
 }
+.meme-image-container {
+  border: 1px solid rgb(0, 0, 0);
+}
+.meme-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.meme-text {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 5px;
+
+}
