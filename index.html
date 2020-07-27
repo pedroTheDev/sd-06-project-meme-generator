@@ -8,18 +8,27 @@
 </head>
 <body>
   <section id='topper'>
-    <h1 id='title'>Meme Generator <img id='titleImg' src="https://i.pinimg.com/originals/32/3f/d8/323fd8b794e9c1ab4f52de7e6b018852.jpg" width="150px"></h1>
-    <audio id="audio" src="http://www.audiosengracados.com.br/wp-content/uploads/2020/01/gemido_trollante-www.audiosengracados.com_.br_.mp3" type="mp3"></audio>
-    <div class="preference-input">
+    <h1 id='title'>Meme Generator <img id='titleImg' src='https://i.pinimg.com/originals/32/3f/d8/323fd8b794e9c1ab4f52de7e6b018852.jpg' width='150px'></h1>
+  
+  </section>
+  <section id='preferences'>
+    <div class='preference-input'>
       <h2 id='text-h2'>Custom Text Here:</h2>
-      <input type="text" id="text-input" maxlength='50' size='30' placeholder="Digite sua frase aqui">
+      <input type='text' id='text-input' maxlength='50' size='30' placeholder='Digite sua frase aqui'>
+    </div>
+    <div class='preference-input'>
+      <h2 id='text-h2'>Select Your Image:</h2>
+      <input type='file' id='meme-insert' accept="image/png, image/jpeg" onchange='loadFile(event)'>
     </div>
   </section>
   <section>
     <div id='meme-image-container'>
-      <div id='meme-text'></div>
+      <img id='meme-image'/>
+      <div id='meme-text' ></div>
     </div>
   </section>
   <script src="script.js"></script>
 </body>
 </html>
+
+<audio id='audio' src='http://www.audiosengracados.com.br/wp-content/uploads/2020/01/gemido_trollante-www.audiosengracados.com_.br_.mp3' type='mp3'></audio>
