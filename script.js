@@ -5,6 +5,6 @@ window.onload = function() {
   imagem.addEventListener('input', function() {
     imagemInserida.src = "./img/" + imagem.files[0].name;
     
-    document.querySelector('#meme-image').appendChild(imagemInserida)
+    document.querySelector('#meme-image-container').appendChild(imagemInserida)
   })
 }
