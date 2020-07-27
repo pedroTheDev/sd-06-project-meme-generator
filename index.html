@@ -5,25 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meme generator - exercício Trybe</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&family=Yanone+Kaffeesatz:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f5646ff336.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <header>
     <h1>Meme generator</h1>
-    <h2>exercício Trybe - módulo 5 - JavaScript</h2>  
+    <h2>exercício Trybe - módulo 5 - JavaScript</h2>
   </header>
   <section id="meme-inputs">
     <p>Insira o texto<br>
     <input type="text" id="text-input" maxlength="60" size="60"></p>
     <p>Selecione a imagem: <input type="file" id="meme-insert" accept="image/*" name="image"></p>
   </section>
-  <main id="meme-image-container">
-    <div id="meme-image">
-      <img id="img-receiver">
-    </div>
-    <div id="meme-text">
-    </div>
-  </main>
+  <section id="container">
+    <main id="meme-image-container">
+      <div id="meme-image">
+        <img id="img-receiver">
+      </div>
+      <div id="meme-text">
+      </div>
+    </main>
+    <section id="border-buttons">
+      <button id="fire" class="border-button"><i class="fab fa-gripfire"></i></button>
+      <button id="water" class="border-button"><i class="fas fa-water"></i></button>
+      <button id="earth" class="border-button"><i class="fab fa-envira"></i></button>
+      <button id="reset" class="border-button"><i class="fas fa-undo-alt"></i></button>
+    </section>
+</section>
   <script src="script.js"></script>
 </body>
 </html>
