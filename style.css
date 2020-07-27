@@ -38,7 +38,7 @@ body {
 
 .text-border {
   font-size: 110%;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .border-btn {
@@ -68,7 +68,7 @@ body {
 
 .memes-img {
   border: 2px solid black;
-  margin-right: 15px;
   height: 100px;
+  margin-right: 15px;
   width: 100px;
 }
