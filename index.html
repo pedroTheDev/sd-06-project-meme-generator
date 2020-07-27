@@ -2,12 +2,36 @@
 
 <head>
 
+    <style>
+        #meme-image-container {
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+        }
+
+        #meme-text {
+            border: 1px solid red;
+            overflow: hidden;
+        }
+    </style>
 </head>
 
 <body>
 
-    <script>
+    <p> MEME GENERATOR</p>
+    <div id="meme-image-container">s
 
+        <div id="meme-text">sssssssssssssssssssssssssssssssssssssssssssssssssss</div>
+    </div>
+
+    <input id="text-input" type="text" placeholder="Insira o texto" />
+
+    <script>
+        let textInput = document.getElementById("text-input");
+        let memeText = document.getElementById("meme-text");
+        textInput.addEventListener("keyup", function () {
+            memeText.innerText = textInput.value;
+        });
     </script>
 </body>
 
