@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meme Generator - Matheus Coutinho</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="main-content">
@@ -11,17 +12,22 @@
       <h1>Meme Generator</h1>
     </div>
     <div class="inputs-container">
-      <p>Texto: </p>
-      <input type="text" id="text-input">
-      <p>Foto: </p>
-      <input type="file" name="" id="meme-insert">
+      <div class="text-input">
+        Texto:
+        <input type="text" id="text-input">
+      </div>
+      <div class="img-input">
+        Foto:
+        <input type="file" name="" id="meme-insert">
+      </div>
     </div>
 
     <div id="meme-image-container">
       <img src="" id="meme-image">
-      <div id="meme-text"></div>
+      <div id="meme-text" class="meme-txt"></div>
     </div>
 
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
