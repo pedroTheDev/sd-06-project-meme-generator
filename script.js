@@ -10,6 +10,7 @@ function imageUpload(event) {
     output.onload = function() {
       URL.revokeObjectURL(output.src) 
     }
+}
 document.getElementById("text-input").addEventListener("input",textUpload);
 
 document.getElementById("meme-insert").addEventListener("change",imageUpload);
