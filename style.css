@@ -5,29 +5,28 @@ body {
   font-weight: 400;
 }
 
-#meme-image-container {
+.meme-container {
   background-color: white;
   border-color: black;
   border-style: solid;
-  position: absolute;
   border-width: 1px;
+  position: absolute;
   max-width: 800px;
   min-height: 300px;
   min-width: 400px;
 }
 
-#meme-text {
+.text-meme {
   color: white;
   font-size: 30px;
-  position: relative;
   margin-top: 70%;
+  position: relative;
   text-align: center;
   text-shadow: 5px 5px 5px black;
   z-index: 3;
 }
 
-#meme-image {
+.image-meme {
   position: absolute;
   z-index: 1;
 }
-
