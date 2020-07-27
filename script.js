@@ -15,3 +15,19 @@ function visualizarImg(event) {
   }
 }
 inputImagem.addEventListener('change', visualizarImg);
+
+const memeContainer = document.getElementById('meme-image-container');
+const buttons = document.querySelectorAll('.edit button')
+const bt1 = buttons[0];
+const bt2 = buttons[1];
+const bt3 = buttons[2];
+
+bt1.addEventListener('click', function () {
+  memeContainer.style.border = '3px dashed red';
+});
+bt2.addEventListener('click', function () {
+  memeContainer.style.border = '5px double blue';
+});
+bt3.addEventListener('click', function () {
+  memeContainer.style.border = '6px groove green';
+});

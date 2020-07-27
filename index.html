@@ -16,22 +16,28 @@
         <label for="Meme">
             <h2>Texto:</h2>
             <input type="text" id="text-input" maxlength="60" placeholder="Digite a legenda da foto">
-        </label>        
+        </label>
+
         <label for="imagem">
             <h2>Foto:</h2>
             <input type='file' name="imagem" accept='image/*' id='meme-insert'>
-            </form>
+            <div id = "meme-text"></div>
             <br>
         </label>
-
-
-        <div id="meme-image-container">
-            <img id="meme-image" src="" width="400px" height="400px" />
-            <div id="meme-text"></div>
-        </div>
-
-
     </section>
+    <section class="edit">
+        <button id="fire">FIRE</button>
+        <button id="water">WATER</button>
+        <button id="earth">EARTH</button>
+    </section>
+
+    <div id="meme-image-container">
+        <img id="meme-image" src="" width="400px" height="400px" />
+        <div id="meme-text"></div>
+    </div>
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
