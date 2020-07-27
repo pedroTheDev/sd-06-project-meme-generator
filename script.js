@@ -15,8 +15,14 @@ window.onload = function() {
   //  imagemInserida.src = "./img/" + imagem.files[0].name;
   //  document.querySelector('#meme-image-container').//appendChild(imagemInserida)
   //})
-//
+ //
   //Colocando o texto inserido em no container
+  
+  let texto = document.createElement('p');
   let textoInput = document.querySelector('#text-input');
-
+  textoInput.addEventListener('keyup', function() {
+    
+    texto.innerHTML = textoInput.value; 
+    document.querySelector('#meme-text').appendChild(texto);
+  })
 }
