@@ -1,3 +1,6 @@
+body{
+    background-color: whitesmoke;
+}
 #meme-image-container{
     background-color: white;
     width: 400px;
@@ -8,6 +11,10 @@
 #meme-text{
     position: absolute;
     color: white;
+    text-shadow:black 5px 5px 5px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
 }
 
 #meme-image{
