@@ -1,10 +1,20 @@
 
 body {
-    padding-right: 500px;
+    margin-top: 0px;
 }
 
-#container{
-    border: 3px, solid;
-    width: 15px;
-    height: 15px;
+#meme-image-container {
+    border: double ;
+    height: 400px;
+    width: 400px;
+}
+
+#meme-text {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    bottom: 150px;
 }

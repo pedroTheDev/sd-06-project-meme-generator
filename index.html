@@ -2,23 +2,29 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style.css"/>
-        <script src = "script.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
         <h1> Meme Generator</h1>
+        
+            <section>
+                <label for = "texto"><strong>TEXT: </strong></label>
+                <input type = "text" id = "text-input" oninput= showText()>
+            </section><br>
+            <section class = "imgInput">
+                <label for="image"><strong>PICTURE: </strong></label>
+                <input type="file" id = "image" name = "picture" accept="image/png, image/jpg">
+            </section><br>
+            
+        <div id="meme-image-container">
+            <div id="meme-text">
 
-        <section class = "textInput">
-            <label for = "texto"><strong>TEXT: </strong></label>
-            <input type = "text" id = "text-input">
-        </section><br>
-        <section class = "imgInput">
-            <label for="image"><strong>PICTURE: </strong></label>
-            <button class = imageInput>Choose the image</button>
-        </section>
-        <div id="container">
-
+            </div>
         </div>
+
+
+
+            <script src="script.js"></script>
     </body>
 </html>
