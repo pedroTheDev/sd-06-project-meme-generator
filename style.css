@@ -1,4 +1,6 @@
 body {
+  background-color: darkslategray;
+  color: white;
   font-family: ubuntu, sans-serif;
 }
 
@@ -16,17 +18,16 @@ input {
   margin-top: 25px;
 }
 
-#meme-image-container{
-  border: 5px solid black;
+#meme-image-container {
+  border: 2px solid white;
   display: block;
-  height: 200px;
+  height: 350px;
   margin: 25px auto;
-  width: 200px;
+  width: 350px;
 }
 
 #meme-text {
-  border: 1px solid magenta;
-  margin: 128px auto;
-  height: 70px;
-  width: 90%;
+  height: 100px;
+  margin: 250px auto;
+  max-width: 90%;
 }
