@@ -1,13 +1,19 @@
+body {
+  text-align: center;
+  align-items: center;
+}
+
 .meme-image-container {
   background-color: white;
   border: 1px solid black;
   height: 400px;
   margin: 15px;
+  margin-left: 450px;
   position: relative;
   width: 500px;
 }
 
-img {
+img #meme-image {
   background-color: white;
   height: 400px;
   position: relative;
@@ -20,9 +26,15 @@ img {
   position: absolute;
   text-shadow: 5px 5px 5px black;
   top: 5px;
+  word-wrap: break-word;
 }
 
 button {
   border-radius: 8px;
   padding: 10px;
+}
+
+.meme-examples img {
+  width: 150px;
+  height: 150px;
 }
