@@ -4,11 +4,11 @@
 		height: 300px;
 	}
 #meme-text{
-    width: 100%;
+	margin: 10%;
+	padding: 10%;
+		width: 100px;
+		height: 100px;
     border: 2px solid blue;
-    margin-top: 100%;
-		transform: translateY(-100%);
+   	position: absolute;
 		font-size: x-large;
-		overflow: auto;
-		text-overflow: clip;
 	}
