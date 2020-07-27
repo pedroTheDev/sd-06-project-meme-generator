@@ -15,9 +15,17 @@ h1 {
     font-size: 30px;
     color: white;
     bottom: 50px;
-    word-wrap: break-word;
+    width: 100%;
 }
 
+.meme-images {
+    margin-top: 30px;
+}
+
+#meme-1, #meme-2, #meme-3, #meme-4 {
+    border: 4px solid black;
+    cursor: pointer;
+}
 
 input {
     margin-bottom: 15px;
@@ -29,4 +37,5 @@ button {
     width: 200px;
     height: 40px;
     text-align: center;
+    cursor: pointer;
 }

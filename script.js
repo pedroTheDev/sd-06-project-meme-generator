@@ -32,4 +32,22 @@ window.onload = function() {
         btn3.style.backgroundColor = "green";
         containerImagem.style.border = "6px groove green";
     })
+
+    let meme1 = document.querySelector("#meme-1");
+    let meme2 = document.querySelector("#meme-2");
+    let meme3 = document.querySelector("#meme-3");
+    let meme4 = document.querySelector("#meme-4");
+
+    meme1.addEventListener("click", function() {
+        document.getElementById("meme-image").src = meme1.src;
+    });
+    meme2.addEventListener("click", function() {
+        document.getElementById("meme-image").src = meme2.src;
+    });
+    meme3.addEventListener("click", function() {
+        document.getElementById("meme-image").src = meme3.src;
+    });
+    meme4.addEventListener("click", function() {
+        document.getElementById("meme-image").src = meme4.src;
+    });
 }
