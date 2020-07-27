@@ -45,7 +45,10 @@
   background-color: transparent;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 30px;
+  color: white;
   text-align: center;
+  text-shadow: 5px 5px 5px black;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%)
