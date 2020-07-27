@@ -1,11 +1,13 @@
 .container {
+  position: relative;
   background-color: green;
   width: 500px;
 }
 
 #meme-text {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   background-color: greenyellow;
+  bottom: 50px;
 }
 
