@@ -5,7 +5,7 @@ const MEMEIMG = DQSEL('.meme-img');
 const MEMETXT = DQSEL('#meme-text');
 const DIVIMG = DQSEL('.image-container');
 const BORDERBTN = document.querySelectorAll('.border-btn');
-const BORDERS = ['3px dashed red', '5px double blue', '6px groove green'];
+const BORDERS = ['3px dashed red', '5px blue double', '6px green groove'];
 
 INPUTXT.oninput = () => {
   MEMETXT.textContent = INPUTXT.value;

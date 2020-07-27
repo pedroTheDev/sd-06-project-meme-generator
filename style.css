@@ -33,7 +33,7 @@ body {
   position: absolute;
   text-shadow: 5px 5px 5px black;
   top: 80%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50% , -50%);
 }
 
 .border-btn {
