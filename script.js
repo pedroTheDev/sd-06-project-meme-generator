@@ -18,7 +18,7 @@ let availableStyles = {
 
 //All functionalities used
 let functionalities = {
-    selectImageFile: (event) => realImageUploadButton.click(),
+    //selectImageFile: (event) => realImageUploadButton.click(),
     uploadImage: function uploadImage() {
         if (realImageUploadButton.value) {
             let fileReader = new FileReader();
@@ -48,8 +48,8 @@ let functionalities = {
 }
 
 //Commands
-imagegUplodButton.addEventListener('click', functionalities['selectImageFile']);
-memeTextInput.addEventListener('keypress', functionalities['addMemeText']);
+//imagegUplodButton.addEventListener('click', functionalities['selectImageFile']);
+memeTextInput.addEventListener('keyup', functionalities['addMemeText']);
 realImageUploadButton.addEventListener('change', functionalities['uploadImage']);
 fireStyleButton.addEventListener('click', functionalities.changeStyle['fire']);
 waterStyleButton.addEventListener('click', functionalities.changeStyle['water']);
