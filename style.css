@@ -31,8 +31,9 @@ h1, h2{
 }
 
 #meme-text{
-    top: 100%;
+    top: 80%;
     position: absolute;
+    bottom: 15%;
 }
 
 #meme-text{
