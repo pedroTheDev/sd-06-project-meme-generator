@@ -1,17 +1,14 @@
 var capturando = "";
-var img;
+
 function capturar() {
     capturando = document.getElementById('text-input').value;
     document.getElementById('meme-text').innerHTML = capturando;
 }
-
-// var image = function (event) {
-//     img = document.getElementsByTagName('img');
-//     img.src = URL.createObjectURL(event.target.files[0]);
-//     // img.onload = function(){
-//     //     URL.revokeObjectURL(img.src)
-//     // }
-// }
+let file = document.querySelector('#meme-insert');
+let img = document.querySelector('#meme-image');
+file.addEventListener('change', function(event) {
+    img.src = URL.createObjectURL(event.target.files[0]);
+})
 
 
 // function capturar() {
