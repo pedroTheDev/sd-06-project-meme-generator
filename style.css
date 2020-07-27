@@ -5,3 +5,15 @@
   box-sizing: border-box;
 }
 
+#meme-text {
+  position: absolute;
+}
+
+#meme-image-container {
+  border: 1px solid black;
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  margin: 1%;
+}
+
