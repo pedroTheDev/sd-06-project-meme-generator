@@ -1,5 +1,5 @@
 body {
-  /* background-color: #20202a; */
+  font-size: 110%;
   margin: 30px;
   padding: 0;
 }
@@ -11,15 +11,15 @@ body {
 .image-container {
   background-color: white;
   border: 1px solid black;
-  height: 400px;
+  height: 500px;
   margin-top: 30px;
   position: relative;
-  width: 400px;
+  width: 500px;
 }
 
 .meme-img {
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
 }
 
 .meme-input {
@@ -33,5 +33,29 @@ body {
   position: absolute;
   text-shadow: 5px 5px 5px black;
   top: 80%;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button-container {
+  margin: 30px 70px;
+}
+
+.border-btn {
+  border-radius: 4px;
+  font-size: 110%;
+  height: 30px;
+  margin: 0 15px;
+  width: 80px;
+}
+
+.red {
+  background-color: lightcoral;
+}
+
+.blue {
+  background-color: lightskyblue;
+}
+
+.green {
+  background-color: lightgreen;
 }
