@@ -1,20 +1,20 @@
 
 body {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 #meme-image-container {
-    border: double ;
-    height: 400px;
-    width: 400px;
+  border: double;
+  height: 400px;
+  width: 430px;
 }
 
 #meme-text {
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    height: 50px;
-    width: 400px;
-    bottom: 150px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  text-size-adjust: 15px;
+  top: 70%;
+  left: 1.5%;
+  max-width: 300%;
+  bottom: 20%;
 }

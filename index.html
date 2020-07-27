@@ -10,21 +10,30 @@
         
             <section>
                 <label for = "texto"><strong>TEXT: </strong></label>
-                <input type = "text" id = "text-input" oninput= showText()>
+                <input type = "text" id = "text-input" maxlength="60" oninput= showText()>
             </section><br>
             <section class = "imgInput">
                 <label for="image"><strong>PICTURE: </strong></label>
-                <input type="file" id = "image" name = "picture" accept="image/png, image/jpg">
-            </section><br>
-            
+                <input type="file" id = "meme-insert" accept="image/png, image/jpg, image/jpg" onchange="loadfile(event)">
+            </section><br>    
         <div id="meme-image-container">
+            <div id = "meme-image">
+                
+
+            </div>
             <div id="meme-text">
 
             </div>
         </div>
 
 
+        <section class="options">
+            <h3>Border Color</h3>
+            <button id="water">Water</button>
+            <button id="fire">Fire</button>
+            <button id="earth">Earth</button>
+        </section>
 
-            <script src="script.js"></script>
+    <script src="script.js"></script>
     </body>
 </html>
