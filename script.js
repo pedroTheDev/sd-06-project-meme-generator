@@ -2,7 +2,7 @@ function textInput() {
   // Função que vai fazer o texto aparecer no meme
   let inputText = document.getElementById('text-input').value;
   let divMemeText = document.getElementById('meme-text');
-  return divMemeText.innerHTML = inputText;
+  divMemeText.innerHTML = inputText;
 }
 
 function imageInput() {

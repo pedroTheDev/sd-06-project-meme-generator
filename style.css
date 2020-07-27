@@ -11,6 +11,7 @@
   background-color: white;
   height: 400px;
   width: 500px;
+  position: relative;
 }
 
 .meme-text {
@@ -18,5 +19,6 @@
   font-size: 30px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
+  top: 5px;
   width: 500px;
 }
