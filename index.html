@@ -5,15 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Project Meme Genarator</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script>src='script.js'</script>
     </head>
     <body>
-        <b>Texto:</b>
-        <input id="text-input" type="text"  data-ls-module="charCounter" maxlength="60" name="Texto" placeholder="Digite seu texto aqui" required><br>
-        <button id="meme-inserts">Choose File</button><br>
-        <div id="meme-image-container">
-            <img id="meme-image" src="https://scontent.fgru11-1.fna.fbcdn.net/v/t1.0-9/65212951_2166680606763573_6648518028843548672_o.jpg?_nc_cat=104&_nc_sid=e3f864&_nc_eui2=AeGGP0OeHljAcxi-7ojX6d45Xkv76J5tiYpeS_vonm2JijuzXsmV2NQe99nPvO_6e5aEoV19tFtfUEOS_TZ4ubOG&_nc_ohc=oIxpsytUDxcAX_xQrKs&_nc_ht=scontent.fgru11-1.fna&oh=dd8bc45fb406873d6ffe77599521c6b7&oe=5F45EF6D" alt="" width="400px">
-            <p id="meme-text">teste</p>
+        <div>
+            Texto: <input id="text-input" type="text"  maxlength="60" name="Texto" placeholder="Digite seu texto aqui"><br>
+            Foto: <input id="meme-insert" type="file" accept="image/*">
         </div>
+        <div id="meme-image-container">
+            <img id="meme-image" src="" alt="" type='image'>
+            <div>
+                <p id="meme-text"></p>
+            </div>
+        </div>
+        <script type='text/javascript' src='script.js'></script>
     </body>
 </html>

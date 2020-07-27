@@ -1,4 +1,6 @@
 #meme-image-container {
+    width: 600px;
+    height: 480px;
     position: absolute;
     border-width: 1px;
     border-style: solid;
@@ -13,7 +15,7 @@
 }
 #meme-text {
     position: absolute;
-    text-shadow: black, 5px, 5px, 5px;
+    text-shadow: black 5px 5px 5px;
     font-size: 30px;
     color: white;
     z-index: 2;
