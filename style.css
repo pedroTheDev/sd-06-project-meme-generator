@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue ;
+  background-color: lightblue;
 }
 
 .title {
@@ -8,22 +8,22 @@ body {
 }
 
 .meme-container {
-  position: absolute;
   background-color: white;
-  display: inline-block;
-  text-align: center;
-  width: 500px;
-  height: 500px;
   border: 1px solid black;
-  margin: 0px;
+  display: inline-block;
+  height: 500px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  width: 500px;  
 }
 
 .meme-text {
-  position: absolute;
-  top: 85%;
-  text-shadow: black 5px 5px 5px;
-  font-size: 30px;
   color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
+  top: 85%;
 }
 
 .inputs {
@@ -43,8 +43,8 @@ body {
 }
 
 .separator {
-  text-align: center;
   font-size: 1.5em;
+  text-align: center;
 }
 
 .exhibition {
@@ -53,26 +53,26 @@ body {
 }
 
 .buttons {
-  border: 0px;
+  border: 0;
   border-radius: 50%;
-  width: 80px;
   margin-top: 20px;
+  width: 80px;
 }
 
 .sub-title {
-  text-align: center;
   line-height: 1em;
+  text-align: center;
 }
 
-#fire {
+.fire-button {
   background-color: red;
   margin-left: 542px;
 }
 
-#water {
+.water-button {
   background-color: blue;
 }
 
-#earth {
+.earth-button {
   background-color: green;
 }
