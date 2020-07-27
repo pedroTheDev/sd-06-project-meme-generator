@@ -1,7 +1,14 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 940px;
+}
+
 .img-container {
   background-color: white;
   border: 1px solid black;
   height: 500px;
+  margin-top: 32px;
   position: relative;
   width: 500px;
 }
@@ -20,4 +27,37 @@
   position: absolute;
   text-shadow: 5px 5px 5px black;
   top: 70%;
+}
+
+.border-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  width: 500px;
+}
+
+.red {
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 8px;
+  padding: 16px 32px;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 8px;
+  padding: 16px 32px;
+}
+
+.green {
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 32px;
 }
