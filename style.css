@@ -6,24 +6,23 @@ body {
   padding: 0;
 }
 
-#meme-image {
+.meme_image {
   height: 500px;
   width: 500px;
 }
 
-#meme-text {
+.meme_image_container {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  height: 500px;
+  width: 500px;
+}
+
+.meme_text {
   color: white;
   font-size: 30px;
-  text-shadow: black 5px 5px 5px;
   position: absolute;
+  text-shadow: black 5px 5px 5px;
   width: 300px;
-}
-
-#meme-image-container {
-  border: 1px;
-  border-style: solid;
-  border-color: black;
-  background-color: white;
-  height: 500px;
-  width: 500px;
 }
