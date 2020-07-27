@@ -1,4 +1,4 @@
-const image = document.querySelector('#img-receiver');
+const image = document.querySelector('#meme-image');
 const imageSelector = document.querySelector('#meme-insert');
 const memeContainer = document.querySelector('#meme-image-container');
 
@@ -32,10 +32,10 @@ function changeBorder(element) {
   memeContainer.style.border = element;
 }
 
-fireBtn.addEventListener('click', () => { changeBorder('3px dashed red') });
-waterBtn.addEventListener('click', () => { changeBorder('5px double blue') });
-earthBtn.addEventListener('click', () => { changeBorder('6px groove green') });
-resetBtn.addEventListener('click', () => { changeBorder('1px solid black') });
+fireBtn.addEventListener('click', () => { changeBorder('3px dashed red'); });
+waterBtn.addEventListener('click', () => { changeBorder('5px double blue'); });
+earthBtn.addEventListener('click', () => { changeBorder('6px groove green'); });
+resetBtn.addEventListener('click', () => { changeBorder('1px solid black'); });
 
 const meme1 = document.querySelector('#meme-1');
 const meme2 = document.querySelector('#meme-2');

@@ -51,20 +51,19 @@ h2 {
 }
 
 #meme-inputs > input[ type = 'text' ]:focus {
-  background-color: rgba(251, 251, 255, 89%);
+  background-color: rgba(251 , 251 , 255 , 89%);
   outline: none;
 }
 
 #container {
-  width: 710px;
   margin: auto;
   padding: 0;
+  width: 710px;
 }
 
 #meme-image-container {
   background-color: white;
   border: 1px black solid;
-  display: inline-block;
   float: left;
   height: 400px;
   margin: 0 auto;
@@ -85,18 +84,11 @@ h2 {
 }
 
 #meme-image {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  z-index: 0;
-}
-
-#img-receiver {
   height: 400px;
   margin: 0;
   padding: 0;
   width: 500px;
+  z-index: 0;
 }
 
 #border-buttons {
@@ -112,12 +104,15 @@ h2 {
   color: rgba(255 , 255 , 255 , 80%);
   display: block;
   font-size: 1.1em;
+  height: 35px;
   margin-bottom: 12px;
-  outline: none;
   padding: 0;
   text-align: center;
   width: 35px;
-  height: 35px;
+}
+
+.border-button {
+  outline: none;
 }
 
 #fire {
@@ -161,10 +156,10 @@ h2 {
 }
 
 .thumbnail {
-  width: 80px;
+  border: 0;
   height: 80px;
   margin: 2px 3px 0 0;
-  border: 0;
+  width: 80px;
 }
 
 .thumbnail:active {
