@@ -11,12 +11,14 @@ body {
   border-style: solid;
   border-width: 1px;
   left: 0;
+  max-height: 600px;
   position: relative;
   width: 800px;
 }
 
 .meme-image {
   margin: 1%;
+  position: relative;
   max-height: 98%;
   width: 98%;
 }
