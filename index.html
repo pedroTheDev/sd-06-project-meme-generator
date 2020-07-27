@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
   <title>Meme Generation</title>
 </head>
 <body>
@@ -10,9 +12,10 @@
     <h1>Meme Generator</h1>
   </header>
   <section>
-    <input type="text" id="text-input"><br><br>
+    <label for="text-input" class="subtitle">Meme Text:</label>
+    <input type="text" id="text-input" class="input-field"><br><br>
     <div id="meme-image-container">
-      <div id="meme=text"></div>
+      <div id="meme-text"></div>
     </div>
   </section>
 </body>
