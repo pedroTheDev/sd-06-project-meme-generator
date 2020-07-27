@@ -15,3 +15,9 @@ body {
     min-height: 300px;
     min-width: 400px;
 }
+
+#meme-text {
+    color: white;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+}
