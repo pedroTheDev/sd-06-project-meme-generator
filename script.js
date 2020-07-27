@@ -16,4 +16,4 @@ phrase.addEventListener('keyup', getPhrase);
 function getImage() {
   image.src = URL.createObjectURL(imgInsert.files[0]);
 }
-imgInsert.addEventListener('change', getImage); 
+imgInsert.addEventListener('change', getImage);
