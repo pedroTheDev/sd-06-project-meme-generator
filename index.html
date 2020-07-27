@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Meme Generator</title>
+</head>
+
+<body>
+  <header>
+    <h1>Meme Generator</h1>
+  </header>
+  <p>Texto: <input type="text" id='text-input' maxlength='60'></p>
+
+  <p>Foto: <input type="file" id='meme-insert' accept='image/*' onchange='loadImage(event)'></p>
+
+  <div id='meme-image-container'>
+
+    <p id='meme-text'></p>
+    <img id='meme-image'>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
