@@ -11,8 +11,6 @@
 	height: 200px;
 	position: absolute;
 	border: 1px solid red;
-}
-#meme-text div{
 	text-shadow: 5px 5px 5px;
 	font-size: 30px;
 	color: white;
