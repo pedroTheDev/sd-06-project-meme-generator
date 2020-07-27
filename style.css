@@ -14,7 +14,7 @@ h1 , label {
   background-color: white;
   border: 1px solid black;
   height: 600px;
-  position: realtive;
+  position: relative;
   width: 600px;
 }
 
@@ -22,9 +22,9 @@ h1 , label {
   color: white;
   font-family: Impact, sans-serif;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 1000;
   position: absolute;
-  text-shadow: 5px 5px 5px black ;
+  text-shadow: 5px 5px 5px black;
   top: 80%;
 }
 
