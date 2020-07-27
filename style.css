@@ -1,1 +1,21 @@
-//comecando o projeto
+#meme-image-container {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px black;
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 60px;
+  }
+  
+  #meme-image {
+    width: 400px;
+    height: 400px;
+  }
+  
+  #meme-text {
+    position: absolute;
+    color: white;
+    text-shadow: 5px 5px 5PX black;
+    font-size: 30px;
+    width: 200px;
+  }
