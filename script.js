@@ -1,7 +1,7 @@
 function textInput() {
   // Função que vai fazer o texto aparecer no meme
-  let inputText = document.getElementById('text-input').value;
-  let divMemeText = document.getElementById('meme-text');
+  const inputText = document.getElementById('text-input').value;
+  const divMemeText = document.getElementById('meme-text');
   divMemeText.style.maxWidth = '500px';
   divMemeText.innerHTML = inputText;
 }
@@ -34,29 +34,29 @@ function earthCustom() {
 // Insere a url da imagem na div meme-container
 
 function firstMeme() {
-    const memeImage1 = document.getElementById('meme1').src;
-    outputImage.src = memeImage1;
-    outputImage.style.width = "500px";
-    outputImage.style.height = "400px";
+  const memeImage1 = document.getElementById('meme-1').src;
+  outputImage.src = memeImage1;
+  outputImage.style.width = '500px';
+  outputImage.style.height = '400px';
 }
 
 function secondMeme() {
-    const memeImage2 = document.getElementById('meme2').src;
-    outputImage.src = memeImage2;
-    outputImage.style.width = "500px";
-    outputImage.style.height = "400px";
+  const memeImage2 = document.getElementById('meme-2').src;
+  outputImage.src = memeImage2;
+  outputImage.style.width = '500px';
+  outputImage.style.height = '400px';
 }
 
 function thirdMeme() {
-    const memeImage3 = document.getElementById('meme3').src;
-    outputImage.src = memeImage3;
-    outputImage.style.width = "500px";
-    outputImage.style.height = "400px";
+  const memeImage3 = document.getElementById('meme-3').src;
+  outputImage.src = memeImage3;
+  outputImage.style.width = '500px';
+  outputImage.style.height = '400px';
 }
 
 function fourthMeme() {
-    const memeImage4 = document.getElementById('meme4').src;
-    outputImage.src = memeImage4;
-    outputImage.style.width = "500px";
-    outputImage.style.height = "400px";
+  const memeImage4 = document.getElementById('meme-4').src;
+  outputImage.src = memeImage4;
+  outputImage.style.width = '500px';
+  outputImage.style.height = '400px';
 }

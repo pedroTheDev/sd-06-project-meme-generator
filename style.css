@@ -1,6 +1,6 @@
 body {
-  text-align: center;
   align-items: center;
+  text-align: center;
 }
 
 .meme-image-container {
@@ -13,7 +13,7 @@ body {
   width: 500px;
 }
 
-img #meme-image {
+.meme_image {
   background-color: white;
   height: 400px;
   position: relative;
@@ -35,6 +35,6 @@ button {
 }
 
 .meme-examples img {
-  width: 150px;
   height: 150px;
+  width: 150px;
 }
