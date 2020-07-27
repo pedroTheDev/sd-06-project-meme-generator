@@ -13,7 +13,7 @@ window.onload = function() {
         let imagem = document.getElementById('imagem');
         imagem.src = URL.createObjectURL(event.target.files[0]);
         imagem.onload = function() {
-          URL.revokeObjectURL(output.src);
+          URL.revokeObjectURL(imagem.src);
     }
    
 }
