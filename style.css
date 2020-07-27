@@ -7,25 +7,33 @@ body {
 
 header {  
   background-color: rgb(255 , 255 , 255);
+  color: rgb(36 , 66 , 56);
   text-align: center;
+  height: 80px;
 }
 
+/* header h1, #trybe-logo {
+  display: inline-block;
+} */
+
 header #trybe-logo {
-  padding: 10px;
+  margin-top: 10px ;
   width: 70px;
 }
 
 header h1 {
-  font-size: 2em;
-  margin: 0em;
-
+  font-size: 24px;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
 #meme-image-container #meme-image {
-  position: absolute;
   width: 300px;
 }
 
 #meme-image-container #meme-text {
-  margin-top: 30px;
+  position: absolute;
+  text-align: center;
+  top: 200px;
 }
