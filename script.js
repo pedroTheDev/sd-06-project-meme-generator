@@ -7,7 +7,7 @@ window.onload = function() {
     escreverTexto.addEventListener("change", function() {
         textoMostrado.innerHTML = escreverTexto.value;
     });
-    imagemSelecionada.addEventListener("change", function() {
+    imagemSelecionada.addEventListener("input", function() {
         console.log(imagemSelecionada.file);
     });
     
