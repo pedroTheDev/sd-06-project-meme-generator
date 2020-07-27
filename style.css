@@ -14,6 +14,7 @@ input {
 div {
     margin: 5% auto;
     border: solid black 10px;
+    background-color: rgb(255, 255, 255);
     width: 400px;
     height: 400px;
     text-align: center;
