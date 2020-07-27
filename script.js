@@ -7,8 +7,9 @@ function textInput() {
 
 function imageInput() {
     // Função que vai fazer a imagem aparecer no meme
-    let inputImage = document.getElementById("meme-insert").value;
-    let divMemeGenerator = document.getElementById("meme-image-container");
-    divMemeGenerator.innerHTML = `<img src="${inputImage}" alt="meme">`;
-    console.log(inputImage);
+    let outputImage = document.getElementById("meme-image");
+    outputImage.src = URL.createObjectURL(event.target.files[0]);
+    outputImage.onload = function() {
+        URL.revokeObjectURL(outputImage.src);
+    }
 }
