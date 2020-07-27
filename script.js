@@ -12,8 +12,7 @@ function teclado() {
     texto.innerHTML = textoInput.value;
 }
 
-function addImagem() {
-    let memeInsert = document.getElementById('meme-insert');
+function addImagem(event) {
     let memeImage = document.getElementById('meme-image');
-    memeImage.src = URL.createObjectURL(memeInsert.files[0]);
+    memeImage.src = URL.createObjectURL(event.target.files[0]);
 }
