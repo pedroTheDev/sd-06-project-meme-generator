@@ -6,14 +6,17 @@ userTextInput.addEventListener("input", function(){
     memeTextInput.innerText = userTextInput.value;
 })
 
+// Req 2
+let memeImage = document.querySelector("#meme-image-img")
+
 // Req 6
-let personalizeSection = document.querySelector(".personalize-section");
+let personalizeColor = document.querySelector(".personalize-color");
 let fireButton = document.querySelector("#fire");
 let waterButton = document.querySelector("#water");
 let earthButton = document.querySelector("#earth");
 let memeImgContainer = document.querySelector("#meme-image-container");
 
-personalizeSection.addEventListener("click", function(event){
+personalizeColor.addEventListener("click", function(event){
     if (event.target == fireButton){
         memeImgContainer.style.borderWidth = "3px";
         memeImgContainer.style.borderStyle = "dashed";
@@ -27,4 +30,16 @@ personalizeSection.addEventListener("click", function(event){
         memeImgContainer.style.borderStyle = "groove";
         memeImgContainer.style.borderColor = "rgb(0,255,0)";
     }
+})
+
+// Req 7
+let memeOne = document.querySelector("#meme-1");
+let memeTwo = document.querySelector("#meme-2");
+let memeThree = document.querySelector("#meme-3");
+let memeFour = document.querySelector("#meme-4");
+let personalizeImage = document.querySelector(".personalize-image")
+
+personalizeImage.addEventListener("click", function(event){
+    console.log(event.target.src);
+    memeImage.src = event.target.src;
 })

@@ -36,7 +36,12 @@ h1, h2{
     font-size: 30px;
 }
 
-h4{
+/* PERSONALIZAR DISTANCIA ENTRE BUTOES E CENTRALIZAR
+.personalize-content button{
+    display: block;
+} */
+
+h4, h5{
     text-align: center;    
 }
 
