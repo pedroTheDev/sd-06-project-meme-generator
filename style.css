@@ -12,9 +12,23 @@ h1 , label {
 
 .container {
   background-color: white;
+  position: realtive;
+  height: 600px;
+  width: 600px;
   border: 1px solid black;
 }
 
 .text {
   position: absolute;
+  top: 80%;
+  font-family: Impact, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 5px 5px 5px black ;
+  font-size: 30px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
 }
