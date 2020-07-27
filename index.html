@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
+    <style src="style.css"></style>
 </head>
 <body>
     <header>
         <h1>Meme Generator</h1>
     </header>
     <section id="make-your-meme">
-        <p>Texto: <input type="text" id="text-input"></p>
-        <p>Foto:</p> <input type="file" id="meme-insert"> 
-        <div id="meme-image-container">
-            <img src="" alt="" id="meme-image">
+        <p>Texto: <input type="text" id="text-input" onkeyup="textInput()" maxlength="60"></p>
+        <p>Foto: <input type="file" id="meme-insert" visibility="hidden" accept="image/*" onchange="imageInput()">
+        <div id="meme-image-container"></p>
+            <img src="#" alt="meme" id="meme-image">
             <textarea id="meme-text"></textarea>
         </div>
     </section>
@@ -24,5 +25,6 @@
         <p>Memes pré prontos</p>
     </section>
 
+    <script src="script.js"></script>
 </body>
 </html>
