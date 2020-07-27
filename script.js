@@ -35,3 +35,19 @@ let img1 = document.getElementById('meme-1');
 let img2 = document.getElementById('meme-2');
 let img3 = document.getElementById('meme-3');
 let img4 = document.getElementById('meme-4');
+function meme1() {
+  document.getElementById('meme-image').src = 'imgs/meme1.png';
+}
+img1.addEventListener('click', meme1);
+function meme2() {
+  document.getElementById('meme-image').src = 'imgs/meme2.png';
+}
+img2.addEventListener('click', meme2);
+function meme3() {
+  document.getElementById('meme-image').src = 'imgs/meme3.png';
+}
+img3.addEventListener('click', meme3);
+function meme4() {
+  document.getElementById('meme-image').src = 'imgs/meme4.png';
+}
+img4.addEventListener('click', meme4);
