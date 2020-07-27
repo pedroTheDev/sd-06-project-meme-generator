@@ -44,11 +44,35 @@ body {
 
 .separator {
   text-align: center;
-  line-height: 2em;
   font-size: 1.5em;
 }
 
 .exhibition {
   display: inline-block;
-  margin-left: 433px;
+  margin-left: 412px;
+}
+
+.buttons {
+  border: 0px;
+  border-radius: 50%;
+  width: 80px;
+  margin-top: 20px;
+}
+
+.sub-title {
+  text-align: center;
+  line-height: 1em;
+}
+
+#fire {
+  background-color: red;
+  margin-left: 542px;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
 }
