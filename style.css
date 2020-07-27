@@ -10,10 +10,10 @@ body {
   border-color: black;
   border-style: solid;
   border-width: 1px;
-  position: absolute;
   max-width: 800px;
   min-height: 300px;
   min-width: 400px;
+  position: absolute;
 }
 
 .text-meme {
