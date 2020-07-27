@@ -1,7 +1,8 @@
 #meme-image-container{
-    border: solid 2px rebeccapurple;
+    border: solid 1px black;
     height: 300px;
     width: 300px;
+    background-color: white;
 }
 
 #img-size{
@@ -17,4 +18,8 @@
     height: 60px;
     border: 3px solid #73AD21;
     color:white;
+    font-size: 30px;
+    text-shadow: black 5px 5px 5px;
+
 }
+
