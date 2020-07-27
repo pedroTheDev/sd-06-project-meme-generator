@@ -39,6 +39,10 @@ header {
     border: 1px solid black;
 }
 
+#meme-text-container {
+    max-width: 100%;
+}
+
 #meme-text {
     color: rgba(255, 255, 255, 1);
     font-size: 30px;
