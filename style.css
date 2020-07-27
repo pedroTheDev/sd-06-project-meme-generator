@@ -9,6 +9,7 @@ header{
 }
 
 section{
+    position: absolute center;
     background-color: whitesmoke;
     border-radius: 10px;
     color: black;
@@ -29,8 +30,8 @@ section{
 #meme-image-container img {
     position: relative;
     z-index: 1;
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: auto;
 }
 #meme-text{
    position: relative;
@@ -47,4 +48,5 @@ footer{
     color: rgb(255, 255, 255);
     font-style: italic;
     text-align: center;
+    
 }
