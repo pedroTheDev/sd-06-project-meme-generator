@@ -5,6 +5,7 @@ body {
 #size-page {
     width: 800px;
     margin-left: 380px;
+    margin-bottom: 50px;
 }
 
 #title {
@@ -46,4 +47,47 @@ body {
     border: 5px ridge rgba(206, 206, 206, 0.801);
     padding: 200px;
     margin-top: 70px;
+}
+
+#fire {
+    border: 3px dashed red;
+}
+
+.fire {
+    background-color: red;
+    font-size: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    text-shadow: green;
+}
+
+#water {
+    border: 5px double blue;
+}
+
+.water {
+    background-color: blue;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#earth {
+    border: 6px groove green;
+}
+
+.earth {
+    background-color: green;
+    font-size: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
 }
