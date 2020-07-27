@@ -11,13 +11,20 @@ let personalizeSection = document.querySelector(".personalize-section");
 let fireButton = document.querySelector("#fire");
 let waterButton = document.querySelector("#water");
 let earthButton = document.querySelector("#earth");
+let memeImgContainer = document.querySelector("#meme-image-container");
 
 personalizeSection.addEventListener("click", function(event){
     if (event.target == fireButton){
-        console.log("fire");
+        memeImgContainer.style.borderWidth = "3px";
+        memeImgContainer.style.borderStyle = "dashed";
+        memeImgContainer.style.borderColor = "rgb(255,0,0)";
     } else if (event.target == waterButton){
-        console.log("water");
+        memeImgContainer.style.borderWidth = "5px";
+        memeImgContainer.style.borderStyle = "double";
+        memeImgContainer.style.borderColor = "rgb(0,0,255)";
     } else if (event.target == earthButton){
-        console.log("earth");
+        memeImgContainer.style.borderWidth = "6px";
+        memeImgContainer.style.borderStyle = "groove";
+        memeImgContainer.style.borderColor = "rgb(0,255,0)";
     }
 })
