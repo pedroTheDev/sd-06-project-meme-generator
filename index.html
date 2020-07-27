@@ -6,16 +6,14 @@
         <link href='style.css' rel='stylesheet'>
     </head>
     <body>
-        <header>
             <h1>Meme Generator</h1>
-        </header>
-    <section>
+     
         <label for='input-meme-text'>Insert your meme msg: </label>
-        <input type="text" id='text-input' name='input-meme-text' maxlength='10'>
+        <input type="text" maxlength="10" id='text-input' name='input-meme-text'>
         <input type='file' id='meme-insert' visibility='hidden'>
         <button id='fake-upload-button'>Choose Meme Image xD</button>
         <div id='meme-image-container'>
-            <textarea id='meme-text'></textarea>
+            <h2 id='meme-text'></h2>
             <img id='meme-image'>
         </div>
         <button id='fire'>Fire</button>
@@ -35,7 +33,7 @@
                 <img src='imgs/meme-4.png' alt='meme image 4'>
             </div>
         </div>
-    </section>
+
     <script src='script.js'></script>
     </body>
 </html>
