@@ -3,20 +3,50 @@
 <head>
 
     <style>
-        #meme-image-container {
-            border: 1px solid black;
-            width: 302px;
-            overflow: hidden;
-            background-color: white;
+        body {
+            background-color: #ffffff;
+        }
+
+        .wrapper {
+            border: 1px solid #5c415d;
+            border-radius: 20px;
+            width: 400px;
+            margin: auto;
+            background-color: #e94f37;
 
         }
 
-        #meme-text {
-            border: 1px solid red;
-            position: absolute;
-            width: 250px;
-            overflow: hidden;
+        p {
+            margin-top: 0px;
+            margin-bottom: 20px;
             text-align: center;
+            font-family: 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            color: #5c415d;
+        }
+
+        #meme-image-container {
+            border: 1px solid black;
+            width: 300px;
+            overflow: hidden;
+            background-color: white;
+            margin: auto;
+
+        }
+
+        .text-wrapper {
+            overflow: hidden;
+            position: absolute;
+            width: 300px;
+            height: 300px;
+        }
+
+        #meme-text {
+            position: absolute;
+            width: 270px;
+            text-align: center;
+            margin-left: 14px;
+            margin-top: 220px;
 
             font-size: 30px;
             color: white;
@@ -33,26 +63,49 @@
             width: 300px;
             height: 300px;
         }
+
+        .control-wrapper {
+            margin: auto;
+            margin: 20px 10px;
+
+        }
+
+        #text-input {
+            width: 160px;
+            margin-left: 10px;
+        }
+
+        #meme-insert {
+            width: 190px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
     </style>
 </head>
 
 <body>
+    <div class="wrapper">
 
-    <p> MEME GENERATOR</p>
-    <div id="meme-image-container">
+        <p> MEME GENERATOR</p>
 
-        <div id="meme-text">sssssssssssssssssssssssssssssssssssssssssssssssssss</div>
+        <div id="meme-image-container">
+            <div class="text-wrapper">
+                <div id="meme-text">Insira seu Texto</div>
+            </div>
 
-        <div id="meme-image">
-            <img id="bg-image" />
+            <div id="meme-image">
+                <img id="bg-image" />
+            </div>
+
+
         </div>
 
-
+        <section class="control-wrapper">
+            <!-- Controles -->
+            <input id="text-input" type="text" placeholder="Insira o texto" maxlength="60" />
+            <input id="meme-insert" type="file" accept="image/*" />
+        </section>
     </div>
-
-    <!-- Controles -->
-    <input id="text-input" type="text" placeholder="Insira o texto" maxlength="60" />
-    <input id="meme-insert" type="file" accept="image/*" />
 
     <script>
         // Texto
