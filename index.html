@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav>
             <form>
-                <label for="text-inpu">Texto</label><br>
-                <input type="text" id="text-input" name="text-input"><br>
-                
-              </form>
+                <label for="text-input">Texto</label><br>
+                <input type="text" id="text-input" placeholder="Digite aqui!"><br>
+                <!-- <button type="button" onclick="getInputValue();">Get Value</button> -->
+            </form>
         </nav>
+        <div id="meme-image-container">
+            <img src="image.jpg" width="350px" />
+            <h1 id="meme-text">Teste</h1>
+        </div>
+        <div id="teste"></div>
     </header>
+    <script src="script.js"></script>
 </body>
+
 </html>

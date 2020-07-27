@@ -1,0 +1,13 @@
+#meme-image-container {
+    position: relative;
+    margin-left: 50%;
+    margin-top: 40px;
+}
+
+#meme-text {
+    position: absolute;
+    color: red;
+    margin-top: -100px;
+    text-shadow: 2px 2px white;
+    font-size: 3em;
+}
