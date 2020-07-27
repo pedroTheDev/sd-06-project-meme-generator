@@ -8,6 +8,8 @@ let fireStyleButton = document.querySelector('#fire');
 let waterStyleButton = document.querySelector('#water');
 let earthStyleButton = document.querySelector('#earth');
 let imageContainer = document.querySelector('#meme-image-container');
+let preSetImages = document.querySelectorAll('#thumbnails img');
+console.log(preSetImages);
 
 let availableStyles = {
     fire: 'dashed red 3px',
@@ -38,13 +40,24 @@ let functionalities = {
         water: (event) => imageContainer.style.border = availableStyles['water'],
         earth: (event) => imageContainer.style.border = availableStyles['earth'],
     },
+    insertPreSetImage: {
+        meme1: (event) => memeImage.src = preSetImages[0].src,
+        meme2: (event) => memeImage.src = preSetImages[1].src,
+        meme3: (event) => memeImage.src = preSetImages[2].src,
+        meme4: (event) => memeImage.src = preSetImages[3].src,
+    },
 }
 
 //Commands
 imagegUplodButton.addEventListener('click', functionalities['selectImageFile']);
-memeTextInput.addEventListener('change', functionalities['addMemeText']);
-realImageUploadButton.addEventListener('change',(event) => functionalities['uploadImage']);
+memeTextInput.addEventListener('keypress', functionalities['addMemeText']);
+realImageUploadButton.addEventListener('change', functionalities['uploadImage']);
 fireStyleButton.addEventListener('click', functionalities.changeStyle['fire']);
 waterStyleButton.addEventListener('click', functionalities.changeStyle['water']);
 earthStyleButton.addEventListener('click', functionalities.changeStyle['earth']);
+for (let i = 0; i < preSetImages.length; i += 1) {
+    let meme = 'meme' + (i+1);
+    preSetImages[i].addEventListener('click', functionalities.insertPreSetImage[meme]);
+}
+
     
