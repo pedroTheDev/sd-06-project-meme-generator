@@ -1,6 +1,7 @@
 
 #meme-image-container {
-    border: solid black 1px;
+    border: solid rgb(0 , 0 , 0) 1px;
+    background-color: rgb(255 , 255 , 255);
     height: 400px;
     width: 400px;
     margin: 5%;
@@ -11,6 +12,7 @@
     height: 400px;
     width: 400px;
     position: absolute;
+    object-fit: fill;
 }
 
 #meme-text {
