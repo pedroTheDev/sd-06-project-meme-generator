@@ -12,11 +12,14 @@ body {
   border-width:  1px;
   left: 0;
   position: relative;
+  width: 800px;
 }
 
 .meme-image-style {
   margin: 0;
-  height: 400px;
+  width: 98%;
+  margin: 1%;
+  max-height: 98%;
 }
 
 .meme-text-style {
@@ -25,6 +28,7 @@ body {
   height: auto;
   margin: -15% 10% 10%;
   position: absolute;
+  text-align: center;
   text-shadow: 5px 5px 5px black;
   width: 80%;
   z-index: 3;
