@@ -1,3 +1,10 @@
-body {
-    background-color: white;
+#meme-image-container{
+    border: solid 2px rebeccapurple;
+    height: 300px;
+    width: 300px;
+}
+
+#meme{
+    height: 300px;
+    width: 300px; 
 }
