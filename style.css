@@ -16,6 +16,7 @@ h1, h2{
 
 #meme-image-container{
     /* display: flex; */
+    position: relative;
 }
 
 #meme-image-container{
@@ -34,11 +35,7 @@ h1, h2{
     top: 80%;
     position: absolute;
     bottom: 15%;
-}
-
-#meme-text{
-    width: 100%;
-    text-align: center;
+    left: 10%;
 }
 
 #meme-text{
