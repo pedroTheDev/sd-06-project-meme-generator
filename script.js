@@ -1,5 +1,14 @@
-function showText() {
-  let inputText =  document.querySelector('#text-input').value;
+const DQSEL = function (params) { return document.querySelector(params); };
+const INPUTXT = DQSEL('.input-text');
+const INPUTIMG = DQSEL('#meme-insert');
+const MEMEIMG = DQSEL('.meme-img');
+const MEMETXT = DQSEL('#meme-text');
 
-  document.querySelector('#meme-text').textContent = inputText;
+INPUTXT.oninput = () => {
+  let inputText = document.querySelector('#text-input').value;
+  MEMETXT.textContent = inputText;
+};
+
+INPUTIMG.oninput = () => {
+  MEMEIMG.src = URL.createObjectURL(INPUTIMG.files[0]);
 }

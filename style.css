@@ -1,10 +1,7 @@
 body {
   margin: 30px;
   padding: 0;
-}
-
-.text-content {
-  display: inline-block;
+  background-color: #20202a;
 }
 
 .text {
@@ -15,5 +12,25 @@ body {
   border: 1px solid black;
   height: 400px;
   margin-top: 30px;
+  position: relative;
   width: 400px;
+}
+
+.meme-img {
+  height: 400px;
+  width: 400px;
+}
+
+.meme-input {
+  margin-top: 25px;
+}
+
+.center-text {
+  color: green;
+  font-size: 220%;
+  left: 50%;
+  position: absolute;
+  text-shadow: 4px 2px 2px black;
+  top: 80%;
+  transform: translate(-50%, -50%);
 }

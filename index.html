@@ -14,15 +14,20 @@
       </div>
 
       <div id="input-content" class="text-content">
-        <p class="text">Texto:</p>
-        <input oninput="showText()" maxlength="60"
-        id="text-input" type="text" class="input-text">
+        Texto:
+        <input maxlength="60" id="text-input" type="text" class="input-text">
+
+        <div class="meme-input">Foto:
+          <input id="meme-insert" oninput="" type="file">
+        </div>
       </div>
 
       <div id="meme-image-container" class="image-container">
-        <div id="meme-text"></div>
+        <img class="meme-img" src="">
+        <div id="meme-text" class="center-text"></div>
       </div>
     </div>
+
 
     <script src="script.js"></script>
   </body>
