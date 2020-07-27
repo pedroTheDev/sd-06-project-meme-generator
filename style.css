@@ -46,7 +46,7 @@ header h1 {
 }
 
 #meme-image-container {
-  width: 350px;
+  width: 400px;
   background-color: rgb(255 , 255 , 255);
   border: 1px solid rgb(0 , 0 , 0);
   margin-left: auto;
@@ -55,16 +55,17 @@ header h1 {
 }
 
 #meme-image-container #meme-image {
-  width: 350px;
+  width: 400px;
   background-size: cover;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #meme-image-container #meme-text {
-  margin: 0;
+  /* margin: 0; */
   position: absolute;
   width: 350px;
-  top: 120px;
+  top: 220px;
   text-align: center;
   font-size: 30px;
   text-shadow: 5px 5px 5px rgb(0 , 0 , 0);
