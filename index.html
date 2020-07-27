@@ -4,27 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .imagemaleatoria {
-            background: url(http://lorempixel.com/g/400/200/);
-            width: 400px;
-            height: 200px;
-        }
-        #meme-text {
-            margin-top: 160px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div>
-        <input id="text-input">
+        <input id="text-input" maxlength='60'>
     </div>
-    <div id="meme-image-container">
-        <input type="image">
-        <div class="imagemaleatoria">
-            <input id="meme-text">
+    <div id="meme-image-container"> <!-- Container -->
+        <input id="meme-insert" type="image">
+        <div id="meme-image">
+            <p id="meme-text">Texto do Meme</p>
         </div>
-    </div>
-    
+    </div> <!-- Container --> 
+    <button id='fire'>Fire</button>
+    <button id='water'>Water</button>
+    <button id='earth'>Earth</button> 
+    <script src="script.js"></script>
 </body>
 </html>
