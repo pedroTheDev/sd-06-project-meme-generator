@@ -10,14 +10,25 @@
 <body>
   <section>
     <h1>Create your own Meme!</h1>
-    <p>Insert your text here:</p>
-    <input type='text' id='text-input' class='text-input' maxlength='60'/>
-    <p>Load your pic here:</p>
-    <input type='file' id='meme-insert' class='meme-insert'>
+    <span>
+      <span class='left'>
+        <label>Text:</label>
+        <input type='text' id='text-input' class='text-input' maxlength='60'/>
+      </span>
+      <span class='right'>
+        <label>Pic:</label>
+        <input type='file' id='meme-insert' class='meme-insert'>
+      </span>
+    </span>
   </section>
   <section id='meme-image-container' class='meme-image-container'>
     <div id='meme-text' class='meme-text'></div>
     <img src='' id='meme-image' class='meme-image'>
+  </section>
+  <section class='buttons'>
+    <button id='fire' class='fire'>Fire</button>
+    <button id='water' class='water'>Water</button>
+    <button id='earth' class='earth'>Earth</button>
   </section>
   <script src="script.js"></script>
 </body>
