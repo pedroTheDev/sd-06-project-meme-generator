@@ -9,16 +9,33 @@ h1 {
   text-align: center;
 }
 
-input {
-  display: block;
-  font-family: monospace, sans-serif;
-  font-size: 15px;
-  margin-left: auto;
-  margin-right: auto;
+p, .text-input {
+  display: inline-block;
+  margin: 10px auto;
   margin-top: 25px;
 }
 
-#meme-image-container {
+.text-input {
+  color: darkslategray;
+  font-family: monospace;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.btn {
+  border: 0px;
+  color: darkslategray;
+  background-color: white;
+  font-family: ubuntu, sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.img-container {
   border: 2px solid white;
   display: block;
   height: 350px;
@@ -26,8 +43,11 @@ input {
   width: 350px;
 }
 
-#meme-text {
+.text-container {
   height: 100px;
+  font-size: x-large;
+  font-weight: bold;
   margin: 250px auto;
   max-width: 90%;
+  z-index: 1;
 }

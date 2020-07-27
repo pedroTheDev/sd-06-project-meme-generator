@@ -12,13 +12,22 @@
   </header>
 
   <section>
-    <input id='text-input'>
-    <div id='meme-image-container'>
-      <div id='meme-text'></div>
+    <section>
+      <p>Insert meme text:</p>
+      <input id='text-input' class='text-input'>
+    </section>
+    <section>
+      <p>Insert meme image:</p>
+      <input type='file' accept='image/*' onchange='loadFile(event)' id='meme-insert'>
+    </section>
+    <div id='meme-image-container' class='img-container'>
+      <img id='meme-image'>
+      <div id='meme-text' class='text-container'></div>
     </div>
   </section>
 
   <script type='text/javascript' src='./script.js'></script>
+</script>
 
 </body>
 </html>
