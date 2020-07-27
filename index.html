@@ -1,1 +1,35 @@
-olá mundo !
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Meme Generator</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <style>
+
+          #meme-imag-container {
+              margin-top: 200px;
+              padding: 5px 5px 5px 5px;
+              border: 1px solid black;
+              background-color: white;
+          }
+          div.meme-text {
+              position : absolute;
+          }
+
+      </style>
+      <h1>Meme Generator</h1>
+
+      <div id="meme-image-container">
+     <div id="meme-text"> </div> 
+      </div>
+      
+      <form>
+          <label for="text-input">Acrescente seu texto:</label><br>
+        <input type="text" id="text-input" name="text-input" maxlength="60"><br>
+        <label>baixe aqui sua imagem!</label><br>
+        <input id="meme-insert" type="file" name=""><br>
+      </form>
+
+  </body>
+</html>
