@@ -3,10 +3,16 @@ textoDoMeme.addEventListener('input', function () {
   let texto = document.querySelector('#meme-text');
   texto.innerHTML = textoDoMeme.value;
 });
-let loadImage = function(event) {
-  let output = document.querySelector('#output');
-  output.src = URL.createObjectURL(event.target.files[0]);
-  output.onload = function() {
-    URL.revokeObjectURL(output.src);
+function visualizarImg() {
+  let image = document.querySelector('input[name=imagem').files[0];
+  let preview = document.querySelector('img')
+  let reader = new FileReader();
+  reader.onloadend = function() {
+    preview.src = reader.result;
+  }
+  if(imagem) {
+    reader.readAsDataURL(image);
+  } else {
+    visualizar.src="";
   }
 }

@@ -10,16 +10,18 @@
   Inserir texto:
   <input type = "text" id = "text-input" maxlength="60"><br>
   Inserir imagem:
-  <input type='file' accept='image/*' id='meme-insert' onchange="loadFile(event)" />
-
+  <form method="POST" action="" enctype="multipart/form-data">
+    <input type='file' name="imagem" accept='image/*' id='meme-insert' onchange="visualizarImg">
+  </form>
   <div id = "meme-image-container">
     <div id = "meme-image">
       <canvas id="canvas" width="1024">
-        <img id = "output"/>
+        <img style="width: 150px; height: 150px" >
       </canvas>
     </div>
     <div id = "meme-text"></div>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src = "script.js"></script>
 </body>
 </html>
