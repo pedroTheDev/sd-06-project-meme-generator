@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
   <title>Meme generator</title>
 </head>
 
@@ -12,11 +13,14 @@
   <header>
     <h1>Meme generator</h1>
   </header>
-  <section id="meme-image-container">
+  <section>
     <label for="text-input">Text:</label>
-    <input type="text" id="text-input" placeholder="adicione seu texto!!">
+    <input type="text" id="text-input" placeholder="adicione seu texto!!"><br>
     <label for="image">Pick an imagem:</label>
     <input type="file" id="image">
+    <div id="meme-image-container">
+      <p id="meme-text"></p>
+    </div>
   </section>
 
 </body>

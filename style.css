@@ -1,4 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box; 
+}
+
+#meme-image-container {
+  border: 2px solid black;
+  height: 70vh;
+  width: 50vw;
+}
+
+#meme-text {
+  
 }
