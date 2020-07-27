@@ -4,7 +4,6 @@
   width: 300px;
   height: 300px;
   border: 1px solid black;
-  border-radius: 2px;
 }
 
 #text-input {
@@ -34,4 +33,9 @@ h3 {
   color: white;
   text-shadow: 5px 5px 5px black;
   text-align: center;
+}
+
+#meme-image {
+  width: 300px;
+  height: 300px;
 }
