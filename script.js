@@ -1,10 +1,12 @@
 // function previewImagem() {
-//     let imagem = document.querySelector('#imagem').files[0];
+//     let imagem = document.querySelector('#').files[0];
 //     let preview = document.querySelector('img');
 //     let text = document.querySelector('#text-input')
 //     let memeText = document.querySelector("")
 
-//     function Prhase(){
+//     function Prhase() {
+
+//         text.
 
 
 //     }
