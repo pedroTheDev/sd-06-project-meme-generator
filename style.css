@@ -1,0 +1,17 @@
+#meme-text{
+    font-size: 30px;
+    color: white;
+    text-shadow: 5 5 5 black;
+    position: absolute;
+    }
+#text-input{
+    background-color: white;
+    border: black solid 1px;
+}
+#meme-image-container{
+    background-color: white;
+    border: black solid 1px;
+    height: 350px;
+    width: 350px;
+    margin-top: 10px;
+}
