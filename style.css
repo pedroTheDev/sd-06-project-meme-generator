@@ -3,9 +3,17 @@
     border: solid black 1px;
     height: 400px;
     width: 400px;
+    margin: 5%;
+    position: relative;
 }
 
 #meme-image {
     height: 400px;
     width: 400px;
+    position: absolute;
+}
+
+#meme-text {
+    position: absolute;
+    z-index: 1;
 }
