@@ -11,10 +11,11 @@
         <h1>Meme Generator</h1>
     </header>
     <section id="make-your-meme">
-        <p>Texto: <input type="text" id="text-input" onkeyup="textInput()" maxlength="60"></p>
-        <p>Foto: <input type="file" id="meme-insert" visibility="hidden" accept="image/*" onchange="imageInput()">
-        <div id="meme-image-container">
-            <textarea></textarea>
+        <label id="label-text">Texto: </label><input type="text" id="text-input" onkeyup="textInput()" maxlength="60"></p>
+        <label id="label-foto">Foto: </label><input type="file" id="meme-insert" visibility="hidden" accept="image/*" onchange="imageInput()">
+        <div id="meme-image-container" class="meme-image-container">
+            <div id="meme-text" class="meme-text"></div>
+            <div id="meme-image" class="meme-image"></div>
         </div>
     </section>
     <section id="customize">
