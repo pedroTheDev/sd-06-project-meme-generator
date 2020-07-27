@@ -6,7 +6,7 @@ window.onload = function() {
     upImage.addEventListener("change", upload);
     
     let textoMeme = document.querySelector("#text-input");
-    textoMeme.addEventListener("keyup", showText);
+    textoMeme.addEventListener("input", showText);
 
     let textShow = document.querySelector("#meme-text");
     function showText() {
@@ -19,18 +19,18 @@ window.onload = function() {
     let btn3 = document.querySelector("#earth");
 
     btn1.addEventListener("click", function() {
-        btn1.style.backgroundColor = "red";
-        containerImagem.style.border = "3px dashed red";
+        btn1.style.backgroundColor = "rgb(255, 0, 0)";
+        containerImagem.style.border = "3px dashed rgb(255, 0, 0)";
     })
 
     btn2.addEventListener("click", function() {
-        btn2.style.backgroundColor = "blue";
-        containerImagem.style.border = "5px double blue";
+        btn2.style.backgroundColor = "rgb(0, 0, 255)";
+        containerImagem.style.border = "5px double rgb(0, 0, 255)";
     })
 
     btn3.addEventListener("click", function() {
-        btn3.style.backgroundColor = "green";
-        containerImagem.style.border = "6px groove green";
+        btn3.style.backgroundColor = "rgb(0, 128, 0)";
+        containerImagem.style.border = "6px groove rgb(0, 128, 0)";
     })
 
     let meme1 = document.querySelector("#meme-1");
