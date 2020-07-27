@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src= 'script.js'></script>
+    <title>Meme Generator</title>
 </head>
 <body>
-    
-</body>
-</html>
+
+        <header>
+            <h1>Meme Generator</h1>
+        </header>
+        <div id="input-content" class="text-content">
+          Text Imput:
+          <input id="text-input" type="text" class="input-text" maxlength="60">
+  
+          <div class="meme-input">Image:
+            <input id="meme-insert" type="file">
+          </div>
+        </div>
+  
+        <div id="meme-image-container" class="image-container">
+          <img id="meme-image" class="meme-img" src="">
+          <div id="meme-text" class="center-text"></div>
+        </div>
+        
+        <div class="button-container">
+          <p class="text-border">Bordas: </p>
+          <button id="fire" class="border-btn red">Fire</button>
+          <button id="water" class="border-btn blue">Water</button>
+          <button id="earth" class="border-btn green">Earth</button>
+        </div>
+  
+        <div class="memes-container">
+          <img id="picMeme1" class="memes-img" src="">
+          <img id="picMeme2" class="memes-img" src="">
+          <img id="picMeme3" class="memes-img" src="">
+          <img id="picMeme4" class="memes-img" src="">
+        </div>
+      </div>
+  
+  
+      <script src="script.js"></script>
+    </body>
+  
+  </html>
