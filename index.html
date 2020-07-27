@@ -80,6 +80,25 @@
             margin-left: 10px;
             cursor: pointer;
         }
+
+        .edit {
+            //border: 1px solid black;
+            width: 200px;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        #fire {
+            background-color: red;
+        }
+
+        #water {
+            background-color: blue;
+        }
+
+        #earth {
+            background-color: green;
+        }
     </style>
 </head>
 
@@ -107,6 +126,12 @@
         </section>
     </div>
 
+    <section class="edit">
+        <button id="fire">borda 1</button>
+        <button id="water">borda 2</button>
+        <button id="earth">borda 3</button>
+    </section>
+
     <script>
         // Texto
         let textInput = document.getElementById("text-input");
@@ -125,6 +150,21 @@
             bgImage.src = URL.createObjectURL(event.target.files[0]);
         });
 
+        // Customização
+        let buttons = document.querySelectorAll(".edit button")
+        let bt1 = buttons[0];
+        let bt2 = buttons[1];
+        let bt3 = buttons[2];
+
+        bt1.addEventListener("click", function () {
+            memeContainer.style.border = "3px dashed red";
+        });
+        bt2.addEventListener("click", function () {
+            memeContainer.style.border = "5px double blue";
+        });
+        bt3.addEventListener("click", function () {
+            memeContainer.style.border = "6px groove green";
+        });
     </script>
 </body>
 
