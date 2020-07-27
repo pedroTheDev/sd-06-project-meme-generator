@@ -5,10 +5,11 @@
 }
 
 #meme-image-container{
-    border: 5px solid black;
+    border: 1px solid black;
     background-color: white;
     position: relative;
-    max-width: 50%;
+    width: 500px;
+    height: 600px;
 }
 
 #meme-text{
@@ -20,5 +21,7 @@
     left: 20px;
 }
 #meme-image{
-    width: 100%;
+    width: 500px;
+    height: 600px;
+    opacity: 0.5;
 }
