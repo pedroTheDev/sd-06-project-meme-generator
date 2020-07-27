@@ -20,11 +20,11 @@ btnFire.addEventListener('click', () => {
 });
 
 btnWater.addEventListener('click', () => {
-  container.style.border = 'blue 5px double';
+  container.style.border = '5px double blue';
 });
 
 btnEarth.addEventListener('click', () => {
-  container.style.border = 'groove green 6px';
+  container.style.border = '6px groove green';
 });
 
 const imagens = document.querySelectorAll('.mini-image');
