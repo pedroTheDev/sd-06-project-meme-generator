@@ -1,6 +1,19 @@
 .meme-text {
   color: white;
   font-size: 30px;
+  padding-top: 150px;
   position: absolute;
+  text-align: center;
   text-shadow: 5px 5px 5px black;
+  width: inherit;
+}
+.meme-image-container {
+  color: white;
+  border: 1px black solid;
+  height: 300px;
+  width: 300px;
+}
+.meme-image {
+  height: 100%;
+  width: 100%;
 }
