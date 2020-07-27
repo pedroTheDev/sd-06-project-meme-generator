@@ -1,0 +1,131 @@
+body {
+    font-size: 110%;
+    margin: 30px;
+    padding: 0;
+  }
+  
+  .image-container {
+    background-color: white;
+    border: 1px solid black;
+    height: 500px;
+    margin-top: 30px;
+    position: relative;
+    width: 500px;
+  }
+  
+  .meme-img {
+    height: 500px;
+    width: 500px;
+  }
+  
+  .meme-input {
+    margin-top: 25px;
+  }
+  
+  .center-text {
+    color: white;
+    font-size: 30px;
+    left: 50%;
+    position: absolute;
+    text-shadow: 5px 5px 5px black;
+    top: 80%;
+    transform: translate(-50% , -50%);
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .text-border {
+    font-size: 110%;
+    font-weight: 500;
+  }
+  
+  .border-btn {
+    border-radius: 4px;
+    color: white;
+    font-size: 110%;
+    height: 35px;
+    margin-right: 10px;
+    width: 80px;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .memes-container {
+    margin-top: 25px;
+  }
+  
+  .memes-img {
+    border: 2px solid black;
+    height: 100px;
+    margin-right: 15px;
+    width: 100px;
+  }
+  
+  .water {
+    border-radius: 50%;
+    background-color: rgb(0 , 0 , 255);
+    color: white;
+    font-size: 12px;
+    padding: 3px 20px;
+  }
+  
+  .earth {
+    border-radius: 50%;
+    background-color: rgb(0 , 128 , 0);
+    color: white;
+    font-size: 12px;
+    padding: 3px 20px;
+  }
+
+  .fire{
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 12px;
+    padding: 3px 20px;  
+  }
+  
+  
+  .meme-1 {
+    background-image: url('./imgs/meme1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .meme-2 {
+    background-image: url('/Imagens/picMeme2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .meme-3 {
+    background-image: url('./imgs/meme3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .meme-4 {
+    background-image: url('./imgs/meme4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }

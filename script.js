@@ -1,6 +1,7 @@
 //iniciando projeto
 
 window.onload = function () {
+<<<<<<< HEAD
     let memeText = document.querySelector('#meme-text');
     let textInput = document.querySelector('#text-input');
   
@@ -50,3 +51,13 @@ window.onload = function () {
       memeImage.style.backgroundImage = "url('./imgs/meme4.png')"
     });
   };
+=======
+  let memeText = document.querySelector('#meme-text');
+  let textInput = document.querySelector('#text-input');
+
+  textInput.addEventListener('input', function () {
+    memeText.innerText = textInput.value;
+  });
+  
+}
+>>>>>>> 8df3daeeed2de0ba339703bd92477396f3a8baaa
