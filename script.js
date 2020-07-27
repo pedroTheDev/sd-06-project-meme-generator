@@ -1,6 +1,6 @@
 function gerarmeme() {
     let imagemMeme = document.getElementById("imagem-meme").files[0];
-    alert(imagemMeme);
+    //alert(imagemMeme);
     let meme = document.getElementById("upload");
     meme.src = imagemMeme;
    
