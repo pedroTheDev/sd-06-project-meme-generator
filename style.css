@@ -4,3 +4,14 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
 }
+
+#meme-image-container {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    max-height: 800px;
+    max-width: 800px;
+    min-height: 300px;
+    min-width: 400px;
+}
