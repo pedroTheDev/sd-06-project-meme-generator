@@ -12,7 +12,7 @@ function insertMemeText() {
 function imageUploadURL() {
   const memeImageUpload = document.getElementById('meme-insert');
   memeImageUpload.addEventListener('change', () => {
-    let reader = new FileReader();
+    const reader = new FileReader();
     reader.onload = (e) => {
       document.getElementById('meme-image').src = e.target.result;
     };
@@ -23,4 +23,4 @@ function imageUploadURL() {
 window.onload = () => {
   insertMemeText();
   imageUploadURL();
-}
+};
