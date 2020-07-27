@@ -6,7 +6,15 @@
 }
 
 #meme-image-container{
- width: 80%;
- margin: auto;
+ width: 100%;
+ margin: 2%;
  
 }
+
+#meme-image{
+border: 1px solid black;
+width: 450px;
+height: 450px;
+margin-top: 1%;
+}
+

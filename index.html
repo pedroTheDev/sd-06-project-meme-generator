@@ -3,17 +3,18 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
  <title>Meme Generation </title>
 </head>
 <body>
 <h1>MEME GENERATION</h1> 
-<div id = 'meme-image-container'>
- Texto: <input type="text" id="text-input"> <br><br>
- Foto: <input type="file" id="avatar" accept="image/png, image/jpeg">
- <div id = 'meme-image'></div>
-    <div id = 'meme-text'></div>
-<div>
-
+ Texto: <input type="text" id="text-input" maxlength="60"> <br><br>
+ Foto: <input type="file" id="meme-insert" accept="image/png, image/jpeg">
+ <div id = 'meme-image-container'>
+  <p id='meme-text'></p>
+  <img src="" id="meme-image" height = "450px" widht = "450px">
  </div>
+ <script type='text/javascript' src='script.js'></script>
+
 </body>
 </html>
