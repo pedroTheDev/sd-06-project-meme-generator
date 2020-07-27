@@ -5,22 +5,18 @@
  box-sizing: border-box;
 }
 
-img{
- width: 450px;
- height: 450px;
-}
 
 #meme-image-container{
  border: 1px solid black;
- width: 452px;
- height: 452px;
+ width: 800px;
+ height: 800px;
  margin: 1%;
  background-color: white;
 }
  
 #meme-image{
- width: 452px;
- height: 452px;
+ width: 800px;
+ height: 800px;
 }
 
 
