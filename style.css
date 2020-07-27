@@ -1,0 +1,32 @@
+body {
+  font-family: ubuntu, sans-serif;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  display: block;
+  font-family: monospace, sans-serif;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+#meme-image-container{
+  border: 5px solid black;
+  display: block;
+  height: 200px;
+  margin: 25px auto;
+  width: 200px;
+}
+
+#meme-text {
+  border: 1px solid magenta;
+  margin: 128px auto;
+  height: 70px;
+  width: 90%;
+}
