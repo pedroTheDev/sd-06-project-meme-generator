@@ -9,25 +9,29 @@
     </head>
     <body>
           <h1 id="title">Meme Generator</h1> 
-        <!--Text insert section-->
+        <!--Explanation about the page here-->
         <div class="user-entry">
             <form>
                 <label for="text-input">Insert your text: </label>
                     <input type="text" id="text-input" maxlength="60" placeholder="Type your text here (max. 60 characters)">
             </form>
+        </div>
         <!--Image upload section-->
+        <div class="user-entry">
             <form>
-                <label>Upload your image here: </label>
+                <label for="meme-insert">Upload your image here: </label>
                     <input type="file" id="meme-insert" maxlength="100" placeholder="Choose your image" accept="image/*">
             </form>
         </div>
         <!--Meme result-->
-            <section id="meme-image-container" class="meme-image-container">
+        <div id="meme-image-container" class="meme-image-container">
+            <section class="meme-image-container">
                 <div class="meme-image-container">
                     <p id="meme-text" class="meme-text"></p>
                 </div>
                 <img id="meme-image" class="meme-image" src="" alt="Uploaded image">
             </section>
+        </div>
         <!--User preferences-->
         <div id="user-preferences">Customize your page!</div>
         <button type="button" id="fire">Style 1</button>
