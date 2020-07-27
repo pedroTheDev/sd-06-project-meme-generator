@@ -9,7 +9,6 @@ let waterStyleButton = document.querySelector('#water');
 let earthStyleButton = document.querySelector('#earth');
 let imageContainer = document.querySelector('#meme-image-container');
 let preSetImages = document.querySelectorAll('#thumbnails img');
-console.log(preSetImages);
 
 let availableStyles = {
     fire: 'dashed red 3px',
