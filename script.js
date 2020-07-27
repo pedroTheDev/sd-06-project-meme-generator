@@ -2,6 +2,7 @@ function textInput() {
   // Função que vai fazer o texto aparecer no meme
   let inputText = document.getElementById('text-input').value;
   let divMemeText = document.getElementById('meme-text');
+  divMemeText.style.maxWidth = "500px"
   divMemeText.innerHTML = inputText;
 }
 
@@ -12,4 +13,18 @@ function imageInput() {
   outputImage.onload = function() {
     URL.revokeObjectURL(outputImage.src);
   };
+}
+
+let divContainer = document.getElementById('meme-image-container');
+
+function fireCustom() {
+    divContainer.style.border = "3px dashed red";
+}
+
+function waterCustom() {
+    divContainer.style.border = "5px double blue";
+}
+
+function earthCustom() {
+    divContainer.style.border = "6px groove green";
 }
