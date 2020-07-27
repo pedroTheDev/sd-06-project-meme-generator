@@ -1,11 +1,22 @@
 body {
-  background-color: rgb(8, 0, 85);
+  background-color: rgb(8 , 0 , 85);
 }
 
-h1 {
-  color: rgb(170, 170, 247);
+h1, label {
+  color: rgb(170 , 170 , 247);
 }
 
 .input-field {
-  margin-left: 15px;
+  margin-left: 20px;
 }
+
+button {
+  margin-left: 2px;
+}
+
+.container {
+  background-color: white;
+  border: 1px solid black;
+}
+
+
