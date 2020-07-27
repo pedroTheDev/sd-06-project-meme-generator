@@ -2,5 +2,12 @@
     border: 1px solid black;
     width: 500px;
     height: 500px;
+  }
+
+  #meme-image-container{
+    background-color: white;
+  }
+  
+  #meme-text{
     position: absolute;
   }
