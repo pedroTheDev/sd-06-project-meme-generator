@@ -10,11 +10,12 @@
  margin: 2%;
  
 }
-
 #meme-image{
-border: 1px solid black;
-width: 450px;
-height: 450px;
-margin-top: 1%;
-}
-
+ border: 1px solid black;
+ width: 450px;
+ height: 450px;
+ margin-top: 1%;
+ background-color: rgb(255, 255, 255);
+ }
+ 
+ 

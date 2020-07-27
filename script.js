@@ -6,11 +6,10 @@ text.addEventListener('input',function(){
    impress.innerHTML = text.value;
  })
 //IMAGEM
-let img = document.getElementById('meme-insert')
-img.addEventListener('change', function(event){
-  let impressImg = document.getElementById('meme-imagem');
-  impressImg.src = URL.createObjectURL(event.target.files[0]);
-})
+let setImgInput = document.querySelector('#meme-insert');
+  setImgInput.addEventListener('change', function(event) {
+    document.querySelector('#meme-image').src = URL.createObjectURL(event.target.files[0]);
+  })
 
 
 }
