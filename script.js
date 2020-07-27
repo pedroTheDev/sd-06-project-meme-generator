@@ -14,4 +14,4 @@ function getImage() {
   image.src = URL.createObjectURL(imageInsert.files[0]);
 }
 
-imageInsert.addEventListener("change", getImage);
+imageInsert.addEventListener('change', getImage);
