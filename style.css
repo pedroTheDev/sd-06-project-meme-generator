@@ -18,22 +18,24 @@ h1 {
 }
 
 #text-input {
-    width: 50%;
+    width: 100px;
     border: 2px dashed black;
     margin-bottom: 15px;
     padding-bottom: 10px;
 }
 
 #meme-insert {
-    width: 50%;
+    width: 100px;
     border: 2px dashed black;
     padding-top: 10px;
     align-content: center;
 }
 
 .meme-image-container {
-    border: 1px solid black
-
+    background-color: white;
+    border: 1px solid black;
+    float: left;
+    width: 500px;
 }
 
 #meme-text {
