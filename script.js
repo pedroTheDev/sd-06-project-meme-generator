@@ -18,11 +18,10 @@ window.onload = function() {
  //
   //Colocando o texto inserido em no container
   
-  let texto = document.createElement('p');
+  
   let textoInput = document.querySelector('#text-input');
   textoInput.addEventListener('keyup', function() {
-    
+    let texto = document.querySelector('#meme-text');
     texto.innerHTML = textoInput.value; 
-    document.querySelector('#meme-text').appendChild(texto);
   })
 }
