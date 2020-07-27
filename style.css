@@ -2,3 +2,41 @@
   margin: 0;
   padding: 0;
 }
+
+header {
+    width: 100%;
+    margin-top: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    margin-top: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin-left: 40%;
+    align-self: center;
+}
+
+.row {
+    margin-top: 10px;
+    text-align: start;
+}
+
+#meme-image {
+    width: 400px;
+    height: 400px;
+}
+
+#meme-image-container {
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    border-color: black;
+}

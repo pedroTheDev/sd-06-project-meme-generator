@@ -11,12 +11,24 @@
     <header>
         <h2>Meme Generator</h2>
     </header>
-    <section>
-        <input type="text" id="text-input" />
-            <p id="meme-text"></p>
-        <div id="meme-image-container">
-
-        </div>
+    <section class="main">
+        <section class="container">
+            <div class="row">
+                <span>Texto:</span>
+                <input type="text" id="text-input" />
+            </div>
+    
+            <div class="row">
+                <span>Foto:</span>
+                <input type="file" id="text-input" onchange="onLoadImg()"/>
+            </div>
+                
+            <div id="meme-image-container">
+                <img id="meme-image" />
+                <p id="meme-text"></p>
+            </div>
+        </section>
+        
     </section>
 </body>
 </html>
