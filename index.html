@@ -11,24 +11,26 @@
 
 <body>
 
+    <h1>Meme Generator </h1> <br>
+    <label>Texto</label>
+    <input type="text" id="text-input" value="texto"><br>
+
+    <label>Foto</label>
+
+    <input type="file" name="imagem" id="imagem"><br><br>
+
     <div id="meme-image-container">
 
-        <h1>Meme Generator </h1> <br>
-        <label id="text-input">Texto</label>
-        <input type="text" name="meme-generator" id="text-input" value="texto"><br>
+        <p id="meme-text"></p>
+
+        <img id="meme-image" style="width: 150px; height: 150px;"><br><br>
 
 
 
-        <form method="POST" action="" enctype="multipart/form-data">
-            <label>Foto</label> <input type="file" name="imagem" id="imagem" onchange="previewImagem()"><br><br>
-            <img style="width: 150px; height: 150px;"><br><br>
 
-
-            <input type="submit" value="imagem">
-
-        </form>
 
     </div>
+
 
 </body>
 
