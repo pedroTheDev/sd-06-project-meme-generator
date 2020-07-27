@@ -10,11 +10,7 @@ body {
   border-width: 1px;
   height: 400px;
   margin-top: 20px;
-  width: 400px;
-}
-
-.meme-insert {
-  width: 180px;
+  width: 30%;
 }
 
 .meme-text {
@@ -24,8 +20,7 @@ body {
   margin: 20px;
   overflow: hidden;
   position: absolute;
-  text-shadow: 5px 5px 5px black;
+  text-shadow: 3px 3px 3px black;
   top: 500px;
-  width: 350px;
-  z-index: 2;
+  width: 50%;
 }
