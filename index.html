@@ -12,13 +12,15 @@
     <h1>Meme Generator</h1>
   </header>
   <br>
-  <label for="">Texto: </label><input type='text' id='text-input'> <br>
-  <label for="">Foto: </label><input id="meme-insert" type="file">
+  <nav>
+    <label>Texto: <input type='text' id='text-input' maxlength="60"/></label><br>
+    <label>Foto: <input id="meme-insert" type="file"/></label>
+  </nav>
   <!-- <input type="submit">  -->
-  <secton id='meme-image-container'>
+  <div id='meme-image-container' class='container'>
     <div id='meme-text'></div>
     <img id='meme-image' src="">
-  </secton>
+  </div>
 
   <script src="script.js"></script>
   
