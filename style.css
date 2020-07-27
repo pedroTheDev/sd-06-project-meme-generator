@@ -11,13 +11,13 @@ h2 {
 }
 
 .btn {
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 500;
-  padding: 10px;
-  cursor: pointer;
-  margin: 10px;
   border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px;
+  padding: 10px;
+  text-transform: uppercase;
 }
 
 .earth {
@@ -25,10 +25,10 @@ h2 {
 }
 
 .earth:active {
+  background: rgb(4 , 235 , 4);
+  border: none;
   position: relative;
   top: 5px;
-  border: none;
-  background: rgb(4 , 235 , 4);
 }
 
 .earth:hover {
@@ -40,10 +40,10 @@ h2 {
 }
 
 .fire:active {
+  background: salmon;
+  border: none;
   position: relative;
   top: 5px;
-  border: none;
-  background: salmon;
 }
 
 .fire:hover {
@@ -55,38 +55,38 @@ h2 {
 }
 
 .meme-box {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
   border: 1px solid black;
-  margin: 10px;
   cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  margin: 10px;
+  width: 60px;
 }
 
 .meme-image {
-  width: 350px;
   height: 400px;
+  width: 350px;
 }
 
 .meme-image-container {
   background-color: white;
-  position: relative;
   border: 1px solid black;
-  width: 350px;
   height: 400px;
   left: 0;
+  position: relative;
+  width: 350px;
 }
 
 .meme-text {
-  position: absolute;
-  top: 200px;
-  left: 0;
-  width: 340px;
-  height: 180px;
   color: white;
   font-size: 30px;
+  height: 180px;
+  left: 0;
+  position: absolute;
   text-align: center;
   text-shadow: black 5px 5px 5px;
+  top: 200px;
+  width: 340px;
 }
 
 .water {
@@ -94,10 +94,10 @@ h2 {
 }
 
 .water:active {
+  background: lightblue;
+  border: none;
   position: relative;
   top: 5px;
-  border: none;
-  background: lightblue;
 }
 
 .water:hover {
