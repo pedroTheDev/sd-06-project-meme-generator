@@ -7,3 +7,7 @@ let loadFile = function(event) {
     }
 };
 
+addEventListener('input', function insertText() {
+  let text = document.getElementById('text-input')
+  document.getElementById('meme-text').innerHTML=text.value;
+})
