@@ -21,4 +21,22 @@ window.onload = function () {
 		}
 	});
 
+	// Altera bordas da imagem usando botões
+	let btnFire = document.getElementById("fire");
+	btnFire.addEventListener("click", function () {
+		let myImageContainer = document.getElementById("meme-image-container");
+		myImageContainer.style.border = "3px dashed red";
+	});	
+	let btnWater = document.getElementById("water");
+	btnWater.addEventListener("click", function () {
+		let myImageContainer = document.getElementById("meme-image-container");
+		myImageContainer.style.border = "5px double blue";
+	});	
+	let btnEarth = document.getElementById("earth");
+	btnEarth.addEventListener("click", function () {
+		let myImageContainer = document.getElementById("meme-image-container");
+		myImageContainer.style.border = "6px groove red";
+	});	
+
+
 };

@@ -38,11 +38,11 @@ header h1 {
   width: 200px;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px;
 }
 
-#meme-imput-containersec #text-input{
-  width: 80%;
-  margin-top: 20px;
+#meme-imput-container input{
+  margin-top: 5px;
 }
 
 #meme-image-container {
@@ -64,10 +64,36 @@ header h1 {
 #meme-image-container #meme-text {
   /* margin: 0; */
   position: absolute;
-  width: 350px;
+  width: 400px;
   top: 220px;
   text-align: center;
   font-size: 30px;
   text-shadow: 5px 5px 5px rgb(0 , 0 , 0);
   color: rgb(255 , 255 , 255);
+}
+
+#meme-buttons-container { 
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#meme-buttons-container button { 
+  width: 60px;
+  height: 30px;
+  color: rgb(255 , 255 , 255);;
+}
+
+#meme-buttons-container #fire { 
+  background-color: rgb(255 , 0 , 0);
+}
+
+#meme-buttons-container #water { 
+  background-color: rgb(0 , 0 , 255);
+}
+
+#meme-buttons-container #earth { 
+  background-color: rgb(0 , 255 , 0);
 }
