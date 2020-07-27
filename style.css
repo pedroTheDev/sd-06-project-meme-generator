@@ -35,3 +35,29 @@ h1, h2{
     color: rgb(255,255,255);
     font-size: 30px;
 }
+
+h4{
+    text-align: center;    
+}
+
+#blue, #red, #green{
+    border-radius: 50%;
+    border-style: outset;
+}
+
+#blue{
+    background-color: rgb(70,130,180);
+    border-color: rgb(70,130,180);
+}
+
+#red{
+    background-color: rgb(178,34,34);
+    border-color: rgb(178,34,34);
+}
+
+#green{
+    background-color: rgb(0,128,0);
+    border-color: rgb(0,128,0);
+}
+
+/* alinhar butoes no meio do centro */
