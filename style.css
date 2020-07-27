@@ -4,19 +4,21 @@
   box-sizing: border-box;
 }
 
-#meme-image-container {
-  border: 2px solid black;
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
   display: flex;
   height: 70vh;
   width: 50vw;
 }
 
-#meme-text {
+.meme-text {
   align-self: flex-end;
   color: white;
   font-size: 30px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
+  width: inherit;
 }
 
 img {
