@@ -30,9 +30,9 @@ p {
   background-color: white;
   border: 0;
   color: darkslategray;
-  margin-left: 20px;
   font-family: ubuntu, sans-serif;
   font-size: 20px;
+  margin-left: 20px;
 }
 
 .img-container {
@@ -47,11 +47,13 @@ p {
 .text-container {
 
   /* background-color: tomato; */
-  font-size: x-large;
+  color: white;
+  font-size: 30px;
   font-weight: 600;
   height: 100px;
   left: 10px;
   position: absolute;
+  text-shadow: 5px 5px 5px black;
   top: 220px;
   width: 330px;
 }
