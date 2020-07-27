@@ -19,7 +19,6 @@ p , .text-input {
   color: darkslategray;
   font-family: monospace;
   font-size: 15px;
-  margin-left: 20px;
 }
 
 p {
@@ -55,4 +54,10 @@ p {
   position: absolute;
   text-shadow: 5px 5px 5px black;
   z-index: 1;
+}
+
+.element-button {
+  height: 50px;
+  margin-right: 10px;
+  width: 75px;
 }
