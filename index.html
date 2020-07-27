@@ -15,18 +15,19 @@
         <section class="container">
             <div class="row">
                 <span>Texto:</span>
-                <input type="text" id="text-input" />
+                <input type="text" id="text-input" onblur="onLoadText()" />
             </div>
     
             <div class="row">
                 <span>Foto:</span>
-                <input type="file" id="meme-insert" onchange="onLoadImg()"/>
+                <input type="file" id="meme-insert" onchange="onLoadImg()" />
             </div>
                 
             <div id="meme-image-container">
                 <img id="meme-image" />
-                <p id="meme-text"></p>
+                <label id="meme-text"></label>
             </div>
+
         </section>
         
     </section>
