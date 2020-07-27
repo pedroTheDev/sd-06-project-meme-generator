@@ -1,18 +1,4 @@
 
-/*function loadImage(event) {
-    let saida = document.getElementById('meme-insert');
-    saida.src = URL.createObjectURL(event.target.files[0]);
-    alert('carregou');
-    saida.onload = function () {
-        // let divExibe = document.querySelector('#meme-image');
-        let imgSrc = document.querySelector('#meme-image');
-        imgSrc.src = URL.revokeObjectURL(saida.src);
-
-        // free memory
-    }
-}*/
-
-
 function loadImage() {
     let reader = new FileReader();
     reader.onload = function () {
@@ -25,7 +11,7 @@ function loadImage() {
 }
 
 function loadText() {
-let inputText = document.querySelector('#text-input').value;
-let pText = document.querySelector('#meme-text');
-pText.innerHTML = inputText;
+    let inputText = document.querySelector('#text-input').value;
+    let pText = document.querySelector('#meme-text');
+    pText.innerHTML = inputText;
 }
