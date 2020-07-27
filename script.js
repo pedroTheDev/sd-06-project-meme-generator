@@ -1,0 +1,1 @@
+// document.getElementById('meme-text').innerHTML = document.getElementsByTagName('input')[0].value;
