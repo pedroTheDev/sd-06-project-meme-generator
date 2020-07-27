@@ -48,7 +48,7 @@
   font-size: 30px;
   color: white;
   text-align: center;
-  text-shadow: 5px 5px 5px black;
+  text-shadow: black 5px 5px 5px;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%)
