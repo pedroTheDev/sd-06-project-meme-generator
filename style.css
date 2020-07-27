@@ -10,6 +10,9 @@ input {
   height: 240px;
   margin-top: 20px;
   margin-bottom: 10px;
+  margin-right: 20px;
+  display: inline-block;
+  float: left;
 }
 
 #meme-text {
@@ -19,6 +22,18 @@ input {
   color: white;
   text-shadow: 5px 5px 5px black;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#presets-container {
+  display: inline-block;
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+#border-style-container {
+  clear: both;
 }
 
 #fire {
