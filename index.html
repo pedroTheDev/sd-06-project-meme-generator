@@ -3,23 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Meme generator - exercício Trybe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&family=Yanone+Kaffeesatz:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>Meme generator</h1>
-  <h2>exercício Trybe - módulo 5 - JavaScript</h2>
+  <header>
+    <h1>Meme generator</h1>
+    <h2>exercício Trybe - módulo 5 - JavaScript</h2>  
+  </header>
+  <section id="meme-inputs">
+    <p>Insira o texto<br>
+    <input type="text" id="text-input" maxlength="60" size="60"></p>
+    <p>Selecione a imagem: <input type="file" id="meme-insert" accept="image/*" name="image"></p>
+  </section>
   <main>
-    <p>insira o texto:</p>
-    <input type="text" id="text-input">
-    <p>Selecione a imagem: <input type="file" id="meme-image"></p>
     <div id="meme-image-container">
+      <div id="meme-image">
+        <img id="img-receiver">
+      </div>
       <div id="meme-text">
         texto da imagem.
       </div>
-      <div id="meme-image">
-
-      </div>
     </div>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
