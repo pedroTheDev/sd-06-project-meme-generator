@@ -1,3 +1,25 @@
-#text-input {
+#meme-image-container {
+    position: absolute;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+#meme-image {
+    position: absolute;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    z-index: 1;
+}
+#meme-text {
+    position: absolute;
+    text-shadow: black, 5px, 5px, 5px;
+    font-size: 30px;
+    color: white;
     z-index: 2;
 }
+/* #meme-image-container #meme-text #meme-image {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+} */
