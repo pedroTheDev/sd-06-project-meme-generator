@@ -4,4 +4,5 @@ window.onload = function(){
         let text = document.querySelector("#meme-text");
         text.innerHTML = textInput.value;
     })
-  
+     
+}

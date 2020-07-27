@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://images4.alphacoders.com/236/thumb-1920-236784.jpg);
+    font-family: sans-serif;
+}
+header {
+    background: rgb(0, 0, 0);
+    border: rgb(0, 0, 0);
+    border-width: 15px;
+    padding-left: 10px; 
+    border-style: solid;
+    color: rgb(9, 255, 0);
+}
+article,h2 {
+    height: 100%; 
+    display: block;
+    padding-left: 500px;
+    color: rgb(9, 255, 0);
+}
+#meme-image-container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+    position: absolute;
+    
+}
+#meme-text {
+    position: absolute;
+}
+p{
+    position: absolute;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+#meme-image{
+    width: 400px;
+    height: 400px;
+}
