@@ -21,7 +21,7 @@ input {
   font-size: 30px;
   color: white;
   text-shadow: 5px 5px 5px black;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
 }
 
 #presets-container {
@@ -47,7 +47,7 @@ input {
 
 #fire {
   background-color: red;
-  color: white;  
+  color: white;
 }
 
 #water {
