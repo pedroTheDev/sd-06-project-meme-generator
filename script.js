@@ -1,8 +1,8 @@
 function gerarmeme() {
-    let imagemMeme = document.getElementById("meme-image");
-    
+    let imagemMeme = document.getElementById("imagem-meme").files[0];
+    alert(imagemMeme);
     let meme = document.getElementById("upload");
-    
+    meme.src = imagemMeme;
    
 }
 function texto() {
