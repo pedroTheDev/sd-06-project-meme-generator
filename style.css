@@ -1,33 +1,33 @@
 #meme-image-container {
-  width: 400px;
+  align-self: center;
+  background-color: white;
+  border: 1px black solid;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px black solid;
-  align-self: center;
   position: relative;
   text-align: center;
-  background-color: white;
+  width: 400px;
 }
 
 #meme-text {
-  font-size: 30px;
+  bottom: 20px;
   color: white;
   font-family: sans-serif;
-  position: absolute;
-  bottom: 20px;
-  right: 0;
+  font-size: 30px;
   left: 0;
+  position: absolute;
+  right: 0;
+  
   text-shadow: 5px 5px 5px black;
 }
 
 h1 {
   text-align: center;
-
 }
 
 p {
-  text-align: center;
   line-height: 2;
+  text-align: center;
 }
 
