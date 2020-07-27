@@ -1,6 +1,6 @@
 const SELECTEDFILE = document.getElementById('meme-insert');
 const TEXTINPUT = document.getElementById('text-input');
-const MEMEIMAGE =  document.createElement('img');
+const MEMEIMAGE = document.createElement('img');
 const MEMETEXTSECTION = document.querySelector('#meme-text');
 
 function handleFiles() {
@@ -16,14 +16,11 @@ function handleFiles() {
 }
 
 function updateText(e) {
-  MEMETEXTSECTION.textContent = e.value
+  MEMETEXTSECTION.textContent = e.value;
 }
-  /*document.getElementById('meme-image-container').appendChild(TEXTINPUT);
-}
-*/
+
 SELECTEDFILE.addEventListener('change', handleFiles, false);
 
 TEXTINPUT.oninput = () => {
   updateText(TEXTINPUT);
-}
-//TEXTINPUT.addEventListener('change', updateText);
+};
