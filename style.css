@@ -12,7 +12,7 @@
 	position: absolute;
 	border: 1px solid red;
 }
-#meme-text{
+#meme-text p{
 	text-shadow: 5px 5px 5px;
 	font-size: 30px;
 	color: white;
