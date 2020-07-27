@@ -8,7 +8,7 @@ function capturar() {
 // function capturar() {
 //     const textInput = document.getElementById('text-input');
 //     const memeText = document.getElementById('meme-text');
-//     textInput.addEventListener('input', () => {
+//     textInput.addEventListener('keyup', () => {
 //       memeText.innerText = textInput.value;
 //     });
 //   }
