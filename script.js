@@ -1,12 +1,10 @@
 window.onload = function() {
   //Tomando imagen e colocando no container
   let meme_Image = document.createElement('img')
-  
-
   loadFile = function(event) {
     let reader = new FileReader();
     reader.onload = function(){
-      let image = document.getElementById('meme-image-container').appendChild(meme_Image);
+      let image = document.getElementById('meme-image').appendChild(meme_Image);
       image.src = reader.result;
     };
     reader.readAsDataURL(event.target.files[0]);

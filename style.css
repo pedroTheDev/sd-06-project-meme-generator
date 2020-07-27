@@ -8,17 +8,12 @@
   font-size: 30px;
   color: rgb(255 , 255 , 255);
   text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  width: 200px;
+  position: absolute;
 }
 img {
   width: 500px;
   height: 500px;
-}
-#meme-text {
-  width: 200px;
-  position: absolute;
+  padding: 10px;
 }
 
-#output {
-  width: 500px;
-  height: 500px;
-}
