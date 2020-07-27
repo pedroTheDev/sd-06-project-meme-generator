@@ -2,10 +2,9 @@ h1, h2{
     text-align: center;
 }
 
-/* #meme-text{
-    position: absolute;
+#meme-text{
     top: 50%;
-} */
+}
 
 /* img{
     position: absolute;
