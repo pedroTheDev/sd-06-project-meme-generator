@@ -1,3 +1,6 @@
+body {
+    padding-left: 15px;
+}
 h1 {
     position: fixed;
     width: 100%;
@@ -14,11 +17,11 @@ h1 {
 
 .user-entry {
     font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 10px;
     margin-top: 120px;
 }
 
 #text-input {
-    width: 100px;
     border: 2px dashed black;
     margin-bottom: 15px;
     padding-bottom: 10px;
@@ -32,21 +35,23 @@ h1 {
 }
 
 .container {
-    display: inline-block;
     margin: 10px;
 }
 
-.meme-image-container {
+.meme-container {
     background-color: white;
     border: 1px solid black;
     float: left;
     width: 500px;
+    height: 500px;
+    z-index: 0;
+    display: flex;
 }
 
 #meme-text {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
-    color: white;
+    color: black;
     position: absolute;
     z-index: 1;
 }
