@@ -1,15 +1,14 @@
 .meme-container {
   background-color: white;
   border: solid 1px black;
+  display: block;
   height: 500px;
   width: 500px;
-  display: block;
 }
 
 .meme-container img {
   height: 500px;
-  width: 500px;
-  
+  width: 500px;  
 }
 
 .meme-text {
@@ -19,6 +18,5 @@
   left: 15px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
-  top: 400px;
-  
+  top: 400px;  
 }
