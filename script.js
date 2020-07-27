@@ -18,17 +18,14 @@ const btn2 = document.querySelector('.water');
 const btn3 = document.querySelector('.earth');
 function fire() {
   container.style.border = '3px dashed red';
-  btn1.style.border = '3px dashed red';
 }
 btn1.addEventListener('click', fire);
 function water() {
   container.style.border = '5px double blue';
-  btn2.style.border = '5px double blue';
 }
 btn2.addEventListener('click', water);
 function earth() {
   container.style.border = '6px groove green';
-  btn3.style.border = '6px groove green';
 }
 btn3.addEventListener('click', earth);
 let img1 = document.getElementById('meme-1');
