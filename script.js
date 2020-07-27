@@ -6,7 +6,7 @@ window.onload = function() {
   loadFile = function(event) {
     let reader = new FileReader();
     reader.onload = function(){
-      let image = document.getElementById('meme-image').appendChild(meme_Image);
+      let image = document.getElementById('meme-image-container').appendChild(meme_Image);
       image.src = reader.result;
     };
     reader.readAsDataURL(event.target.files[0]);
