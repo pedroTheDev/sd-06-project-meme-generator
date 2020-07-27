@@ -15,6 +15,7 @@ header {
     margin-top: 25px;
     display: inline-block;
     text-align: center;
+    background-color: RED;
 }
 
 .container {
@@ -38,17 +39,24 @@ header {
     position: relative;
     align-items: center;
     text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 1;
 }
 
 #meme-text {
     position: absolute;
-    font-size: 32px;
-    left: 250px;
-    top: 135px;
+    z-index: 3;
+    width: 80%;
+    height: auto;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
 }
 
 #meme-image {
     position: absolute;
     width: 400px;
     height: 400px;
+    z-index: 2;
 }
