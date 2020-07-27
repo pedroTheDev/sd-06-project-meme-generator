@@ -16,13 +16,20 @@ const btnWater = document.getElementById('water');
 const btnEarth = document.getElementById('earth');
 
 btnFire.addEventListener('click', () => {
-  container.className = 'container fire';
+  container.style.border = '3px dashed red';
 });
 
 btnWater.addEventListener('click', () => {
-  container.className = 'container water';
+  container.style.border = 'blue 5px double';
 });
 
 btnEarth.addEventListener('click', () => {
-  container.className = 'container earth';
+  container.style.border = 'groove green 6px';
+});
+
+const imagens = document.querySelectorAll('.mini-image');
+imagens.forEach((imagen) => {
+  imagen.addEventListener('click', (event) => {
+    img.src = event.srcElement.attributes[0].nodeValue;
+  });
 });
