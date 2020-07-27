@@ -9,13 +9,13 @@
 </head>
 <body>
   <h1>MEME GENERATOR</h1>
-  <p>Texto: <input id ="text-input" type="text"></p>
-  <p>Foto: <input id ="meme-insert" type="file"></p>
+  <p>Texto: <input id ="text-input" type="text" maxlength="60"></p>
+  <p>Foto: <input id ="meme-insert" type="file" onchange="onFileSelected(event)"></p>
   <section id="meme-image-container">
     <div id="meme-text">
     </div>
     <div id="meme-image">
-      
+      <img id="myimage" height="500" width="500">
     </div>
   </section>
 
