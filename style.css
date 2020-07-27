@@ -12,8 +12,8 @@
 
 #meme-image-container{
  border: 1px solid black;
- width: 452px;
- height: 452px;
+ width: 450px;
+ height: 450px;
  margin: 1%;
  background-color: white;
 }
@@ -22,5 +22,6 @@
   position: absolute;
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
+  
  }
 
