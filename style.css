@@ -1,1 +1,14 @@
-/*subindo*/
+#meme-image-container{
+    width: 300px;
+    border: 2px solid red;
+		height: 300px;
+	}
+#meme-text{
+    width: 100%;
+    border: 2px solid blue;
+    margin-top: 100%;
+		transform: translateY(-100%);
+		font-size: x-large;
+		overflow: auto;
+		text-overflow: clip;
+	}
