@@ -3,11 +3,19 @@
     width: 500px;
     height: 500px;
   }
-
+  
   #meme-image-container{
     background-color: white;
   }
   
   #meme-text{
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+    color: white;
     position: absolute;
+  }
+
+  #meme-image{
+    width: 500px;
+    height: 500px;
   }
