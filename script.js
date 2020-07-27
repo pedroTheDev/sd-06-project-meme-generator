@@ -3,10 +3,10 @@ const imgInput = document.querySelector('#meme-insert');
 const memeImg = document.querySelector('#meme-image');
 const memeText = document.querySelector('#meme-text');
 
-textInput.onchange = () => {
+textInput.oninput = () => {
   memeText.textContent = textInput.value;
 };
 
-imgInput.onchange = (event) => {
+imgInput.oninput = (event) => {
   memeImg.src = URL.createObjectURL(event.target.files[0]);
 };
