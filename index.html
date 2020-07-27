@@ -2,29 +2,33 @@
 <html lang="pt-br">
 
 <head>
-	<meta charset="UTF-8">
-	<link href="style.css" rel="stylesheet">
-	
-	<title>Document</title>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet">
+
+  <title>Document</title>
 </head>
 
 <body>
   <h1>Meme Generator - Construa o seu!</h1>
   <h2>Gustavo Oliva</h2>
-	<label id="texto">Texto do meme:</label>
-	<input id="text-input" type="text"  oninput="textWrite()" maxlength="60"><br>
-
-	<label class="image-selected">Imagem Selecionada:</label>
-	<input type="file" id="meme-insert" onchange="selectedImage(event)" accept="image/*"><br>
-
-	<div id="meme-image-container">
-		<div id="meme-text"></div>
-		<img id="meme-image">
+  <label id="texto">Texto do meme:</label>
+  <input id="text-input" type="text" maxlength="60"><br>
+  <label class="image-selected">Imagem Selecionada:</label>
+  <input type="file" id="meme-insert" accept="image/*"><br>
+  <div id="meme-image-container">
+    <div id="meme-text"></div>
+    <img id="meme-image">
   </div>
   <button id="fire" class="btn">fire</button>
   <button id="water" class="btn">water</button>
   <button id="earth" class="btn">earth</button>
+  <br>
+  <div class="memes">
+    <img id="meme-1" class="meme-box" src="imgs/meme1.png">
+    <img id="meme-2" class="meme-box" src="imgs/meme2.png">
+    <img id="meme-3" class="meme-box" src="imgs/meme3.png">
+    <img id="meme-4" class="meme-box" src="imgs/meme4.png">
+  </div>
   <script type="text/javascript" src="script.js"></script>
 </body>
-
 </html>

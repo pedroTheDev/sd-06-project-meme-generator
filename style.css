@@ -96,3 +96,12 @@ img#meme-image {
   border: none;
   background: rgb(4, 235, 4);
 }
+
+.meme-box {
+  display: inline;
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  margin: 10px;
+  cursor: pointer;
+}
