@@ -13,10 +13,10 @@
     </header>
     <section class="input-section">
         <input id="text-input" type="text" maxlength="60">
-        <input id="meme-insert" type="file" name="meme-image-upload" id="">
+        <input id="meme-insert" type="file" onchange="imageUploadURL(this);"/>
     </section>
     <div id="meme-image-container" class="meme-image-container-style">
-        <img id="meme-image" class="meme-image-style" src="" alt="">
+        <img id="meme-image" class="meme-image-style" src="#" alt="">
         <div id="meme-text-container" class="meme-text-style" ><p id="meme-text"></p></div>
     </div>
 </body>

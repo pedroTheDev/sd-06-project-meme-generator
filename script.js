@@ -7,6 +7,18 @@ function getText() {
   });
 }
 
+function imageUploadURL() {
+  const memeImageUpload = document.getElementById('meme-insert');
+  memeImageUpload.addEventListener('change', () => {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      document.getElementById('meme-image').src = e.target.result;
+    };
+    reader.readAsDataURL(memeImageUpload.files[0]);
+  });
+}
+
 window.onload = () => {
   getText();
+  imageUploadURL();
 };

@@ -23,8 +23,7 @@ body {
   color: white;
   font-size: 30px;
   position: relative;
-  top: 90%;
   text-align: center;
   text-shadow: 5px 5px 5px black;
-
+  top: 90%;
 }
