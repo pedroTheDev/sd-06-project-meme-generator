@@ -11,12 +11,12 @@
         <h1>Meme Generator</h1>
     </header>
     <main>
-        <p>Texto do meme: <input type="text" id="text-input"></p>
+        <p>Texto do meme: <input type="text" id="text-input" maxlength="60"></p>
         <p>Foto: <input type="file" accept="image/*" id="meme-insert"></p>
-        <div id="meme-image-container">
-            <img id="meme-image"> 
+        <section id="meme-image-container">
+            <img id="meme-image" alt="Imagem do meme"/> 
             <p id="meme-text"></p>
-        </div>
+        </section>
     </main>
     <script src="script.js"></script>
 </body>

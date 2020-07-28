@@ -5,30 +5,31 @@ body {
 }
 
 #meme-image-container {
-    z-index: 3;
     position: absolute;
     background-color: white;
     width: 500px;
     height: 350px;
-    border: solid 1px;
-    border-color: black;
-
+    border: solid 1px black;
 }
 
 #meme-text {
     z-index: 2;
     position: absolute;
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
     font-size: 30px;
     width: 500px;
     height: 350px;
+    top: 210px;
     text-shadow: 5px 5px 5px black;
 
 }
 
 #meme-image {
     z-index: 1;
-    position: absolute;
+    
     width: 500px;
     height: 350px;
 }
