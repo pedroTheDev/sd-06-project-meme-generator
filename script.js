@@ -1,14 +1,12 @@
 const textInput = document.querySelector('#text-input');
 const textmeme = document.querySelector('#meme-text');
-const imageMeme = document.getElementById('meme-insert');
-const preview = document.getElementById('meme-image');
+let imageMeme = document.querySelector('#meme-insert');
+let preview = document.queryCommandEnabled('#meme-image');
 
-function changeText() {
+textInput.addEventListener('keyup', function () {
     textmeme.innerHTML = textInput.value;
-}
-textInput.addEventListener('keyup', changeText);
+});
 
-function placeImage() {
-    preview.scr = window.URL.createObjectURL(imageMeme.files[0]);
-}
-imageMeme.addEventListener('change', placeImage);
+imageMeme.addEventListener('change', function (event) {
+preview.src = URL.createObjectURL(event.target.files[0]);
+});
