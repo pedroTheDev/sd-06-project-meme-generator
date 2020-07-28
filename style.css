@@ -1,12 +1,19 @@
 /* Sylesheet */
 .meme-image-container {
+  background-color: white;
+  border: 1px solid black;
   height: 400px;
   position: absolute;
   top: 50px;
-  width: 400px;
+  width: 600px;
 }
 
 .meme-text {
   position: absolute;
   top: 50px;
+}
+
+.meme-image {
+  height: 400px;
+  width: 600px;
 }
