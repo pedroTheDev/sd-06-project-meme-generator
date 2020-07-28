@@ -27,11 +27,11 @@ document.querySelector('#fire').addEventListener('click', function() {
 });
 
 document.querySelector('#water').addEventListener('click', function() {
-  document.querySelector('#meme-image-container').style.border = '4px double blue';
+  document.querySelector('#meme-image-container').style.border = '5px double blue';
 });
 
 document.querySelector('#earth').addEventListener('click', function() {
-  document.querySelector('#meme-image-container').style.border = '5px groove green';
+  document.querySelector('#meme-image-container').style.border = '6px groove green';
 });
 
 document.getElementById('meme-1').addEventListener('click', function() {
