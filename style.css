@@ -9,3 +9,12 @@ p {
   text-shadow: 5px 5px 5px black;
 }
 
+div {
+  background-color: white;
+  border: 1px solid black;
+  width: 600px;
+}
+
+img {
+  max-width: 600px;
+}
