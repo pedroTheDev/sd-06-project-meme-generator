@@ -139,3 +139,27 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+
+/* Buttons */
+.button {
+  padding: 4px;
+  color: white;
+  font-weight: 700;
+  border: 1px solid rgb(59, 59, 59);
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+.earth {
+  background-color: green;
+}
