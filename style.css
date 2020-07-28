@@ -59,20 +59,28 @@ p {
 .element-button-fire {
   background-color: red;
   height: 50px;
-  margin-right: 10px;
+  margin-left: 15px;
   width: 75px;
 }
 
 .element-button-water {
   background-color: blue;
   height: 50px;
-  margin-right: 10px;
+  margin-left: 15px;
   width: 75px;
 }
 
 .element-button-earth {
   background-color: green;
   height: 50px;
-  margin-right: 10px;
+  margin-left: 15px;
+  width: 75px;
+}
+
+.pre-defined-meme-box {
+  border: 1px solid white;
+  height: 75px;
+  margin-left: 15px;
+  margin-top: 25px;
   width: 75px;
 }
