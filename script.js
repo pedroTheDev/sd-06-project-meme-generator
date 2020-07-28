@@ -8,15 +8,16 @@ text.addEventListener('input',function(){
     note.style.fontSize = '30px';
     note.style.textShadow = '5px 5px 5px black';
     note.style.position = 'absolute';
+    note.style.width = 'inherit';
   
 });
 //Adicionando imagem.
 
 let btnImg = document.getElementById('meme-insert');
 btnImg.addEventListener('input', function(event) {
-    let photo = document.createElement('img');
     
-    document.getElementById('meme-image').appendChild(photo);
+    
+   let photo = document.getElementById('meme-image');
     
     photo.src = URL.createObjectURL(event.target.files[0]);
     photo.onload = function() {
