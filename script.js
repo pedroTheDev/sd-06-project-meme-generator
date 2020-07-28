@@ -17,7 +17,9 @@ function imageAdd() {
 
   reader.onload = function (e) {
     document.getElementById("uploaded-image").src = e.target.result;
+    console.log(e);
   }
+ 
   reader.readAsDataURL(imageInput.files[0]);
 }
 
