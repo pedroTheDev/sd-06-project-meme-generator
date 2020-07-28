@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(40, 167, 69);
+  background-color: rgb(40 , 167 , 69);
 }
 
 .meme-image-text-container {
@@ -16,10 +16,10 @@ body {
   font-size: 30px;
   margin-left: 50px;
   margin-top: 7em;
+  max-width: 400px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
-  z-index: 2;
-  max-width: 400px;
+  z-index: 2;  
 }
 
 .memes-images-container {
@@ -29,9 +29,9 @@ body {
   z-index: 1;
 }
 
-li {
-  font-family: Arial, Helvetica, sans-serif;
+li {  
   color: red;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 2em;
@@ -80,7 +80,7 @@ li {
 }
 
 .position {
-  margin-Left: 5px;
+  margin-left: 5px;
   margin-top: 10px;
 }
 
@@ -91,7 +91,7 @@ li {
 }
 
 .alignMain {
-  background-color: rgb(196, 196, 196);
+  background-color: rgb(196 , 196 , 196);
   margin: auto;
   padding-bottom: 30px;
   padding-left: 23px;
@@ -109,7 +109,7 @@ h1 {
   text-shadow: 3px 3px 3px white;
 }
 
-.inputText { 
+.inputText {
   height: 20px;
   width: 290px;
 }
