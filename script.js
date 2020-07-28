@@ -8,26 +8,27 @@ window.onload = function () {
   const buttons = document.querySelectorAll('button');
   const container = document.querySelector('#meme-image-container');
   const preSetImages = document.querySelectorAll('#thumbnails img');
+  const availableStyles = {
+      fire: 'dashed rgb(255 , 0 , 0) 3px',
+      water: 'double rgb(0 , 0 , 255) 5px',
+      earth: 'groove rgb(0 , 128 , 0) 6px',
+  };
 
   // Functions
-  let functionalities = {
-    addText: (event) => memeTextBox.innerHTML = inputTextElement.value,
-    uploadImage: (event) => memeImage.src = window.URL.createObjectURL(inputImageElement.files[0]),
-    changeStyle: {
-      fire: (event) => container.style.border = 'dashed rgb(255 , 0 , 0) 3px',
-      water: (event) => container.style.border = 'double rgb(0 , 0 , 255) 5px',
-      earth: (event) => container.style.border = 'groove rgb(0 , 128 , 0) 6px',
-    },
-    uploadPreSetImage: (event) => memeImage.src = event.target.src,
-  }
+  const functionalities = {
+    addText: (event) => (memeTextBox.innerHTML = event.target.value),
+    uploadImage: (event) => (memeImage.src = window.URL.createObjectURL(event.target.files[0])),
+    changeStyle: (event) => (container.style.border = availableStyles[event.target.id]),
+    uploadPreSetImage: (event) => (memeImage.src = event.target.src),
+  };
 
   // Events
   inputTextElement.addEventListener('keyup', functionalities.addText);
   inputImageElement.addEventListener('change', functionalities.uploadImage);
   for (let i = 0; i < buttons.length; i += 1) {
-    buttons[i].addEventListener('click', functionalities.changeStyle[buttons[i].id]);
-  }
+    buttons[i].addEventListener('click', functionalities.changeStyle);
+  };
   for (let i = 0; i < preSetImages.length; i += 1) {
-    preSetImages[i].addEventListener('click', functionalities['uploadPreSetImage']);
-  }
-}
+    preSetImages[i].addEventListener('click', functionalities.uploadPreSetImage);
+  };
+};
