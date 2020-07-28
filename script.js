@@ -32,9 +32,9 @@ inputText.addEventListener("keyup", function(){
 });
 
 //Botões FIRE, GRASS e WATER
-const fire = document.getElementById("fireBtn");
-const grass = document.getElementById("grassBtn");
-const water = document.getElementById("waterBtn");
+const fire = document.getElementById("fire");
+const grass = document.getElementById("grass");
+const water = document.getElementById("water");
 
 fire.addEventListener("click", function(){
   let getMemeImgContainer = document.getElementById("meme-image-container");
