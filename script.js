@@ -26,7 +26,7 @@ waterButton.addEventListener('click', () => {
 });
 
 earthButton.addEventListener('click', () => {
-  container.style.border = 'solid 5px green'
+  container.style.border = 'groove 6px rgb(0, 128, 0)'
 });
 
 
