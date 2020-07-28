@@ -15,7 +15,6 @@ window.onload = function () {
 	myImageInput.addEventListener("change", function (event) {
 		let myImageMeme = document.getElementById("meme-image");
 		myImageMeme.src = URL.createObjectURL(event.target.files[0]);
-		console.log(myImageInput.scr);
 		myImageMeme.onload = function () {
 			URL.revokeObjectURL(myImageMeme.src);
 		}
@@ -35,8 +34,33 @@ window.onload = function () {
 	let btnEarth = document.getElementById("earth");
 	btnEarth.addEventListener("click", function () {
 		let myImageContainer = document.getElementById("meme-image-container");
-		myImageContainer.style.border = "6px groove red";
+		myImageContainer.style.border = "6px groove green";
 	});	
 
+	// Altera Imagem usando as imagens de exemplo
+	let meme1 = document.getElementById("meme-1");
+	meme1.addEventListener("click", function () {
+		changeImage(meme1);
+	});
+	let meme2 = document.getElementById("meme-2");
+	meme2.addEventListener("click", function () {
+		changeImage(meme2);
+	});	
+	let meme3 = document.getElementById("meme-3");
+	meme3.addEventListener("click", function () {
+		changeImage(meme3);
+	});	
+	let meme4 = document.getElementById("meme-4");
+	meme4.addEventListener("click", function () {
+		changeImage(meme4);
+	});	
 
-};
+	function changeImage(memeImage) {
+		let myImageMeme = document.getElementById("meme-image");
+		myImageMeme.src = memeImage.getAttribute('src'); // URL.createObjectURL(event.target.value);
+		myImageMeme.onload = function () {
+			URL.revokeObjectURL(myImageMeme.src);
+		}
+	}
+
+}

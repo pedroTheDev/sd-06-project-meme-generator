@@ -9,7 +9,7 @@ header {
   background-color: rgb(255 , 255 , 255);
   color: rgb(36 , 66 , 56);
   text-align: center;
-  height: 50px;
+  height: 40px;
 }
 
 header h1, #trybe-logo {
@@ -17,28 +17,25 @@ header h1, #trybe-logo {
 }
 
 header #trybe-logo {
-  margin-top: 20px ;
+  position: absolute;
+  margin-top: 15px ;
   width: 70px;
-  float: left;
+  left: 15px;
 }
 
 header h1 {
   font-size: 24px;
   margin: 0;
-  line-height: 50px;
+  line-height: 40px;
   text-align: center;
 }
 
 #meme-imput-container {
-  height: 80px;
-}
-
-#meme-imput-container {
-  height: 80px;
+  height: 60px;
   width: 200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 5px;
 }
 
 #meme-imput-container input{
@@ -65,7 +62,7 @@ header h1 {
   /* margin: 0; */
   position: absolute;
   width: 400px;
-  top: 220px;
+  top: 200px;
   text-align: center;
   font-size: 30px;
   text-shadow: 5px 5px 5px rgb(0 , 0 , 0);
@@ -76,13 +73,13 @@ header h1 {
   width: 400px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
+  margin-top: 5px;
   text-align: center;
 }
 
 #meme-buttons-container button { 
   width: 60px;
-  height: 30px;
+  height: 25px;
   color: rgb(255 , 255 , 255);;
 }
 
@@ -96,4 +93,40 @@ header h1 {
 
 #meme-buttons-container #earth { 
   background-color: rgb(0 , 255 , 0);
+}
+
+#meme-famosos-container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#meme-famosos-container img { 
+  width: 80px;
+  height: 70px;
+  border-radius: 90%;
+  /* background-image: url(url da foto de perfil); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#meme-famosos-container img:hover {
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer h2 {
+  width: 400px;
+  font-size: 12px;
+  font-weight: lighter;
+  color: rgb(255 , 255 , 255);
 }
