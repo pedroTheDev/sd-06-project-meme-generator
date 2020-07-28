@@ -7,21 +7,19 @@ body {
 
 }
 
-#text-input {}
-
-#meme-image-container {
+.meme-container {
   border: black solid 1px;
   width: 350px;
   height: 350px;
   background-color: white;
 }
 
-#meme-image {
+.meme-image {
   width: 350px;
   height: 350px;
 }
 
-#meme-text {
+.meme-text {
   text-shadow: black 5px 5px 5px;
   font-size: 30px;
   color: white;
