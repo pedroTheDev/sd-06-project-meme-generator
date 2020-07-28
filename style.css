@@ -14,6 +14,9 @@ body {}
     position: absolute;
     max-width: 100%;
     z-index: 99;
+    max-width: 400px;
+    word-wrap: break-word;
+    top: 18rem;
 }
 
 #meme-image {
