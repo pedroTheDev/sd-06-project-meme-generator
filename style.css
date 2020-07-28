@@ -1,1 +1,10 @@
 /* Sylesheet */
+#meme-image-container {
+  position: absolute;
+  top: 50px;
+}
+
+#meme-text {
+  position: absolute;
+  top: 50px;
+}
