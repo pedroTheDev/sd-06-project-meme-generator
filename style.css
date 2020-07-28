@@ -1,14 +1,14 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 header {
+  align-items: center;
   background-color: lightblue;
-  height: 15vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 15vh;
   justify-content: center;
 }
 
@@ -21,36 +21,34 @@ h3 {
 }
 
 /* content */
-
 main {
   display: flex;
   padding: 12px;
 }
 
 /* left-side - preloaded memes */
-
 .preloaded-memes {
-  width: 20%;
-  overflow: hidden;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  overflow: hidden;
+  width: 20%;
 }
 
 .preloaded-memes img {
-  height: 100px;
-  width: 150px;
-  margin-bottom: 4px;
-  cursor: pointer;
   border-radius: 6px;
+  cursor: pointer;
+  height: 100px;
+  margin-bottom: 4px;
+  width: 150px;
 }
 
 .app-container {
-  width: 60%;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 60%;
 }
 
 .file-insert {
@@ -59,12 +57,14 @@ main {
 }
 
 [ type = 'file' ] {
-  width: 0;
   overflow: hidden;
+  width: 0;
 }
 
 label.upload {
+  background-color: #99c793;
   border: none;
+  border-radius: 50px;
   color: white;
   cursor: pointer;
   font-family: Rubik, sans-serif;
@@ -73,8 +73,6 @@ label.upload {
   padding: 1rem 50px;
   position: relative;
   transition: all 0.3s;
-  background-color: #99c793;
-  border-radius: 50px;
   overflow: hidden;
   vertical-align: middle;
 }
@@ -83,12 +81,12 @@ label.upload::before {
   color: white;
   content: '\f382';
   font-family: "Font Awesome 5 Free";
-  font-weight: 900;
   font-size: 100%;
+  font-weight: 900;
   height: 100%;
-  right: 130%;
   line-height: 3.3;
   position: absolute;
+  right: 130%;
   top: -2px;
   transition: all 0.3s;
 }
@@ -99,11 +97,10 @@ label.upload:hover::before {
 }
 
 /* input text */
-
 .text-container {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 16px;
   width: 60%;
 }
@@ -120,15 +117,14 @@ label.upload:hover::before {
 }
 
 /* meme */
-
 .meme-image-container {
   background-color: white;
   border: 1px solid black;
-  overflow: hidden;
   height: 60vh;
-  width: auto;
   max-width: 70vw;
   position: relative;
+  overflow: hidden;
+  width: auto;
 }
 
 .meme-image {
@@ -136,40 +132,39 @@ label.upload:hover::before {
 }
 
 .meme-text {
-  font-size: 30px;
-  color: white;
-  text-shadow: 5px 5px 5px;
-  position: absolute;
   bottom: 12px;
-  text-align: center;
-  width: 100%;
-  font-weight: 700;
+  color: white;
   font-family: 'Rowdies', cursive;
+  font-size: 30px;
+  font-weight: 700;
   letter-spacing: 4px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: 100%;
 }
 
 
 /* buttons (side bar) */
-
 .button-container {
-  width: 20%;
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  width: 20%;
 }
 
 .button-container button {
-  width: 60%;
-  margin-bottom: 12px;
-  border-radius: 8px;
-  font-weight: 700;
-  color: white;
   border: none;
-  padding: 8px;
+  border-radius: 8px;
+  color: white;
   cursor: pointer;
-  outline: none;
   font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  padding: 8px;
+  outline: none;
+  width: 60%;
 }
 
 .button-container button:active {

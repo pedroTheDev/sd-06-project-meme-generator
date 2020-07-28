@@ -7,11 +7,11 @@ function addBorders() {
   const btnRemove = document.getElementById('remove');
   const btnCollection = [btnFire, btnWater, btnEarth, btnRemove];
 
-  let imgContainer = document.getElementById('meme-image-container');
+  const imgContainer = document.getElementById('meme-image-container');
 
-  for (const i of btnCollection) {
-    i.onclick = () => {
-      switch (i) {
+  btnCollection.forEach((btn) => {
+    btn.onclick = () => {
+      switch (btn) {
         case btnFire:
           imgContainer.style.border = '3px dashed red';
           break;
@@ -26,7 +26,7 @@ function addBorders() {
           break;
       }
     }
-  }
+  });
 }
 
 // Suggested memes
@@ -39,11 +39,11 @@ function clickSuggestedMemes() {
   const mainMeme = document.getElementById('meme-image');
   const memeCollection = [meme1, meme2, meme3, meme4];
 
-  for (const j of memeCollection) {
-    j.addEventListener('click', (event) => {
+  memeCollection.forEach((img) => {
+    img.addEventListener('click', (event) => {
       mainMeme.src = event.target.src;
-    });
-  };
+    })
+  });
 }
 
 // Input file
