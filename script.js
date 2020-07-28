@@ -10,13 +10,3 @@ function myFunction() {
     var x = document.getElementById("text-input").value;
     document.getElementById("meme-text").innerHTML = x;
 }
-
-
-/*let caixaUm = document.querySelector(".caixa1")
-let textBtn = document.querySelector(".botao1")
-let caixaTexto = document.querySelector(".caixa-texto")
-
-function changeText() {
-    caixaUm.innerHTML = caixaTexto.value
-}
-textBtn.addEventListener("click", changeText)*/
