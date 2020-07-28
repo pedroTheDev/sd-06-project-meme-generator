@@ -5,7 +5,7 @@ body {
 }
 
 #meme-image-container {
-    position: relative;
+    position: absolute;
     background-color: white;
     width: 500px;
     height: 350px;
@@ -18,6 +18,14 @@ body {
     position: absolute;
     color: white;
     font-size: 30px;
+    width: 500px;
+    height: 350px;
     text-shadow: 5px 5px 5px black;
 
+}
+
+#meme-image {
+    position: absolute;
+    width: 500px;
+    height: 350px;
 }
