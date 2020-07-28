@@ -3,10 +3,17 @@
     font-size: 30px;
     text-shadow: 5px 5px 5px black;
     position: absolute;
+    top: 55%;
 }
 
 #meme-image {
-    border: 1px solid black;
+    
     background-color: white;
     max-width: 100%;
 }
+
+#meme-image-container {
+    max-width: 100%;
+    border: 1px solid black;
+}
+
