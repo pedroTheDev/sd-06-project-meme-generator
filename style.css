@@ -1,5 +1,6 @@
 body {
   align-items: center;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
@@ -22,6 +23,7 @@ body {
 
 .meme-text {
   color: white;
+  font-family: 'Sora', sans-serif;
   font-size: 30px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
@@ -32,6 +34,10 @@ body {
 button {
   border-radius: 8px;
   padding: 10px;
+}
+
+button:hover {
+  transition: 80%;
 }
 
 .meme-examples img {
