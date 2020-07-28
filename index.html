@@ -16,23 +16,21 @@
 
   <div>
     <div>
-      Texto:
-      <input id="text-input" class="text-input" type="text" maxlength="60">
-    </div>
-    <br>
-    <div>
-      Foto:
-      <input id="image-input" class="image-input" type="file" accept="image/*" onchange="loadFile(event)">
+      <label>Texto: </label>
+        <input id="text-input" class="text-input" type="text" maxlength="60">
+      <p>
+      <Label> Foto: </Label>
+        <input id="image-input" class="image-input" type="file" accept="image/*" onchange="loadFile(event)">
+        <img id="meme-insert" class="meme-insert" />
     </div>
   </div>
+  
   <br>
 
   <div id="meme-image-container" class="meme-image-container">
-    <div id="meme-image" class="meme-image">
-      <img id="meme-insert" class="meme-insert" />
-    </div>
+    <img id="meme-image" class="meme-image" />
     <div id="meme-text" class="meme-text"></div>
-  </div>
+  </div>    
 
   <br>
 
