@@ -5,8 +5,11 @@ let loadFile = function(event) {
         URL.revokeObjectURL(memeImage.src) // free memory
     }
 }
+window.onload = function() {
+    let x = document.getElementById("text-input");
 
-function myFunction() {
-    var x = document.getElementById("text-input").value;
-    document.getElementById("meme-text").innerHTML = x;
+    function myFourthFunction() {
+        document.getElementById("meme-text").innerHTML = x.value;
+    }
+    x.addEventListener("input", myFourthFunction);
 }
