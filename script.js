@@ -2,7 +2,7 @@ const imgShow = document.querySelector('#meme-image');
 const txtInput = document.querySelector('#text-input');
 const txtOutput = document.querySelector('#meme-text');
 const imgCont = document.querySelector('#meme-image-container')
-const imgData = document.querySelector('.meme')
+const imgData = document.querySelector('#memes')
 
 function showImage(event) {
   const imgSrc = event.target.files[0];
@@ -17,15 +17,10 @@ txtInput.addEventListener('keyup', function () {
   }
 });
 
-// imgData.addEventListener('click',function (event) {
-//   let teste =event.target.src.split("0", 5)
-//   
-// })
-function imgDb(event) {
+imgData.addEventListener('click',function (event) {
   let teste =event.target.src.split("0", 5)
   imgShow.src = teste[4];
-}
-
+})
 
 function earth() {
   imgCont.className = "meme-container earth"
