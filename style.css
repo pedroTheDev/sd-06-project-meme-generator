@@ -6,16 +6,18 @@ body {
   border: 1px solid black;
   width: 500px;
 }
+
 #text-input {
-  margin-top: 10px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 #meme-text {
-  position: absolute;
-  font-size: 30px;
   color: white;
+  font-size: 30px;
+  position: absolute;
   text-shadow: 5px 5px 5px black;
 }
+
 #output {
   margin: 10px;
   width: 500px;

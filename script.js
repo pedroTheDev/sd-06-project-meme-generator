@@ -1,5 +1,5 @@
-let inputText = document.getElementById('text-input');
-let memeText = document.getElementById('meme-text');
+const inputText = document.getElementById('text-input');
+const memeText = document.getElementById('meme-text');
 let textInMeme = '';
 function printTextMeme() {
   textInMeme = inputText.value;
@@ -14,12 +14,12 @@ function printTextMeme() {
 //   }
 // };
 
-inputText.addEventListener("keyup", printTextMeme);
+inputText.addEventListener('keyup', printTextMeme);
 
-let output = document.getElementById('output');
-let memeImg = document.getElementById('meme-image');
+const output = document.getElementById('output');
+const memeImg = document.getElementById('meme-image');
 function showImage(e) {
-  let getFile = e.target.files[0];
+  const getFile = e.target.files[0];
   memeImg.src = URL.createObjectURL(getFile);
 }
 output.addEventListener('change', showImage);
