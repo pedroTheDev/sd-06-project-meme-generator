@@ -1,4 +1,5 @@
 .meme-container {
+  background-color: white;
   border : 1px solid black;
   height: 300px;
   margin: 10px;
@@ -21,6 +22,5 @@ img {
 }
 
 .image-container {
-  background-color: rgb(255, 255, 255);
   border: 1px solid black;
 }
