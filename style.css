@@ -6,7 +6,13 @@
 }
 #meme-text {
     color: white;
-    text-shadow: 0.1em 0.1em 0.1em black;
-    font-size: 2em;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#meme-image-container{
+    margin-top: 10px;
+}
+button {
+    margin-top: 10px;
 }
