@@ -10,6 +10,11 @@
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+#meme-image {
+    background-image: url(https://i.ytimg.com/vi/SGeJnXQ-1gc/maxresdefault.jpg);
+    width: 683px;
+    height: 366px;
+}
 #meme-image-container{
     margin-top: 10px;
 }
