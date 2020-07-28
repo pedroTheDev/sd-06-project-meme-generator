@@ -1,48 +1,49 @@
 
-#meme-image-container {
-    border: solid rgb(0 , 0 , 0) 1px;
-    background-color: rgb(255 , 255 , 255);
-    height: 400px;
-    width: 400px;
-    margin: 5%;
-    position: relative;
-}
-
-#meme-image {
+.meme-image {
     height: 400px;
     width: 400px;
     position: absolute;
     object-fit: fill;
 }
 
-#meme-text {
+.meme-image-container {
+    border: solid black s1px;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin: 5%;
+    position: relative;
+}
+
+.meme-text {
     position: absolute;
     z-index: 1;
-    text-shadow: 5px 5px 5px rgb(0 , 0 , 0);
+    text-shadow: 5px 5px 5px black;
     font-size: 30px;
-    color: rgb(255 , 255 , 255);
+    color: white;
 }
 
-#fire {
-    background-color: rgb(255 , 0 , 0);
+.fire {
+    background-color: red;
 }
 
-#water {
-    background-color: rgb(0 , 0 , 255);
+.water {
+    background-color: blue;
 }
 
-#earth {
-    background-color: rgb(0 , 128 , 0);
+.earth {
+    background-color: green;
 }
 
-#thumbnails {
+.thumbnails img {
+    width: 80px;
+    height: 80px;
+    border: solid black 1px;
+}
+
+.thumbnails {
     height: 80px;
     position: relative;
     margin: 5px auto;
 }
 
-#thumbnails img {
-    width: 80px;
-    height: 80px;
-    border: solid rgb(0 , 0 , 0) 1px;
-}
