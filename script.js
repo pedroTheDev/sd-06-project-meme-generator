@@ -1,4 +1,4 @@
-window.onload = () => {
+window.onload = () => {}
 
   function textInput() {
   // Função que vai fazer o texto aparecer no meme
@@ -62,4 +62,3 @@ window.onload = () => {
   outputImage.style.width = '500px';
   outputImage.style.height = '400px';
   }
-}
