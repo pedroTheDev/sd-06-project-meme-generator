@@ -13,3 +13,9 @@
   margin-top: 200px;
   width: 295px;
 }
+
+img {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+}
