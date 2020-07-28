@@ -2,11 +2,18 @@
   font-size: 40px;
 }
 
+#interacao{
+  margin-left: 765px;
+  margin-bottom: 10px;  
+}
+
 #meme-text {
   position: absolute;
-  text-shadow: 5px 5px 5px black;
+  text-shadow: 5px 5px 5px #000000;
   font-size: 30px;
   color: white;
+  top: 50%;
+  left: 50%;
 }
 
 #meme-image {
@@ -14,25 +21,26 @@
 }
 
 #meme-image-container {
-  background-color: white;
-  border: 1px solid black;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  max-width: 300px;
+  margin: auto;
 }
 
-.edit {
+.elementos {
   margin: auto;
   margin-top: 50px;
   width: 200px;
 }
 
 #fire {
-  background-color: red;
+  background-color: #ff0000;
 }
 
 #water {
-  background-color: blue;
+  background-color: #0000ff;
 }
 
 #earth {
-  background-color: green;
+  background-color: #008000;
 }
-

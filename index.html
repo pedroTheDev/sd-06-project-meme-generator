@@ -9,11 +9,11 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="title">MEME GENERATOR</h1>
-    </header>
 
-    <section>
+    <section id="interacao">
+        <header>
+            <h1 class="title">MEME GENERATOR</h1>
+        </header>
         <label for="Meme">
             <h2>Texto:</h2>
             <input type="text" id="text-input" maxlength="60" placeholder="Digite a legenda da foto">
@@ -28,19 +28,25 @@
     <div id="meme-image-container">
         <div id="meme-image">
             <img height="300px">
+            <div id="meme-text"></div>
         </div>
-    <div id="meme-text"></div>
     </div>
 
-    <section class="edit">
+    <section class="elementos">
         <button id="fire">FIRE</button>
         <button id="water">WATER</button>
         <button id="earth">EARTH</button>
     </section>
-
+    <!--
+        <section id="exemplos">
+            <img id="meme-1" src="imgs/meme1.png" />
+            <img id="meme-2" src="imgs/meme2.png" />
+            <img id="meme-3" src="imgs/meme3.png" />
+            <img id="meme-4" src="imgs/meme4.png" />
+        </section>
+    -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
