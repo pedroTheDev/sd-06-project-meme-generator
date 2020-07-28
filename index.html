@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    
 </head>
 <body>
     <header class="cabecalho">
@@ -17,17 +17,19 @@
             <div class="input">
                 <label for="text-input"> Texto: </label>
                 <input type="text" id='text-input' max="60">
+                <input id="button-adicionar" type="button" value="Adicionar!">
             </div>
             <div class="input">
-                <input type="file" id="meme-insert">
+                <input id="meme-image" type="file" accept="image/*" onchange="loadFile(event)">
             </div>
         </form>
     </section>
     <section id="meme-image-container">
         <div id="meme-text">
-            <p> Teste teste do este teste testado!! </p>
+            <p id="output-text"> </p>
         </div>
-        <img id="meme-image" src="./images/meme.jpg" alt="" height="500" width="600">
-    </section> 
+        <img id="output" src="" alt="" height="500" width="600">
+    </section>
+    <script src="./script.js"></script>
 </body>
 </html>

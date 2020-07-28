@@ -12,6 +12,7 @@
     height: 500px;
     width: 600px;
     background-color: white;
+    margin-top: 100px;
 }
 
 #meme-text{
@@ -22,4 +23,10 @@
     text-align: center;
     width: 250px;
     line-height: 30px;
+    
+}
+
+.input {
+    left: 0px;
+    color: red
 }
