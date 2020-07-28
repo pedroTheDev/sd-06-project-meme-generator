@@ -31,4 +31,11 @@ word-wrap: break-word;
     width: 350px;
     margin-top: 10px;
     position:  relative;
+    background-size: contain;
+background-position: center center;
+background-repeat: no-repeat;
+}
+#meme-image{
+    height: 350px;
+    width: 350px;
 }
