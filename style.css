@@ -1,12 +1,15 @@
-div#meme-image-container {
+.meme-container {
   border : 1px solid black;
   height: 300px;
   margin: 10px;
   width: 300px;
 }
 
-div#meme-text {
+.inside-meme-text {
   border: 1px solid black;
+  color: black;
+  font-size: medium;
   height: 60px;
   margin-top: 200px;
+  width: 295px;
 }
