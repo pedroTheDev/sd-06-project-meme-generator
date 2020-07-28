@@ -8,8 +8,53 @@ body {
   background-color: rgb(240,240,240);
   font-family: 'Roboto', sans-serif;
   color: rgb(59, 59, 59);
+  cursor: default;
 }
 
+/* header */
+.main-header {
+  height: 56px;
+  width: 100%;
+  background-color: rgb(51,51,51);
+  color: white;
+}
+
+.main-header .header-container {
+  /* border: 2px solid red; */
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header h1 {
+  color: white;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.main-header .other-projects {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  opacity: 0.7;
+  padding-bottom: 2px;
+  border-bottom: 2px dashed transparent;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.main-header .other-projects:hover {
+  opacity: 1;
+  border-bottom: 2px dashed white;
+}
+
+/* main */
 .container {
   width: 65%;
   margin: 48px auto 64px auto;
@@ -43,7 +88,21 @@ body {
   text-shadow: 5px 5px 5px black;
   text-transform: uppercase;
   width: 100%;
-  /* border: 2px solid red; */
+  text-align: center;
+  word-wrap: break-word;
+  z-index: 2;
+}
+
+.left-side .meme-text-bottom {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
+  text-transform: uppercase;
+  width: 100%;
   text-align: center;
   word-wrap: break-word;
   z-index: 2;
@@ -56,9 +115,6 @@ body {
 .right-side .right-container {
   width: 90%;
   margin: 48px auto;
-  /* border: 5px solid red; */
-  /* display: flex; */
-  /* flex-direction: column; */
   text-align: center;
 }
 
@@ -84,12 +140,16 @@ body {
   border: 1px solid rgb(59, 59, 59);
   border-radius: 2px;
   cursor: pointer;
+  transition: transform 500ms ease;
+}
+
+.memes-gallery img:hover {
+  transform: scale(1.5);
 }
 
 .right-side .right-container .or {
   display: inline-block;
   margin: 12px 0;
-  /* border: 2px solid red; */
   font-weight: 700;
   text-transform: lowercase;
   font-size: 16px;
@@ -103,8 +163,46 @@ body {
   content: " --------------------";
 }
 
-.config {
+.config:not(:first-child) {
   margin-top: 8px;
+}
+
+.config.image-upload {
+  position: relative;
+
+  display: inline-block;
+  overflow: hidden;
+
+  width: 200px;
+  cursor: pointer;
+}
+
+.config.config.image-upload {
+  transition: transform 200ms ease;
+}
+
+.config.config.image-upload p {
+  font-weight: 700;
+  border: 1.5px solid rgb(59, 59, 59);
+  padding: 8px 16px;
+  border-radius: .4rem;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.config.config.image-upload:hover {
+  transform: scale(1.1);
+}
+
+.config.config.image-upload #meme-insert {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
 }
 
 .config input[type=text] {
@@ -121,11 +219,8 @@ body {
   margin-top: 24px;
 }
 
-.config.optionals > div:first-child {
-  margin-bottom: 4px;
-}
-
 .config.optionals .border-buttons {
+  margin-top: 8px;
   display: flex;
   justify-content: space-around;
 }
@@ -135,9 +230,9 @@ body {
 }
 
 .right-container > div:last-child {
-  margin-top: 16px;
+  margin-top: 24px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 /* Buttons */
@@ -150,6 +245,11 @@ body {
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 0.7px;
+  transition: all 200ms ease;
+}
+
+.button:hover {
+  transform: scale(1.15);
 }
 
 .fire {
@@ -162,4 +262,17 @@ body {
 
 .earth {
   background-color: green;
+}
+
+.reset {
+  border-color: rgba(59, 59, 59, 0.3);
+  padding: 8px 16px;
+  color: rgba(59, 59, 59, 0.3);
+  background-color: transparent;
+  transition: all 200ms ease;
+}
+
+.reset:hover {
+  border-color: rgba(59, 59, 59, 1);
+  color: rgba(59, 59, 59, 1);
 }

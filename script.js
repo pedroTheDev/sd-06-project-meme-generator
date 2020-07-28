@@ -1,11 +1,19 @@
 window.onload = function() {
   // Meme text
+  function transferText(textInput,textLocation) {
+    textInput.addEventListener("keyup", function() {
+      textLocation.innerText = textInput.value;
+    })
+  }
+
   const memeText = document.getElementById("meme-text");
   const memeTextInput = document.getElementById("text-input");
 
-  memeTextInput.addEventListener("keyup", function() {
-    memeText.innerText = memeTextInput.value;
-  })
+  const memeTextBottom = document.getElementById("meme-text-bottom");
+  const memeTextInputBottom = document.getElementById("text-input-bottom");
+
+  transferText(memeTextInput,memeText)
+  transferText(memeTextInputBottom,memeTextBottom)
 
   // Meme image - upload
   const memeImage = document.getElementById("meme-image");
@@ -50,12 +58,20 @@ window.onload = function() {
   changeBorder(earthButton,"6px","groove","green");
 
   // Reset
-  const resetButton = document.querySelector(".reset");
+  const resetButton = document.querySelectorAll(".reset")[1];
 
   resetButton.addEventListener("click", function() {
     memeImageContainer.style.border = "";
     memeText.innerText = "";
+    memeTextBottom.innerText = "";
     memeImage.src = "https://dummyimage.com/439x392/aaa/fff.png&text=<Select+an+image>";
-
   })
+
+  const resetBorder = document.querySelectorAll(".reset")[0];
+
+  resetBorder.onclick = function() {
+    memeImageContainer.style.border = "";
+  }
+
+
 }

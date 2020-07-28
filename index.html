@@ -11,7 +11,12 @@
   <title>Meme generator</title>
 </head>
 <body>
-  <!-- <header></header> -->
+  <header class="main-header">
+    <div class="header-container">
+      <a href="#"><h1>Not A Real Meme Generator !!</h1></a>
+      <a href="https://phelipe-ohlsen.github.io/portfolio/" class="other-projects" target="_blank">Visit other projects</a>
+    </div>
+  </header>
   
   <main>
     <article>
@@ -20,6 +25,7 @@
           <img id="meme-image" src="https://dummyimage.com/439x392/aaa/fff.png&text=<Select+an+image>" alt="Meme's image" >
 
           <div id="meme-text" class="meme-text"></div>
+          <div id="meme-text-bottom" class="meme-text-bottom"></div>
         </section>
 
         <section class="right-side">
@@ -35,8 +41,9 @@
             <span class="or">or</span>
 
             <div class="essentials">
-              <div class="config">
-                <input id="meme-insert" type="file" accept="image/*">
+              <div class="config image-upload">
+                  <input id="meme-insert" type="file" accept="image/*">
+                  <p>Select your own</p>
               </div>
 
               <div class="config">
@@ -57,7 +64,8 @@
             </div>
   
             <div>
-              <button class="reset">Reset all</button>
+              <button class="button reset">Reset border</button>
+              <button class="button reset">Reset all</button>
             </div>
           </div>
         </section>
