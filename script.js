@@ -18,11 +18,11 @@ const waterButton = document.getElementById('water');
 const earthButton = document.getElementById('earth');
 
 fireButton.addEventListener('click', () => {
-  container.style.border = 'solid 5px red';
+  container.style.border = 'dashed 3px red';
 });
   
 waterButton.addEventListener('click', () => {
-  container.style.border = 'solid 5px blue';
+  container.style.border = 'double 5px blue';
 });
 
 earthButton.addEventListener('click', () => {
