@@ -3,37 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Meme Generator</title>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    
 </head>
 <body>
-    <div class="header">
-        <!--A caixa onde o texto é inserido deve ter um id denominado text-input;-->
-        <label for="">Texto: </label><input type="text" id="text-input" maxlength="60"/> <!--maxlength limita o número de caracteres-->
-        <br>
-        <br>
-        <!--O elemento onde é feito o upload da imagem deve ser identificado com o id denominado meme-insert. Este elemento não precisa estar dentro do elemento de container;-->
-        <label for="">Imagem: </label><input type="file" id="meme-insert">
-    </div>
-    <br>
-    <br>
-    <!--Você deve criar um elemento para servir de "container" para a imagem e para o texto do meme. Este elemento deve ter um id denominado meme-image-container;-->
-    <!--Dentro do elemento de container, você deve criar um outro elemento para mostrar o texto digitado. O elemento de texto deve estar totalmente contido dentro do container e ter o id denominado meme-text;-->
-    <div id="meme-image-container" class="container">
-        <div id="meme-text" class="text"></div>
-        <!--Dentro do elemento de container, você deve criar um outro elemento para mostrar a imagem selecionada. Este elemento deve possuir um id denominado meme-image;-->
-        <img src="" id="meme-image">
-    </div>
-    <button id="fire" class="fire">Fogo</button>
-    <button id="water" class="water">Agua</button>
-    <button id="earth" class="earth">Terra</button>
-    <br>
-    <img src="imgs/meme1.png" class = "mini-image" id="meme-1">
-    <img src="imgs/meme2.png" class = "mini-image" id="meme-2">
-    <img src="imgs/meme3.png" class = "mini-image" id="meme-3">
-    <img src="imgs/meme4.png" class = "mini-image" id="meme-4">
-    <script src="script.js"></script>
-</body>
-</html>
+    <section id="size-page">
+       
+        <header id="title">
+            <h1 class="textTitle"> Meme Generator!</h1>
+        </header>
 
+        <section id="organiza-elementos">
+
+            <section id="body-input">
+                <h2 id="title-input">Texto do Meme:</h2>
+                <input id="text-input" type="text" maxlength="60">
+            </section>
+
+            <section id="choose-file">
+                <h2 id="title-foto">Imagem do Meme:</h2><input id="meme-insert" class="button" type="file" accept="image/*">
+            </section>
+        </section>
+
+        <section id="meme-image-container">
+            <div id="meme-text"></div>
+            <img id="meme-image" class="meme-image">
+        </section>
+    </section>
+    
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
