@@ -25,7 +25,9 @@ body {
   color: white;
   font-family: 'Sora', sans-serif;
   font-size: 30px;
+  padding-top: 270px;
   position: absolute;
+  overflow-wrap: break-word;
   text-align: center;
   text-shadow: 5px 5px 5px black;
   top: 5px;
