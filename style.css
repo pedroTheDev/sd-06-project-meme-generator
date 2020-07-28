@@ -1,0 +1,68 @@
+body {
+    background-color: lightgrey;
+}
+
+#size-page {
+    width: 800px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    background-color: mediumseagreen;
+    padding-left: 50px;
+    padding-right: 60px;
+    border: 3px solid black;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+
+#title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#body-input {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+#text-input {
+    float: right;
+    margin-top: 4px;
+    margin-left: 72px;
+    width: 285px;
+    border: 2px solid black;
+}
+
+#title-input {
+    float: left;
+    margin: 0px;
+}
+
+#title-foto {
+    float: left;
+    margin-top: 10px; 
+    margin-right: 0px;   
+}
+
+.button {
+    float: right;
+    margin-top: -45px;
+    margin-right: 250px;
+    padding-right: 25px;
+    padding-left: 41px;
+    border-radius: 10px;
+}
+
+#meme-image-container {
+    border: 1px solid black;
+    height: 430px;
+    width: 100%;
+    margin-top: 70px;
+    background-color: white;
+    position: relative;
+}
