@@ -19,7 +19,7 @@ txtInput.addEventListener('keyup', function () {
 
 function sI (event) {
   let teste =event.target.src.split("0", 5)
-  imgShow.src = teste[4];
+  imgShow.src = event.target.src
 }
 
 function earth() {
