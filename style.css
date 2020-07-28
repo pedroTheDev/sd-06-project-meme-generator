@@ -1,52 +1,63 @@
+body {
+  background-color: rgb(40, 167, 69);
+}
+
 .meme-image-text-container {
   background-color: white;
   border: 1px solid black;
   height: 300px;
   position: relative;
-  width: 300px;
+  width: 500px;
 }
 
 .meme-text-container {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
+  margin-left: 50px;
   margin-top: 7em;
   position: absolute;
   text-shadow: 5px 5px 5px black;
   z-index: 2;
+  max-width: 400px;
 }
 
 .memes-images-container {
   height: 300px;
   position: absolute;
-  width: 300px;
+  width: 500px;
   z-index: 1;
 }
 
 li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-size: 20px;
+  font-weight: 800;
   line-height: 2em;
-  list-style-type: disc;
+  list-style-type: none;
+  text-shadow: 1px 1px 1px white;
 }
 
 .borderFire {
   border: 3px dashed red;
   height: 300px;
   position: relative;
-  width: 300px;
+  width: 500px;
 }
 
 .borderWater {
   border: 5px double blue;
   height: 300px;
   position: relative;
-  width: 300px;
+  width: 500px;
 }
 
 .borderEarth {
   border: 6px groove green;
   height: 300px;
   position: relative;
-  width: 300px;
+  width: 500px;
 }
 
 .buttonFire {
@@ -69,14 +80,40 @@ li {
 }
 
 .position {
-  margin-top: 40px;
+  margin-Left: 5px;
+  margin-top: 10px;
 }
 
-.positionAButton {
-  margin-right: 10px;
-}
-
-.dimensoesButton {
+.dimensoesPositionButton {
   height: 30px;
-  width: 80px;  
+  margin-left: 30px;
+  width: 120px;
+}
+
+.alignMain {
+  background-color: rgb(196, 196, 196);
+  margin: auto;
+  padding-bottom: 30px;
+  padding-left: 23px;
+  padding-top: 5px;
+  width: 40%;
+}
+
+.alignInputs {
+  margin-left: -43px;
+  width: 600px;
+}
+
+h1 {
+  margin-left: 80px;
+  text-shadow: 3px 3px 3px white;
+}
+
+.inputText { 
+  height: 20px;
+  width: 290px;
+}
+
+.inputImage {
+  background-color: yellow;
 }
