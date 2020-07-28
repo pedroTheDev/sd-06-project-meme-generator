@@ -9,11 +9,14 @@ img {
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
-
+  width: 400px;
+  overflow-wrap: break-word;
+  text-align: center;
 }
 #meme-image-container {
   background-color: rgb(255, 255, 255);
   border: 1px solid black;
+  width: 500px;
 }
 #title {
   text-align: center;
