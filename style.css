@@ -30,8 +30,7 @@ background-position: center center;
 background-repeat: no-repeat;
 }
 #meme-image{
-    height: 350px;
-    width: 350px;
+contain: size;
 }
 .siteText{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
