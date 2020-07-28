@@ -18,7 +18,9 @@ word-wrap: break-word;
 }
 #meme-image-container{
     background-color: white;
-    border: black solid 1px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
     height: 350px;
     width: 350px;
     margin-top: 10px;
@@ -33,5 +35,5 @@ background-repeat: no-repeat;
 }
 .siteText{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+
 }
