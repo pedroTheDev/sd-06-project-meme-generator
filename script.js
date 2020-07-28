@@ -12,7 +12,7 @@ function onLoadImg() {
 }
 
 function changeBorderFire() {
-    document.getElementById('meme-image-container').style.border = "5px double red";
+    document.getElementById('meme-image-container').style.border = "3px double red";
 }
 
 function changeBorderWater() {
