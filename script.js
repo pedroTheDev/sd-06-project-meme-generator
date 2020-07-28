@@ -3,7 +3,7 @@
      var getP = document.getElementById("meme-text");
      getP.innerHTML = conteudo;
 
-     console.log("teste")
+
  }
 
 
