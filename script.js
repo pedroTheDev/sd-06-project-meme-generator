@@ -1,7 +1,7 @@
 const textInput = document.querySelector('#text-input');
 const textmeme = document.querySelector('#meme-text');
-const imageMeme = document.('#meme-insert');
-const preview = document.getElementById('meme-image');
+const imageMeme = document.querySelector('#meme-insert');
+const preview = document.querySelector('#meme-image');
 
 textInput.addEventListener('keyup', function () {
     textmeme.innerHTML = textInput.value;
