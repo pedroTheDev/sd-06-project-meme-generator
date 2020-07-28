@@ -9,4 +9,10 @@
 #meme-image-container {
   background-color: white;
   border: 1px solid black;
+  height: 450px;
+  width: 360px;
+}
+img {
+  height: 450px;
+  width: 360px;
 }
