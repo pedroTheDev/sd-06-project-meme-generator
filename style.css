@@ -31,16 +31,16 @@ body {
 }
 
 .earth{
-  border: green groove 6px;
   background-color: rgb(0, 255, 0);
+  border: rgb(0, 255, 0) groove 6px;
 }
 
 .fire{
-  border: red dashed 3px;
   background-color: rgb(255, 0, 0);
+  border: red dashed 3px;
 }
 
 .water{
-  border: blue groove 6px;
   background-color: rgb(0, 0, 255);
+  border: 5px double rgb(0, 0, 255);
 }
