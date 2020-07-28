@@ -14,7 +14,7 @@
     font-style: normal;
     color: white;
     text-shadow: black 5px 5px 5px;
-    position: center;
+    position: absolute;
 
 
 }
@@ -22,6 +22,4 @@
     width: 400px;
     height: 400px;
 }
-#text-input{
-    text-size-adjust: 60;
-}
+
