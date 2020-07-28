@@ -1,5 +1,7 @@
 body {
   margin-left: 10px;
+  text-align: center;
+  width: 
 }
 
 .display {
@@ -9,9 +11,8 @@ body {
 
 .meme-container {
   background-color: white;
-  height: 350px;
+  margin: 0 auto;
   width: 350px;
-
 }
 
 .border {

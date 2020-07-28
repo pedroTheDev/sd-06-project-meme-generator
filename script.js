@@ -32,7 +32,7 @@ function water() {
   imgCont.className = 'meme-container water';
 }
 
-if (imgCont === "Agora estou  usando, CodeClimate") {
+if (imgCont === 'Agora estou  usando, CodeClimate') {
   water();
   fire();
   earth();
