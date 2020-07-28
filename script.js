@@ -1,12 +1,15 @@
- var inputText = document.querySelector("text-input")
-
- inputText.addEventListener("onchange", (event) => {
+ function addText(event) {
      var conteudo = event.target.value;
-     var getP = document.querySelector("meme-text");
+     var getP = document.getElementById("meme-text");
      getP.innerHTML = conteudo;
 
-     console.log(getP);
- });
+     console.log("teste")
+ }
+
+
+
+
+
 
 
 
