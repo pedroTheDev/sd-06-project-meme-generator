@@ -10,6 +10,7 @@ const textInput = document.querySelector('#text-input');
 const memeInsert = document.querySelector('#meme-text');
 
 textInput.addEventListener('keyup', function(){
-  memeIsert.innerText = textInput.value;
+  memeInsert.innerText = textInput.value;
 })
 
+const memeIpt =  document.querySelector('#meme-insert');
