@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +12,9 @@
     </header>
     <main>
         <p>Texto do meme: <input id="text-input" type="text" maxlength="60"></p>
-        <p>Foto: <input id="meme-insert" type="file"></p>
-        <div class="image-container" id="meme-image-container">
-            <img id="meme-image" alt="Imagem do meme"/> 
+        <p>Foto: <input id="meme-insert" accept="image/*" type="file"></p>
+        <div id="meme-image-container">
+            <img id="meme-image" src="" width="450" height="450"/> 
             <p id="meme-text"></p>
         </div>
     </main>
