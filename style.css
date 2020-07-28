@@ -1,0 +1,26 @@
+#meme-image-container{
+    border: 1px solid black;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+}
+
+#meme-text{
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    padding-top: 400px;
+    width: inherit;
+    z-index: 1;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: bold;
+}
+
+#meme-image {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+}
