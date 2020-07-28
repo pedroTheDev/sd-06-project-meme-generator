@@ -9,15 +9,14 @@
 <body>
     <header><h1><strong>Meme Generator</strong></h1></header>
 
-<form id="form">
+<form id="meme">
     Texto: <input type="text" id="text-input" > <br>
     Foto:  <input type="file" id="meme-insert"> <br>
 </form>
-    <div id="meme-image-container">
-    <div id="meme-text"></div>
-    <div id="meme-image"></div>
+    <div id="meme-image-container" class="meme-image-container">
+    <img id="meme-image" class="meme-image" src="" alt="Meme" type='image'>
+    <div id="text"><p id="meme-text" class="meme-text"></p></div>
     </div>
-    <div id="meme-insert"></div>
 </body>
-<script src="script.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </html>

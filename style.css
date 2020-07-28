@@ -1,9 +1,20 @@
-#meme-text {
+.meme-text {
+  left: 200px;
   position: absolute;
-  font-size: 30px;
+  text-align: right;
+  top: 380px;
+  width: 280px;
+  word-wrap: break-word;
 }
 
-img {
-  width: 300px;
-  height: 250px;
+.meme-image-container {
+  height: 480px;
+  width: 600px;
+}
+
+.meme-image {
+  background-size: cover;
+  display: block;
+  height: 100%;
+  width: 100%;
 }

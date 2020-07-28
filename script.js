@@ -1,17 +1,14 @@
 const inputTexto = document.querySelector('#text-input');
 const outputTexto = document.querySelector('#meme-text');
-const inputImg = document.querySelector('input[id="meme-insert"]')
+const inputImg = document.querySelector('#meme-insert');
+const imgView = document.querySelector('#meme-image');
 
-inputTexto.addEventListener('input', function() {
-outputTexto.innerHTML = inputTexto.value;
-});
-
-inputImg.addEventListener('change', function (e) {
-const reader = new FileReader()
-reader.onload = function () {
-const img = new Image()
-img.src = reader.result
-document.body.appendChild(img)
+function texto() {
+  outputTexto.innerHTML = inputTexto.value;
 }
-reader.readAsDataURL(inputImg.files[0])
-}, false) 
+inputTexto.addEventListener('keyup', texto);
+
+function img() {
+  imgView.src = window.URL.createObjectURL(inputImg.files[0]);
+}
+inputImg.addEventListener('change', img);
