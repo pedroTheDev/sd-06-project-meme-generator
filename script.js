@@ -7,17 +7,15 @@ textInput.addEventListener('keyup', function () {
   if (document.querySelector('img')) {
     document.querySelector('img').style.zIndex = '-1';
     memeText.style.border = 'none';
-  };
+  }
   memeText.innerText = textInput.value;
 });
 
 btnInsertMeme.addEventListener('change', function (event) {
-  const image = document.createElement('img');
   const file = event.target.files.item(0);
   const reader = new FileReader();
-  reader.onload = function (event) {
-    image.src = event.target.result;
+  reader.onload = function (e) {
+    memeImage.src = e.target.result;
   };
   reader.readAsDataURL(file);
-  memeImage.appendChild(image);
 });
