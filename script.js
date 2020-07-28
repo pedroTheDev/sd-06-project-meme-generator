@@ -1,7 +1,7 @@
  function addText(event) {
      var conteudo = event.target.value;
-     var getP = document.getElementById("meme-text");
-     getP.innerHTML = conteudo;
+     var getDiv = document.getElementById("meme-text");
+     getDiv.innerHTML = conteudo;
 
 
  }
