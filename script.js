@@ -6,12 +6,10 @@ const loadFile = function(event) {
   };
   reader.readAsDataURL(event.target.files[0]);
 };
-const text = document.getElementById('text-input');
-const memeInsert = document.querySelector('#meme-insert');
+const textInput = document.querySelector('#text-input');
+const memeInsert = document.querySelector('#meme-text');
 
-text.addEventListener('keyup', function(){
-  memeIsert.innerText = text.value;
+textInput.addEventListener('keyup', function(){
+  memeIsert.innerText = textInput.value;
 })
-const containder = document.getElementById('meme-image-container');
 
-const imgMemeInsert = document.querySelector('#meme-insert');
