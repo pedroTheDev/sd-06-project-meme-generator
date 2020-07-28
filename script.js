@@ -6,6 +6,7 @@ const preview = document.querySelector('#meme-image');
 textInput.addEventListener('keyup', function () {
     textmeme.innerHTML = textInput.value;
 });
-memeInput.addEventListener('change', function (event) {
-image.src = URL.createObjectURL(event.target.files[0]);
-});
+
+imageMeme.addEventListener('change', function (event) {
+    preview.src = URL.createObjectURL(event.target.files[0]);
+    })
