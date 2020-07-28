@@ -44,3 +44,7 @@ body {
   background-color: rgb(0, 0, 255);
   border: 5px double rgb(0, 0, 255);
 }
+
+.meme{
+  height: 100px;
+}
