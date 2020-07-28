@@ -1,7 +1,6 @@
 const memeText = document.getElementById('meme-text');
 const textImput = document.getElementById('text-input');
 const memeImageContainer = document.getElementById('meme-image-container');
-// const memeImage = document.getElementById('meme-image');
 
 textImput.addEventListener('keyup', function () {
   memeText.innerHTML = textImput.value;
