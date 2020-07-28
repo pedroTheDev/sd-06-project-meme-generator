@@ -58,6 +58,15 @@ body {
   /* border: 5px solid red; */
   /* display: flex; */
   /* flex-direction: column; */
+  text-align: center;
+}
+
+.right-side .right-container .or::before {
+  content: "--------------------";
+}
+
+.right-side .right-container .or::after {
+  content: "--------------------";
 }
 
 .memes-gallery {
