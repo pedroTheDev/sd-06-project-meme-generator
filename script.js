@@ -1,6 +1,6 @@
 const imgShow = document.querySelector('#meme-image');
 const txtInput = document.querySelector('#text-input');
-const txtOutput = document.querySelector('#meme-text')
+const txtOutput = document.querySelector('#meme-text');
 
 function showImage(event) {
   const imgSrc = event.target.files[0];
@@ -9,4 +9,4 @@ function showImage(event) {
 
 txtInput.addEventListener('keyup', function () {
   txtOutput.innerHTML = txtInput.value;
-})
+});

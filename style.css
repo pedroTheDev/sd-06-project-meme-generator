@@ -8,21 +8,21 @@ body {
 }
 
 .meme-container {
-  border: black solid 1px;
-  width: 350px;
-  height: 350px;
   background-color: white;
+  border: black solid 1px;
+  height: 350px;
+  width: 350px;
 }
 
 .meme-image {
-  width: 350px;
   height: 350px;
+  width: 350px;
 }
 
 .meme-text {
-  text-shadow: black 5px 5px 5px;
-  font-size: 30px;
   color: white;
-  position: absolute;
+  font-size: 30px;
   margin-top: 250px;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
 }
