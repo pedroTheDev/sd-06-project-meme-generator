@@ -1,10 +1,10 @@
 body {
-  background: rgb(202, 204, 204);
+  background: rgb(202 , 204 , 204);
   width: 100%;
 }
 
 header {
-  background: rgb(109, 8, 202);
+  background: rgb(109 , 8 , 202);
   top: 0;
   left: 0;
   width: 100%;
@@ -43,29 +43,3 @@ section {
   height: 100%;
   width: 100%;
 }
-
-
-
-
-
-
-/* body {
-  background: orange;
-}
-
-div#meme-image-container {
-  border: 1px solid black;
-  width: 450px;
-  height: 450px;
-  background-color: white;
-  position: absolute;
-}
-
-p#meme-text {
-  font: bold 30pt Arial;
-  color: white;
-  position: absolute;
-  text-shadow: 5px 5px 5px black;
-  position: center;
-}
-*/
