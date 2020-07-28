@@ -2,14 +2,15 @@
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
+  position: absolute;
+  z-index: 1;
 }
-#meme-image {
-  position: relative;
-}
+
 #meme-image-container {
   background-color: white;
   border: 1px solid black;
   height: 450px;
+  position: relative;
   width: 360px;
 }
 img {
