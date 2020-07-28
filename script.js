@@ -1,2 +1,6 @@
+function printTexto(){
+    let texto = document.querySelector("#text-input")[value];
+    let textoMeme = document.querySelector("#meme-text");
+    textoMeme.innerHTML = texto;
+}
 
-//testando1 2 3//
