@@ -16,3 +16,22 @@ function visualizarImg(event) {
 }
 
 inputImg.addEventListener('change', visualizarImg)
+
+let botaoFire = document.querySelector('#fire');
+let container = document.querySelector('#meme-image-container');
+
+botaoFire.addEventListener('click', function () {
+  container.style.border = '3px dashed red';
+});
+
+let botaoWater = document.querySelector('#water');
+
+botaoWater.addEventListener('click', function () {
+  container.style.border = '5px double blue';
+});
+
+let botaoEarth = document.querySelector('#earth');
+
+botaoEarth.addEventListener('click', function () {
+  container.style.border = '6px groove green';
+});
