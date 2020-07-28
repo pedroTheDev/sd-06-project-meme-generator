@@ -5,17 +5,26 @@ function clearDivImage() {
   }
 }
 
+// let uploadImg = document.getElementById('meme-insert');
+// uploadImg.addEventListener('change', function() {
+//   // console.log(event);
+//   clearDivImage();
+//   let img = document.createElement('img');
+//   img.src = URL.createObjectURL(event.target.files[0]); // URL.createObjectURL(this.files[0]) tbm funciona
+//   img.width = '300';
+//   img.height = '300';
+//   let insertImg = document.getElementById('meme-image');
+//   insertImg.appendChild(img);
+// });
+
 let uploadImg = document.getElementById('meme-insert');
 uploadImg.addEventListener('change', function() {
   // console.log(event);
-  clearDivImage();
-  let img = document.createElement('img');
+  let img = document.getElementById('meme-image');
   img.src = URL.createObjectURL(event.target.files[0]); // URL.createObjectURL(this.files[0]) tbm funciona
-  img.width = '300';
-  img.height = '300';
-  let insertImg = document.getElementById('meme-image');
-  insertImg.appendChild(img);
+
 });
+
 
 let text = document.querySelector('#text-input');
 text.addEventListener('keyup', function() {
@@ -36,40 +45,67 @@ document.querySelector('#earth').addEventListener('click', function() {
 
 document.getElementById('meme-1').addEventListener('click', function() {
   clearDivImage();
-  let img = document.createElement('img');
+  let img = document.getElementById('meme-image');
   img.src = 'imgs/meme1.png'
-  img.width = '300';
-  img.height = '300';
-  let insertImg = document.getElementById('meme-image');
-  insertImg.appendChild(img);
 });
 
 document.getElementById('meme-2').addEventListener('click', function() {
   clearDivImage();
-  let img = document.createElement('img');
+  let img = document.getElementById('meme-image');
   img.src = 'imgs/meme2.png'
-  img.width = '300';
-  img.height = '300';
-  let insertImg = document.getElementById('meme-image');
-  insertImg.appendChild(img);
 });
 
 document.getElementById('meme-3').addEventListener('click', function() {
   clearDivImage();
-  let img = document.createElement('img');
+  let img = document.getElementById('meme-image');
   img.src = 'imgs/meme3.png'
-  img.width = '300';
-  img.height = '300';
-  let insertImg = document.getElementById('meme-image');
-  insertImg.appendChild(img);
 });
 
 document.getElementById('meme-4').addEventListener('click', function() {
   clearDivImage();
-  let img = document.createElement('img');
+  let img = document.getElementById('meme-image');
   img.src = 'imgs/meme4.png'
-  img.width = '300';
-  img.height = '300';
-  let insertImg = document.getElementById('meme-image');
-  insertImg.appendChild(img);
 });
+
+
+
+
+// document.getElementById('meme-1').addEventListener('click', function() {
+//   clearDivImage();
+//   let img = document.createElement('img');
+//   img.src = 'imgs/meme1.png'
+//   img.width = '300';
+//   img.height = '300';
+//   let insertImg = document.getElementById('meme-image');
+//   insertImg.appendChild(img);
+// });
+
+// document.getElementById('meme-2').addEventListener('click', function() {
+//   clearDivImage();
+//   let img = document.createElement('img');
+//   img.src = 'imgs/meme2.png'
+//   img.width = '300';
+//   img.height = '300';
+//   let insertImg = document.getElementById('meme-image');
+//   insertImg.appendChild(img);
+// });
+
+// document.getElementById('meme-3').addEventListener('click', function() {
+//   clearDivImage();
+//   let img = document.createElement('img');
+//   img.src = 'imgs/meme3.png'
+//   img.width = '300';
+//   img.height = '300';
+//   let insertImg = document.getElementById('meme-image');
+//   insertImg.appendChild(img);
+// });
+
+// document.getElementById('meme-4').addEventListener('click', function() {
+//   clearDivImage();
+//   let img = document.createElement('img');
+//   img.src = 'imgs/meme4.png'
+//   img.width = '300';
+//   img.height = '300';
+//   let insertImg = document.getElementById('meme-image');
+//   insertImg.appendChild(img);
+// });
