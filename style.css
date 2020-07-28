@@ -121,7 +121,7 @@ body {
     text-shadow: 5px 5px 5px black;
     overflow-wrap: break-word;
     position: absolute;
-    text-align: center;
+    z-index: 100;
 }
 
 #meme-image {
@@ -134,6 +134,7 @@ body {
     width: 150px;
     margin-top: 30px;
     border: 2px solid black;
+    cursor: pointer;
 }
 
 #meme-2 {
@@ -141,6 +142,7 @@ body {
     margin-left: 55px;
     margin-top: 30px;
     border: 2px solid black;
+    cursor: pointer;
 }
 
 #meme-3 {
@@ -148,6 +150,7 @@ body {
     margin-left: 58px;
     margin-top: 30px;
     border: 2px solid black;
+    cursor: pointer;
 }
 
 #meme-4 {
@@ -155,5 +158,6 @@ body {
     margin-left: 58px;
     margin-top: 30px;
     border: 2px solid black;
+    cursor: pointer;
 }
 
