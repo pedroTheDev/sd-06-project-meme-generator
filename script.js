@@ -14,3 +14,15 @@ let text = document.querySelector('#text-input');
 text.addEventListener('keyup', function() {
   document.getElementById('meme-text').innerHTML = document.querySelector('#text-input').value;
 });
+
+document.querySelector('#fire').addEventListener('click', function() {
+  document.querySelector('#meme-image-container').style.border = '3px dashed red';
+});
+
+document.querySelector('#water').addEventListener('click', function() {
+  document.querySelector('#meme-image-container').style.border = '4px double blue';
+});
+
+document.querySelector('#earth').addEventListener('click', function() {
+  document.querySelector('#meme-image-container').style.border = '5px groove green';
+});
