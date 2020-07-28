@@ -5,11 +5,11 @@
     meme.src = imagemMeme;
     meme.addEventListener('change')   
 }*/
-var loadFile = function(event) {
-    var upload = document.getElementById('upload');
+let loadFile = function(event) {
+    let upload = document.getElementById('upload');
     upload.src = URL.createObjectURL(event.target.files[0]);
     upload.onload = function() {
-      URL.revokeObjectURL(upload.src) // free memory
+      URL.revokeObjectURL(upload.src) 
     }
   };
 function texto() {
