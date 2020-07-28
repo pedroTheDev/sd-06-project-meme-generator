@@ -45,9 +45,11 @@ body {
 
 #meme-image-container {
     border: 1px solid black;
-    padding: 200px;
+    height: 450px;
+    width: 100%;
     margin-top: 70px;
     background-color: white;
+    position: relative;
 }
 
 #fire {
@@ -98,4 +100,38 @@ body {
     text-shadow: 5px 5px 5px black;
     overflow-wrap: break-word;
     position: absolute;
+    text-align: center;
 }
+
+#meme-image {
+    width: 100%;
+    height: 100%;
+}
+
+#meme-1 {
+    width: 150px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+#meme-2 {
+    width: 150px;
+    margin-left: 55px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+#meme-3 {
+    width: 150px;
+    margin-left: 58px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+#meme-4 {
+    width: 150px;
+    margin-left: 58px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+

@@ -23,9 +23,8 @@
             <section id="choose-file">
                 
                 <h2 id="title-foto">Imagem:</h2>
-                <input id="meme-insert" class="button" type="file" accept="image/*" onchange="loadFile(event)">
-                <input type="submit">
-                <img id="output">
+                <input id="meme-insert" class="button 
+                " type="file" accept="image/*" onchange="loadFile(event)">
 
             </section>
 
@@ -33,8 +32,9 @@
 
         <section id="meme-image-container">
 
-            <div id="meme-image">
+            <div>
                 <h2 id="meme-text"></h2>
+                <img id="meme-image" class="meme-image">
             </div>
 
         </section>
@@ -48,12 +48,12 @@
 
         </section>
 
-        <section class="imgsMemes">
-            <div id="meme-1"></div>
-            <div id="meme-2"></div>
-            <div id="meme-3"></div>
-            <div id="meme-4"></div>
-          </section>
+        <div class="memes">
+            <img id="meme-1" src="imgs/meme1.png">
+            <img id="meme-2" src="imgs/meme2.png">
+            <img id="meme-3" src="imgs/meme3.png">
+            <img id="meme-4" src="imgs/meme4.png">
+        </div>
 
     </section>
 </body>

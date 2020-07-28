@@ -6,14 +6,6 @@ window.onload = function () {
         memeText.innerText = textInput.value;
     });
 
-    let loadFile = function(event) {
-    let output = document.getElementById('output');
-        output.src = URL.createObjectURL(event.target.files[0]);
-        output.onload = function() {
-          URL.revokeObjectURL(output.src) // free memory
-        }
-    };
-
     let fireButton = document.getElementById("fire");
     let imgContainer = document.getElementById("meme-image-container");
 
@@ -33,26 +25,51 @@ window.onload = function () {
         imgContainer.style.border = '6px groove green';
     });
 
-    const imgMeme1 = document.querySelector('#meme-1');
-    const imgMeme2 = document.querySelector('#meme-2');
-    const imgMeme3 = document.querySelector('#meme-3')
-    const imgMeme4 = document.querySelector('#meme-4')
-  
-    let memeImg = document.querySelector('#meme-image');
-  
-    imgMeme1.addEventListener('click', function () {
-      memeImg.style.backgroundImage = "url('./imgs/meme1.png')"
-    });
+
+
+    const memeImage = document.getElementById('meme-image');
+    const memeInput = document.querySelector('#meme-insert');
+            
+
+    function selectedImage(event) {
+        memeImage.src = URL.createObjectURL(event.target.files[0]);
+        memeImage.onload = function () {
+          URL.revokeObjectURL(memeImage.src);
+        };
+    }
+    memeInput.addEventListener('change', selectedImage);
+
+
+    const miniImgs1 = document.getElementById("meme-1");
+    const miniImgs2 = document.getElementById("meme-2");
+    const miniImgs3 = document.getElementById("meme-3");
+    const miniImgs4 = document.getElementById("meme-4");
+
     
-    imgMeme2.addEventListener('click', function () {
-      memeImg.style.backgroundImage = "url('./imgs/meme2.png')"
-    });
-  
-    imgMeme3.addEventListener('click', function () {
-      memeImg.style.backgroundImage = "url('./imgs/meme3.png')"
-    });
-  
-    imgMeme4.addEventListener('click', function () {
-      memeImg.style.backgroundImage = "url('./imgs/meme4.png')"
-    });
+    function trocaMeme1() {
+        memeImage.src = miniImgs1.src;
+    }
+    
+    function trocaMeme2() {
+        memeImage.src = miniImgs2.src;
+    }
+    
+    function trocaMeme3() {
+        memeImage.src = miniImgs3.src;
+    }
+    
+    function trocaMeme4() {
+        memeImage.src = miniImgs4.src;
+    }
+
+    miniImgs1.addEventListener('dblclick', trocaMeme1);
+    miniImgs2.addEventListener('dblclick', trocaMeme2);
+    miniImgs3.addEventListener('dblclick', trocaMeme3);
+    miniImgs4.addEventListener('dblclick', trocaMeme4);
+
+
+
+
+
+
 }
