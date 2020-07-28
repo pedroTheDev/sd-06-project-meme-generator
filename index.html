@@ -13,18 +13,24 @@
 <body>
 
     <h1>Meme Generator </h1>
-    <label>Texto</label>
-    <input type="text" id="text-input" maxlength="60" onchange="addText(event)">
+    <label class="display">Texto
+        <input type="text" id="text-input" maxlength="60" onchange="addText(event)">
+    </label>
 
-    <label>Foto</label>
 
-    <input type="file" name="imagem" id="meme-insert" onchange="loadFile(event)" />
+    <label class="display">Foto
+        <input type="file" name="imagem" id="meme-insert" onchange="loadFile(event)" />
+    </label>
+
+
 
     <div id="meme-image-container">
 
         <p id="meme-text"></p>
-
         <img id="meme-image" />
+
+
+
 
 
 
