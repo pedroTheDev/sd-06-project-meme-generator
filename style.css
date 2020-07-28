@@ -1,17 +1,35 @@
 body {
-    background: black;
+    background: white;
 }
 
 #meme-text {
-    color: green;
+    color: white;
     position: absolute;
     top: 300px;
 }
 
-#meme-image {
-    border: solid 4px white;
+#input-image {
+    color: black;
 }
 
-#input-image {
-    color: white;
+h1 {
+    color: black;
+}
+
+#meme-image-container {
+    width: 300px;
+    height: 400px;
+    color: black;
+    border: solid 1px black;
+}
+
+#meme-image-container h2 {
+    text-shadow: black 5px 5px 5px;
+    font-size: 30px;
+}
+
+
+}
+#memes-pre-prontos {
+    color: black;
 }
