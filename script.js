@@ -4,6 +4,7 @@ function capturar() {
     capturando = document.getElementById('text-input').value;
     document.getElementById('meme-text').innerHTML = capturando;
 }
+
 let file = document.querySelector('#meme-insert');
 let img = document.querySelector('#meme-image');
 file.addEventListener('change', function(event) {
