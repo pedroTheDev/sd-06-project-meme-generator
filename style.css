@@ -5,7 +5,7 @@
 		border: 1px solid black;
 }
 #meme-text{
-		margin-top: 250px;
+
 		left: 100px;
 		width: 200px;
 		height: 200px;
@@ -14,10 +14,11 @@
 		font-size: 30px;
 		color: white;
 		text-align: center;
-		z-index: 1;
+		z-index: 3;
 		word-wrap: break-word;
 	}
 	#imagem{
+	position: absolute;
 	padding:7px 0px 0px 5px;
 	z-index: 0
 	}
