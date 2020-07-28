@@ -12,9 +12,11 @@ p {
 div {
   background-color: white;
   border: 1px solid black;
-  width: 600px;
+  height: 300px;
+  width: 300px;
 }
 
 img {
-  max-width: 600px;
+  height: 300px;
+  width: 300px;
 }

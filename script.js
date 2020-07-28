@@ -7,9 +7,7 @@ const inputDaImagem = document.querySelector('#meme-insert');
 inputDoMeme.addEventListener('keyup', function () {
   paragrafoDoMeme.innerText = inputDoMeme.value;
 });
-inputDoMeme.addEventListener('change', function () {
-  paragrafoDoMeme.innerText = inputDoMeme.value;
-});
+
 
 inputDaImagem.addEventListener('change', function () {
   const arquivoImagem = inputDaImagem.files[0];
