@@ -3,7 +3,7 @@ function textAdd() {
     document.getElementById("meme-text").innerHTML = inputText;
 }
 
-const imageInput = document.getElementById("image-input")
+const imageInput = document.getElementById("meme-insert")
 
 imageInput.addEventListener('change', imageAdd);
 
