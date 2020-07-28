@@ -3,6 +3,7 @@ body {
     margin: 30px;
     padding: 0;
   }
+  
   .image-container {
     background-color: white;
     border: 1px solid black;
@@ -96,7 +97,7 @@ body {
   }
   
   .meme-1 {
-    background-image: url('./imgs/meme1.png');
+    background-image: url('./Pictures/mini1.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -104,7 +105,7 @@ body {
   }
   
   .meme-2 {
-    background-image: url('/Imagens/picMeme2.png');
+    background-image: url('/Pictures/mini2.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -112,7 +113,7 @@ body {
   }
   
   .meme-3 {
-    background-image: url('./imgs/meme3.png');
+    background-image: url('./Pictures/mini3.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -120,7 +121,7 @@ body {
   }
   
   .meme-4 {
-    background-image: url('./imgs/meme4.png');
+    background-image: url('./Pictures/mini4.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
