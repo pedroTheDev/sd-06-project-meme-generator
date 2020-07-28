@@ -1,14 +1,11 @@
 #meme-image-container {
 border: 1px solid black;
+
 };
 #meme-image {
 background-color: white;
-max-width: 300px;
-};
-h1 {
-    font-size: 30px;
-    color: blue;
+
 }
-.picture {
-    max-width: 300px;
+img {
+    max-width: 350px;
 }
