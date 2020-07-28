@@ -28,26 +28,35 @@ li {
   list-style-type: disc;
 }
 
-.borderFire {
-  background-color: rgb(221, 221, 221);
+.borderFire { 
   border: 3px dashed red;
   height: 300px;
   position: relative;
   width: 300px;
 }
 
-.borderWater {
-  background-color: rgb(221, 221, 221);
+.borderWater {  
   border: 5px double blue;
   height: 300px;
   position: relative;
   width: 300px;
 }
 
-.borderEarth {
-  background-color: rgb(221, 221, 221);
+.borderEarth {  
   border: 6px groove green;
   height: 300px;
   position: relative;
   width: 300px;
+}
+
+.buttonFire{
+  background-color:rgb(255 ,0 ,0);
+}
+
+.buttonWater{
+  background-color:rgb(0 ,0 ,255);
+}
+
+.buttonEarth{
+  background-color:rgb(0 ,128 ,0);
 }
