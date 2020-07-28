@@ -3,10 +3,18 @@
   border: solid 1px black;
   height: 450px;
   width: 450px;
+  position: relative;
 }
 
 .meme-text {
   color: white;
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
+  position: absolute;
+  left: 20px;
+  top: 300px;
+}
+
+.memeImage {
+  position: absolute;
 }
