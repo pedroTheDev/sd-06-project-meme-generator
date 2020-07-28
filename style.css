@@ -15,5 +15,6 @@
 	font-size: 30px;
 	color: white;
 }
-
-	
+#meme-text p{
+	text-shadow: 5px 5px 5px;
+}

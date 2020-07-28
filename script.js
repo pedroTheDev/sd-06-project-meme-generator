@@ -2,7 +2,7 @@ window.onload = function() {
     // função para inserir texto no meme
      let campotexto = document.querySelector('#text-input');
      console.log(campotexto);
-     let tagP = document.createElement('div');
+     let tagP = document.createElement('p');
     campotexto.addEventListener('keyup', function () {
         let conteudotexto = document.querySelector('#text-input').value;
         tagP.innerHTML = conteudotexto
