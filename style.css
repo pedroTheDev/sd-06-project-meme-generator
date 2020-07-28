@@ -29,7 +29,7 @@ li {
 }
 
 .borderFire {
-  background-color: white;
+  background-color: rgb(221, 221, 221);
   border: 3px dashed red;
   height: 300px;
   position: relative;
@@ -37,7 +37,7 @@ li {
 }
 
 .borderWater {
-  background-color: white;
+  background-color: rgb(221, 221, 221);
   border: 5px double blue;
   height: 300px;
   position: relative;
@@ -45,7 +45,7 @@ li {
 }
 
 .borderEarth {
-  background-color: white;
+  background-color: rgb(221, 221, 221);
   border: 6px groove green;
   height: 300px;
   position: relative;
