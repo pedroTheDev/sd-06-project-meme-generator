@@ -15,6 +15,8 @@ btnImg.addEventListener('input', function(event) {
     
    let photo = document.getElementById('meme-image');
    photo.style.maxWidth = 'inherit';
+   photo.style.backgroundColor = 'white';
+   photo.style.border = '1px solid black';
     
     photo.src = URL.createObjectURL(event.target.files[0]);
     photo.onload = function() {
