@@ -17,8 +17,8 @@
 		z-index: 3;
 		word-wrap: break-word;
 	}
-	#imagem{
+	#meme-image{
 	position: absolute;
 	padding:7px 0px 0px 5px;
-	z-index: 0
+	z-index: 0;
 	}

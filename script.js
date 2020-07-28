@@ -10,7 +10,7 @@ window.onload = function() {
     });
     //função para inserir imagem
      inserirIMG = function(event) {
-        let imagem = document.querySelector('#imagem');
+        let imagem = document.querySelector('#meme-image');
         imagem.src = URL.createObjectURL(event.target.files[0]);
         imagem.onload = function() {
           URL.revokeObjectURL(imagem.src);
