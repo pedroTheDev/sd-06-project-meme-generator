@@ -1,11 +1,13 @@
 body {
   margin: 10px;
+  text-align: center;
 }
 
-.meme-image-container {
+#meme-image-container {
   background-color: white;
   border: 1px solid black;
   display: flex;
+  margin: auto;
   width: 500px;
 }
 
@@ -21,7 +23,7 @@ body {
   text-shadow: 5px 5px 5px black;
 }
 
-#output {
-  margin: 10px;
+#meme-image {
+  height: 400px;
   width: 500px;
 }
