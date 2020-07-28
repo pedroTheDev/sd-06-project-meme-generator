@@ -7,12 +7,19 @@
     border-width: 1px;
 }
 
-#foto-meme {
-    background-color: tomato;
+#meme-image {
     max-width: 500px;
     max-height: 500px;
 }
 
 #meme-text {
+    text-shadow: black 5px 5px 5px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    color: white;
+}
 
+#frase {
+    position: absolute;
 }

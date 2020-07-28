@@ -13,18 +13,20 @@
             <h1>Crie seu meme personalizado.</h1>
         </section>
         <section>
-            <p>Informe o texto: <input id="text-input" type="text" maxlength="60"><br>
-            </p>
-            <p>Selecione a foto: <input id="meme-insert" type="file" accept="image/*"><br>
-            </p>
+            <label>Informe o texto: </label><input id="text-input" type="text" maxlength="60"><br><br>
+            <label>Selecione a foto: </label>><input id="meme-insert" type="file" accept="image/*"><br><br><br>
             <div id="meme-image-container">
                 <img id="meme-image" src="foto.jpg">
-                <div id="meme-text"></div>
+                <div id="meme-text">
+                    <div id="frase">
+                       Aqui ficará seu texto...
+                    </div>
+                </div>
             </div>
         </section>
         <section>
             <div>
-                <p>Estilos de bordas <input id="bordaAzul" type="button" value="Azul"> </p>
+                <p>Estilos de bordas <input id="bordaAzul" type="button" value="Azul"><input id="bordaVermelha" type="button" value="Vermelho"><input id="bordaVerde" type="button" value="Verde"></p>
             </div>
             <div>
                 <p>Memes sugeridos. (Imagens retiradas da Internet)</p>
