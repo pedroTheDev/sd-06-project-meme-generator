@@ -18,8 +18,8 @@ txtInput.addEventListener('keyup', function () {
 });
 
 imgData.addEventListener('click',function (event) {
-  console.log(event.target.src); 
-  imgShow.src = event.target.src;
+  let teste =event.target.src.split("0", 5)
+  imgShow.src = teste[4];
 })
 
 function earth() {
