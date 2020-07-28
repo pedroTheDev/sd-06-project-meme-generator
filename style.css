@@ -1,0 +1,61 @@
+body {
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(136, 133, 47, 0.1);
+    max-width: 900px;
+}
+
+header {
+    margin-left: 10%;
+    text-align: center;
+    height: 40px;
+}
+
+#meme-input-container {
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+
+#paragraph {
+    margin-right: 10%;
+}
+
+#container {
+    width: 358px;
+    height: 275px;
+    border: 1px black;
+    border-style: solid;
+}
+
+#container-buttons {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#container-buttons #fire {
+    background-color: red;
+}
+
+#container-buttons #water {
+    background-color: green;
+}
+
+#container-buttons #earth {
+    background-color: blue;
+}
+
+#text-input {
+    float: left;
+}
+
+footer {
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}

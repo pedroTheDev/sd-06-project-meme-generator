@@ -2,18 +2,61 @@
 
 <head>
 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <title>Meme Generator Project</title>
 </head>
 
 <body>
-    <input type="text" id="text-input">
-    <div id="meme-image-container">
-        <span id="meme-text">No file chosen </span>
+    <header>
+        <h1>MEME GENERATOR</h1>
+    </header>
+    <section id="meme-input-container">
+        <input id="text-input" type="text" name="text-input" placeholder="Informe o texto" maxlength="60">
+        <input id="meme-insert" type="file" name="myImage" accept=".jpg, .jpeg, .png">
+    </section>
+
+    <p>
+        Foto:
+    </p>
 
 
-    </div>
+
+
+    <div class="container">
+        <div id="meme-image-container">
+
+            <div id="meme-text">
+                <p>Texto do Meme</p>
+            </div>
+            <img id="meme-image">
+
+        </div>
+
+        <section id="container-buttons">
+            <button id="fire">Fire</button>
+            <button id="water">Water</button>
+            <button id="earth">Earth</button>
+        </section>
+
+
+
+        <p>
+            Estilos custumizados:
+        </p>
+        <p>
+            Memes pré prontos
+        </p>
+
+
+        <footer>
+
+            <p> © 2020 Copyright:Desenvolvido por Sttefanie Paladino - Todos os direitos reservados</p>
+        </footer>
+
+        <script src="script.js"></script>
 </body>
-
-
-
 
 </html>
