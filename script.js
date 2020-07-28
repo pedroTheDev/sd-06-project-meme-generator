@@ -2,7 +2,6 @@ const inputFile = document.getElementById("meme-insert");
 
 //Aqui eu leio a img e renderizo na div #meme-image
 inputFile.addEventListener("change", function(){
-
   
   let file = inputFile.files[0];
   const reader = new FileReader();
@@ -31,3 +30,48 @@ inputText.addEventListener("keyup", function(){
   getMemeTxt.style.display = "block";
   getMemeTxt.innerHTML = inputText.value;
 });
+
+//Botões FIRE, GRASS e WATER
+const fire = document.getElementById("fireBtn");
+const grass = document.getElementById("grassBtn");
+const water = document.getElementById("waterBtn");
+
+fire.addEventListener("click", function(){
+  let getMemeImgContainer = document.getElementById("meme-image-container");
+  getMemeImgContainer.style.borderColor = "red";
+});
+
+grass.addEventListener("click", function(){
+  let getMemeImgContainer = document.getElementById("meme-image-container");
+  getMemeImgContainer.style.borderColor = "green";
+});
+
+water.addEventListener("click", function(){
+  let getMemeImgContainer = document.getElementById("meme-image-container");
+  getMemeImgContainer.style.borderColor = "blue";
+});
+
+
+//Memes prontos 
+const getSavedMemeDisplay = document.getElementById("saved-meme-display");
+const getSavedMeme1 = document.getElementById("saved-meme1");
+const getSavedMeme2 = document.getElementById("saved-meme2");
+const getSavedMeme3 = document.getElementById("saved-meme3");
+const getSavedMeme4 = document.getElementById("saved-meme4");
+
+
+getSavedMeme1.addEventListener("click", function(){
+  getSavedMemeDisplay.src = "./1.jpg";
+})
+
+getSavedMeme2.addEventListener("click", function(){
+  getSavedMemeDisplay.src = "./2.jpg";
+})
+
+getSavedMeme3.addEventListener("click", function(){
+  getSavedMemeDisplay.src = "./3.jpg";
+})
+
+getSavedMeme4.addEventListener("click", function(){
+  getSavedMemeDisplay.src = "./4.jpg";
+})
