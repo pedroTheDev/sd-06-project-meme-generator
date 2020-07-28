@@ -19,7 +19,7 @@ body{
     height: 350px;
 }
 #meme-text{
-    text-shadow: 5px 5px 5px;
+    text-shadow: white 5px 5px 5px;
     font-size: 30px;
     color: white;
     position: absolute;
