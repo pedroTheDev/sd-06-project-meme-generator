@@ -1,6 +1,14 @@
-let text_Input = document.getElementById("text-input");
-let text_meme = document.getElementById("meme-text");
-text_meme.style.textShadow = '5px 5px 5px black';
-text_meme.style.fontSize = "30px";
-text_meme.style.color = "White";
-text_meme.innerHTML = text_Input;
+const textInput = document.querySelector('#text-input');
+const textmeme = document.querySelector('#meme-text');
+const imageMeme = document.getElementById('meme-insert');
+const preview = document.getElementById('meme-image');
+
+function changeText() {
+    textmeme.innerHTML = textInput.value;
+}
+textInput.addEventListener('keyup', changeText);
+
+function placeImage() {
+    preview.scr = window.URL.createObjectURL(imageMeme.files[0]);
+}
+imageMeme.addEventListener('change', placeImage);
