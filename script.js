@@ -32,16 +32,16 @@ function changeBorders() {
 
 function memeSelected(event) {
   if (event.target === meme1pic) {
-    memeImg.src = '/meme-1.jpg';
+    memeImg.src = meme1pic.src;
   }
   if (event.target === meme2pic) {
-    memeImg.src = '/meme-2.jpeg';
+    memeImg.src = meme2pic.src;
   }
   if (event.target === meme3pic) {
-    memeImg.src = '/meme-3.jpeg';
+    memeImg.src = meme3pic.src;
   }
   if (event.target === meme4pic) {
-    memeImg.src = '/meme-4.jpeg';
+    memeImg.src = meme4pic.src;
   }
 }
 
