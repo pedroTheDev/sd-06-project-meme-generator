@@ -12,7 +12,7 @@ window.onload = function () {
     let availableStyles = {
         fire: 'dashed rgb(255 , 0 , 0) 3px',
         water: 'double rgb(0 , 0 , 255) 5px',
-        earth: 'groove rgb(0 , 255 , 0) 6px',
+        earth: 'groove rgb(0 , 128 , 0) 6px',
     }
 
     //Functions
