@@ -40,7 +40,8 @@ p#meme-text{
     font-weight: bold;
     text-shadow: black 5px 5px 5px;
     color: white;
-    width: 200px;
+    width: 450px;
+    overflow-wrap: break-word ;
     left: 0px;
     bottom: 150px;
     z-index: 2;
