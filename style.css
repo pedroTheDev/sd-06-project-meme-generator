@@ -5,7 +5,7 @@ body {
 }
 
 #meme-image-container {
-    position: absolute;
+    position: relative;
     background-color: white;
     width: 500px;
     height: 350px;
@@ -15,6 +15,7 @@ body {
 }
 
 #meme-text {
+    z-index: 2;
     position: absolute;
     color: white;
     font-size: 30px;
@@ -25,6 +26,7 @@ body {
 }
 
 #meme-image {
+    z-index: 1;
     position: absolute;
     width: 500px;
     height: 350px;
