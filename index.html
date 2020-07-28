@@ -16,15 +16,15 @@
             <div class="row">
                 <span>Texto:</span>
                 <input type="text" id="text-input" maxlength="60" onkeyup="onLoadText()" />
-            </div>     
+            </div>
             <div class="row">
                 <span>Foto:</span>
                 <input type="file" id="meme-insert" onchange="onLoadImg()" />
             </div>
-            <div id="meme-image-container">
-                <img id="meme-image" />
-                <div id="meme-text-container">
-                    <label id="meme-text"></label>
+            <div id="meme-image-container" class="memeImageContainer">
+                <img id="meme-image" class="memeImage"/>
+                <div id="meme-text-container" class="memeTextContainer">
+                    <label id="meme-text" class="memeText"></label>
                 </div>
             </div>
             <div>
