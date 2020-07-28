@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 
-#meme-image-container {
+.meme-image-container {
   background-color: white;
   border: 1px solid black;
   display: flex;
@@ -11,19 +11,19 @@ body {
   width: 500px;
 }
 
-#text-input {
+.text-input {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#meme-text {
+.meme-text {
   color: white;
   font-size: 30px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
 }
 
-#meme-image {
+.meme-image {
   height: 400px;
   width: 500px;
 }
