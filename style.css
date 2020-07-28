@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * { 
   box-sizing: border-box;
@@ -5,6 +6,8 @@
 
 body {
   background-color: rgb(240,240,240);
+  font-family: 'Roboto', sans-serif;
+  color: rgb(59, 59, 59);
 }
 
 .container {
@@ -14,7 +17,6 @@ body {
   display: flex;
   border: 2.5px solid rgb(204,204,204);
   border-radius: 3px;
-  /* background: green; */
 }
 
 .left-side {
@@ -22,7 +24,6 @@ body {
   position: relative;
   background-color: white;
   border: 1px solid black;
-  /* border: 5px solid red; */
 }
 
 .left-side img {
@@ -54,30 +55,52 @@ body {
 
 .right-side .right-container {
   width: 90%;
-  margin: 64px auto;
+  margin: 48px auto;
   /* border: 5px solid red; */
   /* display: flex; */
   /* flex-direction: column; */
   text-align: center;
 }
 
-.right-side .right-container .or::before {
-  content: "--------------------";
-}
-
-.right-side .right-container .or::after {
-  content: "--------------------";
+.right-side .right-container .title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
 }
 
 .memes-gallery {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 54px);
   justify-content: center;
-  text-align: center;
-  /* border: 1px solid red; */
+  gap: 16px;
 }
 
 .memes-gallery img {
   height: 50px;
-  margin-left: 8px;
+  width: 50px;
+  object-fit: cover;
+  border: 1px solid rgb(59, 59, 59);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.right-side .right-container .or {
+  display: inline-block;
+  margin: 12px 0;
+  /* border: 2px solid red; */
+  font-weight: 700;
+  text-transform: lowercase;
+  font-size: 16px;
+}
+
+.right-side .right-container .or::before {
+  content: "-------------------- ";
+}
+
+.right-side .right-container .or::after {
+  content: " --------------------";
 }
 
 .config {
@@ -85,7 +108,7 @@ body {
 }
 
 .config input[type=text] {
-  margin-bottom: 4px;
+  margin-bottom: 8px;
   width: 100%;
   height: 32px;
   padding: 8px;
@@ -95,6 +118,7 @@ body {
 .config.optionals {
   display: flex;
   flex-direction: column;
+  margin-top: 24px;
 }
 
 .config.optionals > div:first-child {
