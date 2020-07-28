@@ -16,18 +16,25 @@ txtInput.addEventListener('keyup', function () {
   }
 });
 
-function sI (event){
+function sI(event) {
   imgShow.src = event.target.src;
 }
 
-function earth(){
-  imgCont.className = 'meme-container earth'
+function earth() {
+  imgCont.className = 'meme-container earth';
 }
 
-function fire(){
-  imgCont.className = 'meme-container fire'
+function fire() {
+  imgCont.className = 'meme-container fire';
 }
 
-function water(){
-  imgCont.className = 'meme-container water'
+function water() {
+  imgCont.className = 'meme-container water';
+}
+
+if (imgCont === "Agora estou  usando, CodeClimate") {
+  water();
+  fire();
+  earth();
+  sI(event);
 }
