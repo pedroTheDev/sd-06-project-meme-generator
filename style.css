@@ -1,24 +1,33 @@
 body {
-background-color: rgb(180, 180, 194);
+  background-color: rgb(180 , 180 , 194);
 }
 
 .cabecalho {
-color: rgb(26, 8, 8);
-font-size: 80px;
-text-align: center;
+  color: rgb(26 , 8 , 8);
+  font-size: 80px;
+  text-align: center;
 }
 
 #input-Text {
-margin-left: 150 px;
+  position: absolute;
+  text-align: center;
+  /*text-shadow: 5px 5px 5px 5px rgb(26 , 8 , 8); */
+  margin-left: 150px;
 }
 
 #meme-image-container {
-width: auto;
-height: 0;
-padding: 200px;
-float: left;
-position: relative;
-border: black 1px solid;
-background-color: white;
+  width: 80%;
+  height: 10;
+  padding: 200px;
+  float: left;
+  position: relative;
+  border: black 1px solid;
+  background-color: white;
+}
+
+#img-kies{
+  width: 25%;
+  padding: 90px;
+  border: rgb(26 , 8 , 8) 1px solid;
 }
 
