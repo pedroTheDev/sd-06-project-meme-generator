@@ -13,9 +13,9 @@ h1 , label {
 .container {
   background-color: white;
   border: 1px solid black;
-  height: 600px;
+  height: auto;
   position: relative;
-  width: 600px;
+  width: 550px;
 }
 
 .text {
@@ -24,8 +24,10 @@ h1 , label {
   font-size: 30px;
   font-weight: 900;
   position: absolute;
+  text-align: center;
   text-shadow: 5px 5px 5px black;
-  top: 80%;
+  top: 75%;
+  width: inherit;
 }
 
 .image {
