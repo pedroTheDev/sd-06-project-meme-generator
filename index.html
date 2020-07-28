@@ -15,17 +15,16 @@
   </div>
 
   <div>
-    <a> Texto: </a>
-    <input type="text" id="text-input" class="text-input" maxlength="60">
+    <div>
+      Texto:
+      <input id="text-input" class="text-input" type="text" maxlength="60">
+    </div>
+    <br>
+    <div>
+      Foto:
+      <input id="image-input" class="image-input" type="file" accept="image/*" onchange="loadFile(event)">
+    </div>
   </div>
-
-  <br>
-
-  <div>
-    <a> Foto: </a>
-    <input id="image-input" class="image-input" type="file" accept="image/*" onchange="loadFile(event)">
-  </div>
-
   <br>
 
   <div id="meme-image-container" class="meme-image-container">
