@@ -1,11 +1,12 @@
 function textAdd() {
     let inputText = document.getElementById("text-input").value;
-    if (inputText.length > 50) {
-        alert("O texto deve ter menos de 50 caracteres!");
-    } else {
-      document.getElementById("meme-text").innerHTML = inputText;
+    let textContainer = document.createElement("p");
+    textContainer.id = ("text-container");
+    let parentText  = document.getElementById("meme-text");
+    parentText.appendChild(textContainer);
+
+      document.getElementById("text-container").innerHTML = inputText;
     }
-}
 
 function imageAdd(){
     
