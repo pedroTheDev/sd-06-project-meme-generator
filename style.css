@@ -1,0 +1,14 @@
+#meme-text {
+    color: white;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+    position: absolute;
+};
+#meme-image-container {
+max-width: 100%;
+};
+#meme-image {
+    background-color:green;
+    border: 1px solid black;
+    max-width: 60%;
+}
