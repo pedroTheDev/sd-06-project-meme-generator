@@ -16,3 +16,17 @@ function text() {
   let auxText = document.querySelector('#Text-input').value;
   document.querySelector('#meme-text').textContent = auxText;
 }
+const container = document.querySelector('#meme-image-container');
+const fireELement =  document.querySelector('#fire');
+const earthELement =  document.querySelector('#earth');
+const waterELement =  document.querySelector('#water');
+
+fireELement.addEventListener('click', function() {
+  container.style.background = fireElement;
+})
+earthELement.addEventListener('click', function() {
+  container.style.background = fireElement;
+})
+waterELement.addEventListener('click', function() {
+  container.style.background = fireElement;
+})

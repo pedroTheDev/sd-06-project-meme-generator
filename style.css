@@ -1,5 +1,5 @@
 body {
-  background-color: darkslategray;
+  background-color: rgb(52, 52, 52);
   color: white;
   font-family: ubuntu, sans-serif;
 }
@@ -13,7 +13,7 @@ p , .text-input {
   margin-top: 25px;
 }
 .text-input {
-  color: darkslategray;
+  color: rgb(0, 2, 2);
   font-family: monospace;
   font-size: 15px;
   margin-left: 20px;
@@ -49,4 +49,20 @@ p {
   text-shadow: 5px 5px 5px black;
   top: 220px;
   width: 330px;
+}
+.image {
+  height: 350px;
+  width: 350px;
+}
+#fire {
+  background-color: red;
+  border-radius: 5px;
+}
+#earth {
+  background-color: rgb(75, 30, 30);
+  border-radius: 5px;
+}
+#water {
+  background-color: blue;
+  border-radius: 5px;
 }
