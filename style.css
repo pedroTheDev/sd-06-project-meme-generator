@@ -9,11 +9,15 @@
 
 .meme-text {
   color: white;
-  font-family: fantasy;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   position: absolute;
-  text-shadow: 5px black;
-  top: 50px;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  top: 320px;
+  width: 580px;
 }
 
 .meme-image {
