@@ -14,20 +14,27 @@
             </section><br>
             <section class = "imgInput">
                 <label for="image"><strong>PICTURE: </strong></label>
-                <input type="file" id = "meme-insert">
+                <input type="file" id = "meme-insert" accept="image/*" visibility = 'hidden' onchange="showPic()">
             </section><br>
-            <div id="meme-image-container">
-                <div id = "meme-image">
+            <div id="meme-image-container" class="container">
+                <div id = "meme-image" class="meme_image">
                 </div>
-                <div id="meme-text"></div>
+                <div id="meme-text" class="meme_text"></div>
             </div>
 
 
         <section class="options">
             <h3>Border Color</h3>
-            <button id="water">Water</button>
             <button id="fire">Fire</button>
+            <button id="water">Water</button>
             <button id="earth">Earth</button>
+        </section><br>
+        <h3>Or choose one picture</h3>
+        <section class="miniPic">
+            <img id="firstPic" src="./images/crying.jpg" onclick="firstPic()">
+            <img id="secondPic" src="./images/wow.jpg" onclick="secondPic()">
+            <img id="thirdPic" src="./images/nazaretedesco.jpg" onclick="thirdPic()">
+            <img id="fourthPic" src="./images/chapolin.jpg" onclick="fourthPic()">
         </section>
 
     <script src="script.js"></script>

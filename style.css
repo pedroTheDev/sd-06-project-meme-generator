@@ -1,32 +1,39 @@
 
 
-#meme-image-container {
-  border-width: 1px;
-  border-color: black;
-  border-style: solid;
+.container {
+  border: 1px solid black;
   background-color: white;
   position: relative;
-  width: 500px;
+  height: 400px;
+  width: 400px;
+  padding: 15px;
 }
 
-#meme-text {
+.meme_text {
   position: absolute;
   font-family: Verdana;
   font-size: 30px;
   top: 70%;
   left: 10%;
   max-width: 50%;
-  bottom: 20%;
+  width: auto;
+  height: auto;
   color:white;
   text-shadow: 5px 5px 5px black;
 }
 
-#meme-image {
+.meme_image {
   position: relative;
-  max-width: 300px;
-  height: 300px;
+  height: 400px;
+  width: 500px;
+  object-fit: fill;
 }
 
 #fire, #water, #earth {
     border-radius: 15%;
+}
+
+.miniPic img{
+  height: 150px;
+  width: 150px
 }
