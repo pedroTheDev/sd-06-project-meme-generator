@@ -62,10 +62,10 @@ window.onload = function () {
         memeImage.src = miniImgs4.src;
     }
 
-    miniImgs1.addEventListener('dblclick', trocaMeme1);
-    miniImgs2.addEventListener('dblclick', trocaMeme2);
-    miniImgs3.addEventListener('dblclick', trocaMeme3);
-    miniImgs4.addEventListener('dblclick', trocaMeme4);
+    miniImgs1.addEventListener('click', trocaMeme1);
+    miniImgs2.addEventListener('click', trocaMeme2);
+    miniImgs3.addEventListener('click', trocaMeme3);
+    miniImgs4.addEventListener('click', trocaMeme4);
 
 
 
