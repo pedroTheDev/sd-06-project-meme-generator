@@ -8,7 +8,9 @@
 }
 
 .meme-image-container {
+  background-color: white;
   height: 480px;
+  border: 1px solid black;
   width: 600px;
 }
 
