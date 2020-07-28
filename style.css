@@ -2,6 +2,12 @@ body {
   margin-left: 10px;
   text-align: center;
   width: 1366px;
+  background-color: #e5e5e5;
+}
+
+.head {
+  background-color: #fca311;
+  display: ;
 }
 
 .display {
@@ -13,7 +19,7 @@ body {
   height: 350px;
   width: 350px;
   position: absolute;
-  top: 40px;
+  top: 60px;
 }
 
 .border {
