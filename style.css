@@ -86,3 +86,14 @@ img {
   border-style: groove;
   border-width: 6px;
 }
+
+.meme-1 , .meme-2 , .meme-3 , .meme-4 {
+  cursor: pointer;
+  height: 100px;
+  padding: 30px;
+  width: 100px;
+}
+
+.meme-paragraph {
+  font-size: 20px;
+}

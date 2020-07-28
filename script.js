@@ -6,15 +6,11 @@ const containerMemeImage = document.querySelector('#meme-image-container');
 const fireBorderButton = document.querySelector('#fire');
 const waterBorderButton = document.querySelector('#water');
 const earthBorderButton = document.querySelector('#earth');
+const meme1pic = document.querySelector('#meme-1');
+const meme2pic = document.querySelector('#meme-2');
+const meme3pic = document.querySelector('#meme-3');
+const meme4pic = document.querySelector('#meme-4');
 
-textInput.addEventListener('input', function () {
-  memeText.innerText = textInput.value;
-});
-
-
-memeInsertImg.addEventListener('input', function () {
-  memeImg.src = URL.createObjectURL(event.target.files[0]);
-});
 
 function changeBorders() {
   if (event.target === fireBorderButton) {
@@ -33,6 +29,35 @@ function changeBorders() {
     containerMemeImage.classList.add('earthBorder');
   }
 }
+
+function memeSelected(event) {
+  if (event.target === meme1pic) {
+    memeImg.src = '/meme-1.jpg';
+  }
+  if (event.target === meme2pic) {
+    memeImg.src = '/meme-2.jpeg';
+  }
+  if (event.target === meme3pic) {
+    memeImg.src = '/meme-3.jpeg';
+  }
+  if (event.target === meme4pic) {
+    memeImg.src = '/meme-4.jpeg';
+  }
+}
+
+textInput.addEventListener('input', function () {
+  memeText.innerText = textInput.value;
+});
+
+memeInsertImg.addEventListener('input', function () {
+  memeImg.src = URL.createObjectURL(event.target.files[0]);
+});
+
 fireBorderButton.addEventListener('click', changeBorders);
 waterBorderButton.addEventListener('click', changeBorders);
 earthBorderButton.addEventListener('click', changeBorders);
+
+meme1pic.addEventListener('click', memeSelected);
+meme2pic.addEventListener('click', memeSelected);
+meme3pic.addEventListener('click', memeSelected);
+meme4pic.addEventListener('click', memeSelected);
