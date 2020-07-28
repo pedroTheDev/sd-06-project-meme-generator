@@ -8,5 +8,5 @@ const loadFile = function (event) {
 
 addEventListener('input', function insertText() {
   const text = document.getElementById('text-input');
-  document.getElementById('meme-text').innerHTML=text.value;
+  document.getElementById('meme-text').innerHTML = text.value;
 });

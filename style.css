@@ -3,25 +3,25 @@ body {
 }
 
 .meme-image {
+  height: 350px;
   width: 400px;
-  height: 300px;
 }
 
 .meme-image-container {
   background-color: white;
-  width: 400px;
-  height: 300px;
   border: 1px solid black;
+  height: 350px;
+  width: 400px;
 }
 
 .meme-text {
-  position: absolute;
   color: white;
-  text-shadow: black 5px 5px 5px;
   font-size: 30px;
-  display: block;
+  margin-left: 20px;
+  margin-top: 250px;
+  max-width: 370px;
+  position: absolute;
   text-align: center;
-  overflow-wrap: break-word;
+  text-shadow: black 5px 5px 5px;
   word-wrap: break-word;
-  hyphens: auto;
 }
