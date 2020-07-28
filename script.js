@@ -11,9 +11,13 @@ function textAdd() {
 function imageAdd() {
   const imageInput = document.getElementById("image-input").files;
   const reader = new FileReader();
+  let parentImage = document.getElementById("meme-image");
+  let childImage = document.createElement("img");
+  childImage.id = ("uploaded-image")
+  parentImage.appendChild(childImage);
 
   reader.onload = function (e) {
-    document.getElementById("meme-image-container").style.backgroundImage = "url(" + e.target.result + ")";
+    document.getElementById("uploaded-image").setAttribute = ("src", e.target.result)
   }
   reader.readAsDataURL(imageInput[0]);
 }
