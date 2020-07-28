@@ -12,16 +12,20 @@
 </header>
  <section>
     <div id="meme-Text-container">
-     <p> Imagem: <input type="file" id="meme-insert" accept=".jpg, .gif, .png"/></p>
-     <p>Texto: <input type="text" name="Texto" id="input-Text" maxlength="60"></p>
-       <div id="meme-image-container"></div>
+     <p> Imagem: <input type="file" id="meme-insert" accept=".jpg, .gif, .png" onchange='loadImage(event)'></p>
+     <p> Texto: <input type="text" name="Texto" id="input-Text" maxlength="60"></p>
+      <div id="meme-image-container">
+          <img src="https://mdn.github.io/learning-area/javascript/building-blocks/gallery/images/pic5.jpg" height="400">
+         </div>
     </div>
  </section>
  <section>
      <h3>Imagens</h3>
-     <div id="img-kies"></div>
+     <div><img id="img-kies" src="cat-meme.jpg"></div>
+     <div><img id="img-kies" src="close-squirrel-meme.jpg"> </div>
+     <div><img id="img-kies" src="chicago-meme.jpg"> </div>
  </section>
-
+    <script src="script.js" ></script>
 
 
 
