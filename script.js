@@ -10,3 +10,15 @@ function onLoadImg() {
         URL.revokeObjectURL(img.src)
     }
 }
+
+function changeBorderFire() {
+    document.getElementById('meme-image-container').style.border = "5px double red";
+}
+
+function changeBorderWater() {
+    document.getElementById('meme-image-container').style.border = "5px double blue";
+}
+
+function changeBorderEarth() {
+    document.getElementById('meme-image-container').style.border = "5px double green";
+}
