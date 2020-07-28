@@ -50,13 +50,33 @@ li {
 }
 
 .buttonFire {
-  background-color: red;
+  background-color: red;  
 }
 
 .buttonWater {
-  background-color: blue;
+  background-color: blue; 
 }
 
 .buttonEarth {
-  background-color: green;
+  background-color: green;  
+}
+
+.iconMemes {
+  border: 3px dashed black;
+  height: 100px;
+  margin-right: 20px;
+  width: 100px;
+}
+
+.position {
+  margin-top: 40px;
+}
+
+.positionAButton {
+  margin-right: 10px;  
+}
+
+.dimensoesButton {
+  width: 80px;
+  height: 30px;
 }

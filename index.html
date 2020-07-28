@@ -11,25 +11,35 @@
     <header>
         <h1>Meme Generator Project</h1>
     </header>
-        <section id="menu-inputs">
-            <ul>
-                <li>
-                    <label>Insira seu texto aqui: </label>
-                    <input type="text" id="text-input"  maxlength="60" placeholder="Digite sua frase aqui">
-                </li>
-                <li>
-                    <label>Procure a Imagem Aqui: </label>
-                    <input type="file" accept="image/*" id="meme-insert">
-                </li>
-            </ul>
-        </section>
-        <section id="meme-image-container" class="meme-image-text-container">
-            <img id="meme-image" class="memes-images-container" alt="foto do meu meme">
-            <p id="meme-text" class="meme-text-container" ></p>
-        </section>
-            <button id="fire" class="buttonFire">Fire</button>
-            <button id="water" class="buttonWater">Water</button>
-            <button id="earth" class="buttonEarth">Earth</button>
+    <section id="menu-inputs">
+        <ul>
+            <li>
+                <label>Insira seu texto aqui: </label>
+                <input type="text" id="text-input" maxlength="60" placeholder="Digite sua frase aqui">
+            </li>
+            <li>
+                <label>Procure a Imagem Aqui: </label>
+                <input type="file" accept="image/*" id="meme-insert">
+            </li>
+        </ul>
+    </section>
+    <section id="meme-image-container" class="meme-image-text-container">
+        <img id="meme-image" class="memes-images-container" alt="foto do meu meme">
+        <p id="meme-text" class="meme-text-container"></p>
+    </section>
+    <section class="position">
+        <h2>Estilos Customizados</h2>
+        <button id="fire" class="buttonFire positionButton dimensoesButton">Fire</button>
+        <button id="water" class="buttonWater positionButton dimensoesButton">Water</button>
+        <button id="earth" class="buttonEarth positionButton dimensoesButton">Earth</button>
+    </section>
+    <section class="position">
+        <h2>Memes Pré Prontos</h2>
+        <img id="meme-1" src="/imgs/meme1.png" class="iconMemes" src="/imgs/meme1.png" alt="imagem meme um">
+        <img id="meme-2" class="iconMemes" src="/imgs/meme2.png" alt="imagem meme Dois">
+        <img id="meme-3" class="iconMemes" src="/imgs/meme3.png" alt="imagem meme Três">
+        <img id="meme-4" class="iconMemes" src="/imgs/meme4.png" alt="imagem meme Quatro">
+    </section>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
