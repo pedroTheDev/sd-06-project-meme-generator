@@ -10,4 +10,4 @@ function loadImage() {
 function loadText() {
   const inputText = document.querySelector('#text-input').value;
   const pText = document.querySelector('#meme-text');
-  pText.innerHTML = inputText;}
+  pText.innerHTML = inputText;} 
