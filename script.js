@@ -5,12 +5,10 @@ userTextInput.addEventListener('input', function () {
   memeTextInput.innerText = userTextInput.value;
 });
 
-function imgInsert(event) {
-  let uploadImg = document.getElementById('meme-image');
+const loadFile = function(event) {
+  let uploadImg = document.getElementById('memesrc');
   uploadImg.src = URL.createObjectURL(event.target.files[0]);
-  uploadImg.onload = function() {
+  uploadImg.onload = function () {
     URL.revokeObjectURL(uploadImg.src);
-  }
-};
-
-document.getElementById('meme-insert').addEventListener('change', imgInsert);
+  };
+}
