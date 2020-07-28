@@ -17,7 +17,10 @@ txtInput.addEventListener('keyup', function () {
   }
 });
 
-
+// imgData.addEventListener('click',function (event) {
+//   let teste =event.target.src.split("0", 5)
+//   
+// })
 function imgDb(event) {
   let teste =event.target.src.split("0", 5)
   imgShow.src = teste[4];
