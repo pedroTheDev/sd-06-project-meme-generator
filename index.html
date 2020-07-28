@@ -10,24 +10,47 @@
 
 <body>
 
-    <h1>Meme Generator</h1>
+    <div id="containers-wrapper">
+        <h1>Meme Generator</h1>
 
-    <h3>Texto:</h3>
+        <h3>Texto para o seu meme:</h3>
 
-    <input type="text" id="text-input" maxlength="60" placeholder="Digite aqui"> 
-    <h3>Foto:</h3>
+        <input type="text" id="text-input" maxlength="60" placeholder="Digite aqui"> 
+        <h3>Foto para o fundo do seu meme:</h3>
 
-    <input type="file" id="meme-insert" type=file accept="image/png, image/jpeg" onchange="readMemeImage()">
+        <input type="file" id="meme-insert" type=file accept="image/png, image/jpeg" onchange="readMemeImage()">
 
-    <h3>Seu meme:</h3>
+        <h3>Como seu meme está ficando:</h3>
 
-    <div id="meme-image-container">
+        <div id="meme-image-container">
 
-        <img id="meme-image" src="" width="500 px">
-        
-        <div id="meme-text"></div>
+            <img id="meme-image" src="" width="500 px">
+            
+            <div id="meme-text"></div>
+        </div>
+
+        <div id="borders">
+            <h4>Avatar's types of borders:</h4>
+            <button type="button" id="fire"></button>
+            <button type="button" id="water"></button>
+            <button type="button" id="earth"></button>
+            <button type="button" id="air"></button>
+        </div>
+
+
+        <div id="borders">
+            <h4>Other memes:</h4>
+            <button type="button" id="meme01"></button>
+            <button type="button" id="meme02"></button>
+            <button type="button" id="meme03"></button>
+            <button type="button" id="meme04"></button>
+        </div>
+
+        <br>
 
     </div>
+
+    
 
 </body>
 
