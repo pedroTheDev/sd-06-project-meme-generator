@@ -1,23 +1,21 @@
-function previewImagem() {
-    let imagem = document.querySelector('#').files[0];
-    let preview = document.querySelector('img');
-    let text = document.querySelector('#text-input')
-    let memeText = document.querySelector("")
+ var inputText = document.querySelector("text-input")
 
-    function Phrase() {
+ inputText.addEventListener("onchange", (event) => {
+     var conteudo = event.target.value;
+     var getP = document.querySelector("meme-text");
+     getP.innerHTML = conteudo;
 
-
-
-
-    }
-
-}
+     console.log(getP);
+ });
 
 
-var loadFile = function(event) {
-    var output = document.getElementById('meme-image');
-    output.src = URL.createObjectURL(event.target.files[0]);
-    output.onload = function() {
-        URL.revokeObjectURL(output.src) // free memory
-    }
-};
+
+
+
+ var loadFile = function(event) {
+     var output = document.getElementById('meme-image');
+     output.src = URL.createObjectURL(event.target.files[0]);
+     output.onload = function() {
+         URL.revokeObjectURL(output.src)
+     }
+ };

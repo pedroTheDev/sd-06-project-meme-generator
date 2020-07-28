@@ -14,7 +14,7 @@
 
     <h1>Meme Generator </h1>
     <label>Texto</label>
-    <input type="text" id="text-input" value="texto" maxlength="60">
+    <input type="text" id="text-input" maxlength="60" onchange="addText(event)">
 
     <label>Foto</label>
 
@@ -22,7 +22,7 @@
 
     <div id="meme-image-container">
 
-        <p id="meme-text">jajajajajaj</p>
+        <p id="meme-text"></p>
 
         <img id="meme-image" />
 
