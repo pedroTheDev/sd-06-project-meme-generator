@@ -40,3 +40,15 @@ h3 {
   width: 300px;
   height: 300px;
 }
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
