@@ -1,8 +1,9 @@
   #meme-image-container{
-    position: relative;
     background-color: white;
     border: 1px solid black;
+    border: 1px solid black;
     height: 450px;
+    position: relative;
     width: 450px;
   }
 
