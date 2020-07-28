@@ -10,8 +10,10 @@ img {
   /* height: 150px; */
   border: 3px solid #73AD21;
 }
-.meme-image-conteiner {
-  position: relative;
+#meme-image-container {
+  /* position: relative; */
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
 }
 /* .input-container {
   margin-left: 60%;
