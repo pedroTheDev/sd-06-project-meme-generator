@@ -14,3 +14,7 @@ textInput.addEventListener('keyup', function(){
 })
 
 const memeIpt =  document.querySelector('#meme-insert');
+function text() {
+  let auxText = document.querySelector('#Text-input').value;
+  document.querySelector('#meme-text').textContent = auxText;
+}

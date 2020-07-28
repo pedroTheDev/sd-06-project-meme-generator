@@ -1,3 +1,15 @@
+body {
+  margin: 30px;
+  padding: 0;
+}
+
+.text-content {
+  display: inline-block;
+}
+
+.text {
+  margin: 0;
+}
 #meme-text {
   color: white;
   font-size: 30px;
@@ -7,4 +19,12 @@
   max-height: 100px;
   left: 10px;
   
+}
+.img-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 350px;
+  margin: 25px auto;
+  position: relative;
+  width: 350px;
 }
