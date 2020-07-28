@@ -1,9 +1,9 @@
 window.onload = function () {
   // variables
   const txtToInput = document.querySelector('#text-input');
-  const imgToInput = document.querySelector('#meme-input');
+  const imgToInput = document.querySelector('#meme-insert');
   const memeTxtInImg = document.querySelector('#meme-text');
-  const imgInContainer = document.querySelector('#meme-img');
+  const imgInContainer = document.querySelector('#meme-image');
 
   // events
   // hear typed text and transfer to image

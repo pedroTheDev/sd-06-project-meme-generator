@@ -15,21 +15,21 @@
     </header>
 
     <section>
-      <p> Mensagem do meme: <input type="textarea" id="text-input" placeholder="Digite aqui a mensagem">
+      <p> Mensagem do meme: <input type="textarea" id="text-input" placeholder="Digite aqui a mensagem" maxlength="60">
       </p>
       <p>
-      Imagem do meme: <input type="file" id="meme-input" accept="image">
+      Imagem do meme: <input type="file" id="meme-insert" accept="image">
       </p>
 
       <div id="meme-image-container" class="meme-image-container">
         <div id="meme-text" class="meme-text"></div>
-        <img id="meme-img" class="meme-img">
+        <img id="meme-image" class="meme-image">
       </div>
 
-      <div>
-        <div>Fire</div>
-        <div>Water</div>
-        <div>Earth</div>
+      <div class="controls">
+        <div><button>Fire</button></div>
+        <div><button>Water</button></div>
+        <div><button>Earth</button></div>
       </div>
     </section>
 
