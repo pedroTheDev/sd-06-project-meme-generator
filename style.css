@@ -10,4 +10,25 @@
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
   color: white;
+  max-width: 480px;
+  word-wrap: break-word;
+}
+
+#fire{
+  background-color: red;
+  color: white;
+  height: 25px;
+  font-weight: bold;
+}
+#water{
+  background-color: blue;
+  color: white;
+  height: 25px;
+  font-weight: bold;
+}
+#earth{
+  background-color: green;
+  color: white;
+  height: 25px;
+  font-weight: bold;
 }
