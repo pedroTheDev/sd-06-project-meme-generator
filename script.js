@@ -12,14 +12,13 @@ const imageInput = document.getElementById("image-input")
 
 imageInput.addEventListener('change', imageAdd);
 
-function imageAdd() {
+function imageAdd(e) {
   const reader = new FileReader();
 
   reader.onload = function (e) {
-    document.getElementById("uploaded-image").src = e.target.result;
-    console.log(e);
+    document.getElementById("meme-image").src = e.target.result;
   }
- 
+
   reader.readAsDataURL(imageInput.files[0]);
 }
 
