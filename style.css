@@ -27,16 +27,16 @@ header {
 }
 
 .memeImageContainer {
-  margin-top: 10px;
-  width: 500px;
-  height: 500px;
-  display: inline-block;
-  position: relative;
   align-items: center;
-  text-align: center;
   background-color: rgba(255, 255, 255, 1);
-  z-index: 1;
   border: 1px solid black;
+  display: inline-block;
+  height: 500px;
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+  width: 500px;
+  z-index: 1;
 }
 
 .memeTextContainer {

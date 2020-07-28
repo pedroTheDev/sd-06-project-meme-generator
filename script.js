@@ -1,12 +1,12 @@
 function onLoadText() {
-  let texto = document.getElementById('text-input').value;
+  const texto = document.getElementById('text-input').value;
   document.getElementById('meme-text').innerHTML = texto;
 }
 
 function onLoadImg() {
-  let img = document.getElementById('meme-image');
+  const img = document.getElementById('meme-image');
   img.src = URL.createObjectURL(event.target.files[0]);
-  img.onload = function() {
+  img.onload = function () {
     URL.revokeObjectURL(img.src);
   };
 }
@@ -24,25 +24,25 @@ function changeBorderEarth() {
 }
 
 function selectImg1() {
-  let url = document.getElementById('meme-1').src;
-  let img = document.getElementById('meme-image');
+  const url = document.getElementById('meme-1').src;
+  const img = document.getElementById('meme-image');
   img.src = url;
 }
 
 function selectImg2() {
-  let url = document.getElementById('meme-2').src;
-  let img = document.getElementById('meme-image');
+  const url = document.getElementById('meme-2').src;
+  const img = document.getElementById('meme-image');
   img.src = url;
 }
 
 function selectImg3() {
-  let url = document.getElementById('meme-3').src;
-  let img = document.getElementById('meme-image');
+  const url = document.getElementById('meme-3').src;
+  const img = document.getElementById('meme-image');
   img.src = url;
 }
 
 function selectImg4() {
-  let url = document.getElementById('meme-4').src;
-  let img = document.getElementById('meme-image');
+  const url = document.getElementById('meme-4').src;
+  const img = document.getElementById('meme-image');
   img.src = url;
 }
