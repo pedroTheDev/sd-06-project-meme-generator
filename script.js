@@ -38,17 +38,17 @@ buttonEarth.addEventListener('click', function () {
 });
 
 imageMemeUm.addEventListener('click', function () {
-  saida.src = "/imgs/meme1.png";
+  saida.src = '/imgs/meme1.png';
 });
 
 imageMemeDois.addEventListener('click', function () {
-  saida.src = "/imgs/meme2.png";
+  saida.src = '/imgs/meme2.png';
 });
 
 imageMemeTres.addEventListener('click', function () {
-  saida.src = "/imgs/meme3.png";
+  saida.src = '/imgs/meme3.png';
 });
 
 imageMemeQuatro.addEventListener('click', function () {
-  saida.src = "/imgs/meme4.png";
+  saida.src = '/imgs/meme4.png';
 });
