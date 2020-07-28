@@ -14,8 +14,8 @@
     <div id="memeImage">
         <!-- caixa para inserir a imagem do meme -->
         <div id="meme-insert">
-            <input type='file' accept="image*/" id="image-input" onchange="imageAdd()">
-          </div>
+            <input type='file' accept="image*/" id="image-input">
+        </div>
         <!-- caixa para inserir o texto do meme -->
         <p>Digite um texto para o meme:</p>
         <input type='text' id="text-input" maxlength="60" onkeyup="textAdd()">
@@ -26,11 +26,13 @@
         <div id="meme-image-container">
             <!-- Apresentação da imagem -->
             <div id="meme-image">
+
+                <img id="uploaded-image" height="350px" width="350px" />
             </div>
             <!-- Apresentação do texto -->
 
             <div id="meme-text">
-                
+
             </div>
         </div>
     </div>
