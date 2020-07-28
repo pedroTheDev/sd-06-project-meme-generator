@@ -5,29 +5,26 @@ body {
 }
 
 #meme-image-container {
-    background-color: white;
-    width: 500px;
-    height: 350px;
+    position: relative;
+    background-color: rgb(255 , 255 , 255);
+    width: 450px;
+    height: 450px;
     border: solid 1px black;
 }
 
 #meme-text {
+    top: 80%;
     position: absolute;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    font-size: 30px;
-    width: 500px;
-    height: 350px;
-    top: 350px;
+    bottom: 15%;
+    left: 10%;
+    max-width: 50%;
     text-shadow: 5px 5px 5px black;
-    word-wrap: break-word;
+    color: white;
+    font-size: 30px;
 
 }
 
 #meme-image {
-    
     width: 100%;
     height: 100%;
 }
