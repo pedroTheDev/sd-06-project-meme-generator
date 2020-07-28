@@ -12,5 +12,5 @@ txtInput.addEventListener('keyup', function () {
 
   if (txtOutput === 1) {
     showImage(event);
-}
+  }
 });
