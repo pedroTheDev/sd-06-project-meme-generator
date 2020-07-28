@@ -9,9 +9,12 @@ body {
 
 .meme-container {
   background-color: white;
-  border: black solid 1px;
   height: 350px;
   width: 350px;
+
+}
+.border{
+  border: black solid 1px;
 }
 
 .meme-image {
@@ -25,4 +28,16 @@ body {
   margin-top: 250px;
   position: absolute;
   text-shadow: black 5px 5px 5px;
+}
+
+.earth{
+  border: green groove 6px;
+}
+
+.fire{
+  border: red dashed 3px;
+}
+
+.water{
+  border: blue groove 6px;
 }

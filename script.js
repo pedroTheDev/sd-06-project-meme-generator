@@ -1,6 +1,7 @@
 const imgShow = document.querySelector('#meme-image');
 const txtInput = document.querySelector('#text-input');
 const txtOutput = document.querySelector('#meme-text');
+const imgCont = document.querySelector('#meme-image-container')
 
 function showImage(event) {
   const imgSrc = event.target.files[0];
@@ -14,3 +15,15 @@ txtInput.addEventListener('keyup', function () {
     showImage(event);
   }
 });
+
+function earth() {
+  imgCont.className = "meme-container earth"
+}
+
+function fire() {
+  imgCont.className = "meme-container fire"
+}
+
+function water() {
+  imgCont.className = "meme-container water"
+}
