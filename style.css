@@ -26,6 +26,7 @@ body {
   font-family: 'Sora', sans-serif;
   font-size: 30px;
   position: absolute;
+  text-align: center;
   text-shadow: 5px 5px 5px black;
   top: 5px;
   word-wrap: break-word;
