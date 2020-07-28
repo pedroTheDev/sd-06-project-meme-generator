@@ -8,24 +8,18 @@
   <title>Meme Generator</title>
 </head>
 <body>
-    <!-- 1 - O site deve possuir uma caixa de texto com a qual quem usa pode interagir para inserir texto em cima da imagem escolhida.
-  As seguintes verificações serão feitas:
-  A caixa onde o texto é inserido deve ter um id denominado text-input;
-
-  Você deve criar um elemento para servir de "container" para a imagem e para o texto do meme. Este elemento deve ter um id denominado meme-image-container;
-
-  Dentro do elemento de container, você deve criar um outro elemento para mostrar o texto digitado. O elemento de texto deve estar totalmente contido dentro do container e ter o id denominado meme-text;
-
-  Se não houver imagem inserida, ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá. -->
-  <h1 id="title">This is a memem Generator!</h1>
+  <h1 id="title">This is a meme Generator!</h1>
   <div id="meme-image-container">
-    <img src="https://conteudo.imguol.com.br/blogs/186/files/2020/01/memefaustao.jpeg" alt='meme do Faustão'>
-    <div id="meme-text"></div>
+    <img id="meme-image" src="https://conteudo.imguol.com.br/blogs/186/files/2020/01/memefaustao.jpeg" alt='Imagem meme'>
+    <div id="meme-text">Insert here your meme message...</div>
   </div>
   <br>
   <div class="input-container">
     <input type="text" id="text-input" maxlength="60" placeholder="Max. 60 characters">
     <button type="button">Apply</button>
+    <br>
+    <label for="file">Choose file to upload</label>
+    <input id="meme-insert" type="file" accept="image/*"> 
   </div>
   
 </body>
