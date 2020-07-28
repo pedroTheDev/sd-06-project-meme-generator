@@ -2,34 +2,33 @@ body {
     background: white;
 }
 
-#meme-text {
-    color: white;
-    position: absolute;
-    top: 300px;
+input {
+    margin: 10px 0;
+    padding-right: 20px;
 }
 
-#input-image {
-    color: black;
-}
-
-h1 {
-    color: black;
+img {
+    height: 300px;
+    width: 400px;
 }
 
 #meme-image-container {
-    width: 300px;
-    height: 400px;
-    color: black;
-    border: solid 1px black;
+    background-color: white;
+    height: 300px;
+    margin-left: 30%;
+    position: relative;
+    width: 400px;
+    border: 1px solid black;
 }
 
-#meme-image-container h2 {
-    text-shadow: black 5px 5px 5px;
+#header {
+    margin-left: 30%;
+}
+
+#meme-text {
+    bottom: 10px;
+    color: white;
     font-size: 30px;
-}
-
-
-}
-#memes-pre-prontos {
-    color: black;
+    position: absolute;
+    text-shadow: 5px 5px 5px black;
 }

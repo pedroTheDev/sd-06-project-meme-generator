@@ -11,14 +11,16 @@
 
 
 <body>
-    <h1>Meme Generator </h1>
-    <p></p>
 
-    Texto: <input type="button" id="myBtn" onclick="myFunction()" value="Try it">
-    <input type="text" id="text-input" maxlength="60">
     <p></p>
-    Foto: <input type="file" accept="image/*" onchange="loadFile(event)" id=meme-insert>
-    <p></p>
+    <div id="header">
+        <h1>Meme Generator </h1>
+        Texto: <input type="button" id="myBtn" onclick="myFunction()" value="Try it">
+        <input type="text" id="text-input" maxlength="60">
+        <p></p>
+        Foto: <input type="file" accept="image/*" onchange="loadFile(event)" id=meme-insert>
+        <p></p>
+    </div>
     <div id=meme-image-container>
         <h2 id="meme-text"></h2>
         <img id=meme-image src="" alt="meme" width="100%">
