@@ -28,24 +28,24 @@ li {
   list-style-type: disc;
 }
 
-.borderFire{
+.borderFire {
   background-color: white;
-  border: 3px dashed red;  
+  border: 3px dashed red;
   height: 300px;
   position: relative;
   width: 300px;
 }
 
-.borderWater{
-  background-color: white;  
+.borderWater {
+  background-color: white;
   border: 5px double blue;
   height: 300px;
   position: relative;
   width: 300px;
 }
 
-.borderEarth{
-  background-color: white;  
+.borderEarth {
+  background-color: white;
   border: 6px groove green;
   height: 300px;
   position: relative;
