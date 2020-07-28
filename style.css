@@ -85,3 +85,9 @@ header {
 .earth {
     background-color: green;
 }
+
+.memes {
+    width: 70px;
+    height: 60px;
+    padding-right: 15px;
+}
