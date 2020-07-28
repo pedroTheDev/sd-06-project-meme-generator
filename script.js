@@ -16,7 +16,7 @@ function printTextMeme() {
 
 inputText.addEventListener('keyup', printTextMeme);
 
-const output = document.getElementById('output');
+const output = document.getElementById('meme-insert');
 const memeImg = document.getElementById('meme-image');
 function showImage(e) {
   const getFile = e.target.files[0];
