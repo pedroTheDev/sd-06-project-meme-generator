@@ -1,33 +1,25 @@
 .cabecalho {
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 #meme-image-container{
-    color: brown;
-    height: 600px;
+    background-color: white;
     border: 1px solid black;
+    color: brown;
+    height: 500px;
     margin-left: 20%;
     margin-right: 20%;
-    height: 500px;
-    width: 600px;
-    background-color: white;
     margin-top: 100px;
+    width: 600px;
 }
 
 #meme-text{
-    position: absolute;
     color: white;
     font-size: 30px;
+    line-height: 30px;
+    position: absolute;
     text-shadow: black 5px 5px 5px;
     text-align: center;
     width: 250px;
-    line-height: 30px;
-    
 }
-
-.input {
-    left: 0px;
-    color: red
-}
-.
