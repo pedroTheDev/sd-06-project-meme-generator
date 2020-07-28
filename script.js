@@ -5,5 +5,7 @@ function getInputValue() {
     document.getElementById('meme-text').innerText = text
 }
 
+
+
 let area =  document.getElementById("text-input");
 area.addEventListener('keyup', getInputValue)
