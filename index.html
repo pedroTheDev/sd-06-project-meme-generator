@@ -9,73 +9,29 @@
 
   <title>Projeto Meme Generatos</title>
 
-  <style> /* CSS */
-    /* body{
-      width: 1368px;
-      height: 768px;
-      margin-top: 0;
-      margin-bottom: 0;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    #meme-image-container{
-      width: 600px;
-      height: 600px;
-      border-style: solid;
-      border-radius: 1px;
-      border-color: black;
-    }
-    #text-insert{
-      width: 550px;
-      border: 1px;
-      border-style: solid;
-    }
-    #meme-image{
-      position: relative;
-    }
-    #meme-text{
-      text-shadow: 5px 5px 5px black;
-      color:white;
-      /* color: blue; */
-      padding-left: 10px;
-      padding-top: 350px;
-      position:absolute
-    } */
-  </style>
-
-
-</head>
+  </head>
 
 <body>
   <header class="cabecalho" id="cabecalho">
-    <h1 id="title" >MEME GENERATOR</h1>
+    <h1 id="title">MEME GENERATOR</h1>
   </header>
-  
-  <article class="art" id="art">
-    <section>
-      <div>
-        <p>Texto: <input type="text" id="text-insert" maxlength="60"></p>
-        <p>Escolha um arquivo: <input type="file" id="meme-insert"></p>
-      </div>
-      <div id="meme-image-container">
-        <img id="meme-image">
-        <p id="meme-text">meme text</p>
-
-      </div> <!--meme-image-container-->
-    </section>
-  </article>
-<link rel="stylesheet" href="">
-  <script>
-    console.log("teste");
-    alert(teste);
     
-    //<script src="script.js"></script>
+    
+      <div>
+        <p><input placeholder="Digite seu texto aqui" maxlength="60" id="text-input"/></p>
+        <p>Escolha um arquivo: <input type="file" accept="image/*" onchange="memeInsert(event)" id="meme-insert"></p>
+      </div>
+    
+      <div id="meme-image-container">
+        <img id="meme-image"/>
+          <p id="meme-text"></p>
+      <div> <!--meme-image-container-->
+  <script>
+    <script src="script.js"></script>
   </script>
 
-<footer class="rodape" id="rodape">
+  <footer class="rodape" id="rodape">
 
-</footer>
-
-  
+  </footer>
 </body>
 </html>
