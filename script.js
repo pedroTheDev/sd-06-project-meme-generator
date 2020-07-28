@@ -6,5 +6,7 @@ window.onload = function() {
     document.querySelector('#meme-text').innerHTML = textInput.value;
   })
 
+  // recebe o arquivo de imagem e insere na div meme-image
+ 
 
 }

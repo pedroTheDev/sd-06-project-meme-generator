@@ -10,6 +10,17 @@
   width: 400px;
 }
 
+#meme-image {
+  width: 395px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+
 #meme-text {
   bottom: 20px;
   color: white;
