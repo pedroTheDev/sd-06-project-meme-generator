@@ -1,0 +1,23 @@
+@charset "utf-8";
+body {
+    background-color: turquoise;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#meme-image-container {
+    position: relative;
+    background-color: white;
+    width: 500px;
+    height: 350px;
+    border: solid 1px;
+    border-color: black;
+
+}
+
+#meme-text {
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    text-shadow: 5px, 5px, 5px, black;
+
+}
