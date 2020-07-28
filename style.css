@@ -1,24 +1,25 @@
-#meme-image-container{
-		width: 400px;
-		height: 400px;
-		background-color: white;
-		border: 1px solid black;
+#meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  width: 400px;
 }
-#meme-text{
 
-		left: 100px;
-		width: 200px;
-		height: 200px;
-		position: absolute;
-		text-shadow: 5px 5px 5px black;
-		font-size: 30px;
-		color: white;
-		text-align: center;
-		z-index: 3;
-		word-wrap: break-word;
-	}
-	#meme-image{
-	position: absolute;
-	padding:7px 0px 0px 5px;
-	z-index: 0;
-	}
+#meme-text {
+  color: white;
+  font-size: 30px;
+  height: 200px;
+  left: 100px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: 200px;
+  word-wrap: break-word;
+  z-index: 3;
+}
+
+#meme-image {
+  padding: 7px 0 0 5px;
+  position: absolute;
+  z-index: 0;
+}
