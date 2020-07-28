@@ -1,0 +1,18 @@
+body {
+background-color: rgb(180, 180, 194);
+}
+
+.cabecalho {
+color: rgb(26, 8, 8);
+font-size: 80px;
+text-align: center;
+}
+
+#input-Text {
+margin-left: 150 px;
+}
+
+#meme-image-container {
+padding-left: 50%;
+}
+
