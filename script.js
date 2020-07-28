@@ -9,17 +9,16 @@ window.onload = function () {
   const container = document.querySelector('#meme-image-container');
   const preSetImages = document.querySelectorAll('#thumbnails img');
   const availableStyles = {
-      fire: 'dashed rgb(255 , 0 , 0) 3px',
-      water: 'double rgb(0 , 0 , 255) 5px',
-      earth: 'groove rgb(0 , 128 , 0) 6px',
+    fire: 'dashed rgb(255 , 0 , 0) 3px',
+    water: 'double rgb(0 , 0 , 255) 5px',
+    earth: 'groove rgb(0 , 128 , 0) 6px',
   };
 
   // Functions
   const functionalities = {
     addText: (event) => (memeTextBox.innerHTML = event.target.value),
-    uploadImage: (event) => (memeImage.src = window.URL.createObjectURL(event.target.files[0])),
+    uploadImage: (event) => (memeImage.src = (event.target == inputImageElement) ?  window.URL.createObjectURL(event.target.files[0]) : event.target.src),
     changeStyle: (event) => (container.style.border = availableStyles[event.target.id]),
-    uploadPreSetImage: (event) => (memeImage.src = event.target.src),
   };
 
   // Events
@@ -27,8 +26,8 @@ window.onload = function () {
   inputImageElement.addEventListener('change', functionalities.uploadImage);
   for (let i = 0; i < buttons.length; i += 1) {
     buttons[i].addEventListener('click', functionalities.changeStyle);
-  };
+  }
   for (let i = 0; i < preSetImages.length; i += 1) {
-    preSetImages[i].addEventListener('click', functionalities.uploadPreSetImage);
-  };
+    preSetImages[i].addEventListener('click', functionalities.uploadImage);
+  }
 };
