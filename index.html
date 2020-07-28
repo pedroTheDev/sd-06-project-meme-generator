@@ -12,22 +12,21 @@
     <header>
         <h1 class="title">MEME GENERATOR</h1>
     </header>
-    <section id="meme-image-container">
-        
-            <label for="Meme">
-                <h2>Texto:</h2>
-                <input type="text" id="text-input" maxlength="60" placeholder="Digite a legenda da foto">
-            </label>
-            <label for="imagem">
-                <h2>Foto:</h2>
-                <input type='file' name="imagem" accept='image/*' id='meme-insert'>
-                <br>
-            </label>
-            
-            <img id="meme-image" src="" width="400px" height="400px" />
-            <div id="meme-text"></div>
-        
+    <section>
+        <label for="Meme">
+            <h2>Texto:</h2>
+            <input type="text" id="text-input" maxlength="60" placeholder="Digite a legenda da foto">
+        </label>
+        <label for="imagem">
+            <h2>Foto:</h2>
+            <input type='file' name="imagem" accept='image/*' id='meme-insert'>
+            <br>
+        </label>
     </section>
+    <div id="meme-image-container">
+        <img id="meme-image" src="" width="400px" height="400px" />
+        <div id="meme-text"></div>
+    </div>
 
     <section class="edit">
         <button id="fire">FIRE</button>
