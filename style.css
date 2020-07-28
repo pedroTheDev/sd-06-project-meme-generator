@@ -34,7 +34,8 @@ body {
     float: right;
     margin-top: 4px;
     margin-left: 72px;
-    padding-left: 110px;
+    width: 285px;
+    border: 2px solid black;
 }
 
 #title-input {
@@ -128,6 +129,7 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
+    z-index: 1;
 }
 
 #meme-1 {
