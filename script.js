@@ -9,4 +9,8 @@ function showImage(event) {
 
 txtInput.addEventListener('keyup', function () {
   txtOutput.innerHTML = txtInput.value;
+
+  if (txtOutput === 1) {
+    showImage(event);
+}
 });
