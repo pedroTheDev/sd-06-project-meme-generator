@@ -17,10 +17,10 @@ txtInput.addEventListener('keyup', function () {
   }
 });
 
-imgData.addEventListener('click',function (event) {
+function sI (event) {
   let teste =event.target.src.split("0", 5)
   imgShow.src = teste[4];
-})
+}
 
 function earth() {
   imgCont.className = "meme-container earth"
