@@ -1,4 +1,12 @@
 .meme-image-container {
   background-color: white;
   border: solid 1px black;
+  height: 450px;
+  width: 450px;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
 }

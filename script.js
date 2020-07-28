@@ -9,8 +9,8 @@ textImput.addEventListener('keyup', function () {
 const loadFile = function (event) {
   const output = document.getElementById('meme-insert');
   output.src = URL.createObjectURL(event.target.files[0]);
-  output.style.maxHeight = '200px';
-  output.style.maxWidth = '200px';
+  output.style.height = '450px';
+  output.style.width = '450px';
   output.onload = function () {
     URL.revokeObjectURL(output.src);
   };
