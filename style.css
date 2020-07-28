@@ -1,12 +1,15 @@
 #meme-image-container {
 border: 1px solid black;
-max-width: 50%;
+width: 100%;
 
 };
+#meme-text {
+    width: inherit;
+}
 #meme-image {
 background-color: white;
 
 }
 img {
-    max-width: 350px;
+    max-width: 100%;
 }

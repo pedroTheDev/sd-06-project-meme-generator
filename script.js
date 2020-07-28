@@ -8,7 +8,7 @@ text.addEventListener('input',function(){
     note.style.fontSize = '30px';
     note.style.textShadow = '5px 5px 5px black';
     note.style.position = 'absolute';
-    note.style.marginTop = '-40px';
+  
 });
 //Adicionando imagem.
 
