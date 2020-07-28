@@ -13,7 +13,8 @@ body {
   width: 350px;
 
 }
-.border{
+
+.border {
   border: black solid 1px;
 }
 
@@ -30,21 +31,21 @@ body {
   text-shadow: black 5px 5px 5px;
 }
 
-.earth{
-  background-color: rgb(0, 128, 0);
-  border: rgb(0, 128, 0) groove 6px;
+.earth {
+  background-color: green;
+  border: green groove 6px;
 }
 
-.fire{
-  background-color: rgb(255, 0, 0);
+.fire {
+  background-color: red;
   border: red dashed 3px;
 }
 
-.water{
-  background-color: rgb(0, 0, 255);
-  border: 5px double rgb(0, 0, 255);
+.water {
+  background-color: blue;
+  border: 5px double blue;
 }
 
-.meme{
+.meme {
   height: 100px;
 }
