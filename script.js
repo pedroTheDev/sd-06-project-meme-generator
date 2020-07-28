@@ -15,9 +15,10 @@ function imageAdd() {
   let childImage = document.createElement("img");
   childImage.id = ("uploaded-image")
   parentImage.appendChild(childImage);
-
+  childImage.setAttribute("height","500px");
+  childImage.setAttribute("width","500px");
   reader.onload = function (e) {
-    document.getElementById("uploaded-image").setAttribute = ("src", e.target.result)
+    document.getElementById("uploaded-image").src = e.target.result;
   }
   reader.readAsDataURL(imageInput[0]);
 }
