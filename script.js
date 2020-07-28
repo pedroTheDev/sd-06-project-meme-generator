@@ -1,4 +1,4 @@
-const text = document.getElementById("text-input");
+/*const text = document.getElementById("text-input");
 const divText = document.getElementById("meme-text");
 text.addEventListener("input", function(){
     divText.innerText = text.value;
@@ -32,4 +32,4 @@ imagens.forEach((imagen) => {
   imagen.addEventListener('click', (event) => {
     img.src = event.srcElement.attributes[0].nodeValue;
 });
-});
+});*/
