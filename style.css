@@ -1,12 +1,11 @@
-img {
+#meme-image {
   width: 500px;
-  position: relative;
 }
 #meme-text {
   position: absolute;
   margin-left: 50px;
   top: 340px;
-  border: 3px solid #73AD21;
+  /* border: 3px solid #73AD21; */
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
@@ -17,7 +16,7 @@ img {
 #meme-image-container {
   background-color: rgb(255, 255, 255);
   border: 1px solid black;
-  width: 520px;
+  width: 500px;
 }
 #title {
   text-align: center;
