@@ -1,13 +1,10 @@
 #meme-image-container {
     background-color: white;
-    margin: 0;
-    outline: 1px solid black;
+    border: 1px solid black;
     position: relative;
-    width: auto;
-    height: auto;
-    /* background-image: url("image.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%; */
+    width: 100px;
+    height: 100px;
+    
 }
 
 #meme-text {
@@ -20,7 +17,7 @@
 
 #image {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 
