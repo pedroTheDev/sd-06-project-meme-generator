@@ -17,3 +17,4 @@ function imageAdd() {
   }
   reader.readAsDataURL(imageInput[0]);
 }
+

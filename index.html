@@ -17,8 +17,8 @@
             <input type='file' accept="image*/" id="image-input" onchange="imageAdd()">
           </div>
         <!-- caixa para inserir o texto do meme -->
-        <input type='text' id="text-input" maxlength="60">
-        <button onclick="textAdd()">Inserir texto</button>
+        <input type='text' id="text-input" maxlength="60" onkeyup="textAdd()">
+
         <!-- caixa onde será apresentado meme + texto 
         cor de fundo branca
     borda preta sólida 1px largura-->
