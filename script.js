@@ -1,5 +1,5 @@
 
-function loadImage() {
+function loadImage(event) {
     const reader = new FileReader();
     reader.onload = function () {
     const saida = document.getElementById('meme-image');

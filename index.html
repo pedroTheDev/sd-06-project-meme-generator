@@ -13,25 +13,25 @@
     <header>
         <h1>Meme Generator Project</h1>
     </header>
-    <section>
+    
         <section id="menu-inputs">
             <ul>
                 <li>
                     <label>Insira seu texto aqui: </label>
-                    <input type="text" id="text-input" placeholder="Digite seu texto aqui" maxlength="60"
+                    <input type="text" id="text-input"  maxlength="60"
                         onchange="loadText()">
                 </li>
                 <li>
                     <label>Procure a Imagem Aqui: </label>
-                    <input type="file" accept="image/*" id="meme-insert" onchange="loadImage()">
+                    <input type="file" accept="image/*" id="meme-insert" onchange="loadImage(event)">
                 </li>
             </ul>
         </section>
-        <div id="meme-image-container" class="meme-image-text-container">
-            <img id="meme-image" class="memes-images-container">
-            <div id="meme-text" class="meme-text-container"> </div>
-        </div>
-    </section>
+        <section id="meme-image-container" class="meme-image-text-container">
+            <img id="meme-image" class="memes-images-container" alt="foto do meu meme">
+            <p id="meme-text" class="meme-text-container"> </p>
+        </section>
+    
     <script type="text/javascript" src="script.js"></script>
 </body>
 

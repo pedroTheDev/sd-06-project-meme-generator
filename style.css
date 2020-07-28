@@ -1,20 +1,19 @@
 .meme-image-text-container {
-    background-color: white;
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;}
+  background-color: white;
+  border: 1px solid black;
+  height: 300px;
+  width: 300px; }
 .meme-text-container {
-    color: white;
-    font-family: Arial;
-    font-size: 30px;    
-    margin-top: -3em;
-    position: absolute;
-    text-shadow: 5px 5px 5px black;
-}
+  color: white;
+  font-family: Arial;
+  font-size: 30px;    
+  margin-top: 7em;
+  position: absolute;
+  text-shadow: 5px 5px 5px black; }
 .memes-images-container {
-    height: 300px;    
-    width: 300px; }
+    position: absolute;
+  height: 300px;    
+  width: 300px; }
 li {
-    line-height: 2em;
-    list-style-type: disc;
-}
+  line-height: 2em;
+  list-style-type: disc; }
