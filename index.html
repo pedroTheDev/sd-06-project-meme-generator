@@ -6,30 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Meme Generator</title>
-    <script src="script.js"></script>
+
 
 </head>
 
 <body>
     <div id="memeImage">
         <!-- caixa para inserir a imagem do meme -->
-        <div id="meme-insert"></div>
-        <input type='file' accept="image*/" id="procurarID">
-        <button>Carregar imagem</button>
+        <div id="meme-insert">
+        <input type='file' accept="image*/" id="procurarId" onchange="imageAdd()">
+    </div>
         <!-- caixa para inserir o texto do meme -->
-        <form name='textoMeme'>
-        <input type='text' id="text-input" name = "inputText">
-        <button onclick="textAdd">Inserir texto</button></form>
+        <input type='text' id="text-input">
+        <button onclick="textAdd()">Inserir texto</button>
         <!-- caixa onde será apresentado meme + texto 
         cor de fundo branca
     borda preta sólida 1px largura-->
         <div id="meme-image-container">
             <!-- Apresentação da imagem -->
-            <div id="meme-image"></div>
+            <div id="meme-image">
+                           </div>
             <!-- Apresentação do texto -->
-            <div id="meme-text"></div>
+            <div id="meme-text">
+            </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
