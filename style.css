@@ -1,3 +1,69 @@
 body {
-
+  background: rgb(202, 204, 204);
+  width: 100%;
 }
+
+header {
+  background: rgb(109, 8, 202);
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  display: block;
+  position: fixed;
+}
+
+h1 {
+  color: white;
+}
+
+section {
+  margin-top: 150px;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  padding-top: 190px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: inherit;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 250px;
+  width: 250px;
+}
+
+.meme-img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+/* body {
+  background: orange;
+}
+
+div#meme-image-container {
+  border: 1px solid black;
+  width: 450px;
+  height: 450px;
+  background-color: white;
+  position: absolute;
+}
+
+p#meme-text {
+  font: bold 30pt Arial;
+  color: white;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  position: center;
+}
+*/
