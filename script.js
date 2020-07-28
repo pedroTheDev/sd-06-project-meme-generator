@@ -14,3 +14,19 @@ photo.onload = function() {
     }
     
 });
+//btn de estilização customizada.
+let btnFire = document.getElementById('fire');
+btnFire.addEventListener('click',function() {
+    let estilo = document.getElementById('meme-image-container');
+    estilo.style.border = '3px dashed red';
+});
+let btnWater = document.getElementById('water');
+btnWater.addEventListener('click',function() {
+    let estilo = document.getElementById('meme-image-container');
+    estilo.style.border = '5px double blue';
+});
+let btnEarth = document.getElementById('earth');
+btnEarth.addEventListener('click',function() {
+    let estilo = document.getElementById('meme-image-container');
+    estilo.style.border = '6px groove green';
+});
