@@ -16,7 +16,7 @@ function visualizarImg(event) {
 }
 inputImagem.addEventListener('change', visualizarImg);
 
-const memeContainer = document.getElementById('meme-image-container section img');
+const memeContainer = document.getElementById('meme-image-container');
 const buttons = document.querySelectorAll('.edit button')
 const bt1 = buttons[0];
 const bt2 = buttons[1];
