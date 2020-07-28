@@ -1,5 +1,6 @@
 img {
   width: 500px;
+  position: relative;
 }
 #meme-text {
   position: absolute;
@@ -16,7 +17,7 @@ img {
 #meme-image-container {
   background-color: rgb(255, 255, 255);
   border: 1px solid black;
-  width: 500px;
+  width: 520px;
 }
 #title {
   text-align: center;
