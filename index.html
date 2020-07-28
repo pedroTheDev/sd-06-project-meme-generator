@@ -8,28 +8,34 @@
 </head>
 <body>
     <section id="size-page">
+        
         <header id="title">
             <h1>MEME GENERATOR</h1>
         </header>
 
         <section id="organiza-elementos">
 
-            <section id="text-input">
+            <section id="body-input">
                 <h2 id="title-input">Texto:</h2>
-                <input id="body-input" type="text" maxlength="60">
+                <input id="text-input" type="text" maxlength="60">
             </section>
 
             <section id="choose-file">
+                
                 <h2 id="title-foto">Imagem:</h2>
-                <button id="button">Escolher Arquivo</button>
+                <input id="meme-insert" class="button" type="file" accept="image/*" onchange="loadFile(event)">
+                <input type="submit">
+                <img id="output">
+
             </section>
 
         </section>
 
         <section id="meme-image-container">
 
-            <h2 id="meme-text"></h2>
-            <img id="meme-image">
+            <div id="meme-image">
+                <h2 id="meme-text"></h2>
+            </div>
 
         </section>
 

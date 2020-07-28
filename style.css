@@ -13,12 +13,12 @@ body {
     font-size: 50px;
 }
 
-#text-input {
+#body-input {
     display: inline-block;
     margin-bottom: 0px;
 }
 
-#body-input {
+#text-input {
     float: right;
     margin-top: 4px;
     margin-left: 43px;
@@ -97,4 +97,5 @@ body {
     font-size: 30px;
     text-shadow: 5px 5px 5px black;
     overflow-wrap: break-word;
+    position: absolute;
 }
