@@ -1,11 +1,11 @@
 const textInput = document.getElementById('text-input');
 const memeInsert = document.getElementById('meme-insert');
 const memeText = document.getElementById('meme-text');
-
+const memeImg = document.getElementById('meme-image');
 
 textInput.addEventListener('change', function () {
     const aux = textInput.value;
-    if(aux.length > 60) {
+    if(aux.length > 55) {
         alert('Limite do texto do meme de 60 caracteres!');
     } else {
         memeText.innerHTML = aux;
@@ -13,9 +13,6 @@ textInput.addEventListener('change', function () {
 })
 
 memeInsert.addEventListener('change', function (event) {
-    const memeImg = document.getElementById('meme-image');
-    memeImg.src = URL.createObjectURL(event.target.files[0]);
-    memeImg.onload = function () {
-        URL.revokeObjectURL(memeImg.src);
-    }
+    const imgAux = event.target.files[0];
+    memeImg.src = URL.createObjectURL(imgAux);
 });
