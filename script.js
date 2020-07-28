@@ -7,13 +7,8 @@ const imageInput = document.getElementById("image-input")
 
 imageInput.addEventListener('change', imageAdd);
 
-function imageAdd(e) {
-  const reader = new FileReader();
-
-  reader.onload = function (e) {
-    document.getElementById("meme-image").src = e.target.result;
-  }
-
-  reader.readAsDataURL(imageInput.files[0]);
+function imageAdd() {
+  const imageFile = imageInput.files[0];
+document.getElementById("meme-image").src = URL.createObjectURL(imageFile);
 }
 
