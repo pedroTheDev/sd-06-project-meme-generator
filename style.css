@@ -11,10 +11,12 @@
 	height: 200px;
 	position: absolute;
 	border: 1px solid red;
-	text-shadow: 5px 5px 5px;
+	text-shadow: 5px 5px 5px black;
 	font-size: 30px;
 	color: white;
+	text-align: center;
+	z-index: 1;
 }
-#meme-text p{
-	text-shadow: 5px 5px 5px;
+#imagem{
+	padding:7px 0px 0px 5px;
 }
