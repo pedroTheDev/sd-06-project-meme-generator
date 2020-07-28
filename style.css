@@ -12,8 +12,8 @@
 
 .meme-image-container {
   background-color: white;
-  height: 480px;
   border: 1px solid black;
+  height: 480px;
   width: 600px;
 }
 
