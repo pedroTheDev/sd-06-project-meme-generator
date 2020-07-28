@@ -2,18 +2,21 @@
   background-color: white;
   border: 1px solid black;
   height: 300px;
-  width: 300px; }
-.meme-text-container {
+  position: relative; 
+  width: 300px }
+.meme-text-container {   
   color: white;
   font-family: Arial;
   font-size: 30px;    
   margin-top: 7em;
   position: absolute;
-  text-shadow: 5px 5px 5px black; }
-.memes-images-container {
-    position: absolute;
-  height: 300px;    
-  width: 300px; }
+  text-shadow: 5px 5px 5px black;
+  z-index: 2 }
+.memes-images-container { 
+  height: 300px; 
+  position: absolute;
+  width: 300px; 
+  z-index: 1 }
 li {
   line-height: 2em;
-  list-style-type: disc; }
+  list-style-type: disc }
