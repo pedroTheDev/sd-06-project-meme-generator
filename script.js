@@ -1,3 +1,4 @@
+const image =  document.querySelector('#meme-image');
 const loadFile = function (event) {
   image.src = URL.createObjectURL(event.target.files[0]);
   image.onload = function () {
