@@ -12,7 +12,7 @@ function onLoadImg() {
 }
 
 function changeBorderFire() {
-    document.getElementById('meme-image-container').style.border = "3px double red";
+    document.getElementById('meme-image-container').style.border = "3px dashed red";
 }
 
 function changeBorderWater() {
@@ -20,5 +20,5 @@ function changeBorderWater() {
 }
 
 function changeBorderEarth() {
-    document.getElementById('meme-image-container').style.border = "5px double green";
+    document.getElementById('meme-image-container').style.border = "6px groove green";
 }
