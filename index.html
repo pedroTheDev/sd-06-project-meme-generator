@@ -6,17 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="script.js"></script>
-  <title>Meme Generation</title>
+  <title>Meme Generator</title>
 </head>
 
 <body>
-  <header>
-    <h1 id="titulo">Meme Generation</h1>
-  </header>
-  <label for="text-input" class="subtitle">Texto:</label>
-  <input type="text" id="text-input" class="input-field"><br>
-  <div id="meme-image-container">
-    <div id="meme-text"></div>
+  <h1>Meme generator</h1>
+
+  <h2>Os melhores memes da internet! &#128540;</h2><br><br>
+
+  <label>Insira o texto do seu meme: <input type="text" id="text-input" maxlength="60"></label><br><br>
+  <label>Escolha sua foto:<input type='file' accept="image/*" id="meme-insert"></label><br><br>
+
+  <div id="meme-image-container" class="meme_image_container">
+      <div id="meme-text" class="meme_text"></div>
+      <img id="meme-image" class="meme_image">
   </div>
 
 </body>
