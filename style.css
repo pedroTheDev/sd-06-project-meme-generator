@@ -1,13 +1,12 @@
 body {
+  background-color: rgb(229 , 229 , 229);
   margin-left: 10px;
   text-align: center;
-  width: 1366px;
-  background-color: #e5e5e5;
+  width: 1366px; 
 }
 
 .head {
-  background-color: #fca311;
-  display: ;
+  background-color:rgb(252 , 163 , 17);
 }
 
 .display {
@@ -17,9 +16,9 @@ body {
 .meme-container {
   background-color: white;
   height: 350px;
-  width: 350px;
   position: absolute;
   top: 60px;
+  width: 350px;
 }
 
 .border {
