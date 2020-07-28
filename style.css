@@ -1,0 +1,12 @@
+div#meme-image-container {
+  border : 1px solid black;
+  height: 300px;
+  margin: 10px;
+  width: 300px;
+}
+
+div#meme-text {
+  border: 1px solid black;
+  height: 60px;
+  margin-top: 200px;
+}
