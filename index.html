@@ -8,24 +8,25 @@
 </head>
 <body>
   <h1>MEME GENERATOR</h1>
-  <div id="text-input">
-    <p>Texto</p>
+  <div id="text-title">
+   Texto
   </div>
-  <section id="input-content" class="input-content">
-    <input id="text-input" maxlength="60" type="text"  class="input-text" oninput="text()">
+  <section>
+    <p>Texto do Meme:</p>
+    <input id='text-input' class='text-input' maxlength='60'>
 
   </section>
+  <input  id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+  <img id="output"/>
 
-  <div id="meme-image-container" class="image-container">
+  <div id="meme-image-container" class="img-container">
     <p>Escolha seu meme</p>
-    <div id="meme-text"></div>
+    <div id="meme-text"  class="text-container"></div>
     <div id="meme-image"></div>
   </div>
 
-  <input  id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
-<img id="output"/>
-
-  <div id="meme-text"></div>
+ 
   <script src="script.js"></script>
+
 </body>
 </html>

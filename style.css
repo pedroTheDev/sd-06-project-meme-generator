@@ -1,25 +1,35 @@
 body {
-  margin: 30px;
-  padding: 0;
-}
-
-.text-content {
-  display: inline-block;
-}
-
-.text {
-  margin: 0;
-}
-#meme-text {
+  background-color: darkslategray;
   color: white;
-  font-size: 30px;
-  position: absolute;
-  text-shadow: 5px 5px 5px black;
-  z-index: 1;
-  max-height: 100px;
-  left: 10px;
-  
+  font-family: ubuntu, sans-serif;
 }
+h1 {
+  margin: auto;
+  text-align: center;
+}
+p , .text-input {
+  display: inline-block;
+  margin: 10px auto;
+  margin-top: 25px;
+}
+.text-input {
+  color: darkslategray;
+  font-family: monospace;
+  font-size: 15px;
+  margin-left: 20px;
+}
+p {
+  font-size: 20px;
+}
+.btn {
+  background-color: white;
+  border: 0;
+  color: darkslategray;
+  font-family: ubuntu, sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
 .img-container {
   background-color: white;
   border: 1px solid black;
@@ -27,4 +37,16 @@ body {
   margin: 25px auto;
   position: relative;
   width: 350px;
+}
+.text-container {
+  font-size: x-large;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  height: 100px;
+  left: 10px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 220px;
+  width: 330px;
 }
