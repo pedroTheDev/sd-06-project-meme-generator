@@ -9,16 +9,16 @@
 .meme-text {
   color: white;
   font-size: 30px;
-  margin: 0 auto;
-  text-shadow: 5px 5px 5px black;
-  position: absolute;
   left: 20px;
-  top: 300px;
+  margin: 0 auto;
   overflow: auto;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 300px;
 }
 
-.memeImage {
-  position: absolute;
+.meme-image {
   height: 100%;
+  position: absolute;
   width: 100%;
 }
