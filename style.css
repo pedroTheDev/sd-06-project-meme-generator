@@ -30,3 +30,31 @@ body {
 h1 {
   text-decoration: underline;
 }
+
+#water {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#fire {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#earth {
+  background-color: brown;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.borda {
+  clear: both;
+}
