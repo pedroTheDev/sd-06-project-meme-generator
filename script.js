@@ -1,7 +1,7 @@
 
 window.onload = function () {
   // Referencing elements
-  let inputTextElement = document.querySelector('#text-input');
+  const inputTextElement = document.querySelector('#text-input');
   const memeTextBox = document.querySelector('#meme-text');
   const inputImageElement = document.querySelector('#meme-insert');
   const memeImage = document.querySelector('#meme-image');
@@ -22,12 +22,12 @@ window.onload = function () {
   }
 
   // Events
-  inputTextElement.addEventListener('keyup', functionalities['addText']);
-  inputImageElement.addEventListener('change', functionalities['uploadImage']);
+  inputTextElement.addEventListener('keyup', functionalities.addText);
+  inputImageElement.addEventListener('change', functionalities.uploadImage);
   for (let i = 0; i < buttons.length; i += 1) {
     buttons[i].addEventListener('click', functionalities.changeStyle[buttons[i].id]);
   }
-  for (let i=0; i < preSetImages.length; i += 1) {
+  for (let i = 0; i < preSetImages.length; i += 1) {
     preSetImages[i].addEventListener('click', functionalities['uploadPreSetImage']);
   }
 }

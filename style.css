@@ -1,49 +1,48 @@
 
 .meme-image {
-    height: 400px;
-    width: 400px;
-    position: absolute;
-    object-fit: fill;
+  height: 400px;
+  object-fit: fill;
+  position: absolute;
+  width: 400px;
 }
 
 .meme-image-container {
-    border: solid black s1px;
-    background-color: white;
-    height: 400px;
-    width: 400px;
-    margin: 5%;
-    position: relative;
+  background-color: white;
+  border: solid black 1px;
+  height: 400px;
+  margin: 5%;
+  position: relative;
+  width: 400px;
 }
 
 .meme-text {
-    position: absolute;
-    z-index: 1;
-    text-shadow: 5px 5px 5px black;
-    font-size: 30px;
-    color: white;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  z-index: 1;
 }
 
 .fire {
-    background-color: red;
+  background-color: red;
 }
 
 .water {
-    background-color: blue;
+  background-color: blue;
 }
 
 .earth {
-    background-color: green;
+  background-color: green;
 }
 
 .thumbnails img {
-    width: 80px;
-    height: 80px;
-    border: solid black 1px;
+  border: solid black 1px;
+  height: 80px;
+  width: 80px;
 }
 
 .thumbnails {
-    height: 80px;
-    position: relative;
-    margin: 5px auto;
+  height: 80px;
+  margin: 5px auto;
+  position: relative;
 }
-
