@@ -6,10 +6,10 @@
     meme.addEventListener('change')   
 }*/
 let loadFile = function(event) {
-    let memeInsert = document.getElementById('meme-insert');
-    memeInsert.src = URL.createObjectURL(event.target.files[0]);
-    memeInsert.onload = function() {
-      URL.revokeObjectURL(memeInsert.src) 
+    let memeImage = document.getElementById('meme-image');
+    memeImage.src = URL.createObjectURL(event.target.files[0]);
+    memeImage.onload = function() {
+      URL.revokeObjectURL(memeImage.src) 
     }
   };
 function texto() {
