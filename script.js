@@ -22,7 +22,7 @@ window.onclick = function() {
     for (let i = 1; i < 5; i++){
         if(event.target.id === "meme-"+i) {
             const image = document.querySelector("#meme-image");
-            image.src = "./img/meme" + i + ".png";
+            image.src = "./imgs/meme" + i + ".png";
         }
 
     }    
