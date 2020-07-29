@@ -1,39 +1,73 @@
 
 
 .container {
-  border: 1px solid black;
   background-color: white;
-  position: relative;
+  border: 1px solid black;
   height: 400px;
-  width: 500px;
   padding: 15px;
+  position: relative;
+  width: 500px;
 }
 
 .meme_text {
-  position: absolute;
-  font-family: Verdana;
-  font-size: 30px;
-  top: 70%;
-  left: 10%;
-  max-width: 50%;
-  width: auto;
-  height: auto;
   color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  height: auto;
+  left: 20%;
+  max-width: 50%;
+  position: absolute;
   text-shadow: 5px 5px 5px black;
+  top: 70%;
+  width: auto;
 }
 
 .meme_image {
-  position: relative;
-  height: 400px;
-  width: 500px;
-  object-fit: fill;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
 }
 
 #fire, #water, #earth {
     border-radius: 15%;
 }
 
-.miniPic img{
-  height: 150px;
-  width: 150px
+.miniPic div{
+  border: 1px black solid;
+  float: left;
+  height: 45px;
+  margin-left: 1px;
+  width: 45px;
+
+}
+
+.first_pic {
+  background-image: url('./images/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.second_pic {
+  background-image: url('./images/2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.third_pic {
+  background-image: url('./images/3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.fourth_pic {
+  background-image: url('./images/4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
