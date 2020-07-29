@@ -22,7 +22,7 @@ function effectButtons() {
   const container = document.getElementById('meme-image-container');
   const fireButton = document.getElementById('fire');
   const waterButton = document.getElementById('water');
-  const eartButton = document.getElementById('eart');
+  const earthButton = document.getElementById('earth');
 
   fireButton.addEventListener('click', () => {
     container.style.border = 'red dashed 3px'
@@ -30,7 +30,7 @@ function effectButtons() {
   waterButton.addEventListener('click', () => {
     container.style.border = 'blue double 5px'
   });
-  eartButton.addEventListener('click', () => {
+  earthButton.addEventListener('click', () => {
     container.style.border = 'green groove 6px'
   });
 }
