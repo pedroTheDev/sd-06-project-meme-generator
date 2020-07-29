@@ -8,9 +8,9 @@ function changeText() {
 }
 textInput.addEventListener('keyup', changeText);
 
-loadFile = function changeImage (event) {
+const loadFile = function (event) {
   output.src = URL.createObjectURL(event.target.files[0]);
-  output.onload = function changeImage() {
-    URL.revokeObjectURL(output.src); // free memory
-  };
+  // output.onload = function () {
+  //   URL.revokeObjectURL(output.src); // free memory
+  // };
 };
