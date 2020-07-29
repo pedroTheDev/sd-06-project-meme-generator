@@ -14,9 +14,9 @@
   font-size: 30px;
   height: 60px;
   margin-top: 200px;
-  word-wrap: break-word;
   text-shadow: black 5px 5px 5px;
   width: 295px;
+  word-wrap: break-word;
 }
 
 img {
@@ -27,4 +27,21 @@ img {
 
 .image-container {
   border: 1px solid black;
+}
+
+.buttons {
+  margin-left: 10px;
+  margin-top: 340px;
+}
+
+.btn-fire {
+  background-color: red;
+}
+
+.btn-water {
+  background-color: blue;
+}
+
+.btn-earth {
+  background-color: green;
 }
