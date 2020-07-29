@@ -41,19 +41,19 @@ window.onload = function(){
 
 
     meme1.addEventListener("click", function(){
-        imageInside.src = "imgs/meme1.jpg"
+        imageInside.src = "imgs/meme1.png"
     })
 
     meme2.addEventListener("click", function(){
-        imageInside.src = "imgs/meme2.jpg"
+        imageInside.src = "imgs/meme2.png"
     })
 
     meme3.addEventListener("click", function(){
-        imageInside.src = "imgs/meme3.jpg"
+        imageInside.src = "imgs/meme3.png"
     })
 
     meme4.addEventListener("click", function(){
-        imageInside.src = "imgs/meme4.jpg"
+        imageInside.src = "imgs/meme4.png"
     })
 
 }
