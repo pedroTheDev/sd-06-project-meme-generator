@@ -10,6 +10,21 @@ body {
     font-size: 40px;
 }
 
+.fire {
+    background-color: red;
+    border: 3px dashed red;
+}
+    
+.water {
+    background-color: blue;
+    border: blue 5px double;
+}
+  
+.earth {
+    background-color: green;
+    border: groove green 6px;
+}
+
 #meme-text {
     font-size: 30px;
     color: rgb(255 , 255 , 255);

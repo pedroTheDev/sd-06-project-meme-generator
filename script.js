@@ -20,3 +20,21 @@ function displayImage(event) {
     memeImage.src = URL.createObjectURL(file);
 }
 inputImage.addEventListener("change", displayImage);
+
+//Botões estilização
+const btnFire = document.getElementById('fire');
+const btnWater = document.getElementById('water');
+const btnEarth = document.getElementById('earth');
+
+btnFire.addEventListener('click', () => {
+    memeImage.style.border = '3px dashed red';
+});
+  
+btnWater.addEventListener('click', () => {
+    memeImage.style.border = '5px double blue';
+});
+  
+btnEarth.addEventListener('click', () => {
+    memeImage.style.border = '6px groove green';
+});
+  
