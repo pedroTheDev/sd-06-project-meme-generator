@@ -32,16 +32,27 @@ body {
 }
 
 #fire {
+    text-shadow: 5px 5px 5px black;
+    color: white;
     border-radius: 50%;
     background-color: red;
 }
 
 #water {
+    text-shadow: 5px 5px 5px black;
+    color: white;
     border-radius: 50%;
     background-color: blue;
 }
 
 #earth {
+    text-shadow: 5px 5px 5px black;
+    color: white;
     border-radius: 50%;
     background-color: green;
+}
+#meme-1, #meme-2, #meme-3, #meme-4 {
+    
+    width: 100px;
+    height: 100px;
 }
