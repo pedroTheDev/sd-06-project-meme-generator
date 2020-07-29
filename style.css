@@ -60,3 +60,14 @@ button {
 .earth-b {
   background-color: green;
 }
+
+.meme-galery {
+  padding: 10px;
+}
+
+.meme-image {
+  display: inline-block;
+  height: 65px;
+  width: 60px;
+  margin: 5px;
+}
