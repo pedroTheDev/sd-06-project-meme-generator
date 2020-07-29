@@ -5,16 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MEME GENERATOR</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  
 </head>
 <body onload = "carregar()">
-    <h1>MEME GENERATOR</h1>
-    <p>Inserir texto do Meme  <input type="text" id="text-input" maxlength="60"></p>
-    <!-- <p>Inserir a Imagem <input type="file" name="img" id="meme-insert"> </p> -->
-    <input id="meme-insert" type="file" accept="image/*" name="img" onchange="loadFile(event)" >
-    <div id="meme-image-container" class="meme-image-container">
-      <div id="meme-text" class="meme-text"> O seu texto digitado vai Substituir este!</div>
-      <div id="meme-image" class="meme-image"><img id="output"/></div>
-    </div>
+
+  <header><h1>MEME GENERATOR</h1></header>
+
+  <section>
+    <p>Inserir texto do Meme: <input id="text-input" type="text" maxlength="60"></p>
+  
+    <p>Escolha a foto do seu meme: <input id="meme-insert" type="file" accept="image/*"  src="" ></p>
+    
+      <div id="meme-image-container" class="meme-image-container">
+     
+        <div id="meme-text" class="meme-text"> O seu texto digitado vai Substituir este!</div>
+     
+        <div id="meme-image" class="meme-image"><img id="output"/></div>
+   
+      </div>
+  </section>
+  <script src="script.js"></script>
 </body>
 </html>

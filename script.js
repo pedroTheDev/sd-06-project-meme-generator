@@ -1,29 +1,17 @@
-function carregar(){
-  var textInput = document.querySelector("#text-input");
-  var textInside = document.querySelector("#meme-text");
+var textInput = document.querySelector("#text-input");
+var textInside = document.querySelector("#meme-text");
+var imageInput = document.querySelector("#meme-insert");
+var imageInside = document.querySelector("#meme-image");
 
-  textInput.addEventListener("keyup", function(){
-      textInside.innerText = textInput.value;
-      textInside.className = "meme-text";
-  })
-
-  var imageInput = document.querySelector("#meme-insert");
-  var imageInside = document.querySelector("#meme-image");
-  imageInside.innerText = imageInput.value;
-  imageInside.innerText = document.querySelector("meme-image");
-
-    // var loadFile = function(event) {
-    // var output = document.getElementById('output');
-    // output.src = URL.createObjectURL(event.target.files[0]);
-    // output.onload = function() {
-    //   URL.revokeObjectURL(output.src)
-    // }
-
-    
-  // };
-
-
-  // imageInput.addEventListener("input", function(event){
-  // imageInside.src = URL.createObjectURL(event.target.files[0])
-  // })
+function changeText() {
+  textInside.innerText = textInput.value;
+  textInside.className = "meme-text";
 }
+textInput.addEventListener("keyup", changeText)
+
+function changeImage(){
+  imageInside.src = window.URL.createObjectURL(imageInput.files[0]);
+  // imageInside.innerText = imageInput.value;
+  // imageInside.innerText = document.querySelector("meme-image");
+}
+imageInput.addEventListener("change", changeImage);
