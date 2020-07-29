@@ -1,5 +1,6 @@
 function selectMemeImage(event) {
   document.getElementById('meme-image').src = event.target.src;
+  document.getElementById('text-input').value = '';
 }
 
 function createMemeText(event) {
@@ -12,6 +13,7 @@ function memeInsert(event) {
   output.onload = function () {
     URL.revokeObjectURL(output.src);
   };
+  document.getElementById('text-input').value = '';
 }
 
 function borderInsert(event) {
