@@ -9,9 +9,12 @@ function changeText() {
 }
 textInput.addEventListener("keyup", changeText)
 
-function changeImage(){
-  imageInside.src = window.URL.createObjectURL(imageInput.files[0]);
-  // imageInside.innerText = imageInput.value;
-  // imageInside.innerText = document.querySelector("meme-image");
-}
-imageInput.addEventListener("change", changeImage);
+
+var loadFile = function(event) {
+  var output = document.getElementById('meme-image');
+  output.src = URL.createObjectURL(event.target.files[0]);
+  output.onload = function() {
+    URL.revokeObjectURL(output.src) // free memory
+  }
+};
+

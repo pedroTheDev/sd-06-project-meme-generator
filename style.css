@@ -3,6 +3,8 @@ body {
 }
 
 .meme-image-container {
+  position: relative;
+  display: inline-block;
   background-color: white;
   border: 1px solid black;
   height: 400px;
@@ -11,18 +13,20 @@ body {
 }
 
 .meme-text {
+  position: absolute;
+  top: 290px;
+  font-size: 40px;
   color: white;
   font-size: 30px;
-  height: 398px;
+  height: 100%;
   text-align: center;
   text-shadow: 5px 5px 5px black;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   width: 100%;
   z-index: 1000;
 }
 
 .meme-image {
-  height: 398px;
-  position: relative;
-  width: 398px;
+  height: 100%;
+  width: 100%;
 }
