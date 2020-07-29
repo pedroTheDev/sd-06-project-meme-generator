@@ -12,15 +12,19 @@
   <header><h1>MEME GENERATOR</h1></header>
 
   <section>
-    <p>Inserir texto do Meme: <input id="text-input" type="text" maxlength="60"></p>
-
-    <p>Escolha a foto do seu meme: <input id="meme-insert" type="file" accept="image/*"  src="" onchange="loadFile(event)"></p>
+    <p>Inserir texto do Meme: </p>
+    <input id="text-input" type="text" maxlength="60">
+  </section>
+  <section>
+    <p>Escolha a foto do seu meme: </p>
+    <input id="meme-insert" type="file" accept="image/*"  src="" onchange="loadFile(event)">
+  </section>
 
       <div id="meme-image-container" class="meme-image-container">
 
       <div class="img"><img id="meme-image" class="meme-image"/></div>
 
-      <div id="meme-text" class="meme-text"> </div>
+      <div id="meme-text" class="meme-text"> O seu texto digitado vai Substituir este!</div>
 
       </div>
   </section>
