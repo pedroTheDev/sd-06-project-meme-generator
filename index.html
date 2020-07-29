@@ -4,36 +4,81 @@
     <title>Meme Generator</title>
     <meta charset="utf-8">
   </head>
-  <body>
-      <style>
+ <style>
 
-          #meme-imag-container {
+div {
+  width: 400px;
+  height: 400px;
+    background: rgb(255,255,255);
+    border: 1px solid rgb(0,0,0);
+    margin: auto;
+    text-align: center;
+}
 
-              background-color: rgb(255,255,255);
-              border: 1px solid rgb(0,0,0);
-          }
-          
-          #meme-text {
-              position : absolute;
-              font-size: 30px;
-              color: rgb(255,255,255);
-              text-shadow: rgb(0,0,0) 5px 5px 5px;
-          }
+   p  {
+    position : absolute;
+    font-size: 30px;
+    color: rgb(255,255,255);
+    text-shadow: rgb(0,0,0) 5px 5px 5px;
+    text-align: center;
+}  
 
-      </style>
+img{
+    width: inherit;
+    height: inherit;
+}
+ 
+h1{
+  text-align: center;
+}
+ </style>
+
+  <body>  
+    <section>
       <h1>Meme Generator</h1>
 
       <div id="meme-image-container">
-     <p id="meme-text"> </p> 
-     <img src="" id="meme-image">
+     <p id="meme-text"> </p>
+     <img id="meme-image">
+     </section>
+  
       </div>
-      
-      <form>
           <label for="text-input">Acrescente seu texto:</label><br>
         <input type="text" id="text-input" name="text-input" maxlength="60"><br>
+        <br>
         <label>baixe aqui sua imagem!</label><br>
-        <input id="meme-insert" type="file" name=""><br>
-      </form>
+        <input type="file" id="meme-insert" visibility="hidden"><br>
+    </section>
+
+      <script>
+let insiraSeuTexto = document.getElementById("text-imput");
+let insiraSuaimagem = document.getElementById("meme-insert");
+let apareceTextonaImagem = document.getElementById("meme-text");
+let carregaMeMeimagem = document.getElementById("meme-image");
+let imagemNaCaixa = document.getElementById("meme-image-container");
+
+insiraSeuTexto.addEventListener("evento",function() {
+
+} ) // imput/change
+
+insiraSuaimagem.addEventListener("change",function(){
+
+}) // imput/change
+
+apareceTextonaImagem.addEventListener("evento",function(){
+
+}) 
+
+carregaMeMeimagem.addEventListener("evento",function(){
+
+})
+
+imagemNaCaixa.addEventListener("evento",function(){
+
+})  
+
+
+      </script>
 
   </body>
 </html>
