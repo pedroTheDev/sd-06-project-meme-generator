@@ -56,17 +56,17 @@
     border-width: 1px;
 }
 
-#botaoAzul {
+#btnWater {
     background-color: blue;
     color: white;
 }
 
-#botaoVermelho {
+#btnFire {
     background-color: red;
     color: white;
 }
 
-#botaoVerde {
+#btnEarth {
     background-color: green;
     color: white;
 }

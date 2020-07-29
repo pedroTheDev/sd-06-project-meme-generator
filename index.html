@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1366px, initial-scale=1.0">
+    <meta name="viewport" content="width=1366, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Meme Generator - João Andrade Jr</title>
 </head>
@@ -14,19 +14,15 @@
         </section>
         <section>
             <label>Informe o texto: </label><input id="text-input" type="text" maxlength="60"><br><br>
-            <label>Selecione a foto: </label><input id="meme-insert" type="file" accept="image/*"><br><br><br>
+            <label>Selecione a foto: </label><input id="meme-insert" type="file" accept=".png,.jpg"><br><br><br>
             <div id="meme-image-container">
                 <img id="meme-image" src="foto.jpg">
-                <div id="meme-text">
-                    <div>
-                       Aqui ficará seu texto...
-                    </div>
-                </div>
+                <p id="meme-text"></p>
             </div>
         </section>
         <section>
             <div>
-                <p>Estilos de bordas <input id="botaoAzul" class="padraoBotao" type="button" value="Azul"><input id="botaoVermelho" class="padraoBotao" type="button" value="Vermelho"><input id="botaoVerde" class="padraoBotao" type="button" value="Verde"></p>
+                <p>Estilos de bordas <input id="btnWater" class="padraoBotao" type="button" value="Azul"><input id="btnFire" class="padraoBotao" type="button" value="Vermelho"><input id="btnEarth" class="padraoBotao" type="button" value="Verde"></p>
             </div>
             <div>
                 <p>Imagens sugeridas. <em>*Imagens retiradas da Internet</em></p>
