@@ -23,12 +23,11 @@ article{
   background-color: white;
   border: 1px solid black;
   height: 400px;
-  max-width: 500px;
+  width: 400px;
   display: inline-block;
 }
 
 #meme-image{
-  position: relative;
   height: 100%;
   width: 100%;
 }
