@@ -1,12 +1,12 @@
 body {
-    background-color: lightgrey;
+    background-color: rgb(201, 247, 174);
 }
 
 #size-page {
     width: 800px;
     margin-left: 300px;
     margin-bottom: 50px;
-    background-color: rgb(124, 124, 124);
+    background-color: rgb(63, 87, 54);
     padding-left: 50px;
     padding-right: 60px;
     border: 3px solid black;
