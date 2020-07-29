@@ -15,3 +15,15 @@ const loadFile = function (event) {
     URL.revokeObjectURL(output.src);
   };
 };
+
+function botaoFire() {  
+  memeImageContainer.style.border = '3px dashed red';
+};
+
+function botaoWater() {  
+  memeImageContainer.style.border = '5px double blue';
+};
+
+function botaoEarth() {  
+  memeImageContainer.style.border = '6px groove green';
+};

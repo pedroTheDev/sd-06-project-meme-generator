@@ -22,3 +22,12 @@
   position: absolute;
   width: 100%;
 }
+
+.botaoCustomizado {
+  font-family: monospace;
+}
+
+.fire, .water, .earth {
+  width: 100px;
+  height: 50px;
+}
