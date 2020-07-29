@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MEME GENERATOR</title>
   <link rel="stylesheet" href="style.css">
-  
+ 
 </head>
 <body onload = "carregar()">
 
@@ -13,15 +13,15 @@
 
   <section>
     <p>Inserir texto do Meme: <input id="text-input" type="text" maxlength="60"></p>
-  
+
     <p>Escolha a foto do seu meme: <input id="meme-insert" type="file" accept="image/*"  src="" onchange="loadFile(event)"></p>
-    
+
       <div id="meme-image-container" class="container">
-     
+
       <img id="meme-image" class="meme-image"/>
 
       <div id="meme-text" class="meme-text"> O seu texto digitado vai Substituir este!</div>
-               
+
       </div>
   </section>
   <script src="script.js"></script>
