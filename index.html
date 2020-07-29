@@ -14,7 +14,7 @@
         </section>
         <section>
             <label>Informe o texto: </label><input id="text-input" type="text" maxlength="60"><br><br>
-            <label>Selecione a foto: </label>><input id="meme-insert" type="file" accept="image/*"><br><br><br>
+            <label>Selecione a foto: </label><input id="meme-insert" type="file" accept="image/*"><br><br><br>
             <div id="meme-image-container">
                 <img id="meme-image" src="foto.jpg">
                 <div id="meme-text">
@@ -26,10 +26,16 @@
         </section>
         <section>
             <div>
-                <p>Estilos de bordas <input id="bordaAzul" type="button" value="Azul"><input id="bordaVermelha" type="button" value="Vermelho"><input id="bordaVerde" type="button" value="Verde"></p>
+                <p>Estilos de bordas <input id="botaoAzul" class="padraoBotao" type="button" value="Azul"><input id="botaoVermelho" class="padraoBotao" type="button" value="Vermelho"><input id="botaoVerde" class="padraoBotao" type="button" value="Verde"></p>
             </div>
             <div>
-                <p>Memes sugeridos. (Imagens retiradas da Internet)</p>
+                <p>Imagens sugeridas. <em>*Imagens retiradas da Internet</em></p>
+                <div>
+                    <img id="cachorroPreguica" class="padraoSugeridos" src="imagens/cachorroPreguica.jpeg">
+                    <img id="gatoSelfie" class="padraoSugeridos" src="imagens/gatoSelfie.jpeg">
+                    <img id="esquilo" class="padraoSugeridos" src="imagens/esquilo.jpg">
+                    <img id="gatoBravo" class="padraoSugeridos" src="imagens/gatoCaraFeia.jpeg">
+                </div>
             </div>
         </section>
     </section>

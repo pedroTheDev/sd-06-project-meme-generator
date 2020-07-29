@@ -1,3 +1,17 @@
+.padraoBotao {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.padraoSugeridos {
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+}
+
 #meme-image-container {
     background-color: white;
     border-color: black;
@@ -14,7 +28,7 @@
 
 #meme-text {
     text-shadow: black 5px 5px 5px;
-    font-family: sans-serif;
+    font-family: 'Lucida Grande';
     font-size: 30px;
     font-style: bold;
     color: white;
@@ -22,4 +36,42 @@
 
 #frase {
     position: absolute;
+}
+
+#bordaAzul {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: blue;
+}
+
+#bordaVermelha {
+    border-style: double;
+    border-width: 1px;
+    border-color: red;
+}
+
+#bordaVerde {
+    border-style: ridge;
+    border-width: 1px;
+    border-color: green;
+}
+
+#botaoAzul {
+    background-color: blue;
+    color: white;
+    
+}
+
+#botaoVermelho {
+    background-color: red;
+    color: white;
+}
+
+#botaoVerde {
+    background-color: green;
+    color: white;
+}
+
+#cachorroPreguica {
+    margin-left: 0;
 }
