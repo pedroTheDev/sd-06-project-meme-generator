@@ -3,12 +3,12 @@ const outputTexto = document.querySelector('#meme-text');
 const inputImg = document.querySelector('#meme-insert');
 const imgView = document.querySelector('#meme-image');
 
-function texto() {
+function escreveTexto() {
   outputTexto.innerHTML = inputTexto.value;
 }
-inputTexto.addEventListener('keyup', texto);
+inputTexto.addEventListener('keyup', escreveTexto);
 
-function img() {
+function selecionaImg() {
   imgView.src = window.URL.createObjectURL(inputImg.files[0]);
 }
-inputImg.addEventListener('change', img);
+inputImg.addEventListener('change', selecionaImg);
