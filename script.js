@@ -17,13 +17,13 @@ photoInsert.addEventListener('change', function() {
 })
 
 fire.addEventListener('click', function () {
-  imgContainer.style.border = '3px dashed crimson'
+  imgContainer.style.border = '3px dashed red'
 })
 
 water.addEventListener('click', function () {
-  imgContainer.style.border = '5px double royalblue'
+  imgContainer.style.border = '5px double blue'
 })
 
 earth.addEventListener('click', function () {
-  imgContainer.style.border = '6px groove seagreen'
+  imgContainer.style.border = '6px groove green'
 })

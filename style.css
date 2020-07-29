@@ -52,14 +52,14 @@ aside{
   left: 500px;
 }
 #fire{
-  background-color: crimson;
+  background-color: red;
   padding: 5px;
 }
 #water{
-  background-color: royalblue;
+  background-color: blue;
   padding: 5px;
 }
 #earth{
-  background-color: seagreen;
+  background-color: green;
   padding: 5px;
 }
