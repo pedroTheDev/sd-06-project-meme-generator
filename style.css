@@ -5,26 +5,26 @@ body {
 }
 
 #meme-image-container {
-    position: relative;
     background-color: white;
-    width: 450px;
-    height: 450px;
     border: solid 1px black;
+    height: 450px;
+    position: relative;
+    width: 450px;
 }
 
 #meme-text {
+    bottom: 50px;
+    color: white;
+    font-size: 30px;
+    overflow-wrap: break-word;
     position: absolute;
     text-shadow: 5px 5px 5px black;
-    font-size: 30px;
-    color: white;
-    bottom: 50px;
     width: 100%;
-    overflow-wrap: break-word;
 }
 
 #meme-image {
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
 #border-button {
@@ -32,27 +32,27 @@ body {
 }
 
 #fire {
-    text-shadow: 5px 5px 5px black;
-    color: white;
-    border-radius: 50%;
     background-color: red;
+    border-radius: 50%;
+    color: white;
+    text-shadow: 5px 5px 5px black;
 }
 
 #water {
-    text-shadow: 5px 5px 5px black;
-    color: white;
-    border-radius: 50%;
     background-color: blue;
+    border-radius: 50%;
+    color: white;
+    text-shadow: 5px 5px 5px black;
 }
 
 #earth {
-    text-shadow: 5px 5px 5px black;
-    color: white;
-    border-radius: 50%;
     background-color: green;
+    border-radius: 50%;
+    color: white;
+    text-shadow: 5px 5px 5px black;
 }
-#meme-1, #meme-2, #meme-3, #meme-4 {
-    
-    width: 100px;
+
+#meme-1 , #meme-2 , #meme-3 , #meme-4 {
     height: 100px;
+    width: 100px;
 }
