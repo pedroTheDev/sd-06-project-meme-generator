@@ -20,11 +20,12 @@ window.onclick = function () {
     container.style.border = 'groove 6px green';
   }
 };
-window.onclick = function () {
+const imagens = document.querySelector('.imagens');
+imagens.addEventListener('click', function() {
   for (let i = 1; i < 5; i += 1) {
     if (event.target.id === `meme-${i}`) {
       const image = document.querySelector('#meme-image');
       image.src = `./imgs/meme${i}.png`;
     }
   }
-};
+});
