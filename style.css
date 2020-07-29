@@ -45,3 +45,14 @@ img {
 .btn-earth {
   background-color: green;
 }
+
+.pre-made-container {
+  width: 500px;
+}
+
+.pre-made-memes {
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  width: 100px;
+}
