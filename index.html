@@ -1,37 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link></link>
     <title>Meme Generator</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
   </head>
- <style>
-
-#meme-image-container {
-  width: 400px;
-  height: 400px;
-    background: rgb(255,255,255);
-    border: 1px solid rgb(0,0,0);
-    margin: auto;
-    text-align: center;
-}
-
-   #meme-test {
-    position : absolute;
-    font-size: 30px;
-    color: rgb(255,255,255);
-    text-shadow: rgb(0,0,0) 5px 5px 5px;
-    text-align: center;
-}  
-
-img{
-    width: inherit;
-    height: inherit;
-}
- 
-h1{
-  text-align: center;
-}
- </style>
 
   <body>  
     <section>
@@ -47,38 +21,9 @@ h1{
         <input type="text" id="text-input" name="text-input" maxlength="60"><br>
         <br>
         <label>baixe aqui sua imagem!</label><br>
-        <input type="file" id="meme-insert" visibility="hidden"><br>
-    </section>
-
-      <script>
-let insiraSeuTexto = document.getElementById("text-imput");
-let insiraSuaimagem = document.getElementById("meme-insert");
-let apareceTextonaImagem = document.getElementById("meme-text");
-let carregaMeMeimagem = document.getElementById("meme-image");
-let imagemNaCaixa = document.getElementById("meme-image-container");
-
-insiraSeuTexto.addEventListener("evento",function() {
-
-} ) // imput/change
-
-insiraSuaimagem.addEventListener("change",function(){
-
-}) // imput/change
-
-apareceTextonaImagem.addEventListener("evento",function(){
-
-}) 
-
-carregaMeMeimagem.addEventListener("evento",function(){
-
-})
-
-imagemNaCaixa.addEventListener("evento",function(){
-
-})  
-
-
-      </script>
+        <input type="file" id="meme-insert" accept="image/*" onchange="insiraSuaimagem(change)"><br>
+    </section>  
+      <script src="scrip.js"></script>
 
   </body>
 </html>
