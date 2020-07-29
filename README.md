@@ -207,6 +207,8 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Para fazer este projeto você deverá atribuir ao texto que vai sobre a imagem o estilo `position: absolute;`. Leia mais sobre ele [aqui](https://www.w3schools.com/css/css_positioning.asp).
 
+- Para que um elemento filho fique posicionado na frente de um elemento `container` você pode deve utilizar `position: relative;` na estilização do elemento `container` e `position: absolute` no elemento filho. [Esse post pode ajudar a entender a solução.](https://dzone.com/articles/css-position-relative-vs-position-absolute)
+
 - Para receber os dados da **imagem** e do **texto** do meme, é preciso utilizar a tag ["input"](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/input). Consulte a documentação sobre os tipo de input `text` e `file`.
 
 - Para mostrar a imagem selecionada a partir do _input_ no elemento dentro do container, você precisará alterar a propriedade `src` desse elemento, passando para ele o caminho da imagem que foi carregada no _input_. [Essa resposta pode te ajudar a encontrar uma solução para esse enigma](https://stackoverflow.com/a/27165977).
