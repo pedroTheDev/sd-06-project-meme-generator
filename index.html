@@ -8,24 +8,20 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 
   <title>Projeto Meme Generatos</title>
-
-  </head>
+</head>
 
 <body>
   <header class="cabecalho" id="cabecalho">
     <h1 id="title">MEME GENERATOR</h1>
   </header>
-    
-    
-      <div>
-        <p><input placeholder="Digite seu texto aqui" maxlength="60" id="text-input"/></p>
-        <p>Escolha um arquivo: <input type="file" accept="image/*" onchange="memeInsert(event)" id="meme-insert"></p>
-      </div>
-    
-      <div id="meme-image-container">
-        <img id="meme-image"/>
-          <p id="meme-text"></p>
-      <div> <!--meme-image-container-->
+    <div>
+      <p>Frase:<input placeholder="Digite seu texto aqui" maxlength="60" id="text-input"/></p>
+      <p>Escolha um arquivo: <input type="file" accept="image/*" onchange="memeInsert(event)" id="meme-insert"></p>
+    </div>
+    <div id="meme-image-container">
+      <img id="meme-image"/>
+      <p id="meme-text"></p>
+    <div> <!--meme-image-container-->
   <script>
     <script src="script.js"></script>
   </script>
