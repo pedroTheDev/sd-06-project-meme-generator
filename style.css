@@ -9,11 +9,12 @@ body {
   background-color: white;
   border: 1px black solid;
   float: left;
-  height: 405px;
+  height: 400px;
   margin: 0 auto;
   padding: 1px;
   position: relative;
-  width: 505px;
+  width: 500px;
+  padding: 0;
 }
 
 #meme-image {
