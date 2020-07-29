@@ -36,7 +36,7 @@ function clickSuggestedMemes() {
   const meme2 = document.getElementById('meme-2');
   const meme3 = document.getElementById('meme-3');
   const meme4 = document.getElementById('meme-4');
-  const mainMeme = document.getElementById('placeholder');
+  const mainMeme = document.getElementById('meme-image');
   const memeCollection = [meme1, meme2, meme3, meme4];
 
   memeCollection.forEach((img) => {
@@ -53,7 +53,7 @@ function clickSuggestedMemes() {
 
 function receiveImg() {
   const uploadFile = document.getElementById('meme-insert');
-  const mainMeme = document.getElementById('placeholder');
+  const mainMeme = document.getElementById('meme-image');
 
   uploadFile.addEventListener('change', (event) => {
     mainMeme.src = URL.createObjectURL(event.target.files[0]);
@@ -77,8 +77,9 @@ function addText() {
   });
 
   inputText.addEventListener('input', (event) => {
-    // const memeText = document.getElementById('meme-text');
-    // memeText.innerHTML = event.target.value;
+    const memeText = document.getElementById('meme-text');
+    memeText.innerHTML = event.target.value;
+    memeText.style.display = 'none';
     drawImg(event.target.value, 'top')
   })
 }
@@ -118,10 +119,10 @@ function handleText(canvas, ctx, text, pos) {
 }
 
 function drawImg(text = "", pos) {
-  const canvas = document.getElementById('meme-image');
+  const canvas = document.getElementById('placeholder');
   const ctx = canvas.getContext('2d');
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  const img = document.getElementById('placeholder');
+  const img = document.getElementById('meme-image');
   ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
   ctx.font = 'bold 50px Rowdies, cursive';
   ctx.fillStyle = "white";
