@@ -15,12 +15,12 @@
     color: white;
     text-shadow: black 5px 5px 5px;
     position: absolute;
-    overflow-wrap: break-word;
+
+
 }
 #meme-image{
     width: 400px;
     height: 400px;
     position: absolute;
-   
 }
 

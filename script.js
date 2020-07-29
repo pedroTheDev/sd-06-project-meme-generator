@@ -6,7 +6,7 @@ window.onload=function(){
     const memeImg = document.getElementById("meme-image");
 
     textoEscrito.addEventListener('input', function() {
-        textoMeme.innerHTML = textoEscrito.value; 
+        textoMeme.innerHTML = textoEscrito.value
     })
 
     memeInsert.addEventListener('change', function(event) {
