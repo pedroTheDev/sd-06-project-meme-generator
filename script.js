@@ -16,14 +16,14 @@ const loadFile = function (event) {
   };
 };
 
-function botaoFire() {  
+function botaoFire () {  
   memeImageContainer.style.border = '3px dashed red';
-};
+}
 
-function botaoWater() {  
+function botaoWater () {  
   memeImageContainer.style.border = '5px double blue';
-};
+}
 
-function botaoEarth() {  
+function botaoEarth () {  
   memeImageContainer.style.border = '6px groove green';
-};
+}
