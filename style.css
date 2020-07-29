@@ -1,37 +1,37 @@
 .padraoBotao {
-    width: 100px;
-    height: 30px;
-    font-size: 20px;
-    margin: 5px;
     border-radius: 10px;
+    font-size: 20px;
+    height: 30px;
+    margin: 5px;
+    width: 100px;
 }
 
 .padraoSugeridos {
-    width: 100px;
     height: 70px;
     margin: 10px;
+    width: 100px;
 }
 
 #meme-image-container {
     background-color: white;
     border-color: black;
-    width: 500px;
-    height: 500px;
     border-style: solid;
     border-width: 1px;
+    height: 500px;
+    width: 500px;
 }
 
 #meme-image {
-    max-width: 500px;
     max-height: 500px;
+    max-width: 500px;
 }
 
 #meme-text {
-    text-shadow: black 5px 5px 5px;
-    font-family: 'Lucida Grande';
-    font-size: 30px;
-    font-style: bold;
     color: white;
+    font-family: "Lucida Grande";
+    font-size: 30px;
+    font-style: oblique;
+    text-shadow: black 5px 5px 5px;
 }
 
 #frase {
@@ -39,27 +39,26 @@
 }
 
 #bordaAzul {
+    border-color: blue;
     border-style: dotted;
     border-width: 1px;
-    border-color: blue;
 }
 
 #bordaVermelha {
+    border-color: red;
     border-style: double;
     border-width: 1px;
-    border-color: red;
 }
 
 #bordaVerde {
+    border-color: green;
     border-style: ridge;
     border-width: 1px;
-    border-color: green;
 }
 
 #botaoAzul {
     background-color: blue;
     color: white;
-    
 }
 
 #botaoVermelho {
