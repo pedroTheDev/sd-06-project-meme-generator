@@ -24,7 +24,7 @@ body {
 #meme-image-container {
   background-color: white;
   border: 1px black solid;
-  float: left;
+  position: absolute;
   height: 400px;
   margin-left: 10px;
   width: 500px;
@@ -32,10 +32,10 @@ body {
 }
 
 #meme-image {
-  height: 100%;
-  margin: 0;
+  height: 398px;
+  margin: 1px;
   padding: 0;
-  width: 100%;
+  width: 498px;
   z-index: 0;
 }
 
@@ -43,11 +43,11 @@ body {
   bottom: 3px;
   color: white;
   font-size: 30px;
-  left: 30px;
+  left: 20px;
   padding: 2px 4px;
   position: absolute;
   text-align: center;
-  top: 350px;
+  top: 250px;
   text-shadow: 5px 5px 5px black;
   width: 450px;
   height: 100px;
