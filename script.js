@@ -63,3 +63,4 @@ window.onload = function () {
     picImg.style.backgroundImage = "url('./images/4.jpg')"
   });
 }
+
