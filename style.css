@@ -21,7 +21,7 @@ body {
   width: 500px;
 }
 
-#meme-image-container {
+.memeImageContainer {
   background-color: white;
   border: 1px black solid;
   position: absolute;
@@ -31,7 +31,7 @@ body {
   padding: 0;
 }
 
-#meme-image {
+.memeImage {
   height: 398px;
   margin: 1px;
   padding: 0;
