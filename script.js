@@ -1,6 +1,6 @@
 
 let insiraSeuTexto = document.getElementById("text-imput");
-let insiraSuaimagem = document.getElementById("meme-insert");
+let insiraSuaimagem = document.getElementById("meme-insert");   
 let apareceTextonaImagem = document.getElementById("meme-text");
 let carregaMeMeimagem = document.getElementById("meme-image");
 let imagemNaCaixa = document.getElementById("meme-image-container");
@@ -10,6 +10,7 @@ let imagemNaCaixa = document.getElementById("meme-image-container");
 insiraSeuTexto.addEventListener("input",function(){
 apareceTextonaImagem.innerText = insiraSeuTexto.value;
 }); 
+
 
 insiraSuaimagem.addEventListener("change",function(){
 carregaMeMeimagem.src = URL.createObjectURL(event.target.files[0]);

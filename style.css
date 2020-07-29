@@ -12,7 +12,7 @@
       position : absolute;
       font-size: 30px;
       color: rgb(255,255,255);
-      text-shadow: rgb(0,0,0) 5px 5px 5px;
+      text-shadow: rgb(0, 0, 0) 5px 5px 5px;
       text-align: center;
   }  
   
@@ -23,4 +23,5 @@
    
   h1{
     text-align: center;
+    color: lawngreen;
   }
