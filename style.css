@@ -16,7 +16,6 @@
   align-self: flex-end;
   color: white;
   font-size: 30px;
-  height: min-content;
   position: absolute;
   text-shadow: 5px 5px 5px black;
   width: 50vw;
@@ -31,13 +30,13 @@ img {
 }
 
 .fire {
-  border: 3px dashed red;
+  border: 3px dashed rgb(255, 0, 0);
 }
 
 .water {
-  border: 5px double blue;
+  border: 5px double rgb(0, 0, 255);
 }
 
 .earth {
-  border: 6px groove green;
+  border: 6px groove rgb(0, 128, 0);
 }
