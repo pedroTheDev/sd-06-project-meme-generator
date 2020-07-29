@@ -5,9 +5,16 @@ inputText.addEventListener('keyup', function () {
   memeText.innerHTML = inputText.value;
 });
 
-const memeInsert = document.querySelector('#meme-insert');
-const memeImg = document.querySelector('#meme-image');
 
-memeInsert.addEventListener('change', function(event){
-  memeImg.src = URL.createObjectURL(event.target.files[0]);
-});
+const memeImage = document.querySelector('.meme-image');
+const uploadImage = document.querySelector('#meme-insert');
+
+
+function displayImage(event) {
+  let file = event.target.files[0];
+  memeImage.src = URL.createObjectURL(file);
+  memeImage.onload = function() {
+    URL.revokeObjectURL(memeImage.src);
+  }
+}
+uploadImage.addEventListener('change', displayImage);
