@@ -15,4 +15,22 @@ window.onload = function() {
   memeIsert.addEventListener('change', function(event){
     memeImg.src = URL.createObjectURL(event.target.files[0]);
   });
+
+  let fireButton = document.querySelector('#fire');
+  fireButton.addEventListener('click', function(){
+    let container = document.querySelector('.container');
+    container.style.border = "3px dashed red";
+  });
+
+  let waterButton = document.querySelector('#water');
+  waterButton.addEventListener('click', function(){
+    let container = document.querySelector('.container');
+    container.style.border = "5px double blue";
+  });
+
+  let earthButton = document.querySelector('#earth');
+  earthButton.addEventListener('click', function(){
+    let container = document.querySelector('.container');
+    container.style.border = "6px groove green";
+  })
 }
