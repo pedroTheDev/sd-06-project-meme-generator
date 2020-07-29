@@ -19,6 +19,8 @@ window.onclick = function () {
   if (event.target.id === 'earth') {
     container.style.border = 'groove 6px green';
   }
+};
+window.onclick = function () {
   for (let i = 1; i < 5; i += 1) {
     if (event.target.id === `meme-${i}`) {
       const image = document.querySelector('#meme-image');
