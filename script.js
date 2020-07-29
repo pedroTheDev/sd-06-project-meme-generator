@@ -6,11 +6,11 @@ function changeText() {
   textInside.innerText = textInput.value;
   textInside.className = 'meme-text';
 }
-textInput.addEventListener('keyup', changeText)
+textInput.addEventListener('keyup', changeText);
 
-let loadFile = function (event) {
+loadFile = function changeImage (event) {
   output.src = URL.createObjectURL(event.target.files[0]);
-  output.onload = function () {
+  output.onload = function changeImage() {
     URL.revokeObjectURL(output.src); // free memory
   };
 };

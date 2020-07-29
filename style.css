@@ -2,12 +2,17 @@ body {
   background-color: rgb( 154 , 185 , 211 );
 }
 
-.container {
+.meme-image-container {
   background-color: white;
   border: 1px solid black;
   height: 400px;
   position: relative;
   width: 400px;
+}
+
+.img {
+  height: inherit;
+  width: inherit;
 }
 
 .meme-text {
