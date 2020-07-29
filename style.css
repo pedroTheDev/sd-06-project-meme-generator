@@ -1,17 +1,20 @@
 #meme-image-container {
   background-color: white;
-  border: 1px solid rgb(0 , 0 , 0);
+  border: 1px solid black;
   height: 700px;
   margin: 20px;
   width: 500px;
 }
 
 #meme-text {
-  color: rgb(255 , 255 , 255);
+  color: white;
   font-size: 30px;
   position: absolute;
-  text-shadow: 5px 5px 5px rgb(0 , 0 , 0);
+  text-shadow: 5px 5px 5px black;
   width: 450px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  text-align: center;
 }
 
 #meme-image {
