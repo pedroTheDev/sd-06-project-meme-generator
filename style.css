@@ -26,3 +26,22 @@ body {
     width: 100%;
     height: 100%;
 }
+
+#border-button {
+    padding-top: 15px;
+}
+
+#fire {
+    border-radius: 50%;
+    background-color: red;
+}
+
+#water {
+    border-radius: 50%;
+    background-color: blue;
+}
+
+#earth {
+    border-radius: 50%;
+    background-color: green;
+}
