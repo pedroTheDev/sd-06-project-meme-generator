@@ -37,7 +37,7 @@ function effectButtons() {
 
 function memeFromPreview() {
   const meme = document.querySelector('#meme-image')
-  const memePreview = document.querySelectorAll('.preview-images ');
+  const memePreview = document.querySelectorAll('.preview-images');
   for (let i = 0; i < memePreview.length; i += 1) {
     let image = memePreview[i];
     image.addEventListener('click', () => {
