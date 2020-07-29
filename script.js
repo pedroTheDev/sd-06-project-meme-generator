@@ -2,12 +2,12 @@ const textInput = document.querySelector('#text-input');
 textInput.addEventListener('keyup', function () {
   const text = document.querySelector('#meme-text');
   text.innerHTML = textInput.value;
-})
+});
 const imageInput = document.querySelector('#meme-insert');
 imageInput.addEventListener('change', function () {
   const image = document.querySelector('#meme-image');
   image.src = imageInput.files[0].name;
-})
+});
 window.onclick = function () {
   const container = document.querySelector('#meme-image-container');
   if (event.target.id === 'fire') {
@@ -19,10 +19,10 @@ window.onclick = function () {
   if (event.target.id === 'earth') {
     container.style.border = 'groove 6px green';
   }
-  for (let i = 1; i < 5; i++) {
-    if (event.target.id === 'meme-' + i) {
+  for (let i = 1; i < 5; i += 1) {
+    if (event.target.id === `meme-${i}`) {
       const image = document.querySelector('#meme-image');
       image.src = './imgs/meme' + i + '.png';
     }
   }
-}
+};

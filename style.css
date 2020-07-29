@@ -2,6 +2,7 @@ main {
     display: block;
     height: 100%;
 }
+
 .meme-image-container {
     background-color: white;
     border: solid 1px black;
@@ -11,32 +12,40 @@ main {
     position: absolute;
     width: 512px;
 }
+
 .meme-text {
     position: absolute;
 }
-p{
+
+p {
     color: white;
     font-size: 30px;
     position: absolute;
     text-shadow: 5px 5px 5px black;
 }
-.meme-image{
+
+.meme-image {
     height: 512px;
     width: 512px;
 }
-button{
-    height: 60px;
-    width: 20px;
+
+button {
+    height: 20px;
+    width: 60px;
 }
-.fire{
+
+.fire {
     background-color: red;
 }
-.earth{
+
+.earth {
     background-color: green;
 }
-.water{
+
+.water {
     background-color: blue;
 }
-img{
+
+img {
     border: solid 1px black;
 }
