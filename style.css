@@ -43,10 +43,13 @@ body {
   bottom: 3px;
   color: white;
   font-size: 30px;
-  left: 4px;
+  left: 30px;
   padding: 2px 4px;
   position: absolute;
+  text-align: center;
+  top: 360px;
   text-shadow: 5px 5px 5px black;
+  width: 380px;
   z-index: 1;
 }
 
@@ -75,4 +78,13 @@ body {
   margin-left: 10px;
 
   
+}
+
+#images {
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.preview-images {
+  width: 120px;
 }
