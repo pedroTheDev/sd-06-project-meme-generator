@@ -7,13 +7,14 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 </head>
-<body>
-  <h1>MEME GENERATOR</h1>
-  <p>Inserir texto do Meme  <input type="text" id="text-input" maxlength="60"></p>
-  <p>Inserir a Imagem <input type="file" name="img" id="meme-insert"> </p>
-  <div id="meme-image-container">
-    <div id="meme-text"> o texto digitado vai Substituir este!</div>
-    <div id="meme-image"></div>
-  </div>
- </body>
+<body onload = "carregar()">
+    <h1>MEME GENERATOR</h1>
+    <p>Inserir texto do Meme  <input type="text" id="text-input" maxlength="60"></p>
+    <!-- <p>Inserir a Imagem <input type="file" name="img" id="meme-insert"> </p> -->
+    <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)" >
+    <div id="meme-image-container" class="meme-image-container">
+      <div id="meme-text" class="meme-text"> O seu texto digitado vai Substituir este!</div>
+      <div id="meme-image" class="meme-image"><img id="output"/></div>
+    </div>
+</body>
 </html>
