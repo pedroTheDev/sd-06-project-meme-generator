@@ -18,5 +18,12 @@ window.onclick = function() {
     }
     if(event.target.id === "earth") {
         container.style.border = "groove 6px green";
+    }
+    for (let i = 1; i < 5; i++){
+        if(event.target.id === "meme-"+i) {
+            const image = document.querySelector("#meme-image");
+            image.src = "meme" + i + ".png";
+        }
+
     }    
 }

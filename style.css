@@ -22,7 +22,6 @@ p{
 }
 #meme-image{
     width: 512px;
-    height: 512px;
 }
 button{
     width: "20px";
@@ -36,4 +35,7 @@ button{
 }
 #water{
     background-color: blue;
+}
+img{
+    border: solid 1px black;
 }
