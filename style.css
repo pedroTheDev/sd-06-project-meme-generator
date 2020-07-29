@@ -3,9 +3,7 @@ main {
     display: block;
 }
 #meme-image-container {
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
+    border: solid 1px black;
     width: 512px;
     height: 512px;
     background-color: white;
@@ -25,4 +23,17 @@ p{
 #meme-image{
     width: 512px;
     height: 512px;
+}
+button{
+    width: "20px";
+    height: "60px";
+}
+#fire{
+    background-color: red;
+}
+#earth{
+    background-color: green;
+}
+#water{
+    background-color: blue;
 }
