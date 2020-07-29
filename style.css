@@ -1,8 +1,24 @@
 body {
-  background-color: rgb(29 , 39 , 27);
+  background-color: #d8f0e4;
   color: ghostwhite;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
+  margin: 0;
+}
+
+.header {
+  background-color: #607b6c;
+  font-size: 30px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.input-section {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+  background-color: #b1d2ca;
+  width: 500px;
 }
 
 #meme-image-container {
@@ -10,8 +26,7 @@ body {
   border: 1px black solid;
   float: left;
   height: 400px;
-  margin: 0 auto;
-  padding: 1px;
+  margin-left: 10px;
   position: relative;
   width: 500px;
   padding: 0;
