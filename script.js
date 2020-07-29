@@ -1,4 +1,3 @@
-window.onload = function() {
   let textInput = document.querySelector('#text-input');
   let memeText = document.querySelector('#meme-text');
   
@@ -32,5 +31,10 @@ window.onload = function() {
   earthButton.addEventListener('click', function(){
     let container = document.querySelector('.container');
     container.style.border = "6px groove green";
+  });
+
+  let memeSelector = document.querySelector('.memes-container');
+  memeSelector.addEventListener('click', function(event){
+    let selectedMeme = event.target;
+    memeImg.src = selectedMeme.src;
   })
-}

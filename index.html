@@ -11,16 +11,20 @@
   <header>
     <h1>Meme Generator</h1>
   </header>
-  <br>
-  <nav>
+  
+  <section class="input-area">
+
     <label>Texto: <input type='text' id='text-input' maxlength="60"/></label><br>
-    <label>Foto:  <input id="meme-insert" type="file"/></label>
-  </nav>
-  <!-- <input type="submit">  -->
+    <label>Foto:  <input id="meme-insert" type="file"/></label><br>
+  
   <div id='meme-image-container' class='container'>
     <div id='meme-text'></div>
     <img id='meme-image' src="">
   </div>
+
+  </section>
+
+  <section class="customization-area">
 
   <h2>Estilos customizados:</h2>
   
@@ -28,6 +32,15 @@
   <button id="water" style="background-color: blue;">Água</button>
   <button id="earth" style="background-color: green;">Terra</button>
   
+  <h2>Memes famosos:</h2>
+  <div class="memes-container">
+    <img id='meme-1' class='memes' src='imgs/meme1.png'>
+    <img id='meme-2' class='memes' src='imgs/meme2.png'>
+    <img id='meme-3' class='memes' src='imgs/meme3.png'>
+    <img id='meme-4' class='memes' src='imgs/meme4.png'>
+  </div>
+
+  </section>
   <script src="script.js"></script>
   
 </body>
