@@ -22,19 +22,21 @@ function displayImage(event) {
 inputImage.addEventListener("change", displayImage);
 
 //Botões estilização
-const btnFire = document.getElementById('fire');
-const btnWater = document.getElementById('water');
-const btnEarth = document.getElementById('earth');
+const buttonFire = document.getElementById('fire');
+const buttonWater = document.getElementById('water');
+const buttonEarth = document.getElementById('earth');
 
-btnFire.addEventListener('click', () => {
-    memeImage.style.border = '3px dashed red';
-});
+function fire() {
+    memeImage.style.border = 'dashed 3px red';
+}
+buttonFire.addEventListener('click', fire)
   
-btnWater.addEventListener('click', () => {
-    memeImage.style.border = '5px double blue';
-});
+function water () {
+    memeImage.style.border = 'double 5px blue';
+}
+buttonWater.addEventListener('click', water)
   
-btnEarth.addEventListener('click', () => {
-    memeImage.style.border = '6px groove green';
-});
+function earth () { 
+    memeImage.style.border = 'groove 6px green';
+}
   

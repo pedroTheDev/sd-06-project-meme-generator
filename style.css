@@ -12,17 +12,14 @@ body {
 
 .fire {
     background-color: red;
-    border: 3px dashed red;
 }
     
 .water {
     background-color: blue;
-    border: blue 5px double;
 }
   
 .earth {
     background-color: green;
-    border: groove green 6px;
 }
 
 #meme-text {
