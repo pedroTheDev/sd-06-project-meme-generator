@@ -29,14 +29,14 @@ const buttonEarth = document.getElementById('earth');
 function fire() {
     memeImage.style.border = 'dashed 3px red';
 }
-buttonFire.addEventListener('click', fire)
+buttonFire.addEventListener('click', fire);
   
-function water () {
+function water() {
     memeImage.style.border = 'double 5px blue';
 }
-buttonWater.addEventListener('click', water)
+buttonWater.addEventListener('click', water);
   
-function earth () { 
+function earth() { 
     memeImage.style.border = 'groove 6px green';
 }
-  
+buttonEarth.addEventListener('click', earth);
