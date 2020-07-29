@@ -7,18 +7,23 @@ function carregar(){
       textInside.className = "meme-text";
   })
 
-  // var imageInput = document.querySelector("#meme-insert");
-  // var imageInside = document.querySelector("#meme-image");
-  //   var loadFile = function(event) {
-  //   var output = document.getElementById('output');
-  //   output.src = URL.createObjectURL(event.target.files[0]);
-  //   output.onload = function() {
-  //     URL.revokeObjectURL(output.src)
-  //   }
+  var imageInput = document.querySelector("#meme-insert");
+  var imageInside = document.querySelector("#meme-image");
+  imageInside.innerText = imageInput.value;
+  imageInside.innerText = document.querySelector("meme-image");
+
+    // var loadFile = function(event) {
+    // var output = document.getElementById('output');
+    // output.src = URL.createObjectURL(event.target.files[0]);
+    // output.onload = function() {
+    //   URL.revokeObjectURL(output.src)
+    // }
+
+    
   // };
 
 
-  imageInput.addEventListener("input", function(event){
-  imageInside.src = URL.createObjectURL(event.target.files[0])
-  })
+  // imageInput.addEventListener("input", function(event){
+  // imageInside.src = URL.createObjectURL(event.target.files[0])
+  // })
 }
