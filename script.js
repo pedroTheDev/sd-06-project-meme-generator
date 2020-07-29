@@ -35,7 +35,7 @@ let gatoBravo = document.getElementById('gatoBravo');
 let texto = document.getElementById('text-input');
     texto.addEventListener('input',function(){
     let frase = document.getElementById('meme-text');
-    frase.innerHTML = frase.value;
+    frase.innerHTML = texto.value;
 });
 //funcao para fazer o upload da foto
 let btnUpload = document.getElementById('meme-insert');

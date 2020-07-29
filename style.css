@@ -22,8 +22,9 @@
 }
 
 #meme-image {
-    max-height: 500px;
-    max-width: 500px;
+    height: 500px;
+    position: absolute;
+    width: 500px;
 }
 
 #meme-text {
@@ -31,11 +32,10 @@
     font-family: "Lucida Grande";
     font-size: 30px;
     font-style: oblique;
-    text-shadow: black 5px 5px 5px;
-}
-
-#frase {
     position: absolute;
+    text-shadow: black 5px 5px 5px;
+    top: 520px;
+    left: 20px;
 }
 
 #bordaAzul {
