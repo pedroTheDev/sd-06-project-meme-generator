@@ -61,7 +61,7 @@ main {
   width: 0;
 }
 
-label.upload {
+.upload {
   background-color: #99c793;
   border: none;
   border-radius: 50px;
@@ -77,7 +77,7 @@ label.upload {
   vertical-align: middle;
 }
 
-label.upload::before {
+.upload::before {
   color: white;
   content: '\f382';
   font-family: "Font Awesome 5 Free";
@@ -91,7 +91,7 @@ label.upload::before {
   transition: all 0.3s;
 }
 
-label.upload:hover::before {
+.upload:hover::before {
   background-color: darken(#99c793 , 30%);
   right: 83%;
 }
@@ -100,9 +100,14 @@ label.upload:hover::before {
 .text-container {
   align-items: center;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   margin-top: 16px;
-  width: 60%;
+  width: 524px;
+}
+
+.text-container div {
+  display: flex;
+  align-items: center;
 }
 
 .text-container input {
@@ -120,19 +125,19 @@ label.upload:hover::before {
 .meme-image-container {
   background-color: white;
   border: 1px solid black;
-  height: 60vh;
-  max-width: 70vw;
+  height: 524px;
+  width: 524px;
   position: relative;
   overflow: hidden;
   width: auto;
 }
 
 .meme-image {
-  height: 100%;
+  display: none;
 }
 
 .meme-text {
-  bottom: 12px;
+  bottom: 20px;
   color: white;
   font-family: 'Rowdies', cursive;
   font-size: 30px;
@@ -155,16 +160,91 @@ label.upload:hover::before {
 }
 
 .button-container button {
-  border: none;
   border-radius: 8px;
+  border: none;
   color: white;
   cursor: pointer;
   font-size: 14px;
   font-weight: 700;
+  height: 30px;
   margin-bottom: 12px;
-  padding: 8px;
   outline: none;
+  overflow: hidden;
+  padding: 8px;
+  position: relative;
   width: 60%;
+}
+
+.fire::before {
+  color: white;
+  content: '\f06d';
+  font-family: "Font Awesome 5 Free";
+  font-size: 100%;
+  font-weight: 900;
+  height: 100%;
+  line-height: 3.3;
+  position: absolute;
+  right: 130%;
+  top: -8px;
+  transition: all 0.15s;
+}
+
+.fire:hover::before {
+  right: 83%;
+}
+
+.water::before {
+  color: white;
+  content: '\f773';
+  font-family: "Font Awesome 5 Free";
+  font-size: 100%;
+  font-weight: 900;
+  height: 100%;
+  line-height: 3.3;
+  position: absolute;
+  right: 130%;
+  top: -8px;
+  transition: all 0.15s;
+}
+
+.water:hover::before {
+  right: 83%;
+}
+
+.earth::before {
+  color: white;
+  content: '\f57c';
+  font-family: "Font Awesome 5 Free";
+  font-size: 100%;
+  font-weight: 900;
+  height: 100%;
+  line-height: 3.3;
+  position: absolute;
+  right: 130%;
+  top: -8px;
+  transition: all 0.15s;
+}
+
+.earth:hover::before {
+  right: 83%;
+}
+
+.remove::before {
+  color: white;
+  content: '\f2ed';
+  font-family: "Font Awesome 5 Free";
+  font-size: 100%;
+  font-weight: 900;
+  height: 100%;
+  line-height: 3.3;
+  position: absolute;
+  right: 130%;
+  top: -8px;
+  transition: all 0.15s;
+}
+
+.remove:hover::before {
+  right: 83%;
 }
 
 .button-container button:active {
@@ -185,4 +265,18 @@ label.upload:hover::before {
 
 .remove {
   background-color: slategray;
+}
+
+a {
+  background-color: olivedrab;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  outline: none;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  width: 54%;
 }
