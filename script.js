@@ -18,7 +18,25 @@ function imageUploadURL() {
   });
 }
 
+function effectButtons() {
+  const container = document.getElementById('meme-image-container');
+  const fireButton = document.getElementById('fire');
+  const waterButton = document.getElementById('water');
+  const eartButton = document.getElementById('eart');
+
+  fireButton.addEventListener('click', () => {
+    container.style.border = 'red dashed 3px'
+  });
+  waterButton.addEventListener('click', () => {
+    container.style.border = 'blue double 5px'
+  });
+  eartButton.addEventListener('click', () => {
+    container.style.border = 'green groove 6px'
+  });
+}
+
 window.onload = () => {
   getText();
   imageUploadURL();
+  effectButtons();
 };
