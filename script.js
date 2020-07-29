@@ -25,18 +25,19 @@ inputImage.addEventListener("change", displayImage);
 const buttonFire = document.getElementById('fire');
 const buttonWater = document.getElementById('water');
 const buttonEarth = document.getElementById('earth');
+const memeImageContainer = document.getElementById('meme-image-container');
 
 function fire() {
-    memeImage.style.border = 'dashed 3px red';
+    memeImageContainer.style.border = 'dashed 3px red';
 }
 buttonFire.addEventListener('click', fire);
   
 function water() {
-    memeImage.style.border = 'double 5px blue';
+    memeImageContainer.style.border = 'double 5px blue';
 }
 buttonWater.addEventListener('click', water);
   
 function earth() { 
-    memeImage.style.border = 'groove 6px green';
+    memeImageContainer.style.border = 'groove 6px green';
 }
 buttonEarth.addEventListener('click', earth);
