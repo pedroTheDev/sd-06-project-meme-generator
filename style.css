@@ -61,7 +61,7 @@ main {
   width: 0;
 }
 
-.upload {
+label.upload {
   background-color: #99c793;
   border: none;
   border-radius: 50px;
@@ -77,7 +77,7 @@ main {
   vertical-align: middle;
 }
 
-.upload::before {
+label.upload::before {
   color: white;
   content: '\f382';
   font-family: "Font Awesome 5 Free";
@@ -91,7 +91,7 @@ main {
   transition: all 0.3s;
 }
 
-.upload:hover::before {
+label.upload:hover::before {
   background-color: darken(#99c793 , 30%);
   right: 83%;
 }
@@ -100,14 +100,9 @@ main {
 .text-container {
   align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   margin-top: 16px;
-  width: 524px;
-}
-
-.text-container div {
-  display: flex;
-  align-items: center;
+  width: 60%;
 }
 
 .text-container input {
@@ -125,19 +120,19 @@ main {
 .meme-image-container {
   background-color: white;
   border: 1px solid black;
-  height: 524px;
-  width: 524px;
+  height: 60vh;
+  max-width: 70vw;
   position: relative;
   overflow: hidden;
   width: auto;
 }
 
 .meme-image {
-  display: none;
+  height: 100%;
 }
 
 .meme-text {
-  bottom: 20px;
+  bottom: 12px;
   color: white;
   font-family: 'Rowdies', cursive;
   font-size: 30px;
@@ -160,19 +155,21 @@ main {
 }
 
 .button-container button {
-  border-radius: 8px;
   border: none;
+  border-radius: 8px;
   color: white;
   cursor: pointer;
   font-size: 14px;
   font-weight: 700;
-  height: 30px;
   margin-bottom: 12px;
-  outline: none;
-  overflow: hidden;
   padding: 8px;
   position: relative;
+  outline: none;
   width: 60%;
+}
+
+.button-container button:active {
+  transform: translateY(4px);
 }
 
 .fire::before {
@@ -247,10 +244,6 @@ main {
   right: 83%;
 }
 
-.button-container button:active {
-  transform: translateY(4px);
-}
-
 .fire {
   background-color: red;
 }
@@ -265,18 +258,4 @@ main {
 
 .remove {
   background-color: slategray;
-}
-
-a {
-  background-color: olivedrab;
-  border-radius: 8px;
-  border: none;
-  color: white;
-  cursor: pointer;
-  font-weight: 700;
-  outline: none;
-  padding: 8px;
-  text-align: center;
-  text-decoration: none;
-  width: 54%;
 }
