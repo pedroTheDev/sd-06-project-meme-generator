@@ -2,9 +2,7 @@ body {
   background-color: rgb( 154 , 185 , 211 )
 }
 
-.meme-image-container {
-  position: relative;
-  display: inline-block;
+.container {
   background-color: white;
   border: 1px solid black;
   height: 400px;
@@ -13,15 +11,13 @@ body {
 }
 
 .meme-text {
-  position: absolute;
-  top: 290px;
-  font-size: 40px;
   color: white;
   font-size: 30px;
   height: 100%;
+  position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
-  /* vertical-align: middle; */
+  top: 290px;
   width: 100%;
   z-index: 1000;
 }

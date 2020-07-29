@@ -1,7 +1,7 @@
-var textInput = document.querySelector("#text-input");
-var textInside = document.querySelector("#meme-text");
-var imageInput = document.querySelector("#meme-insert");
-var imageInside = document.querySelector("#meme-image");
+let textInput = document.querySelector("#text-input");
+let textInside = document.querySelector("#meme-text");
+// let imageInput = document.querySelector("#meme-insert");
+// let imageInside = document.querySelector("#meme-image");
 
 function changeText() {
   textInside.innerText = textInput.value;
