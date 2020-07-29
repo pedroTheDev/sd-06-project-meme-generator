@@ -1,7 +1,7 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .meme-image-container {
@@ -16,10 +16,10 @@
   align-self: flex-end;
   color: white;
   font-size: 30px;
+  height: 25vh;
   position: absolute;
   text-shadow: 5px 5px 5px black;
   width: 49vw;
-  height: 25vh;
 }
 
 img {
@@ -31,32 +31,32 @@ img {
 }
 
 button {
+  color: white;
   margin-top: 10px;
   margin-left: 10px;
   padding: 10px 15px;
-  color: white;
 }
 
 .fire {
-  border: 3px dashed rgb(255, 0, 0);
+  border: 3px dashed red;
 }
 
 .fire-b {
-  background-color: rgb(255, 0, 0);
+  background-color: red;
 }
 
 .water {
-  border: 5px double rgb(0, 0, 255);
+  border: 5px double blue;
 }
 
 .water-b {
-  background-color: rgb(0, 0, 255);
+  background-color: blue;
 }
 
 .earth {
-  border: 6px groove rgb(0, 128, 0);
+  border: 6px groove green;
 }
 
 .earth-b {
-  background-color: rgb(0, 128, 0);
+  background-color: green;
 }

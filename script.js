@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
   function createMemeText(event) {
     document.getElementById('meme-text').innerText = event.target.value;
   }
