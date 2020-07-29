@@ -19,9 +19,25 @@
   height: min-content;
   position: absolute;
   text-shadow: 5px 5px 5px black;
-  width: inherit;
+  width: 50vw;
 }
 
 img {
   width: 100%;
+}
+
+.style-meme {
+  display: inline-block;
+}
+
+.fire {
+  border: 3px dashed red;
+}
+
+.water {
+  border: 5px double blue;
+}
+
+.earth {
+  border: 6px groove green;
 }
