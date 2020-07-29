@@ -18,7 +18,8 @@
   font-size: 30px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
-  width: 50vw;
+  width: 49vw;
+  height: 25vh;
 }
 
 img {
@@ -29,14 +30,33 @@ img {
   display: inline-block;
 }
 
+button {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px 15px;
+  color: white;
+}
+
 .fire {
   border: 3px dashed rgb(255, 0, 0);
+}
+
+.fire-b {
+  background-color: rgb(255, 0, 0);
 }
 
 .water {
   border: 5px double rgb(0, 0, 255);
 }
 
+.water-b {
+  background-color: rgb(0, 0, 255);
+}
+
 .earth {
   border: 6px groove rgb(0, 128, 0);
+}
+
+.earth-b {
+  background-color: rgb(0, 128, 0);
 }
