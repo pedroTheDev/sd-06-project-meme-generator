@@ -12,13 +12,10 @@
     <p>Insira seu texto</p>
     <input type='text' id='text-input' name="text-input" maxlength="60"><br><br>
 
-    <label>Selecione a imagem: </label>
-    <input type="file" id='meme-insert'  accept="image/*" onchange="imgMeme(event)">
-   
-
+    <p>Selecione a imagem: <input type="file" id='meme-insert'  accept="image/*" onchange="imgMeme(event)"></p>
     <div type="imagem" id="meme-image-container">
-        <div id='meme-text'>Tomara que dê certo, my God!</div>
-        <img id='meme-image'></img>
+        <p id='meme-text'></p>
+        <img id='meme-image' src="" width="400" height="400">
     </div>
      
 </body> 

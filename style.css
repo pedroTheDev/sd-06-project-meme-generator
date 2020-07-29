@@ -6,7 +6,7 @@
     width: 400px;
     height: 400px;
     margin: 15px 1px 10px 6px;
-    position: relative;
+    position: absolute;
     padding: 5px;
 }
 #meme-text {
@@ -15,11 +15,12 @@
     color: white;
     text-shadow: black 5px 5px 5px;
     position: absolute;
-
-
+    overflow-wrap: break-word;
 }
 #meme-image{
     width: 400px;
     height: 400px;
+    position: absolute;
+   
 }
 
