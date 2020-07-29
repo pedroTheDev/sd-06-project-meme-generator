@@ -3,15 +3,18 @@
   border : 1px solid black;
   height: 300px;
   margin: 10px;
+  position: absolute;
   width: 300px;
+  z-index: -2;
 }
 
 .inside-meme-text {
   border: 1px solid black;
-  color: black;
-  font-size: medium;
+  color: white;
+  font-size: 30px;
   height: 60px;
   margin-top: 200px;
+  text-shadow: black 5px 5px 5px;
   width: 295px;
 }
 
