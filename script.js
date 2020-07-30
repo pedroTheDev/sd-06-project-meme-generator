@@ -41,3 +41,16 @@ function earth() {
     memeImageContainer.style.border = 'groove 6px green';
 }
 buttonEarth.addEventListener('click', earth);
+
+function getElementImage() {
+    const elementImage = document.getElementById('meme-image');
+    return elementImage;
+}
+
+const elementPresetsContainer = document.getElementById('presets-images');
+
+elementPresetsContainer.addEventListener('click', function (event) {
+  const presetImage = event.target;
+  const image = getElementImage();
+  image.src = presetImage.src;
+});
