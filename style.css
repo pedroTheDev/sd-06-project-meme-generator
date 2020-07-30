@@ -1,5 +1,6 @@
 body {
-  background-color: rgb( 154 , 185 , 211 );
+  background-color: rgb(255, 255, 255);
+  width: 1366px;
 }
 
 .boxText {
@@ -21,6 +22,10 @@ body {
 .img {
   height: inherit;
   width: inherit;
+}
+
+.borda {
+  border: black solid 1px;
 }
 
 .meme-text {
@@ -56,5 +61,5 @@ body {
 }
 
 .meme {
-  height: 100px;
+  height: 60px;
 }

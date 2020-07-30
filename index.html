@@ -22,26 +22,43 @@
     <input id="meme-insert" type="file" accept="image/*"  src="" onchange="loadFile(event)">
   </section>
 
-  <section>
-      
-    <div id="meme-image-container" class="meme-image-container">
 
-      <div class="img"><img id="meme-image" class="meme-image"/></div>
+
+
+  <section class="container">
+      
+    <div id="meme-image-container" class="meme-image-container borda">
+
+      <div class="img"><img id="meme-image" class="meme-image" src="" alt=""/></div>
 
       <div id="meme-text" class="meme-text"> O seu texto digitado vai Substituir este!</div>
     </div>
   </section>
 
+
+
+
   <section id="memes">
     <p>Imagens de teste</p>
-    <img onclick="sI(event)" id="meme-1" class="meme" src="meme1.png" alt="meme do Mario">
-    <img onclick="sI(event)" id="meme-2" class="meme" src="meme2.png" alt="meme do Corona Virus">
-    <img onclick="sI(event)" id="meme-3" class="meme" src="meme3.png" alt="meme do seu madruga">
-    <img onclick="sI(event)" id="meme-4" class="meme" src="meme4.png" alt="meme gato obeso dormindo sobre esteira eletrica">
-    <img onclick="sI(event)" id="meme-5" class="meme" src="meme5.png" alt="meme da Terra plana">
+    <img onclick="sI(event)" id="meme-1" class="meme" src="/imgs/meme1.png" alt="meme do Mario">
+    <img onclick="sI(event)" id="meme-2" class="meme" src="/imgs/meme2.png" alt="meme do Corona Virus">
+    <img onclick="sI(event)" id="meme-3" class="meme" src="/imgs/meme3.png" alt="meme do seu madruga">
+    <img onclick="sI(event)" id="meme-4" class="meme" src="/imgs/meme4.png" alt="meme gato obeso dormindo sobre esteira eletrica">
+    <img onclick="sI(event)" id="meme-5" class="meme" src="/imgs/meme5.png" alt="meme da Terra plana">
   </section>
 
-  </section>
+
+  
+
+  <section>
+    <button id="fire" class="fire" onclick="fire()">Fogo que Queima</button>
+    <button id="water" class="water" onclick="water()">Água que Molha</button>
+    <button id="earth" class="earth" onclick="earth()">Terra que Suja</button>
+  </section>  
+
+
+
+
   <script src="script.js"></script>
 </body>
 </html>

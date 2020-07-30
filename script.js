@@ -1,7 +1,7 @@
 const textInput = document.querySelector('#text-input');
 const textInside = document.querySelector('#meme-text');
-const imageInput = document.getElementById('meme-image');
-const imagePre = document.getElementById('meme-image');
+const imageInput = document.querySelector('#meme-image');
+const imagePre = document.querySelector('#meme-image-container');
 
 function changeText() {
   textInside.innerText = textInput.value;
@@ -9,21 +9,32 @@ function changeText() {
 }
 textInput.addEventListener('keyup', changeText);
 
-const loadFile = function (event) {
+function loadFile(event) {
   imageInput.src = URL.createObjectURL(event.target.files[0]);
   // imageInput.onload = function () {
   //   URL.revokeObjectURL(imageInput.src); // free memory
   // };
 };
 
+function sI(event) {
+  imageInput.src = event.target.src;
+}
+
 function earth() {
-  imgPre.className = 'meme-container earth';
+  imagePre.className = 'meme-container earth';
 }
 
 function fire() {
-  imgPre.className = 'meme-container fire';
+  imagePre.className = 'meme-container fire';
 }
 
 function water() {
-  imgPre.className = 'meme-container water';
+  imagePre.className = 'meme-container water';
 }
+
+// if (imageInput === 'Agora estou  usando, CodeClimate') {
+//   water();
+//   fire();
+//   earth();
+//   sI(event);
+// }
