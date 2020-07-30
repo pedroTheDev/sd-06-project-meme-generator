@@ -19,5 +19,5 @@ function addTxt (e) {
 }
 
 function addImg (e) {
-   document.querySelector('#meme-img').src = URL.createObjectURL(e.target.files[0]);
+   document.querySelector('#meme-image').src = URL.createObjectURL(e.target.files[0]);
 }
