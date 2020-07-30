@@ -5,24 +5,11 @@
   width: 600px;
   max-height: 100%;
   margin: auto;
-
-}
-
-.text-container {
-  width: 400px;
-  text-align: center;
-  position: relative;
-  bottom: 120px;
-  margin: auto;
-
-  color: white;
 }
 
 .controllers{
   text-align: center;
   margin:  auto;
-  position: relative;
-  bottom: 50px;
 }
 
 .img-center{
@@ -33,6 +20,12 @@
   float: center;
 }
 .text-meme{
+  position: absolute;
+  left: 40%;
+  top: 300px;
   font-size: 30px;
   text-shadow: 5px 5px black;
+  color: white;
+  margin: auto;
+  width: 200px;
 }
