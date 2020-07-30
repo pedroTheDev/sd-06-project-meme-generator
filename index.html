@@ -18,13 +18,13 @@
     </header>
     <section>
         <section class="input-section"> 
-            <p>Meme Text: <input id="text-input" type="text" maxlength="60"> </p>
-            <p> Meme image: <input id="meme-insert" type="file"></p>
+            <p>Meme Text: <input id="text-input" type="text" placeholder="Meme text here" maxlength="60"> </p>
+            <p> Meme image: <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)"></p>
         </section>
         <section class="meme-generator">
             <div id="meme-image-container">
                 <div id="meme-image">
-                   <img id="meme-image-img" src="sample-image.jpg" height="500px">
+                   <img id="meme-image-input" src="sample-image.jpg" height="500px">
                     
                 </div>
                 <div id="meme-text">

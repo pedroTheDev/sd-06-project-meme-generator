@@ -6,8 +6,16 @@ userTextInput.addEventListener("input", function(){
     memeTextInput.innerText = userTextInput.value;
 })
 
-// Req 2
-let memeImage = document.querySelector("#meme-image-img")
+// 2 - O site deve permitir que quem usa faça upload de uma imagem de seu computador.
+let memeImage = document.querySelector("#meme-image-input")
+
+function loadFile(event){
+    memeImage.src = URL.createObjectURL(event.target.files[0]);
+    console.log(event.target);
+    memeImage.onload = function(){  
+        URL.revokeObjectURL(memeImage.src);
+    }
+}
 
 // Req 6
 let personalizeColor = document.querySelector(".personalize-color");
@@ -43,3 +51,5 @@ personalizeImage.addEventListener("click", function(event){
     console.log(event.target.src);
     memeImage.src = event.target.src;
 })
+
+// Req 
