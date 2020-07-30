@@ -10,11 +10,11 @@ h1 , label {
 .container {
   background-color: white;
   border: 1px solid black;
-  height: auto;
+  height: 550px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  width: 550px;
+  width: 750px;
 }
 
 .text {
@@ -31,6 +31,7 @@ h1 , label {
 
 .image {
   height: 100%;
+  object-fit: cover;
   width: 100%;
 }
 
@@ -48,4 +49,14 @@ h1 , label {
 
 .earth-button {
   background-color: green;
+}
+
+.meme-pics {
+  margin-top: 25px;
+}
+
+.meme-pic {
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
 }

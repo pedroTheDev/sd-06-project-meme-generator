@@ -2,6 +2,7 @@ window.onload = function () {
   handleImageUpload();
   handleTextInput();
   handleBorderSelection();
+  handleMemeSelection();
 };
 
 const textInput = document.querySelector('#text-input');
@@ -55,6 +56,18 @@ function handleBorderSelection() {
     if (event.target.classList.contains('border-button')) {
       clearButtonBackgroundColor();
       changeBorder(event);
+    }
+  });
+}
+
+function chooseMeme(event) {
+  memeImage.src = event.target.src;
+}
+
+function handleMemeSelection() {
+  document.addEventListener('click', function (event) {
+    if (event.target.classList.contains('meme-pic')) {
+      chooseMeme(event);
     }
   });
 }
