@@ -1,8 +1,17 @@
+h1{
+  margin-top: 0px;
+}
+
+body{
+  background-color: rgba(0, 110, 255, 0.198);
+}
+
 #meme-image-container{
   border: 1px solid black;
   width: 500px;
   height: 500px;
   background-color: white;
+  float: left;
 }
 
 #meme-text{
@@ -31,4 +40,23 @@
   color: white;
   height: 25px;
   font-weight: bold;
+}
+
+#sectionPhotos{
+  float: right;
+  vertical-align: auto;
+}
+
+#meme-1, #meme-2, #meme-3, #meme-4{
+  vertical-align: middle;
+  border: 2px solid black;
+  display: flex;
+  margin: 5px;
+  margin-right: 690px;
+}
+#meme-3{
+  background-color: white;
+}
+#meme-1{
+  margin-top: 0px;
 }
