@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <head>  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>MEME GENERATOR</header><br>
-  Texto: <input type="text" id="text-input"><br><br>
-  Foto: <input type="file" >
+  <h1 id="titulo">MEME GENERATOR</h1>
+  <div id="inputs-container">
+    <label>Insira seu texto aqui:</label>
+    <input type="text" id="text-input"maxlength="60" placeholder="máximo 60 caracteres">
+    <br>
+    <label>Faça o uplouad da imagem:</label>
+    <input type="file" id="meme-insert" accept=".jpg, .png,.bmp" onchange="imgInput(event)">
+  </div>
 
   <div id="meme-image-container">
-    <img src="" alt="" width="300px">
-    <p id="meme-text"></p>
+    <div id="meme-text"></div>
+    <img id="meme-image">
   </div>
-  
+
   <script src="script.js"></script>
 </body>
