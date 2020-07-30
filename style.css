@@ -7,11 +7,21 @@
 
 }
 
-.controllers{
-  clear: both;
+.text-container {
+  width: 400px;
   text-align: center;
-  margin-top: 10px;
   position: relative;
+  bottom: 120px;
+  margin: auto;
+  text-shadow: 5px 5px black;
+  color: white;
+}
+
+.controllers{
+  text-align: center;
+  margin:  auto;
+  position: relative;
+  bottom: 50px;
 }
 
 .img-center{
@@ -22,13 +32,5 @@
   float: center;
 }
 .text-meme{
-  background-color: violet;
-  text-align: center;
-  float: center;
-  position: relative;
-  bottom: 150px;
-  max-width: 100%;
-  text-shadow: 5px 5px black;
   font-size: 30px;
-  color: white;
 }
