@@ -34,17 +34,17 @@ body {
 }
 
 .meme_text {
+  bottom: 3px;
   color: white;
   font-size: 30px;
-  position: absolute;
-  text-shadow: black 5px 5px 5px;
-  width: 250px;
   height: 100px;
-  bottom: 3px;  
   left: 5px;
   padding: 1px 2px;
+  position: absolute;
   text-align: center;
+  text-shadow: black 5px 5px 5px;
   top: 350px;
+  width: 250px;
   word-wrap: break-word;
   z-index: 1;
 }
