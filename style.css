@@ -1,6 +1,9 @@
 .meme-text {
-  color: aqua;
+  color: white;
   position: absolute;
+  text-shadow: black 5px 5px 5px;
+  font-size: 30px;
+
 
 }
 
