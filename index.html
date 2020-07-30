@@ -2,42 +2,39 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meme Generator</title>
-    <link rel="stylesheet" href="./style.css">
-    
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <title> Meme Generator </title>
+    <link rel = "stylesheet" href = "./style.css">
 </head>
 <body>
     <header class="cabecalho">
         <h1> Meme Generator </h1>
         <h2> Crie seus proprios memes divertidos! </h2>
     </header>
-    <section id="input-container">
+    <section id = "input-container">
         <form>
             <div class="input">
-                <label for="text-input"> Texto: </label>
-                <input type="text" id='text-input' maxlength="60">
-                <input id="button-adicionar" type="button" value="Adicionar!">
+                <label for = "text-input"> Texto: </label>
+                <input type = "text" id = 'text-input' maxlength = "60">
+                <input id = "button-adicionar" type = "button" value = "Adicionar!">
             </div>
-            <div class="input">
-                <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+            <div class = "input">
+                <input id = "meme-insert" type = "file" accept = "image/*" onchange = "loadFile(event)">
             </div>
         </form>
     </section>
-    <section id="meme-image-container">
-        <div id="meme-text">
-            <p id="output-text"> </p>
+    <section id = "meme-image-container">
+        <div id = "meme-text">
+            <p id = "output-text"> </p>
         </div>
-        <img id="meme-image" src="" alt="" height="500" width="600">
+        <img id = "meme-image" src = "" alt = "" height = "500" width = "600">
     </section>
     <section class="meme-pre-pronto">
-        <img id="meme-1" src="./imgs/meme1.png" height="100" width="100">
-        <img id="meme-2" src="./imgs/meme2.png" height="100" width="100">
-        <img id="meme-3" src="./imgs/meme3.png" height="100" width="100">
-        <img id="meme-4" src="./imgs/meme4.png" height="100" width="100">            
+        <img id = "meme-1" src = "./imgs/meme1.png" height = "100" width = "100">
+        <img id = "meme-2" src = "./imgs/meme2.png" height = "100" width = "100">
+        <img id = "meme-3" src = "./imgs/meme3.png" height = "100" width = "100">
+        <img id = "meme-4" src = "./imgs/meme4.png" height = "100" width = "100">            
     </section>
-    <script src="./script.js"></script>
+    <script src = "./script.js"></script>
 </body>
 </html>
-
-

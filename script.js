@@ -5,13 +5,11 @@ const loadFile = function (event) {
       URL.revokeObjectURL(output.src);
     }
   };
-  
   const inputTextBox = document.getElementById ('text-input');
   const paragraph = document.getElementById ("output-text");
-  
   function insertText (event) {
     document.querySelector ('text-input');
     paragraph.innerHTML = inputTextBox.value;
   };
-  
   inputTextBox.addEventListener ('keyup', insertText);
+  
