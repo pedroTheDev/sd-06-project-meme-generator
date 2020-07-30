@@ -6,22 +6,9 @@ body {
   padding: 0;
 }
 
-.earth1 {
-  background-color: green;
-  height: 30px;
-  width: 80px;
-}
-
-.fire1 {
-  background-color: red;
-  height: 30px;
-  width: 80px;
-}
-
 .meme_image {
   height: 250px;
   width: 250px;
-  z-index: 0;
 }
 
 .meme_image_container {
@@ -34,23 +21,9 @@ body {
 }
 
 .meme_text {
-  bottom: 3px;
   color: white;
   font-size: 30px;
-  height: 100px;
-  left: 5px;
-  padding: 1px 2px;
   position: absolute;
-  text-align: center;
   text-shadow: black 5px 5px 5px;
-  top: 350px;
-  width: 250px;
-  word-wrap: break-word;
-  z-index: 1;
-}
-
-.water1 {
-  background-color: blue;
-  height: 30px;
-  width: 80px;
+  width: 300px;
 }
