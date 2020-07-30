@@ -1,8 +1,8 @@
 // criar variáveis 
-const textInput = document.getElementById("#text-input");
-const memeText = document.getElementById("#meme-text");
-const memeImage = document.getElementById("#meme-image");
-const memeInsert = document.getElementById("#meme-isert");
+const textInput = document.getElementById("text-input");
+const memeText = document.getElementById("meme-text");
+const memeImage = document.getElementById("meme-image");
+const memeInsert = document.getElementById("meme-isert");
 
 // criar funções 
 
