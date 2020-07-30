@@ -33,18 +33,18 @@ window.onload = function () {
   let memeImage = document.querySelector('#meme-image');
 
   picMeme1.addEventListener('click', function () {
-    memeImage.style.backgroundImage = "url('./imgs/meme1.png')"
+    memeImage.src = 'imgs/meme1.png'
   });
-  
+
   picMeme2.addEventListener('click', function () {
-    memeImage.style.backgroundImage = "url('./imgs/meme2.png')"
+    memeImage.src = 'imgs/meme2.png'
   });
 
   picMeme3.addEventListener('click', function () {
-    memeImage.style.backgroundImage = "url('./imgs/meme3.png')"
+    memeImage.src = 'imgs/meme3.png'
   });
 
   picMeme4.addEventListener('click', function () {
-    memeImage.style.backgroundImage = "url('./imgs/meme4.png')"
+    memeImage.src = 'imgs/meme4.png'
   });
 };
