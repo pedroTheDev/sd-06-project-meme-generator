@@ -109,8 +109,7 @@ input[type=file] {
     z-index: 0;
     width: 500px;
     height: 500px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: auto;
     
 }
 
@@ -119,49 +118,35 @@ input[type=file] {
     top: -10px;
     font-family: 'Lato', sans-serif;
     margin-bottom: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin: auto;
 }
 
 #fire{
-    border-color: red;
-    border-width: 2px;
-    border-style: dashed;
-    background-color: black;
+    border-width: 0px;
+    background-color: rgb(255, 0, 0);
     height: 30px;
-    width: 23%;
-    margin: 3px;
+    width: 32%;
+    margin: 2px;
 }
 
 #water{
-    border-color: blue;
-    border-width: 2px;
-    border-style: double;
-    background-color: black;
+    border-width: 0px;
+    background-color: rgb(0, 0, 255);
     height: 30px;
-    width: 23%;
-    margin: 3px;
+    width: 32%;
+    margin: 2px;
 }
 
 #earth{
-    border-color: green;
-    border-width: 2px;
-    border-style: groove;
-    background-color: black;
+    border-width: 0px;
+    background-color: rgb(0, 128, 0);
     height: 30px;
-    width: 23%;
-    margin: 3px;
+    width: 32%;
+    margin: 2px;
 }
 
-#air{
-    border-color: yellow;
-    border-width: 2px;
-    border-style: dotted;
-    background-color: black;
-    height: 30px;
-    width: 23%;
-    margin: 3px;
-}
 
 #containers-wrapper{
     margin-left: 15%;
@@ -169,39 +154,39 @@ input[type=file] {
     background-color: black;
 }
 
-#meme01{
-    background: url(https://i.imgflip.com/2/jl9b3.jpg) ;
+#meme-1{
+    background: url("././imgs/meme1.png");
     background-size:contain;
     height: 70px;
     width: 23%;
-    margin: 4px;
+    margin: 3px;
     border: 0px;
 }
 
-#meme02{
-    background: url(https://img.wallpapersafari.com/desktop/1280/1024/29/85/TfxpXm.jpg);
+#meme-2{
+    background: url("././imgs/meme2.png");
     height: 70px;
     background-size:contain;
     width: 23%;
-    margin: 4px;
+    margin: 3px;
     border: 0px;
 }
 
-#meme03{
-    background: url(https://lh3.googleusercontent.com/proxy/yCQxAYa2-l8O7_0Pvp_kkeh1o70kzLUwxpszeMFfHP_HZAoQAMPEOMtW8N_ReTaYHSqBWcslyN1iRk1sXd_kJq3Enpo5MBdeTcnrF2YJnFnHUMJqlc9nFV3bD7-EJt89l9rXslUuTPlVoLB9bAk2hjEVCgDH3JDlPPruK6KTx-4KBXZN3sWWXIywbYtEWGbTAFEO7eCdoJ9LH6li0NZJFPVO0bJ06ks9CUAk6qOsMaOfTaPkoGSvfXZkVg);
+#meme-3{
+    background: url("././imgs/meme3.png");
     background-size:contain;
     height: 70px;
     width: 23%;
-    margin: 4px;
+    margin: 3px;
     border: 0px;
 }
 
-#meme04{
-    background: url(https://vignette.wikia.nocookie.net/meme/images/5/58/Willy_Wonka.jpg/revision/latest?cb=20170214023325&path-prefix=pt-br) ;
+#meme-4{
+    background: url("././imgs/meme4.png");
     background-size:contain;
     height: 70px;
     width: 23%;
-    margin: 4px;
+    margin: 3px;
     border: 0px;
 }
 

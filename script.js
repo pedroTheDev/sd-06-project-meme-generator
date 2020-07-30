@@ -79,17 +79,39 @@ earthBorder.addEventListener("click", function(){
 })
 
 
-//earth-button
+//meme01
 
-function changeAirBorder(){
-    document.getElementById("meme-image").style.border = "3px dotted yellow";
-}
+let meme1Button = document.getElementById("meme-1");
+let memeImg = document.getElementById("meme-image");
 
-//
-
-let airBorder = document.getElementById("air");
-airBorder.addEventListener("click", function(){
-    changeAirBorder();
+meme1Button.addEventListener("click", function(){
+    memeImg.src = meme1Button.src
 })
 
-//
+//meme02
+
+let meme2Button = document.getElementById("meme-2");
+
+
+meme2Button.addEventListener("click", function(){
+    memeImg.src = meme2Button.src
+})
+
+//meme03
+
+let meme3Button = document.getElementById("meme-3");
+
+
+meme3Button.addEventListener("click", function(){
+    memeImg.src = meme3Button.src
+})
+
+//meme03
+
+let meme4Button = document.getElementById("meme-4");
+
+
+meme4Button.addEventListener("click", function(){
+    memeImg.src = meme4Button.src
+})
+
