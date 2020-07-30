@@ -52,3 +52,15 @@ h1 , label {
 .border-button {
   margin-top: 25px;
 }
+
+.fire-button {
+  background-color: red;
+}
+
+.water-button {
+  background-color: blue;
+}
+
+.earth-button {
+  background-color: green;
+}

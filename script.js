@@ -28,7 +28,13 @@ function handleTextInput() {
 function clearButtonBackgroundColor() {
   const borderButtons = document.querySelectorAll('.border-button');
   for (let i = 0; i < borderButtons.length; i += 1) {
-    borderButtons[i].style.backgroundColor = '';
+    if (borderButtons[i].id === 'fire') {
+      borderButtons[i].style.backgroundColor = 'red';
+    } else if (borderButtons[i].id === 'water') {
+      borderButtons[i].style.backgroundColor = 'blue';
+    } else {
+      borderButtons[i].style.backgroundColor = 'green';
+    }
   }
 }
 
@@ -36,13 +42,13 @@ function changeBorder(event) {
   const selectedBorder = event.target;
   if (selectedBorder.id === 'fire') {
     imgContainer.style.border = '3px dashed red';
-    selectedBorder.style.backgroundColor = 'red';
+    selectedBorder.style.backgroundColor = 'rgb(150 , 0 , 0';
   } else if (selectedBorder.id === 'water') {
     imgContainer.style.border = '5px double blue';
-    selectedBorder.style.backgroundColor = 'blue';
+    selectedBorder.style.backgroundColor = 'rgb(0 , 0 , 150';
   } else {
     imgContainer.style.border = '6px groove green';
-    selectedBorder.style.backgroundColor = 'green';
+    selectedBorder.style.backgroundColor = 'rgb(0 , 75 , 0';
   }
 }
 
