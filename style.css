@@ -1,44 +1,44 @@
 body {
-    background-color: rgb(69, 123, 157);
-    margin: 30px;
-    font-family: 'Montserrat', sans-serif;
+  background-color: rgb(69 , 123 , 157);
+  font-family: Montserrat, sans-serif;
+  margin: 30px;
 }
 
-#title {
-    color: rgb(255 , 255 , 255);
-    font-family: 'Galada', cursive;
-    font-size: 40px;
+.title {
+  color: white;
+  font-family: Galada, cursive;
+  font-size: 40px;
 }
 
 .fire {
-    background-color: red;
+  background-color: red;
 }
-    
+
 .water {
-    background-color: blue;
+  background-color: blue;
 }
-  
+
 .earth {
-    background-color: green;
+  background-color: green;
 }
 
-#meme-text {
-    font-size: 30px;
-    color: rgb(255 , 255 , 255);
-    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
-    position: absolute;
-    width: 400px;
+.meme-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
+  width: 400px;
 }
 
-#meme-image-container {
-    background-color:rgb(255 , 255 , 255);
-    border: rgb(0, 0, 0) 1px solid;
-    width: 400px;
-    height: 400px;
-    margin: 10px;
+.meme-image-container {
+  background-color: white;
+  border: black 1px solid;
+  height: 400px;
+  margin: 10px;
+  width: 400px;
 }
 
-#meme-image {
-    width: 399px;
-    height: 399px;
+.meme-image {
+  height: 399px;
+  width: 399px;
 }

@@ -1,50 +1,50 @@
 // Interação com o input de TEXTO
 // 1. Elementos para acessar
-let textInput = document.getElementById("text-input");
-let textMeme = document.getElementById("meme-text");
+const textInput = document.getElementById('text-input');
+const textMeme = document.getElementById('meme-text');
 // 2. Pega o texto e mostra na tela
-let userTextMeme = "";
-function getTextInput () {
-    userTextMeme = textInput.value;
-    textMeme.innerHTML = userTextMeme;
+function getTextInput() {
+  let userTextMeme = '';
+  userTextMeme = textInput.value;
+  textMeme.innerHTML = userTextMeme;
 }
-textInput.addEventListener("keyup", getTextInput);
+textInput.addEventListener('keyup', getTextInput);
 
 // Interação com o input da IMAGEM
 // 1. Elementos para acessar
-let inputImage = document.getElementById("meme-insert");
-let memeImage = document.getElementById("meme-image");
+const inputImage = document.getElementById('meme-insert');
+const memeImage = document.getElementById('meme-image');
 // 2. Pegar a imagem e mostrar na tela
 function displayImage(event) {
-    let file = event.target.files[0];
-    memeImage.src = URL.createObjectURL(file);
+  const file = event.target.files[0];
+  memeImage.src = URL.createObjectURL(file);
 }
-inputImage.addEventListener("change", displayImage);
+inputImage.addEventListener('change', displayImage);
 
-//Botões estilização
+// Botões estilização
 const buttonFire = document.getElementById('fire');
 const buttonWater = document.getElementById('water');
 const buttonEarth = document.getElementById('earth');
 const memeImageContainer = document.getElementById('meme-image-container');
 
 function fire() {
-    memeImageContainer.style.border = 'dashed 3px red';
+  memeImageContainer.style.border = 'dashed 3px red';
 }
 buttonFire.addEventListener('click', fire);
-  
+
 function water() {
-    memeImageContainer.style.border = 'double 5px blue';
+  memeImageContainer.style.border = 'double 5px blue';
 }
 buttonWater.addEventListener('click', water);
-  
-function earth() { 
-    memeImageContainer.style.border = 'groove 6px green';
+
+function earth() {
+  memeImageContainer.style.border = 'groove 6px green';
 }
 buttonEarth.addEventListener('click', earth);
 
 function getElementImage() {
-    const elementImage = document.getElementById('meme-image');
-    return elementImage;
+  const elementImage = document.getElementById('meme-image');
+  return elementImage;
 }
 
 const elementPresetsContainer = document.getElementById('presets-images');
