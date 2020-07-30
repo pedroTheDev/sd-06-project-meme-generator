@@ -15,15 +15,18 @@
 </header>
 
   <h2>Os melhores memes da internet! &#128540;</h2>
-  <input type="text" id="text-input" placeholder="Adicione seu texto!" maxlength="60"><br><br>
-  <input type="file" acept="image/*" id="meme-insert"><br><br>
+  <form>
+    <label for="text-input">Add your text</label><br>
+    <input type="text" id="text-input" placeholder="Adicione seu texto!" maxlength="60"><br><br>
+    <label for="meme-insert">Choose a photo</label><br>
+    <input type="file" acept="image/*" id="meme-insert"><br><br>
+  </form>
 
   <section id="meme-image-container" class="meme_image_container">
-    <img id="meme-image" src="#" alt="Imagem do meme">
+    <img id="meme-image"class="meme image" alt="Imagem do meme">
     <div id="meme-text" class="meme_text"></div>
     
     
-        
   </section>
 </body>
 
