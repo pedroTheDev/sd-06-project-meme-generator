@@ -38,5 +38,36 @@ earthStyleButton.addEventListener('click', function() {
     memeContainer.classList.remove('fireStyle');
 })
 
+//Select meme option from the page
+let imageArea = document.querySelector('.image-selection')
+let memeOne = document.getElementById('meme-1');
+let memeOneSrc = memeOne.src;
+let memeTwo = document.getElementById('meme-2');
+let memeTwoSrc = memeTwo.src;
+let memeThree = document.getElementById('meme-3');
+let memeThreeSrc = memeThree.src;
+let memeFour = document.getElementById('meme-4');
+let memeFourSrc = memeFour.src;
+let img = document.querySelector('img');
+
+memeOne.addEventListener('click', function() {
+    img.id = 'meme-image';
+    img.src = memeOneSrc;
+})
+memeTwo.addEventListener('click', function() {
+    img.id = 'meme-image';
+    img.src = memeTwoSrc;
+})
+memeThree.addEventListener('click', function() {
+    img.id = 'meme-image';
+    img.src = memeThreeSrc;
+})
+memeFour.addEventListener('click', function() {
+    img.id = 'meme-image';
+    img.src = memeFourSrc;
+})
+
+
+
 
 
