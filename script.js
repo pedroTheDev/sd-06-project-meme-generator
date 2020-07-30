@@ -1,15 +1,16 @@
 const inputText = document.querySelector('#text-input');
 const memeText = document.querySelector('#meme-text');
+const memeImage = document.querySelector('.meme-image');
+const uploadImage = document.querySelector('#meme-insert');
+const btnCustomize = document.querySelector('.customization');
+const memeContainer = document.querySelector('#meme-image-container')
 
+// Adiciona texto a imagem;
 inputText.addEventListener('keyup', function () {
   memeText.innerHTML = inputText.value;
 });
 
-
-const memeImage = document.querySelector('.meme-image');
-const uploadImage = document.querySelector('#meme-insert');
-
-
+// Carrega uma nova imagem a página;
 function displayImage(event) {
   const file = event.target.files[0];
   memeImage.src = URL.createObjectURL(file);
@@ -18,3 +19,16 @@ function displayImage(event) {
   };
 }
 uploadImage.addEventListener('change', displayImage);
+
+// Adiciona borda ao container;
+function changeBorder(event) {
+  const newBorder = event.target;
+  if (newBorder === fire) {
+    memeContainer.style.border = '3px dashed red';
+  } else if (newBorder === water) {
+    memeContainer.style.border = '5px double blue';
+  } else {
+    memeContainer.style.border = '6px groove green';
+  }
+}
+btnCustomize.addEventListener('click', changeBorder)

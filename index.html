@@ -7,11 +7,19 @@
   <title>Project Meme Generator</title>
 </head>
 <body>
+  <header>
+    <h1>Generator Meme</h1>
+  </header>
   <input type="text" maxlength="60" id="text-input">
   <input type="file" accept="image/*" id="meme-insert">
   <section id="meme-image-container" class="meme-container">
     <div id="meme-text" class="meme-text"></div>
     <img id="meme-image" class="meme-image" src="">
+  </section>
+  <section class="customization">
+    <button id="fire" class="fire">Fire</button>
+    <button id="water" class="water">Water</button>
+    <button id="earth" class="earth">Earth</button>
   </section>
 <script src="script.js"></script>
 </body>
