@@ -8,7 +8,6 @@
     memeContainer.innerHTML = textBox.value;
   }
   textBox.addEventListener('keyup', trocaTexto);
-  
   function readImage() {
     imagePreview.src = window.URL.createObjectURL(fileChooser.files[0]);
   }
@@ -19,7 +18,6 @@
   const fire = document.getElementById('fire');
   const water = document.getElementById('water');
   const earth = document.getElementById('earth');
-  
   function selectBorders() {
     if (event.target === fire) {
       principal.style.borderColor = 'red';
@@ -42,5 +40,3 @@
   fire.addEventListener('click', selectBorders);
   water.addEventListener('click', selectBorders);
   earth.addEventListener('click', selectBorders);
-
-
