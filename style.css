@@ -16,6 +16,7 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 10px;
     margin-top: 120px;
+    margin-bottom: 20px;
 }
 
 #text-input {
@@ -25,19 +26,31 @@ h1 {
 }
 
 #meme-insert {
-    width: 100px;
+    width: 200px;
     border: 2px dashed black;
     padding-top: 10px;
     align-content: center;
 }
 
-#meme-image-container {
+.meme-container {
     background-color: white;
     border: 1px solid black;
     float: left;
     width: 500px;
     height: 500px;
     display: flex;
+}
+
+.fireStyle {
+    border: 3px dashed red;
+}
+
+.waterStyle {
+    border: 5px double blue;
+}
+
+.earthStyle {
+    border: 6px groove green;
 }
 
 #meme-text {
