@@ -1,11 +1,11 @@
 const insertMeme = document.querySelector('#meme-insert');
-const buttonText = document.querySelector('#inserir-texto');
+const insertText = document.querySelector('#text-input');
 
 insertMeme.addEventListener('change', function (e) {
   addImg(e,insertMeme);
 });
 
-buttonText.addEventListener('click', function (e) {
+insertText.addEventListener('change', function (e) {
   addTxt(e);
 });
 
