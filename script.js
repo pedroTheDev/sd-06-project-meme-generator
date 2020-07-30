@@ -51,5 +51,3 @@ personalizeImage.addEventListener("click", function(event){
     console.log(event.target.src);
     memeImage.src = event.target.src;
 })
-
-// Req 
