@@ -1,36 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meme Generator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Meme!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <section>
-        <header>
-            <h1>Meme Generator</h1>
-        </header>
+      <header>
+        <h1 id="header-title">Gerador de Memes</h1>
+      </header>
     </section>
 
     <section>
-        <h4 class="display">Digite a frase do Meme:</h4>
-        <input maxlength="60" id="text-input" type="text">
+      <h3 class="display">Digite a frase:</h3>
+      <input type="text" id="text-input" maxlength="60" >
     </section>
-
     <section>
-        <h4 class="display">Envie uma foto:</h4>
-        <input type="file" id="meme-insert" onchange="showImage(event)">
+      <h3 class="display">Escolha uma Imagem:</h3>
+      <input type="file" id>
+    </section>
+    <section id="meme-image-container">
+      <p id="meme-text"> aqui vai ficar o texto. </p>
+      <img src="" alt="">
     </section>
 
-    <section id="meme-image-container" class="meme-container">
-        <p id="meme-text" class="meme-text"></p>
-        <img src="" id="meme-image" class="meme-image" alt="Foto do meme">
-    </section>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
