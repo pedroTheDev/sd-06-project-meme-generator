@@ -13,7 +13,7 @@ h1 , label {
 .container {
   background-color: white;
   border: 1px solid black;
-  height: auto;
+  height: 550px;
   position: relative;
   width: 550px;
 }
