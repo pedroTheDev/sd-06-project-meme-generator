@@ -11,10 +11,10 @@ const uploadImage = document.querySelector('#meme-insert');
 
 
 function displayImage(event) {
-  let file = event.target.files[0];
+  const file = event.target.files[0];
   memeImage.src = URL.createObjectURL(file);
-  memeImage.onload = function() {
+  memeImage.onload = function () {
     URL.revokeObjectURL(memeImage.src);
-  }
+  };
 }
 uploadImage.addEventListener('change', displayImage);
