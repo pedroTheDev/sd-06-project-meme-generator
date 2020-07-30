@@ -40,3 +40,4 @@ window.onload = function () {
   const earthButton = document.getElementById('earth');
   earthButton.addEventListener('click', changeMolduraEarth);
 };
+
