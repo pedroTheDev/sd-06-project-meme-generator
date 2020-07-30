@@ -8,7 +8,6 @@ window.onload=function(){
     textoEscrito.addEventListener('input', function() {
         textoMeme.innerHTML = textoEscrito.value
     })
-
     memeInsert.addEventListener('change', function(event) {
     memeImg.src = URL.createObjectURL(event.target.files[0]);
     memeImg.onload = function() {
