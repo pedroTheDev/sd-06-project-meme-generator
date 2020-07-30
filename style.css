@@ -1,3 +1,8 @@
+.customization {
+  margin: 20px;
+  text-align: center;
+}
+
 .meme-text {
   color: white;
   font-size: 30px;
@@ -8,12 +13,22 @@
 .meme-container {
   background-color: white;
   border: black solid 1px;
+  display: block;
   height: 400px;
-  margin-top: 20px;
+  margin: auto;
   width: 400px;
 }
 
 .meme-image {
   height: 400px;
   width: 400px;
+}
+
+.meme {
+  cursor: pointer;
+  width: 200px;
+}
+
+.title {
+  text-align: center;
 }
