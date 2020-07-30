@@ -6,9 +6,21 @@ body {
   padding: 0;
 }
 
+.earth1 {
+  background-color: green;
+  height: 30px;
+  width: 80px;
+}
+
+.fire1 {
+  background-color: red;
+  height: 30px;
+  width: 80px;
+}
+
 .meme_image {
-  height: 500px;
-  width: 500px;
+  height: 250px;
+  width: 250px;
 }
 
 .meme_image_container {
@@ -16,14 +28,21 @@ body {
   border: 1px;
   border-color: black;
   border-style: solid;
-  height: 500px;
-  width: 500px;
+  height: 250px;
+  width: 250px;
 }
 
 .meme_text {
   color: white;
   font-size: 30px;
+  margin-top: 180px;
   position: absolute;
   text-shadow: black 5px 5px 5px;
-  width: 300px;
+  width: 350px;
+}
+
+.water1 {
+  background-color: blue;
+  height: 30px;
+  width: 80px;
 }
