@@ -1,4 +1,4 @@
-* {
+header , h1 , h3 , main , div , img , p , input , label , button , body {
   margin: 0;
   padding: 0;
 }
@@ -56,13 +56,13 @@ main {
   justify-content: center;
 }
 
-[ type = 'file' ] {
+input[ type = 'file' ] {
   overflow: hidden;
   width: 0;
 }
 
-label.upload {
-  background-color: #99c793;
+.upload {
+  background-color: rgb(153,199,147);
   border: none;
   border-radius: 50px;
   color: white;
@@ -70,17 +70,17 @@ label.upload {
   font-family: Rubik, sans-serif;
   font-weight: 500;
   margin-bottom: 1rem;
+  overflow: hidden;
   padding: 1rem 50px;
   position: relative;
   transition: all 0.3s;
-  overflow: hidden;
   vertical-align: middle;
 }
 
-label.upload::before {
+.upload:before {
   color: white;
   content: '\f382';
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free', sans-serif;
   font-size: 100%;
   font-weight: 900;
   height: 100%;
@@ -91,8 +91,11 @@ label.upload::before {
   transition: all 0.3s;
 }
 
-label.upload:hover::before {
-  background-color: darken(#99c793 , 30%);
+.upload:hover {
+  background-color: rgb(136, 182, 130);
+}
+
+.upload:hover:before {
   right: 83%;
 }
 
@@ -114,6 +117,7 @@ label.upload:hover::before {
 
 .text-container input:focus {
   outline: none;
+  background-color: white;
 }
 
 /* meme */
@@ -122,8 +126,8 @@ label.upload:hover::before {
   border: 1px solid black;
   height: 60vh;
   max-width: 70vw;
-  position: relative;
   overflow: hidden;
+  position: relative;
   width: auto;
 }
 
@@ -134,7 +138,7 @@ label.upload:hover::before {
 .meme-text {
   bottom: 12px;
   color: white;
-  font-family: 'Rowdies', cursive;
+  font-family: Rowdies, cursive;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 4px;
@@ -162,20 +166,24 @@ label.upload:hover::before {
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 12px;
+  overflow: hidden;
   padding: 8px;
   position: relative;
-  outline: none;
   width: 60%;
+}
+
+.button-container button:focus {
+  outline: none;
 }
 
 .button-container button:active {
   transform: translateY(4px);
 }
 
-.fire::before {
+.fire:before {
   color: white;
   content: '\f06d';
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free', sans-serif;
   font-size: 100%;
   font-weight: 900;
   height: 100%;
@@ -186,14 +194,14 @@ label.upload:hover::before {
   transition: all 0.15s;
 }
 
-.fire:hover::before {
+.fire:hover:before {
   right: 83%;
 }
 
-.water::before {
+.water:before {
   color: white;
   content: '\f773';
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free', sans-serif;
   font-size: 100%;
   font-weight: 900;
   height: 100%;
@@ -204,14 +212,14 @@ label.upload:hover::before {
   transition: all 0.15s;
 }
 
-.water:hover::before {
+.water:hover:before {
   right: 83%;
 }
 
-.earth::before {
+.earth:before {
   color: white;
   content: '\f57c';
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free', sans-serif;
   font-size: 100%;
   font-weight: 900;
   height: 100%;
@@ -222,14 +230,14 @@ label.upload:hover::before {
   transition: all 0.15s;
 }
 
-.earth:hover::before {
+.earth:hover:before {
   right: 83%;
 }
 
-.remove::before {
+.remove:before {
   color: white;
   content: '\f2ed';
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free', sans-serif;
   font-size: 100%;
   font-weight: 900;
   height: 100%;
@@ -240,7 +248,7 @@ label.upload:hover::before {
   transition: all 0.15s;
 }
 
-.remove:hover::before {
+.remove:hover:before {
   right: 83%;
 }
 

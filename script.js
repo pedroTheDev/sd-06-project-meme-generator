@@ -26,7 +26,7 @@ function addBorders() {
           imgContainer.style.border = '1px solid black';
           break;
       }
-    }
+    };
   });
 }
 
@@ -43,7 +43,7 @@ function clickSuggestedMemes() {
   memeCollection.forEach((img) => {
     img.addEventListener('click', (event) => {
       mainMeme.src = event.target.src;
-    })
+    });
   });
 }
 
@@ -64,7 +64,7 @@ function addText() {
   const inputText = document.getElementById('text-input');
 
   inputText.addEventListener('input', (event) => {
-    const memeText = document.getElementById('meme-text')
+    const memeText = document.getElementById('meme-text');
     memeText.innerHTML = event.target.value;
   })
 }
