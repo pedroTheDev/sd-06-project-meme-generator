@@ -5,7 +5,7 @@ insertMeme.addEventListener('change', function (e) {
   addImg(e,insertMeme);
 });
 
-insertText.addEventListener('change', function (e) {
+insertText.addEventListener('keyup', function (e) {
   addTxt(e);
 });
 
