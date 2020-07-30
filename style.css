@@ -27,3 +27,40 @@ body {
   height: 400px;
   width: 500px;
 }
+
+.borders {
+  margin: 10px;
+}
+
+.fire {
+  background-color: red;
+  color: white;
+  font-size: 22px;
+  height: 50px;
+  width: 75px;
+}
+
+.water {
+  background-color: blue;
+  color: white;
+  font-size: 22px;
+  height: 50px;
+  width: 75px;
+}
+
+
+.earth {
+  background-color: green;
+  color: white;
+  font-size: 22px;
+  height: 50px;
+  width: 75px;
+}
+
+.reset {
+  background-color: gray;
+  color: black;
+  font-size: 22px;
+  height: 50px;
+  width: 75px;
+}
