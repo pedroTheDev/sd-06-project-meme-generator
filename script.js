@@ -1,10 +1,3 @@
-window.onload = function () {
-  handleImageUpload();
-  handleTextInput();
-  handleBorderSelection();
-  handleMemeSelection();
-};
-
 const textInput = document.querySelector('#text-input');
 const textContainer = document.querySelector('#meme-text');
 const imgInput = document.querySelector('#meme-insert');
@@ -71,3 +64,10 @@ function handleMemeSelection() {
     }
   });
 }
+
+window.onload = function () {
+  handleImageUpload();
+  handleTextInput();
+  handleBorderSelection();
+  handleMemeSelection();
+};
