@@ -34,3 +34,7 @@ h1 , label {
   height: 100%;
   width: 100%;
 }
+
+.border-button {
+  margin-top: 25px;
+}

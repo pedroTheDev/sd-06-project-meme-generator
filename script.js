@@ -1,7 +1,7 @@
 window.onload = function () {
   handleImageUpload();
   handleTextInput();
-  handleBorderSelection()
+  handleBorderSelection();
 };
 
 const textInput = document.querySelector('#text-input');
@@ -27,9 +27,9 @@ function handleTextInput() {
 
 function changeBorder(event) {
   const selectedBorder = event.target;
-  if (selectedBorder.id ==='fire-button') {
+  if (selectedBorder.id === 'fire') {
     imgContainer.style.border = '3px dashed red';
-  } else if (selectedBorder.id ==='water-button') {
+  } else if (selectedBorder.id === 'water') {
     imgContainer.style.border = '5px double blue';
   } else {
     imgContainer.style.border = '6px groove green';
@@ -41,5 +41,5 @@ function handleBorderSelection() {
     if (event.target.classList.contains('border-button')) {
       changeBorder(event);
     }
-  })
+  });
 }
