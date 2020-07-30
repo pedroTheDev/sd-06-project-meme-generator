@@ -71,7 +71,7 @@ body {
   width: 60%;
 }
 
-.mini-images div {
+.mini-images img {
   border: 1px black solid;
   clear: both;
   display: inline-block;
@@ -81,7 +81,7 @@ body {
 }
 
 .meme-1 {
-  background-image: url('./imgs/meme1.png');
+  
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
