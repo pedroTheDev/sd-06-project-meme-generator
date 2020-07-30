@@ -1,25 +1,19 @@
+// criar variáveis 
+const textInput = document.getElementById("#text-input");
+const memeText = document.getElementById("#meme-text");
+const memeImage = document.getElementById("#meme-image");
+const memeInsert = document.getElementById("#meme-isert");
 
-let insiraSeuTexto = document.getElementById("text-imput");
-let insiraSuaimagem = document.getElementById("meme-insert");   
-let apareceTextonaImagem = document.getElementById("meme-text");
-let carregaMeMeimagem = document.getElementById("meme-image");
-let imagemNaCaixa = document.getElementById("meme-image-container");
+// criar funções 
 
-//insiraSeuTexto.addEventListener("evento",function() {} ) // imput/change
-
-insiraSeuTexto.addEventListener("input",function(){
-apareceTextonaImagem.innerText = insiraSeuTexto.value;
-}); 
-
-
-insiraSuaimagem.addEventListener("change",function(){
-carregaMeMeimagem.src = URL.createObjectURL(event.target.files[0]);
-carregaMeMeimagem.style.maxWidth = "100%";
-carregaMeMeimagem.onload = function(){
-  URL.revokeObjectURL(carregaMeMeimagem.src)
+// função para inserir frase na imagem:
+function iserirfrase(){
+    memeText.innerHTML = textInput.Value;
 }
-});
+textInput.addEventListener("keyup", iserirfrase);
 
-//carregaMeMeimagem.addEventListener("evento",function(){})
-
-//imagemNaCaixa.addEventListener("evento",function(){})      
+// função upload imagem 
+function oploadimage(){
+    memeImage.src = URL.createObjectURL(memeInsert.files[0]);
+}
+memeInsert.addEventListener("change", oploadimage);
