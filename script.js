@@ -14,10 +14,10 @@ function loadFile(event) {
   output.onload = function () {
     URL.revokeObjectURL(output.src);
   };
-};
+}
 
 function botaoFire() {
-  memeImageContainer.style.border = '3px dashed red';
+  botaoFire = memeImageContainer.style.border = '3px dashed red';
 }
 
 function botaoWater() {
@@ -28,7 +28,7 @@ function botaoEarth() {
   memeImageContainer.style.border = '6px groove green';
 }
 
-function teste(image) {
+function imgs(image) {
   const output = document.getElementById('meme-image');
   output.src = image.src;
 }
