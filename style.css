@@ -33,3 +33,18 @@ body {}
     margin-top: 1rem;
     margin-left: 8rem;
 }
+
+.fire {
+    background-color: red;
+    color: white;
+}
+
+.water {
+    background-color: blue;
+    color: white;
+}
+
+.earth {
+    background-color: green;
+    color: white;
+}
