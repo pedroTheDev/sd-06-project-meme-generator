@@ -1,29 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
   <head>
     <title>Meme Generator</title>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" type= "text/css" href="style.css">
   </head>
-
   <body>  
-
       <h1>Meme Generator</h1>
-       <h3>Insira seu texto:</h3><br>
-       <input id="text-input" type="textarea" maxlength="60"><br> 
-        <br>
-        <input type="file" id="meme-insert"><br>
 
-      <div id="meme-image-container" class="meme-image-container">
-        <div id="meme-text" class="meme-text"> 
-        <img id="meme-image" class ="meme-image">
-          </div>
+      <div id="meme-image-container">
+     <h4 id="meme-text"> </h4>
+     <img id="meme-image">
       </div>
-  
-        <script src="scrip.js"></script>
 
+
+          <label for="text-input">Acrescente seu texto:</label><br>
+        <input id="text-input" maxlength="60"><br>
+        <br>
+        <label>baixe aqui sua imagem!</label><br>
+        <input type="file" id="meme-insert" accept="image/*"><br>
+  
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+      <script>
+          $(function(){
+              $('#meme-insert').change(function(){
+                  let file = $(this)[0].files[0] 
+                  let fileReader = new FileReader() 
+                  fileReader.onloadend = function(){
+                      $('#meme-image').attr('src', fileReader.result) 
+                  }
+                  fileReader.readAsDataURL(file)
+              })
+          })
+  
+  
+      </script>
     
   </body>
 </html>
