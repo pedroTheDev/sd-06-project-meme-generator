@@ -1,6 +1,7 @@
 const textInput = document.querySelector('#text-input');
 const textInside = document.querySelector('#meme-text');
 const imageInput = document.getElementById('meme-image');
+const imagePre = document.getElementById('meme-image');
 
 function changeText() {
   textInside.innerText = textInput.value;
@@ -14,3 +15,15 @@ const loadFile = function (event) {
   //   URL.revokeObjectURL(imageInput.src); // free memory
   // };
 };
+
+function earth() {
+  imgPre.className = 'meme-container earth';
+}
+
+function fire() {
+  imgPre.className = 'meme-container fire';
+}
+
+function water() {
+  imgPre.className = 'meme-container water';
+}
