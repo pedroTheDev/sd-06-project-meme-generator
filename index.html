@@ -10,16 +10,20 @@
 </head>
 
 <body>
+  <header>
   <h1>Meme generator</h1>
+</header>
 
   <h2>Os melhores memes da internet! &#128540;</h2>
-
-  <input type="text" id="text-input" maxlength="60"><br><br>
-  <input type="file" name="Imagem" id="meme-insert"><br><br>
+  <input type="text" id="text-input" placeholder="Adicione seu texto!" maxlength="60"><br><br>
+  <input type="file" acept="image/*" id="meme-insert"><br><br>
 
   <section id="meme-image-container" class="meme_image_container">
-      <div id="meme-text" class="meme_text"></div>
-      
+    <img id="meme-image" src="#" alt="Imagem do meme">
+    <div id="meme-text" class="meme_text"></div>
+    
+    
+        
   </section>
 </body>
 
