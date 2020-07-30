@@ -1,10 +1,13 @@
 window.onload = function () {
+  let temImagem = false;
   //  Tomando imagen e colocando no container.
   const memeImage = document.createElement('img');
   loadFile = function (event) {
+    removerAntigua();
     const reader = new FileReader();
     reader.onload = function () {
       const image = document.getElementById('meme-image').appendChild(memeImage);
+      temImagem = true;
       image.src = reader.result;
     };
     reader.readAsDataURL(event.target.files[0]);
@@ -23,4 +26,18 @@ window.onload = function () {
     let propBorda = window.getComputedStyle(bordaSelecionada, null).getPropertyValue("border");
     document.querySelector('#meme-image-container').style.border = propBorda;
   });
+  //  Imagens preselecionadas em miniuatura
+  const imagenMiniatura = document.querySelector('#img-miniatura');
+  imagenMiniatura.addEventListener('click', function (event) {
+    removerAntigua();
+    memeImage.src = event.target.src;
+    const image = document.getElementById('meme-image').appendChild(memeImage);
+    temImagem = true;
+  });
+  //  funcao remover foto antigua
+  function removerAntigua() {
+    if (temImagem === true) {
+      memeImage.remove.src;
+    }
+  }
 };
