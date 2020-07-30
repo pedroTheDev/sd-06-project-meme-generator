@@ -1,8 +1,10 @@
 const textInput = document.querySelector('#text-input');
 const textInside = document.querySelector('#meme-text');
 const imageInput = document.querySelector('#meme-image');
-const imagePre = document.querySelector('#meme-insert');
-const botonFire = document.querySelector('#fire')
+// const imagePre = document.querySelector('#meme-insert');
+// const botonFire = document.querySelector('#fire')
+// const botonWater = document.querySelector('#water')
+// const botonEarth = document.querySelector('#earth')
 
 function changeText() {
   textInside.innerText = textInput.value;
@@ -17,29 +19,18 @@ function loadFile(event) {
   // };
 };
 
-function sI(event) {
-  imageInput.src = event.target.src;
-};
+// function sI(event) {
+//   imageInput.src = event.target.src;
+// };
 
-function earth() {
-  imagePre.className = 'meme-container earth';
-};
+// botonFire.addEventListener('click', function fire() {
+//   document.getElementById('meme-image-container').style.border = '3px dashed red';
+// });
 
-btnFire.addEventListener('click', function () {
-  document.getElementById('meme-image-container').style.border = '3px dashed red';
-});
+// botonWater.addEventListener('click', function water() {
+//   document.getElementById('meme-image-container').style.border = '5px double blue';
+// });
 
-// function fire() {
-//   imagePre.className = 'meme-container fire';
-// }
-
-function water() {
-  imagePre.className = 'meme-container water';
-};
-
-// if (imageInput === 'Agora estou  usando, CodeClimate') {
-//   water();
-//   fire();
-//   earth();
-//   sI(event);
-// }
+// botonEarth.addEventListener('click', function earth() {
+//   document.getElementById('meme-image-container').style.border = '6px groove green';
+// });
