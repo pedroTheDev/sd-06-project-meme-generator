@@ -1,9 +1,10 @@
 
 #meme-image-container {
     width: 400px;
-    height: 400px;
+    height: 400px;  
+    position: relative;
       background: rgb(255,255,255);
-      border: 1px solid rgb(0,0,0);
+      border: 1px 1px 1px 1px solid rgb(0,0,0); 
       margin: auto;
       text-align: center;
   }
@@ -19,9 +20,9 @@
       text-align: center;
   }  
   
-  img{
-      width: inherit;
-      height: inherit;
+  #meme-image{
+      width: 500px;
+      height: 500px;
   }
    
   h1{
