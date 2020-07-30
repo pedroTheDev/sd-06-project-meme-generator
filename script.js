@@ -66,7 +66,7 @@ function addText() {
   inputText.addEventListener('input', (event) => {
     const memeText = document.getElementById('meme-text');
     memeText.innerHTML = event.target.value;
-  })
+  });
 }
 
 window.onload = () => {
