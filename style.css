@@ -1,0 +1,19 @@
+.meme-text {
+  color: aqua;
+  position: absolute;
+
+}
+
+.meme-image {
+  height:  500px;
+  width: 500px;
+
+}
+
+.meme-container {
+  background-color: white;
+  border: black solid 1px;
+  height: 501px;
+  width: 501px;
+
+}
