@@ -38,7 +38,7 @@ textInput.addEventListener("input", onChangeText);
 //fire-button
 
 function changeFireBorder(){
-    document.getElementById("meme-image").style.border = "3px dashed red";
+    document.getElementById("meme-image-container").style.border = "3px dashed red";
 }
 
 //
@@ -53,7 +53,7 @@ fireBorder.addEventListener("click", function(){
 //water-button
 
 function changeWaterBorder(){
-    document.getElementById("meme-image").style.border = "5px double blue";
+    document.getElementById("meme-image-container").style.border = "5px double blue";
 }
 
 //
@@ -68,7 +68,7 @@ waterBorder.addEventListener("click", function(){
 //earth-button
 
 function changeEarthBorder(){
-    document.getElementById("meme-image").style.border = "6px groove green";
+    document.getElementById("meme-image-container").style.border = "6px groove green";
 }
 
 //
