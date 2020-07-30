@@ -3,9 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Meme Generator</title>
 </head>
 <body>
-  
+  <h1>Meme Generator</h1>
+
+  <section>Texto:
+    <input id="text-input" type="text" maxlength="60">
+  </section>
+
+  <section>Foto:
+  <input id="meme-insert" type="file">
+  </section>
+
+  <div id="meme-image-container" class="image-container">
+    <img id="meme-image" class="image-container">
+    <div id="meme-text" class="inside-meme-text"></div>
+  </div>
+
+  <section>Estilos Customizados:</section>
+
+  <button id="fire" class="red">Fire ❤️</button>
+  <button id="water" class="blue">Water &#128153</button>
+  <button id="earth" class="green">Earth &#128154</button>
+
+  <section>
+    <p>Memes pré prontos:</p>
+  </section>
+
+  <section id="memes" class="memes">
+    <img src="img/meme01.jpg" id="meme01" class="meme01" alt="Meme do Gato">
+    <img src="img/meme02.jpg" id="meme02" class="meme02" alt="Meme Nazaré Cálculos">
+    <img src="img/meme03.jpg" id="meme03" class="meme03" alt="Meme dos Piores Conselhos">
+    <img src="img/meme04.jpg" id="meme04" class="meme04" alt="Meme Aff">
+    <img src="img/meme05.jpg" id="meme05" class="meme05" alt="Meme Dança do Caixão">
+  </section>
+
+
+
+
+  <script src="script.js"></script>
 </body>
 </html>
