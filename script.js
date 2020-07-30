@@ -1,6 +1,6 @@
 const textInput = document.querySelector('#text-input');
 const textInside = document.querySelector('#meme-text');
-const output = document.getElementById('meme-image');
+const imageInput = document.getElementById('meme-image');
 
 function changeText() {
   textInside.innerText = textInput.value;
@@ -9,8 +9,8 @@ function changeText() {
 textInput.addEventListener('keyup', changeText);
 
 const loadFile = function (event) {
-  output.src = URL.createObjectURL(event.target.files[0]);
-  // output.onload = function () {
-  //   URL.revokeObjectURL(output.src); // free memory
+  imageInput.src = URL.createObjectURL(event.target.files[0]);
+  // imageInput.onload = function () {
+  //   URL.revokeObjectURL(imageInput.src); // free memory
   // };
 };

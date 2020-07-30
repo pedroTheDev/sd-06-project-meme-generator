@@ -2,6 +2,14 @@ body {
   background-color: rgb( 154 , 185 , 211 );
 }
 
+.boxText{
+  display: inline-block
+}
+
+.boximg{
+  display: inline;
+}
+
 .meme-image-container {
   background-color: white;
   border: 1px solid black;

@@ -9,24 +9,29 @@
 </head>
 <body>
 
-  <header><h1>MEME GENERATOR</h1></header>
+  <div><header><h1>MEME GENERATOR</h1></header></div>
 
   <section>
-    <p>Inserir texto do Meme: </p>
+    <p class="boxText">Inserir texto do Meme: </p>
     <input id="text-input" type="text" maxlength="60">
   </section>
+
+
   <section>
-    <p>Escolha a foto do seu meme: </p>
+    <p class='boximg'>Escolha a foto do seu meme: </p>
     <input id="meme-insert" type="file" accept="image/*"  src="" onchange="loadFile(event)">
   </section>
 
-      <div id="meme-image-container" class="meme-image-container">
+  <section>
+      
+    <div id="meme-image-container" class="meme-image-container">
 
       <div class="img"><img id="meme-image" class="meme-image"/></div>
 
       <div id="meme-text" class="meme-text"> O seu texto digitado vai Substituir este!</div>
-
-      </div>
+    </div>
+  </section>
+     
   </section>
   <script src="script.js"></script>
 </body>
