@@ -43,13 +43,10 @@ function changeBorder(event) {
   const selectedBorder = event.target;
   if (selectedBorder.id === 'fire') {
     imgContainer.style.border = '3px dashed red';
-    selectedBorder.style.backgroundColor = 'rgb(150 , 0 , 0';
   } else if (selectedBorder.id === 'water') {
     imgContainer.style.border = '5px double blue';
-    selectedBorder.style.backgroundColor = 'rgb(0 , 0 , 150';
   } else {
     imgContainer.style.border = '6px groove green';
-    selectedBorder.style.backgroundColor = 'rgb(0 , 75 , 0';
   }
 }
 
