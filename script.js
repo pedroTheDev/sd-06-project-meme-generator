@@ -17,13 +17,10 @@ window.onload = function () {
   });
   // funcionalidad de agregar borda a la foto com os 
   //respectivos botones.
-  let botaoFire = document.querySelector('#fire');
-  const botaoWater = document.querySelector('#water');
-  const botaoEarth = document.querySelector('#earth');
-  botaoFire.addEventListener('click', function () {
-    let theCSSprop = window.getComputedStyle(botaoFire, null).getPropertyValue("border");
-    document.querySelector('#meme-image-container').style.border = theCSSprop;
-
+  const bordas = document.querySelector('#bordas'); 
+  bordas.addEventListener('click', function (event) {
+    const bordaSelecionada = event.target;
+    let propBorda = window.getComputedStyle(bordaSelecionada, null).getPropertyValue("border");
+    document.querySelector('#meme-image-container').style.border = propBorda;
   });
-
 };
