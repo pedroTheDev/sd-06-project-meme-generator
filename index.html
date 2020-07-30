@@ -16,24 +16,24 @@
             <div class="input">
                 <label for = "text-input"> Texto: </label>
                 <input type = "text" id = 'text-input' maxlength = "60">
-                <input id = "button-adicionar" type = "button" value = "Adicionar!">
             </div>
             <div class = "input">
                 <input id = "meme-insert" type = "file" accept = "image/*" onchange = "loadFile(event)">
             </div>
         </form>
     </section>
-    <section id = "meme-image-container">
-        <div id = "meme-text">
-            <p id = "output-text"> </p>
+    <section id = "meme-image-container" class="meme-image-container">
+        <div id = "meme-text" >
+            <p id = "output-text" style="max-width: 300px"> </p>
         </div>
-        <img id = "meme-image" src = "" alt = "" height = "500" width = "600">
+        <img id = "meme-image" src = "" alt = "" height = "400" width = "300">
     </section>
+    <section class = "customization"></section>
     <section class="meme-pre-pronto">
         <img id = "meme-1" src = "./imgs/meme1.png" height = "100" width = "100">
         <img id = "meme-2" src = "./imgs/meme2.png" height = "100" width = "100">
         <img id = "meme-3" src = "./imgs/meme3.png" height = "100" width = "100">
-        <img id = "meme-4" src = "./imgs/meme4.png" height = "100" width = "100">            
+        <img id = "meme-4" src = "./imgs/meme4.png" height = "100" width = "100">
     </section>
     <script src = "./script.js"></script>
 </body>
