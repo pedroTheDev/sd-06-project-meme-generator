@@ -17,7 +17,7 @@ function loadFile(event) {
 }
 
 function botaoFire() {
-  botaoFire = memeImageContainer.style.border = '3px dashed red';
+  memeImageContainer.style.border = '3px dashed red';
 }
 
 function botaoWater() {

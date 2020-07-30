@@ -27,9 +27,9 @@
   font-family: monospace;
 }
 
-.earth, .fire, .water {
-  width: 100px;
+.earth , .fire , .water {
   height: 50px;
+  width: 100px;
 }
 
 .smallMemes {
