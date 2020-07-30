@@ -23,3 +23,31 @@
   height: 100%;
   width: 100%;
 }
+
+.fire {
+  background-color: red;
+  border-color: rgb(220 , 160 , 10);
+  border-style: dashed;
+  border-width: 3px;
+}
+
+.water {
+  background-color: blue;
+  border-color: rgb(70 , 150 , 225);
+  border-style: double;
+  border-width: 5px;
+}
+
+.earth {
+  background-color: green;
+  border-color: rgb(100 , 220 , 100);
+  border-style: groove;
+  border-width: 6px;
+}
+
+.buttonsPosition {
+  height: 50px;
+  left: 50px;
+  top: 500px;
+  width: 350px;
+}
