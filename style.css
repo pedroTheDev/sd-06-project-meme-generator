@@ -17,10 +17,6 @@ h1 , label {
   color: rgb(170 , 170 , 247);
 }
 
-.input-field {
-  /* margin-left: 20px; */
-}
-
 .container {
   background-color: white;
   border: 1px solid black;
