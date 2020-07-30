@@ -21,6 +21,7 @@ body {
 .meme_image {
   height: 250px;
   width: 250px;
+  z-index: 0;
 }
 
 .meme_image_container {
@@ -35,10 +36,17 @@ body {
 .meme_text {
   color: white;
   font-size: 30px;
-  margin-top: 180px;
   position: absolute;
   text-shadow: black 5px 5px 5px;
-  width: 350px;
+  width: 250px;
+  height: 100px;
+  bottom: 3px;  
+  left: 5px;
+  padding: 1px 2px;
+  text-align: center;
+  top: 350px;
+  word-wrap: break-word;
+  z-index: 1;
 }
 
 .water1 {
