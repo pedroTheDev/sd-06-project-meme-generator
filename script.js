@@ -1,10 +1,17 @@
  function addText(event) {
      var conteudo = event.target.value;
-     var getDiv = document.getElementById("meme-text");
+     var getDiv = document.getElementByClass("meme-text");
      getDiv.innerHTML = conteudo;
 
 
  }
+
+
+ const textInput = document.querySelector('#text-input');
+ textInput.addEventListener('keyup', function() {
+     const showText = document.querySelector('#meme-text');
+     showText.innerHTML = textInput.value;
+ });
 
 
 
