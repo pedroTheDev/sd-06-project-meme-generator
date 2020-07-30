@@ -1,6 +1,7 @@
 .meme-image-container {
   background-color: white;
   border: 1px solid black;
+  margin: auto;
   height: 400px;
   position: absolute;
   top: 50px;
@@ -23,4 +24,24 @@
 .meme-image {
   height: 400px;
   width: 600px;
+}
+
+.buttons {
+  position: absolute;
+  top: 460px;
+}
+
+.fire {
+  background-color: red;
+  color: white;
+}
+
+.water {
+  background-color: blue;
+  color: white;
+}
+
+.earth {
+  background-color: green;
+  color: white;
 }
