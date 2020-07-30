@@ -12,11 +12,11 @@ header {
   justify-content: center;
 }
 
-header h1 {
+.tittle {
   margin-bottom: 12px;
 }
 
-div h3 {
+.heading3 {
   margin-bottom: 12px;
 }
 
