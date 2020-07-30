@@ -1,0 +1,34 @@
+.container{
+  display: block;
+  border: 1px solid black;
+  width: 400px;
+  max-height: 100%;
+  margin: auto;
+
+}
+
+.controllers{
+  clear: both;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+.img-center{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  float: center;
+}
+.text-meme{
+  background-color: violet;
+  text-align: center;
+  float: center;
+  position: relative;
+  bottom: 150px;
+  max-width: 100%;
+  text-shadow: 5px 5px black;
+  font-size: 30px;
+  color: white;
+}
