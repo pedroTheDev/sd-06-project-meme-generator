@@ -36,7 +36,7 @@ personalizeColor.addEventListener("click", function(event){
     } else if (event.target == earthButton){
         memeImgContainer.style.borderWidth = "6px";
         memeImgContainer.style.borderStyle = "groove";
-        memeImgContainer.style.borderColor = "rgb(0,255,0)";
+        memeImgContainer.style.borderColor = "rgb(0,128,0)";
     }
 })
 
