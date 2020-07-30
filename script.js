@@ -17,3 +17,16 @@ window.onload = function() {
     inputedImage.src = URL.createObjectURL(event.target.files[0]);
   });
 }
+  window.onclick = function() {
+    let memeImageContainer = document.getElementById('meme-image-container');
+    if (event.target.id === 'fire') {
+      memeImageContainer.style.border = '3px dashed red';
+    }
+    if (event.target.id === 'water') {
+      memeImageContainer.style.border = '5px double blue';
+    }
+    if (event.target.id === 'earth') {
+      memeImageContainer.style.border = ' 6px groove green';
+    }
+  }
+
