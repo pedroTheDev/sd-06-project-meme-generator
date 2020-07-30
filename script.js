@@ -6,6 +6,17 @@ window.onload = function () {
     memeText.innerText = textInput.value;
   });
 
+  const submitButton = document.querySelector('.submit');
+  const imageInput = document.querySelector('#meme-insert')
+
+  submitButton.addEventListener('click', function () {
+    let output = document.querySelector('#meme-image')
+    output.src = URL.createObjectURL(imageInput.files[0]);
+    output.onload = function () {
+      URL.revokeObjectURL(output.src)
+    }
+  });
+
   const fireButton = document.querySelector('#fire');
   const imgContainer = document.querySelector('#meme-image-container');
 
