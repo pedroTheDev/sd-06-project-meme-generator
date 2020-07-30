@@ -24,13 +24,11 @@
       principal.style.borderWidth = '3px';
       principal.style.borderStyle = 'dashed';
     }
-  
     if (event.target === water) {
       principal.style.borderColor = 'blue';
       principal.style.borderWidth = '5px';
       principal.style.borderStyle = 'double';
     }
-  
     if (event.target === earth) {
       principal.style.borderColor = 'green';
       principal.style.borderWidth = '6px';
