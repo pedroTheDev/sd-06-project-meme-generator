@@ -13,7 +13,7 @@ window.onload = () => {
   function changeBorderColor (e) {
     button = e.currentTarget;
     memeContainer = document.getElementById('meme-image-container');
-    memeContainer.style.borderColor = getComputedStyle(button).backgroundColor;
+    memeContainer.style.border = getComputedStyle(button).border;
   }
 
   const insertMeme = document.querySelector('#meme-insert');

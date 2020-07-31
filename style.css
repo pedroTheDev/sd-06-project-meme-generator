@@ -7,6 +7,7 @@
   width: 600px;
   max-height: 100%;
   margin: auto;
+  background-color: white;
 }
 
 .controllers {
@@ -34,12 +35,15 @@
 
 .red {
   background-color: red;
+  border: 3px dashed red;
 }
 
 .brown {
-  background-color: brown;
+  background-color: green;
+  border: 6px groove green
 }
 
 .blue {
   background-color: blue;
+  border: 5px double blue;
 }
