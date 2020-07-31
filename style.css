@@ -1,14 +1,19 @@
 body {
+  background-image: linear-gradient(cornsilk, burlywood, sienna);
   line-height: 1.5em;
 }
 
 .image-container {
+  background-color: white;
   border: 1px solid black;
+  display: flex;
   max-height: 640px;
   max-width: 840px;
+  width: fit-content;
 }
 
 .meme-image {
+  border: 1px solid black;
   max-height: 640px;
   max-width: 840px;
 }
