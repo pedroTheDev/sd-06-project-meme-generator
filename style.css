@@ -1,32 +1,45 @@
-.container{
+.container {
   display: block;
-  border: 1px solid black;
+  border-color:  black;
+  border-width: 1px;
+  border-style: solid;
   height: 400px;
   width: 600px;
   max-height: 100%;
   margin: auto;
-  color: white;
 }
 
-.controllers{
+.controllers {
   text-align: center;
   margin: 10px auto;
 }
 
-.img-center{
+.img-center {
   width: 600px;
   height: 400px;
   margin: auto;
   text-align: center;
   float: center;
 }
-.text-meme{
+.text-meme {
   position: absolute;
   left: 40%;
   top: 300px;
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
-
+  color: white;
   margin: auto;
   width: 200px;
+}
+
+.red {
+  background-color: red;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.blue {
+  background-color: blue;
 }

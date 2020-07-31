@@ -7,19 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-
     <div id="meme-image-container" class="container">
         <img src="" id="meme-image" alt="" class="img-center">
-
     </div>
     <label class="text-container">
         <h1 class="text-meme" id="meme-text"></h1>
     </label>
-
     <section class="controllers">
     <input type="text" placeholder="texto do meme" id="text-input" maxlength="60">
     <input type="file" id="meme-insert" accept="image/*">
+    <label class="border" for="border">
+    <button id="fire" class="red">fire</button>
+    <button id="water" class="blue">water</button>
+    <button id="earth" class="brown">earth</button>
+    </label>
     </section>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
