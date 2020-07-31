@@ -10,26 +10,20 @@ userTextInput.addEventListener('input', function () {
 });
 
 document
-  .querySelector('#meme-insert')
+  .getElementById('meme-insert')
   .addEventListener('change', function (event) {
     const uploadImg = document.getElementById('memesrc');
-    uploadImg.src = URL.createObjectURL(event.target.files[0]);
+    uploadImg.src = window.URL.createObjectURL(event.target.files[0]);
   });
 
 btnFire.addEventListener('click', function () {
-  imgContainer.style.borderColor = 'red';
-  imgContainer.style.borderWidth = '3px';
-  imgContainer.style.borderStyle = 'dashed';
+  imgContainer.style.border = '3px dashed red';
 });
 
 btnWater.addEventListener('click', function () {
-  imgContainer.style.borderColor = 'blue';
-  imgContainer.style.borderWidth = '5px';
-  imgContainer.style.borderStyle = 'double';
+  imgContainer.style.border = '5px double blue';
 });
 
 btnEarth.addEventListener('click', function () {
-  imgContainer.style.borderColor = 'green';
-  imgContainer.style.borderWidth = '6px';
-  imgContainer.style.borderStyle = 'groove';
+  imgContainer.style.border = '6px groove green';
 });
