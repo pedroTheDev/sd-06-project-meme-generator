@@ -16,20 +16,32 @@ window.onload = () => {
     memeContainer.style.border = getComputedStyle(button).border;
   }
 
+  function addThumbnailImg (e) {
+    document.querySelector('#meme-image').src = e.currentTarget.src;
+  }
+
   const insertMeme = document.querySelector('#meme-insert');
   const insertText = document.querySelector('#text-input');
   const changeBorder = document.querySelector('.border').children;
+  const thumbNails = document.querySelector('#thumbnails-container').children;
 
   insertMeme.addEventListener('change', function (e) {
-    addImg(e,insertMeme);
+    addImg(e);
   });
+
+  for (let i = 0; i < thumbNails.length; i += 1) {
+    thumbNails[i].addEventListener('click', function (e) {
+      addThumbnailImg(e);
+    })
+  }
 
   insertText.addEventListener('keyup', function (e) {
     addTxt(e);
   });
 
-  for (let i = 0; i < changeBorder.length; i += 1)
-  changeBorder[i].addEventListener('click', function (e) {
-    changeBorderColor(e);
-  });
+  for (let i = 0; i < changeBorder.length; i += 1) {
+    changeBorder[i].addEventListener('click', function (e) {
+      changeBorderColor(e);
+    });
+  }
 }

@@ -10,6 +10,19 @@
   background-color: white;
 }
 
+.container-img {
+  text-align: center;
+
+}
+.container-img div {
+  display: inline-block;
+}
+
+.top-controllers {
+  text-align: center;
+  margin: 20px auto;
+}
+
 .controllers {
   text-align: center;
   margin: 10px auto;
@@ -31,6 +44,11 @@
   color: white;
   margin: auto;
   width: 200px;
+}
+
+.meme {
+  width: 200px;
+  height: 200px;
 }
 
 .red {
