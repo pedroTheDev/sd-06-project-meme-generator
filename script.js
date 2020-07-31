@@ -20,13 +20,13 @@ window.onload = function() {
   window.onclick = function() {
     let memeImageContainer = document.getElementById('meme-image-container');
     if (event.target.id === 'fire') {
-      memeImageContainer.style.border = '3px dashed rgb(255, 0, 0)';
+      memeImageContainer.style.border = '3px dashed red';
     }
     if (event.target.id === 'water') {
-      memeImageContainer.style.border = '5px double rgb(0, 0, 255)';
+      memeImageContainer.style.border = '5px double blue';
     }
     if (event.target.id === 'earth') {
-      memeImageContainer.style.border = ' 6px groove rgb(0, 128, 0)';
+      memeImageContainer.style.border = ' 6px groove green';
     }
   }
 
