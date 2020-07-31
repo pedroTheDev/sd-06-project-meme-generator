@@ -1,51 +1,51 @@
 .cabecalho {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
 .meme-image-container{
-    display: block;
-    background-color:white;
-    border: 1px solid black;
-    height: 400px;
-    margin-top: 30px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+  background-color:white;
+  border: 1px solid black;
+  display: block;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 300px;
 }
 
 .meme-pre-pronto {
-    text-align: center;
+  text-align: center;
 }
 
 .input {
-    text-align: center;
+  text-align: center;
 }
 
-#meme-text{
-    color: white;
-    font-size: 30px;
-    line-height: 30px;
-    position: absolute;
-    text-align: center;
-    text-shadow: black 5px 5px 5px;
-    width: 250px;
-    word-wrap: break-word;
+.meme-text {
+  color: white;
+  font-size: 30px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  text-shadow: black 5px 5px 5px;
+  width: 250px;
+  word-wrap: break-word;
 }
 
-.custom-button{
-    border: none;
-    color: white;
-    font-weight: bold;
-    padding: 15px 20px;
-    text-align: center;
-    font-size: 20px;
-    margin: 10px 5px;
-    cursor: wait;
+.custom-button {
+  border: none;
+  color: white;
+  cursor: wait;
+  font-size: 20px;
+  font-weight: 900; 
+  margin: 10px 5px;
+  padding: 15px 20px;
+  text-align: center;
 }
 
 .customization {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
