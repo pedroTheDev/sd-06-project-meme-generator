@@ -53,13 +53,13 @@ const memeChange = document.getElementById('meme-insert');
 function setMeme(event) {
   const meme = event.target;
   if (meme === meme1) {
-    memeImg.src = '/img/meme1.png';
+    memeImg.src = '/imgs/meme1.png';
   } else if (meme === meme2) {
-    memeImg.src = '/img/meme2.png';
+    memeImg.src = '/imgs/meme2.png';
   } else if (meme === meme3) {
-    memeImg.src = '/img/meme3.png';
+    memeImg.src = '/imgs/meme3.png';
   } else if (meme === meme4) {
-    memeImg.src = '/img/meme4.png';
+    memeImg.src = '/imgs/meme4.png';
   }
 }
 memeChange.addEventListener('change', setMeme);
