@@ -34,19 +34,19 @@ function insertImage03() {
 }
 meme3.addEventListener('click', insertImage03);
 
-// const meme4 = document.querySelector('#meme-4');
-// const replaceImage04 = document.querySelector('#meme-image');
-// function insertImage04() {
-//   replaceImage04.src = 'imgs/meme4.png';
-// }
-// meme4.addEventListener('click', insertImage04);
-
-const meme5 = document.querySelector('#meme-5');
-const replaceImage05 = document.querySelector('#meme-image');
-function insertImage05() {
-  replaceImage05.src = 'imgs/meme5.png';
+const meme4 = document.querySelector('#meme-4');
+const replaceImage04 = document.querySelector('#meme-image');
+function insertImage04() {
+  replaceImage04.src = 'imgs/meme4.png';
 }
-meme5.addEventListener('click', insertImage05);
+meme4.addEventListener('click', insertImage04);
+
+// const meme5 = document.querySelector('#meme-5');
+// const replaceImage05 = document.querySelector('#meme-image');
+// function insertImage05() {
+//   replaceImage05.src = 'imgs/meme5.png';
+// }
+// meme5.addEventListener('click', insertImage05);
 
 const selectBorder = {
   fire: '3px dashed red',
