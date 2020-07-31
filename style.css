@@ -16,8 +16,10 @@
 #meme-image-container {
   background-color: rgb(255, 255, 255);
   border: 1px solid black;
-  width: 500px;
-  height: 430px;
+  /* width: 500px;
+  height: 430px; */
+  min-width: 500px;
+  min-height: 430px;
 }
 #title {
   text-align: center;
