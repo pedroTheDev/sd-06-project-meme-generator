@@ -53,3 +53,11 @@
   document.querySelector('.customization').appendChild(buttonFire);
   document.querySelector('.customization').appendChild(buttonWater);
   document.querySelector('.customization').appendChild(buttonEarth);
+
+  // Event Bubbling em ação
+  const minis = document.querySelectorAll('.miniatura')
+  for (var i = 0; i < minis.length; i ++ ) {
+    minis[i].onclick = function(event) {
+      document.querySelector('#meme-image').src = event.target.src
+    }
+  }
