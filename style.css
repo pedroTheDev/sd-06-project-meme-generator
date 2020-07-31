@@ -11,10 +11,12 @@ body {
   background-color: white;
   border: 1px solid black;
   display: flex;
+  height: 360px;
   max-height: 640px;
   max-width: 840px;
   position: relative;
-  width: fit-content;
+  width: 360px;
+
 }
 
 .meme-image {
