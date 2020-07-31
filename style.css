@@ -1,6 +1,20 @@
 .cabecalho {
+  background-color: rgb(99, 157, 207);
+  color: rgb(245, 245, 245);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: -22px -10px 20px -10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
   text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 5px;
 }
 
 .meme-image-container{
@@ -11,25 +25,32 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  width: 300px;
+  width: 600px;
 }
 
 .meme-pre-pronto {
   text-align: center;
 }
 
-.input {
+.insert-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.insert-image {
   text-align: center;
 }
 
 .meme-text {
   color: white;
+  font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   line-height: 30px;
   position: absolute;
   text-align: center;
   text-shadow: black 5px 5px 5px;
-  width: 250px;
+  width: 550px;
   word-wrap: break-word;
 }
 
