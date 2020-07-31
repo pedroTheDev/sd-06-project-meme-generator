@@ -3,10 +3,10 @@
       output.src = URL.createObjectURL(event.target.files[0]);
       output.onload = function () {
         URL.revokeObjectURL(output.src);
-    };
+      };
     };
     const inputTextBox = document.getElementById('text-input');
-    const paragraph = document.getElementById("output-text");
+    const paragraph = document.getElementById('output-text');
     function insertText(event) {
       document.querySelector('text-input');
       paragraph.innerHTML = inputTextBox.value;
@@ -58,6 +58,6 @@
     const minis = document.querySelectorAll('.miniatura');
     for (let i = 0; i < minis.length; i += 1) {
       minis[i].onclick = function (event) {
-      document.querySelector('#meme-image').src = event.target.src;
-    };
+        document.querySelector('#meme-image').src = event.target.src;
+      };
     }
