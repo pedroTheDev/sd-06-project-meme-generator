@@ -99,12 +99,15 @@ body {
 
 .fire {
   background-color: red;
+  border: 5px solid whitesmoke;
 }
 
 .water {
   background-color: blue;
+  border: 5px solid whitesmoke;
 }
 
 .earth {
   background-color: green;
+  border: 5px solid whitesmoke;
 }
