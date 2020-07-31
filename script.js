@@ -5,12 +5,15 @@ const btnFire = document.getElementById('fire');
 const btnWater = document.getElementById('water');
 const btnEarth = document.getElementById('earth');
 
-userTextInput.addEventListener('input', function () {
-  memeTextInput.innerText = userTextInput.value;
-});
+function uploadFile() {
+  const memeImg = document.getElementById('meme-image');
+  memeImg.src = window.URL.createObjectURL(this.files[0]);
+}
 
-document.getElementById('meme-insert').addEventListener('change', function () {
-  document.getElementById('meme-image').src = window.URL.createObjectURL(this.files[0]);
+document.getElementById('meme-insert').addEventListener('change', uploadFile);
+
+userTextInput.addEventListener('keyup', function () {
+  memeTextInput.innerText = userTextInput.value;
 });
 
 btnFire.addEventListener('click', function () {

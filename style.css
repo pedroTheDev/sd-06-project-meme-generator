@@ -24,25 +24,25 @@
   word-wrap: break-word;
 }
 
-.btnborder {
+.button-border {
   padding: 12px;
 }
 
-.btnfire {
+.button-fire {
   background-color: red;
   border: 4px solid black;
   color: white;
   font-weight: 700;
 }
 
-.btnwater {
+.button-water {
   background-color: blue;
   border: 4px solid black;
   color: white;
   font-weight: 700;
 }
 
-.btnearth {
+.button-earth {
   background-color: green;
   border: 4px solid black;
   color: white;
