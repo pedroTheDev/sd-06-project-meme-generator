@@ -35,23 +35,23 @@ buttonEarth.addEventListener('click', function () {
 const meme1 = document.querySelector('#meme-1');
 meme1.addEventListener('click', function () {
   const replaceImage = document.querySelector('#meme-image');
-  replaceImage.src = 'meme1.png';
+  replaceImage.src = 'imgs/meme1.png';
 });
 
 const meme2 = document.querySelector('#meme-2');
 meme2.addEventListener('click', function () {
   const replaceImage = document.querySelector('#meme-image');
-  replaceImage.src = 'meme2.png';
+  replaceImage.src = 'imgs/meme2.png';
 });
 
 const meme3 = document.querySelector('#meme-3');
 meme3.addEventListener('click', function () {
   const replaceImage = document.querySelector('#meme-image');
-  replaceImage.src = 'meme3.png';
+  replaceImage.src = 'imgs/meme3.png';
 });
 
 const meme4 = document.querySelector('#meme-4');
 meme4.addEventListener('click', function () {
   const replaceImage = document.querySelector('#meme-image');
-  replaceImage.src = 'meme4.png';
+  replaceImage.src = 'imgs/meme4.png';
 });
