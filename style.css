@@ -64,3 +64,31 @@ body {
   height: 50px;
   width: 75px;
 }
+
+.meme-1 {
+  border: 1px solid black;
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+}
+
+.meme-2 {
+  border: 1px solid black;
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+}
+
+.meme-3 {
+  border: 1px solid black;
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+}
+
+.meme-4 {
+  border: 1px solid black;
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+}
