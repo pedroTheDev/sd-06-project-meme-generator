@@ -34,12 +34,12 @@ function insertImage03() {
 }
 meme3.addEventListener('click', insertImage03);
 
-const meme4 = document.querySelector('#meme04');
-const replaceImage04 = document.querySelector('#meme-image');
-function insertImage04() {
-  replaceImage04.src = 'img/meme04.jpg';
-}
-meme4.addEventListener('click', insertImage04);
+// const meme4 = document.querySelector('#meme04');
+// const replaceImage04 = document.querySelector('#meme-image');
+// function insertImage04() {
+//   replaceImage04.src = 'img/meme04.jpg';
+// }
+// meme4.addEventListener('click', insertImage04);
 
 const meme5 = document.querySelector('#meme05');
 const replaceImage05 = document.querySelector('#meme-image');

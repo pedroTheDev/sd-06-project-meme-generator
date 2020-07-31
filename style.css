@@ -1,6 +1,10 @@
 body {
-  background-image: linear-gradient(cornsilk, burlywood, sienna);
+  background-image: linear-gradient(cornsilk , burlywood , darkslategray);
+  color: black;
+  font-family: system-ui;
+  font-weight: 700;
   line-height: 1.5em;
+  margin: 10px;
 }
 
 .image-container {
@@ -14,13 +18,14 @@ body {
 
 .meme-image {
   border: 1px solid black;
-  max-height: 640px;
-  max-width: 840px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .meme-text {
   color: white;
-  font-family: sans-serif;
+  float: left;
+  font-family: fantasy;
   font-size: 30px;
   margin-bottom: 10px;
   max-height: 320px;
@@ -28,7 +33,6 @@ body {
   overflow: hidden;
   position: absolute;
   text-shadow: black 5px 5px 5px;
-  top: 90%;
   word-wrap: break-word;
 }
 
