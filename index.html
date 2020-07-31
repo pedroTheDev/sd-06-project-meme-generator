@@ -12,23 +12,19 @@
 <body>
   <h1 id="main-title">Projeto Meme Generator</h1>
   
-  <p><input type="file" accept="image/*" onchange='imageFile(event)' id="meme-insert"><br>
+  <p><input type="file" accept="image/*" id="meme-insert"><br>
   Texto do meme <input type="text" maxlength="60" id="text-input"></p>
   <div id="meme-image-container">
     <img id="meme-image">
       <div id="meme-text">
-        
       </div>
   </div>
 
 </body>
 <script>
-   var imageFile = function(event) {
-    var output = document.getElementById('meme-image');
-    output.src = URL.createObjectURL(event.target.files[0]);
-    output.onload = function() {
-      URL.revokeObjectURL(output.src) 
-    }
-  };
+  // let imageMeme = document.querySelector('#meme-image');
+  // let insertImage = function (event) {
+  //   imageMeme.src = URL.createObjectURL(event.target.files[0]);
+  // }
 </script>
 </html>

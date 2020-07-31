@@ -7,6 +7,17 @@ window.onload = function() {
   })
 
   // recebe o arquivo de imagem e insere na div meme-image
+  document.getElementById('meme-insert').addEventListener('change', insertImage);
+
+
+  
+};
+
+function insertImage () {
+  console.log('vô inserir a imagem :v')
+  let imageMeme = document.querySelector('#meme-image');
+  imageMeme.src = URL.createObjectURL(event.target.files[0]);
+}
+
  
 
-}

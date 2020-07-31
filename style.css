@@ -11,8 +11,9 @@
 }
 
 #meme-image {
-  width: 395px;
+  display: inline-block;
   position: absolute;
+  height: 99%;
   margin: auto;
   top: 0;
   left: 0;
@@ -41,4 +42,3 @@ p {
   line-height: 2;
   text-align: center;
 }
-
