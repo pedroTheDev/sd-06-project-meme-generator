@@ -12,7 +12,7 @@ userTextInput.addEventListener('input', function () {
 document
   .getElementById('meme-insert')
   .addEventListener('change', function (event) {
-    const uploadImg = document.getElementById('memesrc');
+    const uploadImg = document.getElementById('meme-image');
     uploadImg.src = window.URL.createObjectURL(event.target.files[0]);
   });
 
