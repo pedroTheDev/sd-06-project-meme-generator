@@ -1,3 +1,5 @@
+const memeImg = document.getElementById('meme-image');
+const imgInsert = document.getElementById('meme-insert');
 const userTextInput = document.getElementById('text-input');
 const memeTextInput = document.getElementById('meme-text');
 const imgContainer = document.getElementById('meme-image-container');
@@ -6,11 +8,10 @@ const btnWater = document.getElementById('water');
 const btnEarth = document.getElementById('earth');
 
 function uploadFile() {
-  const memeImg = document.getElementById('meme-image');
   memeImg.src = window.URL.createObjectURL(this.files[0]);
 }
 
-document.getElementById('meme-insert').addEventListener('change', uploadFile);
+imgInsert.addEventListener('change', uploadFile);
 
 userTextInput.addEventListener('keyup', function () {
   memeTextInput.innerText = userTextInput.value;

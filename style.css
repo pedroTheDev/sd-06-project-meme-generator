@@ -2,7 +2,7 @@
   background-color: white;
   border: 1px solid black;
   height: 350px;
-  position: relative;
+  position: absolute;
   width: 350px;
 }
 
@@ -13,14 +13,12 @@
 }
 
 .text {
-  bottom: 15%;
   color: white;
   font-size: 30px;
-  left: 10%;
-  max-width: 50%;
   position: absolute;
   text-shadow: 5px 5px 5px black;
   top: 60%;
+  width: 100%;
   word-wrap: break-word;
 }
 
