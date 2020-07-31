@@ -9,10 +9,12 @@ userTextInput.addEventListener('input', function () {
   memeTextInput.innerText = userTextInput.value;
 });
 
-function loadFile(event) {
-  const uploadImg = document.getElementById('memesrc');
-  uploadImg.src = URL.createObjectURL(event.target.files[0]);
-}
+document
+  .querySelector('#meme-insert')
+  .addEventListener('change', function (event) {
+    const uploadImg = document.getElementById('memesrc');
+    uploadImg.src = URL.createObjectURL(event.target.files[0]);
+  });
 
 btnFire.addEventListener('click', function () {
   imgContainer.style.borderColor = 'red';
@@ -31,5 +33,3 @@ btnEarth.addEventListener('click', function () {
   imgContainer.style.borderWidth = '6px';
   imgContainer.style.borderStyle = 'groove';
 });
-
-window.onload = loadFile;
