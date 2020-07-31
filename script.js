@@ -23,7 +23,8 @@ window.onload = () => {
   const insertMeme = document.querySelector('#meme-insert');
   const insertText = document.querySelector('#text-input');
   const changeBorder = document.querySelector('.border').children;
-  const thumbNails = document.querySelector('#thumbnails-container').children;
+  const thumbNails = document.querySelectorAll('.meme');
+  console.log(thumbNails);
 
   insertMeme.addEventListener('change', function (e) {
     addImg(e);
