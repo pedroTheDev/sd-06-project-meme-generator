@@ -18,7 +18,7 @@ window.onload = function() {
   });
 }
   window.onclick = function() {
-    let memeImageContainer = document.getElementById('meme-image-container');
+    let memeImageContainer = document.querySelector('#meme-image-container');
     if (event.target.id === 'fire') {
       memeImageContainer.style.border = '3px dashed red';
     }
