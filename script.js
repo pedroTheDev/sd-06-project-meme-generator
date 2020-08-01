@@ -6,13 +6,26 @@ const memeContainer = document.querySelector('#meme-image-container');
 const fireButton = document.querySelector('#fire');
 const waterButton = document.querySelector('#water');
 const earthButton = document.querySelector('#earth');
+const starterMemes = document.querySelectorAll('section')[3];
 
 textInput.addEventListener('input', function (event) {
   memeText.innerText = event.target.value;
 })
 
+function changeImage(event) {
+  if (event.target.type === 'file') {
+    image.src = URL.createObjectURL(event.target.files[0]);
+  } else {
+    image.src = event.target.src;
+  }
+}
+
 fileInput.addEventListener('change', function (event) {
-  image.src = URL.createObjectURL(event.target.files[0]);
+  changeImage(event);
+})
+
+starterMemes.addEventListener('click', function (event) {
+  changeImage(event);
 })
 
 function customizeContainer(element) {
@@ -45,3 +58,4 @@ waterButton.addEventListener('click', function () {
 earthButton.addEventListener('click', function () {
   customizeContainer('earth');
 })
+
