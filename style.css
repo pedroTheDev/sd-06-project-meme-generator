@@ -1,6 +1,27 @@
-#heading {
-  text-align: center;
+.heading {
+  text-align: left;
+}
 
+.meme-image-container {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  position: relative;
+}
 
+.meme-image {
+  width: 100%;
+}
 
+.meme-text {
+color: white;
+font-size: 30px;
+text-shadow: 5px 5px 5px black;
+position: absolute;
+text-align: center;
+padding-top: 200px;
+width: 100%;
 }
