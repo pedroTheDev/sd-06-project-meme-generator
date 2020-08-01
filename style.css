@@ -14,14 +14,15 @@
 
 .meme-image {
   width: 100%;
+  background-color: white;
 }
 
 .meme-text {
-color: white;
-font-size: 30px;
-text-shadow: 5px 5px 5px black;
-position: absolute;
-text-align: center;
-padding-top: 200px;
-width: 100%;
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
+  position: absolute;
+  text-align: center;
+  padding-top: 200px;
+  width: 100%;
 }

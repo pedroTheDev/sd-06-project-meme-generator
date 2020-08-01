@@ -1,16 +1,15 @@
-window.onload = function() {
+window.onload = function () {
   addTextElement();
   addImageElement();
   retrieveText();
   createFileEvent();
-}
+};
 
-//TEXT ELEMENT
+// TEXT ELEMENT
 function addTextElement() {
   const memeContainer = document.querySelector('#meme-image-container');
   const textElement = createTextElement();
   memeContainer.appendChild(textElement);
-
 }
 
 function createTextElement() {
@@ -22,9 +21,9 @@ function createTextElement() {
 
 function retrieveText() {
   const textValue = document.querySelector('#text-input');
-  textValue.addEventListener('keyup', function() {
-  const memeText = document.querySelector('#meme-text')
-  memeText.innerText = textValue.value;
+  textValue.addEventListener('keyup', function () {
+    const memeText = document.querySelector('#meme-text');
+    memeText.innerText = textValue.value;
   });
 }
 
@@ -38,19 +37,19 @@ function addImageElement() {
 function createImageElement() {
   const imageElement = document.createElement('img');
   imageElement.id = 'meme-image';
-  imageElement.className = 'meme-image'
+  imageElement.className = 'meme-image';
   return imageElement;
 }
 
 function createFileEvent() {
   const imageValue = document.querySelector('#meme-insert');
-  imageValue.addEventListener('change', handFileEvent)
+  imageValue.addEventListener('change', handFileEvent);
 }
 
-function  handFileEvent(event) {
+function handFileEvent(event) {
   const memeImage = document.querySelector('#meme-image');
   memeImage.src = URL.createObjectURL(event.target.files[0]);
-  memeImage.onload = function() {
-  URL.revokeObjectURL(memeImage.src);
+  memeImage.onload = function () {
+    URL.revokeObjectURL(memeImage.src);
   }
 }
