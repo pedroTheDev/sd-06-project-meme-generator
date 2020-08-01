@@ -1,10 +1,11 @@
 .container , img {
-  width: 800px;
-  height: 600px;
+  width: 600px;
+  height: 500px;
 }
 
-section:nth-child(2) {
+section {
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .container {
@@ -19,4 +20,34 @@ div {
   bottom: 11px;
   color: rgb(255, 255, 255);
   text-shadow: black 5px 5px 5px;
+}
+
+.fire {
+  border: 3px dashed red;
+}
+
+.water {
+  border: 5px double blue;
+}
+
+.earth {
+  border: 6px groove green;  
+}
+
+button:nth-of-type(1) , 
+button:nth-of-type(2) , 
+button:nth-of-type(3) {
+  color: white;
+}
+
+button:nth-of-type(1) {
+  background-color: red;
+}
+
+button:nth-of-type(2) {
+  background-color: blue;
+}
+
+button:nth-of-type(3) {
+  background-color: green;
 }
