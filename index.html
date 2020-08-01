@@ -1,33 +1,29 @@
+
 <!DOCTYPE html>
-<html lang = "pt-br">
+<html lang="en">
+
 <head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content="width =width-device, initial-scale=1.0">
-    <title>Meme Generator Project</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Meme Generator</title>
 </head>
+
 <body>
-<header>
-    <h1 class="cabecalho">Meme Generator</h1>
-</header>
- <section>
-    <div id="meme-Text-container">
-     <p> Imagem: <input type="file" id="meme-insert" accept=".jpg, .gif, .png" onchange='loadImage(event)'></p>
-     <p> Texto: <input type="text" name="Texto" id="input-Text" maxlength="60"></p>
-      <div id="meme-image-container">
-          <img src="https://mdn.github.io/learning-area/javascript/building-blocks/gallery/images/pic5.jpg" height="400">
-         </div>
-    </div>
- </section>
- <section>
-     <h3>Imagens</h3>
-     <div><img id="img-kies" src="cat-meme.jpg"></div>
-     <div><img id="img-kies" src="close-squirrel-meme.jpg"> </div>
-     <div><img id="img-kies" src="chicago-meme.jpg"> </div>
- </section>
-    <script src="script.js" ></script>
+  <header>
+    <h1>Meme Generator</h1>
+  </header>
+  <p>Texto: <input type="text" id='text-input' maxlength='60'></p>
 
+  <p>Foto: <input type="file" id='meme-insert' accept='image/*' onchange='loadImage(event)'></p>
 
+  <div id='meme-image-container'>
 
+    <p id='meme-text'></p>
+    <img id='meme-image'>
+  </div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>

@@ -1,35 +1,27 @@
-body {
-  max-width: 800px;
-  margin-left: auto;
-  background-color: rgb(180 , 180 , 194);
-}
 
-.cabecalho {
-  color: rgb(26 , 8 , 8);
-  font-size: 80px;
-}
 
-#input-Text {
-  position: absolute;
-  color: azure;
-  font-size: 20px;
-  text-shadow: black 5px 5px 5px 5px;
-}
-
-  #meme-image-container {
+#meme-image-container {
   background-color: white;
   border: 1px solid black;
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
 }
 
-  #img-kies{
-  background-color: cornsilk;
-  border: 1px solid black;
-  float: left;
-  margin-left: 5px;
-  width: 100px;
+#meme-text {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  margin-top: 200px;
+  text-shadow: 5px 5px 5px  black;
 }
+
+#meme-image {
+  width: 400px;
+  height: 300px;
+}
+
+
+
 
 
 
