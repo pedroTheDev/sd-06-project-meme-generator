@@ -16,17 +16,27 @@ window.onload = function() {
   imageUploader.addEventListener("change", function(event) {
     inputedImage.src = URL.createObjectURL(event.target.files[0]);
   });
-}
-  window.onclick = function() {
-    let memeImageContainer = document.querySelector('#meme-image-container');
-    if (event.target.id === 'fire') {
-      memeImageContainer.style.border = '3px dashed red';
-    }
-    if (event.target.id === 'water') {
-      memeImageContainer.style.border = '5px double blue';
-    }
-    if (event.target.id === 'earth') {
-      memeImageContainer.style.border = ' 6px groove green';
-    }
-  }
 
+  
+}
+// function for border buttons fire, water and earth
+window.onclick = function() {
+  let memeImageContainer = document.querySelector('#meme-image-container');
+  if (event.target.id === 'fire') {
+    memeImageContainer.style.border = '3px dashed red';
+  }
+  if (event.target.id === 'water') {
+    memeImageContainer.style.border = '5px double blue';
+  }
+  if (event.target.id === 'earth') {
+    memeImageContainer.style.border = ' 6px groove green';
+  }
+}
+// function to change meme image by miniature image on click
+let memeImage = document.getElementById('meme-image');
+let miniatureImages = document.getElementsByClassName('miniature-images');
+for (let index = 0; index < miniatureImages.length; index += 1){
+  miniatureImages[index].addEventListener('click', function(){
+    memeImage.src = miniatureImages[index].src;
+  });
+}
