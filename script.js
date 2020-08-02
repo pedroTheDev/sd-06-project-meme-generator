@@ -20,8 +20,8 @@ botaoFire.addEventListener("click", function() {
     container.style.border = "3px red dashed"
 })
 botaoWater.addEventListener("click", function() {
-    container.style.border = "5px blue double"
+    container.style.border = "5px rgb(0, 0, 255) double"
 })
 botaoEarth.addEventListener("click", function() {
-    container.style.border = "6px green groove"
+    container.style.border = "6px rgb(0, 128, 0) groove"
 })
