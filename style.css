@@ -6,8 +6,9 @@ body {
 .projeto {
   background-attachment: fixed;
   background-image: url('img/backgorud.jpg');
-  background-position: inherit;
+  background-position: cover;
   background-size: 100% 580px;
+  background-repeat: no-repeat;
   height: 600px;
   width: 100%;
 }
@@ -15,22 +16,25 @@ body {
 .titulo {
   height: 100px;
   padding: 7%;
-  position: fixed;
+  position: absolute;
   width: 96%;
 
 }
 
 .texto {
   color: white;
-  font-size: 32px;
+  font-size: 42px;
   margin-top: 5px;
-  text-align: center;
+  margin-left: 32%;
+  text-align:left;
   text-shadow: rgb(243 , 9 , 60) 3px 3px 5px;
   vertical-align: auto;
 }
 
 .conteudo {
-  border: 1px solid black;
+  background: rgba(128 , 128 , 128 , 0.301);
+  border: 1px ridge;
+  box-shadow: 5px 5px 5px gray;
   height: 350px;
   margin-left: 80px;
   margin-top: 150px;
@@ -39,7 +43,7 @@ body {
 }
 
 .esquerdo {
-  border: 1px solid black;
+  border: 1px ridge;
   float: left;
   height: 97%;
   margin: 2px;
@@ -49,7 +53,7 @@ body {
 }
 
 .direito {
-  border: 1px solid black;
+  border: 1px ridge;
   float: right;
   height: 97%;
   margin: 2px;
@@ -62,7 +66,8 @@ body {
   color: rgb(8 , 28 , 90);
   font-style: italic;
   margin-right: 10%;
-  margin-top: -25px;
+  margin-top: -150px;
+  position: relative;
   text-align: right;
   text-shadow: white 2px 2px 2px;
 }
@@ -75,7 +80,6 @@ body {
 
 .opcoes {
   border: 1px solid black;
-  margin-top: 13%;
 }
 
 .text-input {
@@ -109,4 +113,41 @@ body {
   height: 100%;
   position: absolute;
   width: 100%;
+}
+
+.meme-insert {
+  background: linear-gradient( gray , white , gray);
+  border: groove;
+  cursor: pointer;
+  margin: 10px;
+  width: 90%;
+  position: relative;
+  border-style: ridge;
+}
+
+.bordas {
+  display: inline-block;
+  margin: 10px;
+}
+
+.btn {
+  background: linear-gradient( gray , white , gray);
+  border: groove;
+  cursor: pointer;
+  width: 160px;
+}
+
+.fire {
+  border: 3px dashed red;
+  color: red;
+}
+
+.water {
+  border: 5px double blue;
+  color: blue;
+}
+
+.earth {
+  border: 6px groove green;
+  color: green;
 }
