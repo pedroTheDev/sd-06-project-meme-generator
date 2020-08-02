@@ -5,8 +5,7 @@ body {
 
 .projeto {
   background-attachment: fixed;
-  background-blend-mode: color;
-  background-image: url(img/backgorud.jpg);
+  background-image: url("img/backgorud.jpg");
   background-position: inherit;
   background-size: 100% 580px;
   height: 600px;
@@ -15,8 +14,8 @@ body {
 
 .titulo {
   height: 100px;
-  position: fixed;
   padding: 7%;
+  position: fixed;
   width: 96%;
 
 }
@@ -27,7 +26,7 @@ body {
   margin-top: 5px;
   text-align: center;
   text-shadow: rgb(243 , 9 , 60) 3px 3px 5px;
-  vertical-align: center;
+  vertical-align: auto;
 }
 
 .conteudo {
@@ -38,6 +37,7 @@ body {
   position: absolute;
   width: 87%;
 }
+
 .esquerdo {
   border: 1px solid black;
   float: left;
@@ -59,10 +59,10 @@ body {
 }
 
 .descricao {
-  color: rgb(8, 28, 90);
+  color: rgb(8 , 28 , 90);
   font-style: italic;
-  margin-top: -25px;
   margin-right: 10%;
+  margin-top: -25px;
   text-align: right;
   text-shadow: white 2px 2px 2px;
 }
@@ -78,35 +78,35 @@ body {
   margin-top: 13%;
 }
 
-#text-input {
+.text-input {
   background: rgb(231 , 236 , 236);
   font-style: italic;
   margin: 10px;
   width: 96%;
 }
 
-#meme-image-container {
+.meme-image-container {
   background: white;
   border: 1px solid black;
   height: 84%;
   margin-left: 10px;
   padding: 5px;
-  position: sticky;
+  position: absolute;
   width: 95%;
   z-index: 1;
 }
 
-#meme-text {
+.meme-text {
   color: white;
+  font-size: 30px;
   text-shadow: 5px 5px 5px black;
   padding: 10px;
+  position: absolute;
   text-align: justify;
   vertical-align: auto;
-  font-size: 30px;
 }
 
-#meme-image {
-  border: 1px solid black;
-  width: 100%;
+.meme-image {
   height: 100%;
+  width: 100%;
 }
