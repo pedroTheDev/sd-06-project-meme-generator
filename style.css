@@ -5,7 +5,7 @@ body {
 
 .projeto {
   background-attachment: fixed;
-  background-image: url("img/backgorud.jpg");
+  background-image: url('img/backgorud.jpg');
   background-position: inherit;
   background-size: 100% 580px;
   height: 600px;
@@ -82,7 +82,7 @@ body {
   background: rgb(231 , 236 , 236);
   font-style: italic;
   margin: 10px;
-  width: 96%;
+  width: 94%;
 }
 
 .meme-image-container {
@@ -90,8 +90,7 @@ body {
   border: 1px solid black;
   height: 84%;
   margin-left: 10px;
-  padding: 5px;
-  position: absolute;
+  position: relative;
   width: 95%;
   z-index: 1;
 }
@@ -99,10 +98,10 @@ body {
 .meme-text {
   color: white;
   font-size: 30px;
-  text-shadow: 5px 5px 5px black;
   padding: 10px;
-  position: relative;
+  position: absolute;
   text-align: justify;
+  text-shadow: 5px 5px 5px black;
   vertical-align: auto;
 }
 
