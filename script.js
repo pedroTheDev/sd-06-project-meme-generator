@@ -35,17 +35,17 @@ btnEarth.addEventListener('click', function () {
 });
 
 preMadeOne.addEventListener('click', function () {
-  memeImg.src = 'imgs/meme-1.png';
+  memeImg.src = 'imgs/meme1.png';
 });
 
 preMadeTwo.addEventListener('click', function () {
-  memeImg.src = 'imgs/meme-2.png';
+  memeImg.src = 'imgs/meme2.png';
 });
 
 preMadeThree.addEventListener('click', function () {
-  memeImg.src = 'imgs/meme-3.png';
+  memeImg.src = 'imgs/meme3.png';
 });
 
 preMadeFour.addEventListener('click', function () {
-  memeImg.src = 'imgs/meme-4.png';
+  memeImg.src = 'imgs/meme4.png';
 });
