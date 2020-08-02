@@ -35,17 +35,17 @@ btnEarth.addEventListener('click', function () {
 });
 
 preMadeOne.addEventListener('click', function () {
-  memeImg.src = '/sd-06-project-meme-generator/src/meme-1.jpg';
+  memeImg.src = 'imgs/meme-1.png';
 });
 
 preMadeTwo.addEventListener('click', function () {
-  memeImg.src = '/sd-06-project-meme-generator/src/meme-2.jpg';
+  memeImg.src = 'imgs/meme-2.png';
 });
 
 preMadeThree.addEventListener('click', function () {
-  memeImg.src = '/sd-06-project-meme-generator/src/meme-3.jpg';
+  memeImg.src = 'imgs/meme-3.png';
 });
 
 preMadeFour.addEventListener('click', function () {
-  memeImg.src = '/sd-06-project-meme-generator/src/meme-4.jpg';
+  memeImg.src = 'imgs/meme-4.png';
 });
