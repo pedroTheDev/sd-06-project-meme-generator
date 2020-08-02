@@ -26,7 +26,7 @@ body {
   color: white;
   font-size: 32px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
   vertical-align: center;
 }
 
@@ -103,4 +103,10 @@ body {
   text-align: justify;
   vertical-align: auto;
   font-size: 32px;
+}
+
+#meme-image {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
 }
