@@ -79,3 +79,12 @@
 
       memeImage.src = event.target.src;
   })
+
+  let memeProntoClick4 = document.querySelector("#meme4")
+  memeProntoClick4.addEventListener("click", () => {
+
+
+      let memeImage = document.querySelector("#meme-image")
+
+      memeImage.src = event.target.src;
+  })
