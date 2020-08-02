@@ -4,58 +4,58 @@ body {
 }
 
 .projeto {
-  background-image: url(img/backgorud.jpg);
-  background-size: 100% 580px;
   background-attachment: fixed;
-  background-position: inherit;
   background-blend-mode: color;
-  width: 100%;
+  background-image: url(img/backgorud.jpg);
+  background-position: inherit;
+  background-size: 100% 580px;
   height: 600px;
+  width: 100%;
 }
 
 .titulo {
   height: 100px;
-  padding: 7%;
   position: fixed;
+  padding: 7%;
   width: 96%;
 
 }
 
 .texto {
-  text-shadow: rgb(243, 9, 60) 3px 3px 5px;
   color: white;
   font-size: 32px;
-  text-align: center;
   margin-top: 5px;
+  text-align: center;
+  text-shadow: rgb(243 , 9 , 60) 3px 3px 5px;
   vertical-align: center;
 }
 
 .conteudo {
   border: 1px solid black;
-  width: 87%;
   height: 350px;
   margin-left: 80px;
   margin-top: 150px;
   position: absolute;
+  width: 87%;
 }
 .esquerdo {
   border: 1px solid black;
   float: left;
-  position: relative;
-  width: 49%;
   height: 97%;
   margin: 2px;
   padding: 2px;
+  position: relative;
+  width: 49%;
 }
 
 .direito {
   border: 1px solid black;
   float: right;
-  position: relative;
-  width: 49%;
   height: 97%;
   margin: 2px;
   padding: 2px;
+  position: relative;
+  width: 49%;
 }
 
 .descricao {
@@ -74,35 +74,35 @@ body {
 }
 
 .opcoes {
-  border: 1PX SOLID black;
+  border: 1px solid black;
   margin-top: 13%;
 }
 
 #text-input {
-  margin: 10px ;
-  background: rgb(231, 236, 236);
-  width: 96%;
+  background: rgb(231 , 236 , 236);
   font-style: italic;
+  margin: 10px;
+  width: 96%;
 }
 
 #meme-image-container {
   background: white;
   border: 1px solid black;
+  height: 84%;
+  margin-left: 10px;
   padding: 5px;
   position: sticky;
   width: 95%;
-  height: 84%;
-  margin-left: 10px;
   z-index: 1;
 }
 
 #meme-text {
   color: white;
-  text-shadow: 1px 1px 0px black;
+  text-shadow: 5px 5px 5px black;
   padding: 10px;
   text-align: justify;
   vertical-align: auto;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 #meme-image {
