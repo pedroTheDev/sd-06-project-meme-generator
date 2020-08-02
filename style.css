@@ -5,7 +5,7 @@ body {
 
 .projeto {
   background-attachment: fixed;
-  background-image: src('img/backgorud.jpg');
+  background-image: url("img/backgorud.jpg");
   background-position: inherit;
   background-size: 100% 580px;
   height: 600px;
@@ -101,12 +101,13 @@ body {
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
   padding: 10px;
-  position: absolute;
+  position: relative;
   text-align: justify;
   vertical-align: auto;
 }
 
 .meme-image {
   height: 100%;
+  position: absolute;
   width: 100%;
 }
