@@ -1,17 +1,53 @@
- #meme-text {
+body {
+    background-image: url(memes-da-net.jpg);
+    font-family: "Patua One", sans-serif;
+    font-size: 28px;
+    color: rgb(221, 40, 101);
+    text-align: center;
+    text-shadow: 5px 4px 2px rgb(55, 250, 217);
+}
+h1 {
+    margin-top: 0px;
+    color: rgb(221, 40, 101);
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 7px 7px 7px rgb(27, 199, 190);
+    font-family: "Dancing Script", sans-serif;
+}
+#meme-text {
      position: absolute;
      font-size: 30px;
      width: 400px;
      color: white;
-     text-shadow: 5px 5px 5px black
+     text-shadow: 5px 5px 5px black;
+     padding-top: 400px;
     }
  #meme-image-container{
     border: 1px black solid;
     background-color: white;
-    height: 800px;
-    width: 800px;
+    height: 600px;
+    width: 600px;
+    margin: auto;
  }
 #meme-image {
-    height: 800px;
-    width: 800px;
+    height: 600px;
+    width: 600px;
+}
+footer {
+    font-size: 15px;
+}
+#fire {
+    background-color: red;
+    border-radius: 6px;
+    box-shadow: 0 1px 16px red;
+}
+#water {
+    background-color: rgb(19, 179, 207);
+    border-radius: 6px;
+    box-shadow: 0 1px 16px rgb(30, 142, 194);
+}
+#earth {
+    background-color: rgb(57, 228, 57);
+    border-radius: 6px;
+    box-shadow: 0 1px 16px rgb(57, 228, 57);
 }
