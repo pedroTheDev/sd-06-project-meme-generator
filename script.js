@@ -13,7 +13,7 @@ userTextInput.addEventListener('input', function () {
 });
 
 /* ********************************************************* */
-function abrirImage () {
+function abrirImage() {
   imagemAberta.src = window.URL.createObjectURL(abrirImagem.files[0]);
 }
 abrirImagem.addEventListener('change', abrirImage);

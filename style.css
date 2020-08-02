@@ -6,9 +6,9 @@ body {
 .projeto {
   background-attachment: fixed;
   background-image: url('img/backgorud.jpg');
-  background-position: cover;
-  background-size: 100% 580px;
+  background-position: inherit;
   background-repeat: no-repeat;
+  background-size: 100% 580px;
   height: 600px;
   width: 100%;
 }
@@ -24,9 +24,9 @@ body {
 .texto {
   color: white;
   font-size: 42px;
-  margin-top: 5px;
   margin-left: 32%;
-  text-align:left;
+  margin-top: 5px;
+  text-align: left;
   text-shadow: rgb(243 , 9 , 60) 3px 3px 5px;
   vertical-align: auto;
 }
@@ -120,9 +120,8 @@ body {
   border: groove;
   cursor: pointer;
   margin: 10px;
-  width: 90%;
   position: relative;
-  border-style: ridge;
+  width: 90%;
 }
 
 .bordas {
@@ -139,15 +138,15 @@ body {
 
 .fire {
   border: 3px dashed red;
-  color: red;
+  background-color: red;
 }
 
 .water {
   border: 5px double blue;
-  color: blue;
+  background-color: blue;
 }
 
 .earth {
   border: 6px groove green;
-  color: green;
+  background-color: green;
 }
