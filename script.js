@@ -6,12 +6,19 @@
 
   }
 
+  let textInput = document.querySelector("#text-input");
+  textInput.addEventListener("input", () => {
 
-  const textInput = document.querySelector('#text-input');
-  textInput.addEventListener('keyup', function() {
-      const showText = document.querySelector('#meme-text');
+      let showText = document.querySelector("#meme-text");
       showText.innerHTML = textInput.value;
-  });
+  })
+
+
+  //   const textInput = document.querySelector('#text-input');
+  //   textInput.addEventListener('keyup', function() {
+  //       const showText = document.querySelector('#meme-text');
+  //       showText.innerHTML = textInput.value;
+  //   });
 
 
   var loadFile = function(event) {
@@ -32,16 +39,43 @@
       memeFire.style.border = '3px dashed red';
   });
 
-  let buttonBlue = document.querySelector("#water");
-  buttonBlue.addEventListener("click", function() {
+  let blueButton = document.querySelector("#water");
+  blueButton.addEventListener("click", function() {
 
       let memeWater = document.querySelector('#meme-image-container');
       memeWater.style.border = '5px doble blue';
   });
 
   let buttonGreen = document.querySelector("#earth");
-  buttonRed.addEventListener("click", function() {
+  buttonGreen.addEventListener("click", function() {
 
       let memeEarth = document.querySelector('#meme-image-container');
       memeEarth.style.border = '6px groove green';
   });
+
+  let memeProntoClick = document.querySelector("#meme1")
+  memeProntoClick.addEventListener("click", () => {
+
+
+      let memeImage = document.querySelector("#meme-image")
+
+      memeImage.src = event.target.src;
+  })
+
+  let memeProntoClick2 = document.querySelector("#meme2")
+  memeProntoClick2.addEventListener("click", () => {
+
+
+      let memeImage = document.querySelector("#meme-image")
+
+      memeImage.src = event.target.src;
+  })
+
+  let memeProntoClick3 = document.querySelector("#meme3")
+  memeProntoClick3.addEventListener("click", () => {
+
+
+      let memeImage = document.querySelector("#meme-image")
+
+      memeImage.src = event.target.src;
+  })

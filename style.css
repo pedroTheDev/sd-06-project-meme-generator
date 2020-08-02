@@ -48,3 +48,10 @@ body {}
     background-color: green;
     color: white;
 }
+
+.memes-prontos {
+    height: 100px;
+    margin-top: 2rem;
+    width: 120px;
+    margin-left: 4px;
+}
