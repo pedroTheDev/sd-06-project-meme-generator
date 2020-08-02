@@ -30,6 +30,34 @@ body {
   vertical-align: center;
 }
 
+.conteudo {
+  border: 1px solid black;
+  width: 87%;
+  height: 350px;
+  margin-left: 80px;
+  margin-top: 150px;
+  position: absolute;
+}
+.esquerdo {
+  border: 1px solid black;
+  float: left;
+  position: relative;
+  width: 49%;
+  height: 97%;
+  margin: 2px;
+  padding: 2px;
+}
+
+.direito {
+  border: 1px solid black;
+  float: right;
+  position: relative;
+  width: 49%;
+  height: 97%;
+  margin: 2px;
+  padding: 2px;
+}
+
 .descricao {
   color: rgb(8, 28, 90);
   font-style: italic;
@@ -40,16 +68,20 @@ body {
 }
 
 .imagens {
-  height: 320px;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.opcoes {
+  border: 1PX SOLID black;
   margin-top: 13%;
-  margin-left: 10%;
-  position: fixed;
-  width: 450px;
 }
 
 #text-input {
+  margin: 10px ;
   background: rgb(231, 236, 236);
-  width: 450px;
+  width: 96%;
   font-style: italic;
 }
 
@@ -58,9 +90,9 @@ body {
   border: 1px solid black;
   padding: 5px;
   position: sticky;
-  width: 445px;
-  height: 280px;
-  margin: 1px;
+  width: 95%;
+  height: 84%;
+  margin-left: 10px;
   z-index: 1;
 }
 

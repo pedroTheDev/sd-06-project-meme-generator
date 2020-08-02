@@ -8,19 +8,33 @@
 </head>
 <body>
   <section class="projeto">
+    
     <section class="titulo">
       <h1 class="texto">Projeto MEME</h1>
     </section>
-    <section class="esquerdo">
-      <section class="imagens">
-        <input type="text" name="" id="text-input" placeholder="Informe o texto para a foto.">
-        <section id="meme-image-container">
-          <p id="meme-text">teste</p>
-          <img id="meme-image" src="" alt="" >
+
+    <section class="conteudo">
+
+      <section class="esquerdo">
+        <section class="imagens">
+          <input type="text" name="" id="text-input" placeholder="Informe o texto para a foto.">
+          <section id="meme-image-container">
+            <p id="meme-text"></p>
+            <img id="meme-image" src="" alt="" >
+          </section>
+        </section>
+      </section>
+  
+      <section class="direito">
+        <section class="opcoes">
+            <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+          </section>
         </section>
       </section>
     </section>
+
+    <h3 class="descricao">Mais um projeto de Coyote Corporation.</h3>
   </section>
-  <h3 class="descricao">Mais um projeto de Coyote Corporation.</h3>
+<script src="script.js"></script>
 </body>
 </html>
