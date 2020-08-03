@@ -1,21 +1,48 @@
 body {
   padding-left: 10px;
+  display: grid;
+  grid-template-areas:
+    "title title title"
+    "inputs meme buttons"
+    "inputs meme buttons";
+  justify-content: center;
+  background-image: linear-gradient(rgb(150, 118, 72), rgb(200, 138, 92));
+}
+
+.title {
+  grid-area: title;
+  color: rgb(240, 238, 222);
+  text-align: center;
+}
+
+.inputs {
+  grid-area: inputs;
+  display: grid;
+  background-color: rgb(240, 238, 222);
+  width: fit-content;
+  border-radius: 5px;
+  padding: 10px 15px 0 15px;
+}
+
+.border-button {
+  padding: 5px 10px;
 }
 
 .meme-container {
+  grid-area: meme;
   box-sizing: border-box;
-  border-width: 1px;
   border: 1px solid black;
-  width: 300px;
-  height: 300px;
+  width: 306px;
+  height: 306px;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin: 5px;
+  margin: 15px;
+  margin-left: 20px;
 }
 
-#meme-text {
+.meme-text {
   font-size: 30px;
   color: white;
   text-shadow: 5px 5px 5px black;
@@ -26,7 +53,25 @@ body {
   overflow-wrap: break-word;
 }
 
-#meme-image {
-  width: 298px;
-  height: 298px;
+.meme-image {
+  width: auto;
+  height: 300px;
+
+}
+
+.sample-images {
+  grid-area: buttons;
+  display: grid;
+  grid-template-rows: repeat(4, 50px);
+  justify-content: center;
+  background-color: rgb(240, 238, 222);
+  border-radius: 5px;
+  padding: 10px 15px 10px 20px;
+  margin-top: 15px;
+  height: fit-content;
+}
+
+.sample {
+  width: 50px;
+  height: 50px;
 }

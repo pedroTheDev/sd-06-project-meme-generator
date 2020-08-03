@@ -1,27 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEME GENERATOR!</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body>
-    <h1 id="titulo">MEME GENERATOR!</h1>
-    <div id="inputs-container">
-      <label>Insira o texto aqui:</label>
-      <input id="text-input" type="text" maxlength="60" placeholder="máximo 60 caracteres">
-      <button id="meme-button">Inserir no meme</button>
-      <br>
-      <label>Faça o upload da imagem:</label>
-      <input id="meme-insert" type="file" accept=".jpg, .png, .bmp" onchange="imgInput(event)">
+<body>
+  <h1 class="title" id="titulo">MEME GENERATOR!</h1>
+  <div class="inputs" id="inputs-container">
+    <label for="text-input">Insira o texto aqui:</label>
+    <input name="text-input" id="text-input" type="text" maxlength="60" placeholder="máximo 60 caracteres">
+    <button class="input-button" id="meme-button">Inserir no meme</button>
+    <br>
+    <label>Faça o upload da imagem:</label>
+    <input name="meme-insert" id="meme-insert" type="file" accept=".jpg, .png, .bmp" onchange="imgInput(event)">
+    <br>
+    <div class="border-colors">
+      <button class="border-button fire" id="fire">Fire &#128293;</button>
+      <button class="border-button water" id="water">Water &#127754;</button>
+      <button class="border-button earth" id="earth">Earth &#127795;</button>
+      <button class="border-button" id="normal">Normal</button>
     </div>
+  </div>
 
-    <div id="meme-image-container" class="meme-container">
-      <div id="meme-text"></div>
-      <img id="meme-image">
-    </div>
+  <div id="meme-image-container" class="meme-container">
+    <div class="meme-text" id="meme-text"></div>
+    <img class="meme-image" id="meme-image">
+  </div>
 
-    <script type="text/javascript" src="script.js"></script>
+  <div class="sample-images" id="sample-images">
+    <img id="meme-1" class="sample" src="https://firebasestorage.googleapis.com/v0/b/hackernoon-app.appspot.com/o/images%2FZcvfyVxI3KNhEQxQ9H6wfvhdWlW2-0p9y3u9k.gif?alt=media&token=b56c3572-2aac-4650-bdf6-0dce6a316160"></img>
+    <img id="meme-2" class="sample" src="https://firebasestorage.googleapis.com/v0/b/hackernoon-app.appspot.com/o/images%2FZcvfyVxI3KNhEQxQ9H6wfvhdWlW2-q8403ukl.gif?alt=media&token=bad42761-14a2-4847-81a5-783ac99f5024"></img>
+    <img id="meme-3" class="sample" src="https://firebasestorage.googleapis.com/v0/b/hackernoon-app.appspot.com/o/images%2FZcvfyVxI3KNhEQxQ9H6wfvhdWlW2-2h5v3up6.gif?alt=media&token=3635e619-0535-45cc-bf66-9ca2d2437ba4"></img>
+    <img id="meme-4" class="sample" src="https://firebasestorage.googleapis.com/v0/b/hackernoon-app.appspot.com/o/images%2FZcvfyVxI3KNhEQxQ9H6wfvhdWlW2-8o3n3u8m.gif?alt=media&token=15d8697e-c59f-4fa2-b914-c6879280733d"></img>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
 </body>
-</html>
