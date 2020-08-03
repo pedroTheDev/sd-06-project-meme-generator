@@ -1,0 +1,21 @@
+body{
+    margin-left: 10px;
+}
+.display{
+    display: inline-block;
+}
+#text-input{
+
+}
+#meme-image-container{
+    border: black solid 1px;
+    width: 350px;
+    height: 350px;
+}
+#meme-image{
+    width: 350px;
+    height: 350px;
+}
+#meme-text{
+    
+}
