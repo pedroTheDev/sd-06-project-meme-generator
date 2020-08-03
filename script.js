@@ -1,15 +1,28 @@
-function previewFile(){
-    var preview = document.querySelector('img');
-    var file = document.querySelector('input[type=file]').files [0];
-    var reader = new FileReader();
+const imgShow = document.querySelector('#meme-image');
+const txtInput = document.querySelector('#text-input');
+const txtOutput = document.querySelector('#meme-text');
+const imageContainer = document.querySelector('meme-image-container');
 
-    reader.onloadend = function(){
-        preview.src = reader.result;
-    }
-
-    if (file){
-        console.log(reader.readAsDataURL(file));
-    } else{
-        preview.src = "";
-    }
+function showImage(event) {
+    const imgSrc = event.target.files[0];
+    imgShow.src = URL.createObjectURL(imgSrc);
 }
+
+txtInput.addEventListener('keyup', function () {
+    txtOutput.innerHTML = txtInput.value;
+    if (txtOutput === 1) {
+        showImage(event);
+}
+});
+    
+function earth() {
+      imgCont.className = "meme-container earth"
+}
+    
+function fire() {
+      imgCont.className = "meme-container fire"
+}
+    
+function water() {
+      imgCont.className = "meme-container water"
+}  

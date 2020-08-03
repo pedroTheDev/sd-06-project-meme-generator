@@ -2,24 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device.width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <section>
         <header>
             <h1>Meme Generator</h1>
         </header>
     </section>
+    
     <section>
-        <h4 class="display">Type your Meme Frase:</h4>
-        <input maxlength="60" id="text-input">
+        <h4 class="display">Type your Meme Phrase:</h4>
+        <input maxlength="60" id="text-input" type="text">
+    </section> 
+    
+    <section>
+        <h4 class="display">Upload your Meme Image</h4>
+        <input type="file" id="meme-insert" onchange="showImage(event)"> 
     </section>
-    <section id="meme-image-container">
-        <img src="" id="meme-image" all="Meme Picture">
-        <p id="meme-text"></p>
+    
+    <section id="meme-image-container" class="meme-container border">
+        <p id="meme-text" class="meme-text"></p>
+        <img src="" id="meme-image" alt="Meme Picture">
     </section>
-<script src="script.js"></script>
+
+    <section>
+        <img  id="meme-1" class="meme" src="/img/meme1.png" alt="meme">
+        <img  id="meme-2" class="meme" src="/img/meme2.png" alt="meme">
+        <img  id="meme-3" class="meme" src="/img/meme3.png" alt="meme">
+        <img  id="meme-4" class="meme" src="/img/meme4.png" alt="meme">
+    </section>
+  
+    <section>
+        <button id="fire" class="fire" onclick="fire()">FIRE</button>
+        <button id="water" class="water" onclick="water()">WATER</button>
+        <button id="earth" class="earth" onclick="earth()">EARTH</button>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>

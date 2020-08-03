@@ -4,18 +4,39 @@ body{
 .display{
     display: inline-block;
 }
-#text-input{
 
+.meme-image-container{
+    width: 350px;
+    height: 350px;
+    background-color: white;
 }
-#meme-image-container{
+
+.border{
     border: black solid 1px;
+}
+
+.meme-image{
     width: 350px;
     height: 350px;
 }
-#meme-image{
-    width: 350px;
-    height: 350px;
+
+.meme-text{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    margin-top: 250px;
+    text-shadow: black 5px 5px 5px;
 }
-#meme-text{
-    
+
+.earth{
+    border: green groove 6px;
+}
+
+.fire{
+  border: red dashed 3px;
+}
+
+.water{
+  border: blue double 6px;
+
 }
