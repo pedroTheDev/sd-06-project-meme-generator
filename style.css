@@ -1,14 +1,23 @@
 body{
+    background-color: rgb(229 , 229 , 229);
     margin-left: 10px;
+    text-align: center;
+    width: 1366px;
+}
+
+.head  {
+    background-color: rgb(3, 3, 3);
 }
 .display{
     display: inline-block;
 }
 
-.meme-image-container{
-    width: 350px;
-    height: 350px;
+.meme-container{
     background-color: white;
+    height: 350px;
+    position: absolute;
+    top: 60px;
+    width: 350px;
 }
 
 .border{
@@ -29,14 +38,16 @@ body{
 }
 
 .earth{
-    border: green groove 6px;
+    border: rgb(0, 255, 0) groove 6px;
+    background-color: rgb(0, 255, 0);
 }
 
 .fire{
   border: red dashed 3px;
+  background-color: rgb(255, 0, 0);
 }
 
 .water{
-  border: blue double 6px;
-
+  border: rgb(0, 0, 255) double 5px;
+  background-color: rgb(0, 0, 255);
 }
