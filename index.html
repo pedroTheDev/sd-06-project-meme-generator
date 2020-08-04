@@ -1,6 +1,45 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Meme Generator</title>
+</head>
+
+<body>
+    <section>
+        <Header>
+            <h1>Meme Generator</h1>
+        </Header>
+    </section>
+    <section>
+        <h4 class="mostrar">Digite uma frase</h4>
+        <input type="text" id="text-input" class="text-input" maxlength="60">
+    </section>
+    <section>
+        <h4 class="mostrar">Carregar foto</h4>
+        <input type="file" id ="meme-insert" accept="image/*">
+    </section>  
+    <section id="meme-image-container" class="meme-image-container">
+        <img id="meme-image" src="" alt="Foto do meme" class="meme-image">
+        <div id="meme-text" class="meme-text"></div>
+    </section>
+    <section class="memes">
+        <br>
+        <h4>Exemplos</h4>
+        <img id="meme-1" class="mems" src="meme1.png" alt="Meme">
+        <img id="meme-2" class="mems" src="meme2.png" alt="Meme">
+        <img id="meme-3" class="mems" src="meme3.png" alt="Meme">
+        <img id="meme-4" class="mems" src="meme4.png" alt="Meme">
+    </section>
+    <section>
+        <button id="fire" class="fire" onclick="fire()">Fire</button>
+        <button id="water" class="water" onclick="water()">Water</button>
+        <button id="earth" class="earth" onclick="earth()">Earth</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
 </html>

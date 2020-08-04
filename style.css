@@ -1,1 +1,47 @@
-.botao
+.mems {
+    height: 125px;
+}
+
+.meme-image-container {
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    top: 225px;
+    position: absolute;
+    border: 1px solid black;
+  }
+
+  .meme-text {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    text-shadow: 5px 5px 5px black;
+    margin-top: -80px;
+  }
+
+  .meme-image {
+    height: 350px;
+    width: 350px;
+  }
+
+  .fire {
+    background-color: red;
+  }
+
+  .water {
+    background-color: blue;
+  }
+
+  .earth {
+    background-color: green;
+  }
+
+  .memes {
+    position: absolute;
+    top: 550px;
+    margin: 10px;
+  }
+
+  .mostrar {
+    display: inline-block;
+  }
