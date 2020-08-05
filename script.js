@@ -33,4 +33,3 @@ function loadFile(event) {
     URL.revokeObjectURL(memeImage.src);
   };
 }
-loadFile();
