@@ -34,9 +34,26 @@
   background-color: green;
 }
 
-.memePredefined {
+#meme-1 {
   height: 50px;
   margin: 5px;
   width: 50px;
-  border: 1px solid black;
+}
+
+#meme-2 {
+  height: 50px;
+  margin: 5px;
+  width: 50px;
+}
+
+#meme-3 {
+  height: 50px;
+  margin: 5px;
+  width: 50px;
+}
+
+#meme-4 {
+  height: 50px;
+  margin: 5px;
+  width: 50px;
 }
