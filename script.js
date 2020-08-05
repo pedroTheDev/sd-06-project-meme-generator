@@ -8,8 +8,6 @@ window.onload = function() {
 
   // recebe o arquivo de imagem e insere na div meme-image
   document.getElementById('meme-insert').addEventListener('change', insertImage);
-
-
   
 };
 
