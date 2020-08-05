@@ -32,4 +32,5 @@ function loadFile(event) {
   memeImage.onload = function () {
     URL.revokeObjectURL(memeImage.src);
   };
-};
+}
+loadFile();

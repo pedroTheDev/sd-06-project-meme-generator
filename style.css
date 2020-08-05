@@ -15,7 +15,7 @@
 #meme-text {
   bottom: 50px;
   color: white;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
@@ -34,26 +34,9 @@
   background-color: green;
 }
 
-#meme-1 {
+.memePredefined {
   height: 50px;
   margin: 5px;
   width: 50px;
-}
-
-#meme-2 {
-  height: 50px;
-  margin: 5px;
-  width: 50px;
-}
-
-#meme-3 {
-  height: 50px;
-  margin: 5px;
-  width: 50px;
-}
-
-#meme-4 {
-  height: 50px;
-  margin: 5px;
-  width: 50px;
+  border: 1px solid black;
 }
