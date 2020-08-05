@@ -27,8 +27,7 @@ imgP.addEventListener('click', function (event) {
   memeImage.src = event.target.src;
 });
 
-const loadFile = function (event) {
-  const memeImage = document.getElementById('meme-image');
+function loadFile(event) {
   memeImage.src = URL.createObjectURL(event.target.files[0]);
   memeImage.onload = function () {
     URL.revokeObjectURL(memeImage.src);
