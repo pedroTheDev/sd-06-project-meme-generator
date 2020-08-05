@@ -24,7 +24,7 @@ window.onload = function () {
 
 function fire () {
   const moldura = document.querySelector('#meme-image-container');
-  moldura.style.border = '1px dashed red';
+  moldura.style.border = '3px dashed red';
 }
 
 function water () {
