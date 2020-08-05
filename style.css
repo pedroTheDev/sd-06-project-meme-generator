@@ -1,15 +1,21 @@
-.text-input {
-
-}
-
-.meme-image-container {
-
-}
-
-#meme-insert {
-
+#meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  position: relative;
+  width: 600px;
 }
 
 #meme-text {
+  color: white;
+  font-size: 30px; 
+  text-shadow: black 5px 5px 5px;
+  left: 35%;
+  position: absolute;
+  top: 85%;
+}
 
+#meme-image {
+  height: 400px;
+  width: 600px;
 }

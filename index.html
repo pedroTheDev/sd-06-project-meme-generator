@@ -7,26 +7,26 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div id='header'>
+  <header>
     <h1 id='title'>Gerador de Memes</h1>
-
-  </div>
-  <section id='preferences'>
-    <div class='preference-input'>
-      <h2 id='text-h2'>Texto do Meme</h2>
+  </header>
+   <div>
+      <h2 >Texto do Meme</h2>
       <input type='text' id='text-input' maxlength='60' size='30' placeholder='Digite sua frase aqui'>
-    </div>
-    <div class='preference-input'>
-      <h2 id='text-h2'>Adicionar Imagem:</h2>
+    
+      <div>
+    <h2>Adicionar Imagem:</h2>
       <input type='file' id='meme-insert' accept="image/png, image/jpeg" onchange='loadFile(event)'>
+      </div>
     </div>
-  </section>
-  <section>
+
+  <div>
     <div id='meme-image-container'>
       <img id='meme-image'/>
       <div id='meme-text'></div>
     </div>
-  </section>
+  </div>
+
   <script src="script.js"></script>
 </body>
 
