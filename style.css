@@ -38,3 +38,27 @@ header {
   margin-top: -70px;
 
 }
+
+.btn {
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  height: 40px;
+  margin-top: 12px;
+  max-height: 40px;
+  padding-left: 5px;
+  text-align: center;
+  width: 80px;
+}
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+.earth {
+  background-color: green;
+}
