@@ -58,4 +58,3 @@ waterButton.addEventListener('click', function () {
 earthButton.addEventListener('click', function () {
   customizeContainer('earth');
 })
-
