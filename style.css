@@ -1,6 +1,6 @@
 .container , img {
-  width: 600px;
   height: 500px;
+  width: 600px;
 }
 
 section {
@@ -10,15 +10,15 @@ section {
 
 .container {
   background-color: white;
-  position: relative;
   border: 1px solid black;
+  position: relative;
 }
 
 div {
-  font-size: 30px;
-  position: absolute;
   bottom: 11px;
   color: rgb(255, 255, 255);
+  font-size: 30px;
+  position: absolute;
   text-shadow: black 5px 5px 5px;
 }
 
