@@ -10,7 +10,7 @@ const starterMemes = document.querySelectorAll('section')[3];
 
 textInput.addEventListener('input', function (event) {
   memeText.innerText = event.target.value;
-})
+});
 
 function changeImage(event) {
   if (event.target.type === 'file') {
@@ -22,11 +22,11 @@ function changeImage(event) {
 
 fileInput.addEventListener('change', function (event) {
   changeImage(event);
-})
+});
 
 starterMemes.addEventListener('click', function (event) {
   changeImage(event);
-})
+});
 
 function customizeContainer(element) {
   memeContainer.classList.remove(...memeContainer.classList);
@@ -49,12 +49,12 @@ function customizeContainer(element) {
 
 fireButton.addEventListener('click', function () {
   customizeContainer('fire');
-})
+});
 
 waterButton.addEventListener('click', function () {
   customizeContainer('water');
-})
+});
 
 earthButton.addEventListener('click', function () {
   customizeContainer('earth');
-})
+});
