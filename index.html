@@ -11,23 +11,23 @@
 
 <body>
   <header>
-  <h1>Meme generator</h1>
-</header>
-
-  <h2>Os melhores memes da internet! &#128540;</h2>
-  <form>
-    <label for="text-input">Add your text</label><br>
-    <input type="text" id="text-input" placeholder="Adicione seu texto!" maxlength="60"><br><br>
-    <label for="meme-insert">Choose a photo</label><br>
-    <input type="file" acept="image/*" id="meme-insert"><br><br>
-  </form>
-
-  <section id="meme-image-container" class="meme_image_container">
-    <img id="meme-image"class="meme image" alt="Imagem do meme">
-    <div id="meme-text" class="meme_text"></div>
-    
-    
-  </section>
+    <h1>Meme generator</h1>
+    <h2>Os melhores memes da internet! &#128540;</h2>
+  </header>
+  <label class="display-text">Add your text 
+    <input type="text" id="text-input" placeholder="add your text"  maxlength="60" onkeyup="onLoadText()">
+  </label><br><br>
+  <label class="display-img">Choose a photo 
+    <input type="file" id="meme-insert" onchange="onLoadImg()">
+  </label><br><br>
+  
+  <div id="meme-image-container" class="meme_image_container">
+    <img id="meme-image"class="meme_image" alt="Imagem do meme">
+    <p id="meme-text" class="meme_text"></p>
+    <label id="meme-text" class="memeText"></label>
+  </div>
+  
+  <script src="script.js"></script>
 </body>
 
 </html>
