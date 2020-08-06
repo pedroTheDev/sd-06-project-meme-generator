@@ -28,3 +28,27 @@
   text-shadow: 5px 5px 5px black;
   width: 100%;
 }
+
+.fire {
+  background-color: red;
+  color: white;
+}
+
+.water {
+  background-color: blue;
+  color: white;
+}
+
+.earth {
+  background-color: green;
+  color: white;
+}
+
+.choosen-memes-container {
+  margin-top: 20px;
+}
+
+.choosen-memes {
+  height: 100px;
+  width: 100px;
+}

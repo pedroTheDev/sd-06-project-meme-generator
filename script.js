@@ -1,10 +1,3 @@
-window.onload = function () {
-  addTextElement();
-  addImageElement();
-  retrieveText();
-  createFileEvent();
-};
-
 // TEXT ELEMENT
 function addTextElement() {
   const memeContainer = document.querySelector('#meme-image-container');
@@ -53,3 +46,59 @@ function handFileEvent(event) {
     URL.revokeObjectURL(memeImage.src);
   };
 }
+
+// BORDER STYLE
+const buttonContainer = document.querySelectorAll('.border-button');
+const memeContainer = document.querySelector('#meme-image-container');
+
+const borders = {
+  fire: '3px dashed red',
+  water: '5px double blue',
+  earth: '6px groove green',
+};
+
+buttonContainer[0].onclick = () => {
+  memeContainer.style.border = borders.fire;
+};
+
+buttonContainer[1].onclick = () => {
+  memeContainer.style.border = borders.water;
+};
+
+buttonContainer[2].onclick = () => {
+  memeContainer.style.border = borders.earth;
+};
+
+//CHOSEN MEMES
+const meme1 = document.querySelector('#meme-1');
+meme1.addEventListener('click', function () {
+  const replaceImage = document.querySelector('#meme-image');
+  replaceImage.src = 'imgs/meme1.png';
+});
+
+const meme2 = document.querySelector('#meme-2');
+meme2.addEventListener('click', function () {
+  const replaceImage = document.querySelector('#meme-image');
+  replaceImage.src = 'imgs/meme2.png';
+});
+
+const meme3 = document.querySelector('#meme-3');
+meme3.addEventListener('click', function () {
+  const replaceImage = document.querySelector('#meme-image');
+  replaceImage.src = 'imgs/meme3.png';
+});
+
+const meme4 = document.querySelector('#meme-4');
+meme4.addEventListener('click', function () {
+  const replaceImage = document.querySelector('#meme-image');
+  replaceImage.src = 'imgs/meme4.png';
+});
+
+window.onload = function () {
+  addTextElement();
+  addImageElement();
+  retrieveText();
+  createFileEvent();
+  borderStyle();
+  choosenMemeEvent()
+};
