@@ -1,3 +1,10 @@
+window.onload = function () {
+  addTextElement();
+  addImageElement();
+  retrieveText();
+  createFileEvent();
+};
+
 // TEXT ELEMENT
 function addTextElement() {
   const memeContainer = document.querySelector('#meme-image-container');
@@ -57,19 +64,19 @@ const borders = {
   earth: '6px groove green',
 };
 
-buttonContainer[0].onclick = () => {
+buttonContainer[0].onclick = function () {
   memeContainer.style.border = borders.fire;
 };
 
-buttonContainer[1].onclick = () => {
+buttonContainer[1].onclick = function () {
   memeContainer.style.border = borders.water;
 };
 
-buttonContainer[2].onclick = () => {
+buttonContainer[2].onclick = function () {
   memeContainer.style.border = borders.earth;
 };
 
-//CHOSEN MEMES
+// CHOSEN MEMES
 const meme1 = document.querySelector('#meme-1');
 meme1.addEventListener('click', function () {
   const replaceImage = document.querySelector('#meme-image');
@@ -93,12 +100,3 @@ meme4.addEventListener('click', function () {
   const replaceImage = document.querySelector('#meme-image');
   replaceImage.src = 'imgs/meme4.png';
 });
-
-window.onload = function () {
-  addTextElement();
-  addImageElement();
-  retrieveText();
-  createFileEvent();
-  borderStyle();
-  choosenMemeEvent()
-};

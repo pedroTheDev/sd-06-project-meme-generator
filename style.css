@@ -44,11 +44,7 @@
   color: white;
 }
 
-.choosen-memes-container {
-  margin-top: 20px;
-}
-
 .choosen-memes {
-  height: 100px;
-  width: 100px;
+  height: 95px;
+  width: 95px;
 }
