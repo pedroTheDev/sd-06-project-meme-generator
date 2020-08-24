@@ -1,57 +1,52 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Meme Generator: Leandro Parisi</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+<!DOCTYPE HTML>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8" />
+    <title>Leandro Parisi - meme generator project</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <header class="header">
-        <section class="header-container">
-            <h1 class="main-title">Meme generator by Leandro Parisi</h1>
-            <h2 class="subtitle">Create your own Meme easily!</h2>
-        </section>
-        <nav>
-        </nav>
-    </header>
-    <section>
-        <section class="input-section"> 
-            <p>Meme Text: <input id="text-input" type="text" placeholder="Meme text here" maxlength="60"> </p>
-            <p> Meme image: <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)"></p>    
-        </section>
-        <section class="meme-generator">
-            <div id="meme-image-container">
-                <div id="meme-image">
-                   <img id="meme-image-input" src="sample-image.jpg" height="500px">
-                    
-                </div>
-                <div id="meme-text">
 
-                </div>
-                
+    <header>Meme Generator</header>
+    <!--cabeçaçho-->
+    <section class="esquerda">
+        <!--input-->
+        <p>Estilo de borda:<br>
+            <button id="button1">Estilo 1</button>
+            <button id="button2">Estilo 2</button>
+            <button id="button3">Estilo 3</button>
+        <form>
+            <label for="text-input">Texto:</label>
+            <input type="text" id="text-input" maxlength="60" autocomplete="off">
+            <br>
+            <label for="meme-insert">Upload imagem:</label>
+            <br>
+            <!--upload pelo usuario-->
+            <input type="file" id="meme-insert"><br>
+            <!--para usuario escolher-->
+            <div class="imgdb">
+                Ou escolha uma imagem da galeria:<br>
+                <img id="meme-1" class="little-image" onclick="openImage('imgs/meme1.jpeg')" src="imgs/meme1.jpeg">
+                <img id="meme-2" class="little-image" onclick="openImage('imgs/meme2.jpeg')" src="imgs/meme2.jpeg"><br>
+                <img id="meme-3" class="little-image" onclick="openImage('imgs/meme3.jpeg')" src="imgs/meme3.jpeg">
+                <img id="meme-4" class="little-image" onclick="openImage('imgs/meme4.jpeg')" src="imgs/meme4.jpeg">
             </div>
-        </section>
-        <section class="personalize-section">
-            <h4>Personalize your meme border:</h4>
-            <section class="personalize-color">
-                <button id="fire">Fire</button>
-                <button id="water">Water</button>
-                <button id="earth">Earth</button>
-           </section>
 
-            <h5>Choose a premade Image:</h5>
-            <section class="personalize-image">
-                <img id="meme-1" src="imgs/meme1.png" height="100px">
-                <img id="meme-2" src="imgs/meme2.png" height="100px">
-                <img id="meme-3" src="imgs/meme3.png" height="100px">
-                <img id="meme-4" src="imgs/meme4.png" height="100px">
-            </section>
-
-        </section>
+        </form>
+    </p>
+    </section>
+    <!--estilos-->
+    <section class="direita">
+        <br>
+        <div id="meme-image-container" class="meme-image-container">
+            <img id="meme-image" class="meme-image" src="" alt="meme image">
+            <p id="meme-text" class="meme-text"></p>
+        </div>
     </section>
 
-    <script src="script.js"></script>
 </body>
+
 </html>

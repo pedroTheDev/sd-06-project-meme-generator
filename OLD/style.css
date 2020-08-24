@@ -1,0 +1,71 @@
+h1, h2{
+    text-align: center;
+}
+
+/* img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+} */
+
+#meme-image-container{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0,0,0);
+    /* display: flex; */
+    position: relative;
+    background-color: rgb(255,255,255);
+    /* width: 100%; */
+}
+
+#meme-image{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    /* height: auto;
+    max-width: 100%; */
+}
+
+#meme-text{
+    top: 80%;
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    max-width: 50%;
+    text-shadow: 5px 5px 5px rgb(0,0,0);
+    color: rgb(255,255,255);
+    font-size: 30px;
+}
+
+/* PERSONALIZAR DISTANCIA ENTRE BUTOES E CENTRALIZAR
+.personalize-content button{
+    display: block;
+} */
+
+h4, h5{
+    text-align: center;    
+}
+
+#blue, #red, #green{
+    border-radius: 50%;
+    border-style: outset;
+}
+
+#water{
+    background-color: rgb(0,0,255);
+    border-color: rgb(0,0,255);
+}
+
+#fire{
+    background-color: rgb(255,0,0);
+    border-color: rgb(255,0,0);
+}
+
+#earth{
+    background-color: rgb(0,128,0);
+    border-color: rgb(0,128,0);
+}
+
+/* alinhar butoes no meio do centro */
