@@ -1,49 +1,82 @@
-body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 0;
-}
-.imgdb img{
-  height: 100px;
-  width: 100px;
-}
-.meme-image {
-  width: 400px;
-}
-header {
-  background-color: rgb(0 , 100 , 0);
-  color: rgb(255 , 255 , 255);
-  font-size: 50px;
-  font-weight: bolder;
-  height: 150px;
-  line-height: 2em;
-  margin: 0;
-  text-align: center;
-  width: auto;
+.titulo {
+  color: black;
+  font-size: 60px;
 }
 
-form{
-  line-height: 2em;
-  margin: 15px 0 15px 0;
+.text-input {
+  margin-bottom: 30px;
+  margin-left: 5px;
 }
-form input[type=text] {
-  box-sizing: border-box;
+
+.meme-insert {
+  margin-left: 5px;
+  width: 120px;
+}
+
+.meme-image-container {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  height: 400px;
+  margin-top: 15px;
+  width: 400px;
+}
+
+.meme-text {
+  color: white;
+  font-family: fantasy;
+  font-size: 30px;
+  left: 60px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 500px;
+  z-index: 1;
+}
+
+.meme-image {
+  height: 100%;
   width: 100%;
 }
-button{
-  align-items: center;
-  display: inline;
+
+.fire {
+  background-color: red;
+  border-color: black;
+  border-style: dashed;
+  border-width: 3px;
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 8px;
 }
-section .meme-image-container {
-  background-color: rgb( 255 , 255 , 255);
-  border: rgb(0 , 0 , 0) solid 1px;
+
+.water {
+  background-color: blue;
+  border-color: black;
+  border-style: double;
+  border-width: 5px;
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 8px;
 }
-.esquerda {
-  float: left;
-  margin-left: 400px;
-  margin-right: 5px;
+
+.earth {
+  background-color: green;
+  border-color: black;
+  border-style: groove;
+  border-width: 6px;
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 8px;
 }
-.direita {
-  float: left;
-  margin-left: 0;
-  margin-right: auto;
+
+.presetimg {
+  border-color: black;
+  border-width: 1px;
+  height: 10%;
+  margin-top: 80px;
+  padding: 5px;
+  width: 10%;
 }
