@@ -1,0 +1,109 @@
+body {
+	background-color: yellowgreen;
+ }
+
+.original{
+	background-color: white;
+	width: 500px;
+	height: 500px;
+	border-style: solid;
+	border-color: black;
+  max-width: 500px;
+	max-height: 500px;
+	position: relative;
+}
+
+.meme-text{
+	width: 500px;
+	height: 100PX;
+	font-size: 30px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	Word-wrap: break-Word;
+	text-align: center;
+	margin-top: 400px;
+	z-index: 2;
+	position: absolute;
+}
+
+.meme-image{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 500px;
+	height: 500px;
+	z-index: 1;
+}
+
+.fire{
+	background-color: red;
+}
+
+.water{
+	background-color: blue;
+}
+
+.earth{
+	background-color: green;
+}
+
+.buttonStyle {
+	width: 100px;
+	height: 50px;
+	color: white;
+	font-weight: bold;
+}
+
+.fireClass {
+	background-color: white;
+	width: 500px;
+	height: 500px;
+	border-style: dashed;
+	border-color: red;
+	border-width: 3px;
+  max-width: 500px;
+	max-height: 500px;
+	position: relative;
+}
+
+.waterClass {
+	background-color: white;
+	width: 500px;
+	height: 500px;
+	border-style: double;
+	border-color: blue;
+	border-width: 5px;
+  max-width: 500px;
+	max-height: 500px;
+	position: relative;
+}
+
+.earthClass {
+	background-color: white;
+	width: 500px;
+	height: 500px;
+	border-style: groove;
+	border-color: green;
+	border-width: 6px;
+  max-width: 500px;
+	max-height: 500px;
+	position: relative;
+}
+
+.buttons {
+	display: flex;
+	margin-bottom: 20px;
+	width: 500px;
+	justify-content: space-around;
+}
+
+.images {
+	width: 500px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.image {
+	width: 100px;
+	height: 100px;
+}

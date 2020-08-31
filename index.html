@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>meme-generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+  <header><h1>MEME GENERATOR</h1></header>
+  <section>
+    <input id="text-input" type="text" maxlength="60">
+    <input type="file" id="meme-insert" accept="image/*">
+  </section>
+  <p>Foto:</p>
+  <section id="meme-image-container" class="original">
+    <P id="meme-text" class="meme-text" ></P>
+    <img id="meme-image" class="meme-image" alt="Imagem selecionada pelo usuário">
+  </section>
+  <p>Estilos customizados:</p>
+  <div class="buttons">
+    <button id="fire" class="fire" class="buttonStyle">Fire</button>
+    <button id="water" class="water" class="buttonStyle">Water</button>
+    <button id="earth" class="earth" class="buttonStyle">Earth</button>
+  </div>
+  <div class="images">
+    <img id="meme-1" class="image" src="imgs/meme1.png" alt="Cobra feliz">
+    <img id="meme-2" class="image" src="imgs/meme2.png" alt="Piscadilha do milho">
+    <img id="meme-3" class="image" src="imgs/meme3.png" alt="logotipo da trybe">
+    <img id="meme-4" class="image" src="imgs/meme4.png" alt="Túnel de números matrix">
+  </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
